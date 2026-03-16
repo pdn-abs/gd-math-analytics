@@ -1,8 +1,12 @@
 const fs = require('fs');
+const path = require('path');
 
 function analyzeData () {
+	const inputPath = path.join(__dirname, '..', 'data', 'ga_data.json');
+	const outputPath = path.join(__dirname, '..', 'data', 'level_summary.json');
+
     try {
-        const data = JSON.parse(fs.readFileSync('./analytics/data/ga_data.json'));
+        const data = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 
         console.log('Total data rows:', data.length);
         const levelData = data.filter((row) => row.eventName === 'LevelData');
@@ -16,7 +20,7 @@ function analyzeData () {
         }, {});
 
         console.log('Daily summary:', dailySummary);
-        fs.writeFileSync('./analytics/data/level_summary.json', JSON.stringify(
+        fs.writeFileSync(outputPath, JSON.stringify(
             dailySummary, null, 2
         ));
         console.log('Data analyzed successfully.');
@@ -28,5 +32,5 @@ function analyzeData () {
 
 module.exports = analyzeData;
 
-// Run the function
-analyzeData();
+if (require.main === module)
+    analyzeData();

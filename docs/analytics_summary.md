@@ -280,5 +280,4 @@ Based on your GA4 setup, the following custom dimensions are defined to pull fro
 ### General Tips
 - Use GA DebugView/Realtime for live testing.
 - Ensure app is built with Firebase enabled (check `export_presets.cfg`).
-- For historical data, use BigQuery if needed.</content>
-<parameter name="filePath">/home/pdn/dev/abs/gd-math-godot/analytics_summary.md
+- For historical data, use BigQuery if needed.

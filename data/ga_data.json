@@ -465,6 +465,11 @@
     "eventCount": 976
   },
   {
+    "date": "20260311",
+    "eventName": "DebugInfo",
+    "eventCount": 976
+  },
+  {
     "date": "20251207",
     "eventName": "DebugInfo",
     "eventCount": 975
@@ -477,11 +482,6 @@
   {
     "date": "20260204",
     "eventName": "TimeTaken",
-    "eventCount": 969
-  },
-  {
-    "date": "20260311",
-    "eventName": "DebugInfo",
     "eventCount": 969
   },
   {
@@ -510,6 +510,11 @@
     "eventCount": 962
   },
   {
+    "date": "20260312",
+    "eventName": "DebugInfo",
+    "eventCount": 958
+  },
+  {
     "date": "20260214",
     "eventName": "screen_view",
     "eventCount": 957
@@ -518,6 +523,11 @@
     "date": "20260112",
     "eventName": "DebugInfo",
     "eventCount": 947
+  },
+  {
+    "date": "20260313",
+    "eventName": "DebugInfo",
+    "eventCount": 945
   },
   {
     "date": "20260223",
@@ -565,6 +575,11 @@
     "eventCount": 924
   },
   {
+    "date": "20260315",
+    "eventName": "DebugInfo",
+    "eventCount": 924
+  },
+  {
     "date": "20251102",
     "eventName": "screen_view",
     "eventCount": 921
@@ -605,8 +620,8 @@
     "eventCount": 907
   },
   {
-    "date": "20260312",
-    "eventName": "DebugInfo",
+    "date": "20260313",
+    "eventName": "screen_view",
     "eventCount": 907
   },
   {
@@ -810,6 +825,11 @@
     "eventCount": 838
   },
   {
+    "date": "20260314",
+    "eventName": "screen_view",
+    "eventCount": 836
+  },
+  {
     "date": "20260102",
     "eventName": "TimeTaken",
     "eventCount": 835
@@ -883,6 +903,11 @@
     "date": "20260212",
     "eventName": "screen_view",
     "eventCount": 819
+  },
+  {
+    "date": "20260315",
+    "eventName": "screen_view",
+    "eventCount": 817
   },
   {
     "date": "20251223",
@@ -1095,6 +1120,11 @@
     "eventCount": 743
   },
   {
+    "date": "20260313",
+    "eventName": "TimeTaken",
+    "eventCount": 743
+  },
+  {
     "date": "20260131",
     "eventName": "screen_view",
     "eventCount": 742
@@ -1200,6 +1230,11 @@
     "eventCount": 728
   },
   {
+    "date": "20260314",
+    "eventName": "DebugInfo",
+    "eventCount": 726
+  },
+  {
     "date": "20251109",
     "eventName": "DebugInfo",
     "eventCount": 725
@@ -1283,6 +1318,11 @@
     "date": "20251124",
     "eventName": "screen_view",
     "eventCount": 705
+  },
+  {
+    "date": "20260314",
+    "eventName": "TimeTaken",
+    "eventCount": 702
   },
   {
     "date": "20251126",
@@ -1500,6 +1540,11 @@
     "eventCount": 653
   },
   {
+    "date": "20260315",
+    "eventName": "TimeTaken",
+    "eventCount": 652
+  },
+  {
     "date": "20251211",
     "eventName": "screen_view",
     "eventCount": 651
@@ -1518,6 +1563,16 @@
     "date": "20260203",
     "eventName": "TimeTaken",
     "eventCount": 641
+  },
+  {
+    "date": "20260311",
+    "eventName": "screen_view",
+    "eventCount": 639
+  },
+  {
+    "date": "20260312",
+    "eventName": "screen_view",
+    "eventCount": 639
   },
   {
     "date": "20251104",
@@ -1543,11 +1598,6 @@
     "date": "20251124",
     "eventName": "DebugInfo",
     "eventCount": 631
-  },
-  {
-    "date": "20260311",
-    "eventName": "screen_view",
-    "eventCount": 629
   },
   {
     "date": "20251120",
@@ -1588,11 +1638,6 @@
     "date": "20260207",
     "eventName": "DebugInfo",
     "eventCount": 621
-  },
-  {
-    "date": "20260312",
-    "eventName": "screen_view",
-    "eventCount": 619
   },
   {
     "date": "20260216",
@@ -1905,6 +1950,11 @@
     "eventCount": 527
   },
   {
+    "date": "20260314",
+    "eventName": "LevelData",
+    "eventCount": 525
+  },
+  {
     "date": "20251231",
     "eventName": "TimeTaken",
     "eventCount": 524
@@ -1928,6 +1978,11 @@
     "date": "20251211",
     "eventName": "TimeTaken",
     "eventCount": 521
+  },
+  {
+    "date": "20260312",
+    "eventName": "TimeTaken",
+    "eventCount": 520
   },
   {
     "date": "20260219",
@@ -1960,11 +2015,6 @@
     "eventCount": 507
   },
   {
-    "date": "20260312",
-    "eventName": "TimeTaken",
-    "eventCount": 506
-  },
-  {
     "date": "20251109",
     "eventName": "screen_view",
     "eventCount": 505
@@ -1973,6 +2023,11 @@
     "date": "20260123",
     "eventName": "LevelData",
     "eventCount": 505
+  },
+  {
+    "date": "20260311",
+    "eventName": "TimeTaken",
+    "eventCount": 504
   },
   {
     "date": "20251210",
@@ -1988,11 +2043,6 @@
     "date": "20251218",
     "eventName": "segmentStarted",
     "eventCount": 502
-  },
-  {
-    "date": "20260311",
-    "eventName": "TimeTaken",
-    "eventCount": 497
   },
   {
     "date": "20260210",
@@ -2695,6 +2745,11 @@
     "eventCount": 283
   },
   {
+    "date": "20260314",
+    "eventName": "LevelLoaded",
+    "eventCount": 283
+  },
+  {
     "date": "20251223",
     "eventName": "LevelData",
     "eventCount": 279
@@ -2702,6 +2757,11 @@
   {
     "date": "20260215",
     "eventName": "LevelData",
+    "eventCount": 277
+  },
+  {
+    "date": "20260314",
+    "eventName": "segmentStarted",
     "eventCount": 277
   },
   {
@@ -2780,13 +2840,13 @@
     "eventCount": 266
   },
   {
-    "date": "20251221",
-    "eventName": "segmentStarted",
-    "eventCount": 265
-  },
-  {
     "date": "20260311",
     "eventName": "LevelData",
+    "eventCount": 266
+  },
+  {
+    "date": "20251221",
+    "eventName": "segmentStarted",
     "eventCount": 265
   },
   {
@@ -2847,6 +2907,11 @@
   {
     "date": "20260201",
     "eventName": "user_engagement",
+    "eventCount": 257
+  },
+  {
+    "date": "20260313",
+    "eventName": "LevelData",
     "eventCount": 257
   },
   {
@@ -2945,6 +3010,11 @@
     "eventCount": 240
   },
   {
+    "date": "20260314",
+    "eventName": "segmentCompleted",
+    "eventCount": 240
+  },
+  {
     "date": "20251214",
     "eventName": "LevelData",
     "eventCount": 237
@@ -3002,6 +3072,11 @@
   {
     "date": "20260304",
     "eventName": "segmentCompleted",
+    "eventCount": 230
+  },
+  {
+    "date": "20260315",
+    "eventName": "LevelData",
     "eventCount": 230
   },
   {
@@ -3068,6 +3143,11 @@
     "date": "20260227",
     "eventName": "segmentDropped",
     "eventCount": 226
+  },
+  {
+    "date": "20260315",
+    "eventName": "user_engagement",
+    "eventCount": 225
   },
   {
     "date": "20260103",
@@ -3167,6 +3247,11 @@
   {
     "date": "20251219",
     "eventName": "segmentStarted",
+    "eventCount": 218
+  },
+  {
+    "date": "20260313",
+    "eventName": "user_engagement",
     "eventCount": 218
   },
   {
@@ -3965,6 +4050,11 @@
     "eventCount": 175
   },
   {
+    "date": "20260312",
+    "eventName": "LevelData",
+    "eventCount": 175
+  },
+  {
     "date": "20251107",
     "eventName": "user_engagement",
     "eventCount": 174
@@ -4100,11 +4190,6 @@
     "eventCount": 170
   },
   {
-    "date": "20260312",
-    "eventName": "LevelData",
-    "eventCount": 170
-  },
-  {
     "date": "20251114",
     "eventName": "segmentCompleted",
     "eventCount": 169
@@ -4147,6 +4232,11 @@
   {
     "date": "20260302",
     "eventName": "session_start",
+    "eventCount": 169
+  },
+  {
+    "date": "20260314",
+    "eventName": "user_engagement",
     "eventCount": 169
   },
   {
@@ -4225,18 +4315,23 @@
     "eventCount": 167
   },
   {
-    "date": "20251104",
-    "eventName": "LevelLoaded",
-    "eventCount": 166
-  },
-  {
     "date": "20260311",
     "eventName": "LevelLoaded",
-    "eventCount": 166
+    "eventCount": 167
   },
   {
     "date": "20260311",
     "eventName": "segmentStarted",
+    "eventCount": 167
+  },
+  {
+    "date": "20260311",
+    "eventName": "user_engagement",
+    "eventCount": 167
+  },
+  {
+    "date": "20251104",
+    "eventName": "LevelLoaded",
     "eventCount": 166
   },
   {
@@ -4375,8 +4470,8 @@
     "eventCount": 161
   },
   {
-    "date": "20260311",
-    "eventName": "user_engagement",
+    "date": "20260315",
+    "eventName": "session_start",
     "eventCount": 161
   },
   {
@@ -4402,6 +4497,11 @@
   {
     "date": "20260223",
     "eventName": "session_start",
+    "eventCount": 160
+  },
+  {
+    "date": "20260313",
+    "eventName": "LevelLoaded",
     "eventCount": 160
   },
   {
@@ -4540,6 +4640,11 @@
     "eventCount": 154
   },
   {
+    "date": "20260313",
+    "eventName": "session_start",
+    "eventCount": 154
+  },
+  {
     "date": "20251101",
     "eventName": "user_engagement",
     "eventCount": 153
@@ -4650,6 +4755,21 @@
     "eventCount": 149
   },
   {
+    "date": "20260312",
+    "eventName": "user_engagement",
+    "eventCount": 149
+  },
+  {
+    "date": "20260313",
+    "eventName": "segmentStarted",
+    "eventCount": 149
+  },
+  {
+    "date": "20260315",
+    "eventName": "LevelLoaded",
+    "eventCount": 149
+  },
+  {
     "date": "20251115",
     "eventName": "segmentStarted",
     "eventCount": 148
@@ -4657,6 +4777,11 @@
   {
     "date": "20260115",
     "eventName": "session_start",
+    "eventCount": 148
+  },
+  {
+    "date": "20260315",
+    "eventName": "segmentStarted",
     "eventCount": 148
   },
   {
@@ -4810,6 +4935,11 @@
     "eventCount": 142
   },
   {
+    "date": "20260311",
+    "eventName": "session_start",
+    "eventCount": 142
+  },
+  {
     "date": "20251111",
     "eventName": "LevelData",
     "eventCount": 141
@@ -4827,11 +4957,6 @@
   {
     "date": "20260101",
     "eventName": "segmentStarted",
-    "eventCount": 141
-  },
-  {
-    "date": "20260312",
-    "eventName": "user_engagement",
     "eventCount": 141
   },
   {
@@ -4880,13 +5005,13 @@
     "eventCount": 139
   },
   {
-    "date": "20260311",
-    "eventName": "session_start",
-    "eventCount": 139
-  },
-  {
     "date": "20251220",
     "eventName": "user_engagement",
+    "eventCount": 138
+  },
+  {
+    "date": "20260312",
+    "eventName": "session_start",
     "eventCount": 138
   },
   {
@@ -4972,6 +5097,11 @@
   {
     "date": "20260227",
     "eventName": "segmentCompleted",
+    "eventCount": 135
+  },
+  {
+    "date": "20260314",
+    "eventName": "session_start",
     "eventCount": 135
   },
   {
@@ -5117,11 +5247,6 @@
   {
     "date": "20251119",
     "eventName": "user_engagement",
-    "eventCount": 129
-  },
-  {
-    "date": "20260312",
-    "eventName": "session_start",
     "eventCount": 129
   },
   {
@@ -5385,6 +5510,16 @@
     "eventCount": 119
   },
   {
+    "date": "20260312",
+    "eventName": "LevelLoaded",
+    "eventCount": 119
+  },
+  {
+    "date": "20260312",
+    "eventName": "segmentStarted",
+    "eventCount": 119
+  },
+  {
     "date": "20251112",
     "eventName": "session_start",
     "eventCount": 118
@@ -5452,16 +5587,6 @@
   {
     "date": "20251216",
     "eventName": "session_start",
-    "eventCount": 115
-  },
-  {
-    "date": "20260312",
-    "eventName": "LevelLoaded",
-    "eventCount": 115
-  },
-  {
-    "date": "20260312",
-    "eventName": "segmentStarted",
     "eventCount": 115
   },
   {
@@ -5687,6 +5812,16 @@
   {
     "date": "20251220",
     "eventName": "LevelLoaded",
+    "eventCount": 103
+  },
+  {
+    "date": "20260313",
+    "eventName": "segmentCompleted",
+    "eventCount": 103
+  },
+  {
+    "date": "20260314",
+    "eventName": "Score",
     "eventCount": 103
   },
   {
@@ -6010,6 +6145,11 @@
     "eventCount": 76
   },
   {
+    "date": "20260315",
+    "eventName": "segmentCompleted",
+    "eventCount": 76
+  },
+  {
     "date": "20251103",
     "eventName": "segmentCompleted",
     "eventCount": 75
@@ -6280,6 +6420,11 @@
     "eventCount": 63
   },
   {
+    "date": "20260312",
+    "eventName": "segmentCompleted",
+    "eventCount": 63
+  },
+  {
     "date": "20251109",
     "eventName": "segmentStarted",
     "eventCount": 62
@@ -6320,11 +6465,6 @@
     "eventCount": 62
   },
   {
-    "date": "20260312",
-    "eventName": "segmentCompleted",
-    "eventCount": 62
-  },
-  {
     "date": "20251224",
     "eventName": "first_open",
     "eventCount": 61
@@ -6750,6 +6890,16 @@
     "eventCount": 54
   },
   {
+    "date": "20260312",
+    "eventName": "PlayerSessionFinish",
+    "eventCount": 54
+  },
+  {
+    "date": "20260312",
+    "eventName": "PlayerSessionStart",
+    "eventCount": 54
+  },
+  {
     "date": "20251106",
     "eventName": "app_remove",
     "eventCount": 53
@@ -6955,16 +7105,6 @@
     "eventCount": 52
   },
   {
-    "date": "20260312",
-    "eventName": "PlayerSessionFinish",
-    "eventCount": 52
-  },
-  {
-    "date": "20260312",
-    "eventName": "PlayerSessionStart",
-    "eventCount": 52
-  },
-  {
     "date": "20251102",
     "eventName": "segmentDropped",
     "eventCount": 51
@@ -7140,6 +7280,11 @@
     "eventCount": 49
   },
   {
+    "date": "20260314",
+    "eventName": "first_open",
+    "eventCount": 49
+  },
+  {
     "date": "20251207",
     "eventName": "segmentDropped",
     "eventCount": 48
@@ -7246,6 +7391,11 @@
   },
   {
     "date": "20260309",
+    "eventName": "first_open",
+    "eventCount": 48
+  },
+  {
+    "date": "20260313",
     "eventName": "first_open",
     "eventCount": 48
   },
@@ -7390,6 +7540,11 @@
     "eventCount": 46
   },
   {
+    "date": "20260315",
+    "eventName": "first_open",
+    "eventCount": 46
+  },
+  {
     "date": "20251112",
     "eventName": "first_open",
     "eventCount": 45
@@ -7467,6 +7622,11 @@
   {
     "date": "20260307",
     "eventName": "app_remove",
+    "eventCount": 45
+  },
+  {
+    "date": "20260312",
+    "eventName": "first_open",
     "eventCount": 45
   },
   {
@@ -7605,8 +7765,13 @@
     "eventCount": 44
   },
   {
-    "date": "20260312",
-    "eventName": "first_open",
+    "date": "20260315",
+    "eventName": "PlayerSessionFinish",
+    "eventCount": 44
+  },
+  {
+    "date": "20260315",
+    "eventName": "PlayerSessionStart",
     "eventCount": 44
   },
   {
@@ -7870,6 +8035,21 @@
     "eventCount": 42
   },
   {
+    "date": "20260313",
+    "eventName": "PlayerSessionFinish",
+    "eventCount": 42
+  },
+  {
+    "date": "20260313",
+    "eventName": "PlayerSessionStart",
+    "eventCount": 42
+  },
+  {
+    "date": "20260315",
+    "eventName": "app_remove",
+    "eventCount": 42
+  },
+  {
     "date": "20251111",
     "eventName": "first_open",
     "eventCount": 41
@@ -7937,6 +8117,11 @@
   {
     "date": "20260301",
     "eventName": "first_open",
+    "eventCount": 41
+  },
+  {
+    "date": "20260315",
+    "eventName": "segmentDropped",
     "eventCount": 41
   },
   {
@@ -8390,6 +8575,11 @@
     "eventCount": 37
   },
   {
+    "date": "20260312",
+    "eventName": "app_remove",
+    "eventCount": 37
+  },
+  {
     "date": "20251101",
     "eventName": "first_open",
     "eventCount": 36
@@ -8542,11 +8732,6 @@
   {
     "date": "20260219",
     "eventName": "PlayerSessionStart",
-    "eventCount": 36
-  },
-  {
-    "date": "20260312",
-    "eventName": "app_remove",
     "eventCount": 36
   },
   {
@@ -8800,6 +8985,16 @@
     "eventCount": 33
   },
   {
+    "date": "20260312",
+    "eventName": "PlayerCreate",
+    "eventCount": 33
+  },
+  {
+    "date": "20260313",
+    "eventName": "app_remove",
+    "eventCount": 33
+  },
+  {
     "date": "20251104",
     "eventName": "app_remove",
     "eventCount": 32
@@ -8956,11 +9151,6 @@
   },
   {
     "date": "20260310",
-    "eventName": "PlayerCreate",
-    "eventCount": 32
-  },
-  {
-    "date": "20260312",
     "eventName": "PlayerCreate",
     "eventCount": 32
   },
@@ -9430,6 +9620,11 @@
     "eventCount": 27
   },
   {
+    "date": "20260315",
+    "eventName": "PlayerCreate",
+    "eventCount": 27
+  },
+  {
     "date": "20251103",
     "eventName": "segmentDropped",
     "eventCount": 26
@@ -9545,6 +9740,16 @@
     "eventCount": 26
   },
   {
+    "date": "20260314",
+    "eventName": "PlayerSessionFinish",
+    "eventCount": 26
+  },
+  {
+    "date": "20260314",
+    "eventName": "PlayerSessionStart",
+    "eventCount": 26
+  },
+  {
     "date": "20251121",
     "eventName": "PlayerCreate",
     "eventCount": 25
@@ -9626,6 +9831,16 @@
   },
   {
     "date": "20260311",
+    "eventName": "segmentDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260312",
+    "eventName": "segmentDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260314",
     "eventName": "segmentDropped",
     "eventCount": 25
   },
@@ -9756,7 +9971,12 @@
   },
   {
     "date": "20260312",
-    "eventName": "segmentDropped",
+    "eventName": "GameFirstStart",
+    "eventCount": 24
+  },
+  {
+    "date": "20260313",
+    "eventName": "Score",
     "eventCount": 24
   },
   {
@@ -9867,11 +10087,6 @@
   {
     "date": "20260309",
     "eventName": "segmentDropped",
-    "eventCount": 23
-  },
-  {
-    "date": "20260312",
-    "eventName": "GameFirstStart",
     "eventCount": 23
   },
   {
@@ -10012,6 +10227,16 @@
   {
     "date": "20260309",
     "eventName": "PlayerCreate",
+    "eventCount": 22
+  },
+  {
+    "date": "20260313",
+    "eventName": "segmentDropped",
+    "eventCount": 22
+  },
+  {
+    "date": "20260314",
+    "eventName": "app_remove",
     "eventCount": 22
   },
   {
@@ -10110,6 +10335,16 @@
     "eventCount": 21
   },
   {
+    "date": "20260313",
+    "eventName": "PlayerCreate",
+    "eventCount": 21
+  },
+  {
+    "date": "20260314",
+    "eventName": "PlayerCreate",
+    "eventCount": 21
+  },
+  {
     "date": "20251103",
     "eventName": "PlayerCreate",
     "eventCount": 20
@@ -10340,6 +10575,11 @@
     "eventCount": 19
   },
   {
+    "date": "20260315",
+    "eventName": "GameFirstStart",
+    "eventCount": 19
+  },
+  {
     "date": "20251105",
     "eventName": "PlayerCreate",
     "eventCount": 18
@@ -10817,6 +11057,11 @@
   {
     "date": "20260309",
     "eventName": "Score",
+    "eventCount": 15
+  },
+  {
+    "date": "20260313",
+    "eventName": "GameFirstStart",
     "eventCount": 15
   },
   {
@@ -11010,6 +11255,16 @@
     "eventCount": 13
   },
   {
+    "date": "20260313",
+    "eventName": "SubscriptionOpened",
+    "eventCount": 13
+  },
+  {
+    "date": "20260314",
+    "eventName": "GameFirstStart",
+    "eventCount": 13
+  },
+  {
     "date": "20251110",
     "eventName": "Score",
     "eventCount": 12
@@ -11235,6 +11490,16 @@
     "eventCount": 11
   },
   {
+    "date": "20260313",
+    "eventName": "SettingsChanged",
+    "eventCount": 11
+  },
+  {
+    "date": "20260315",
+    "eventName": "Score",
+    "eventCount": 11
+  },
+  {
     "date": "20251104",
     "eventName": "GameFirstStart",
     "eventCount": 10
@@ -11890,6 +12155,11 @@
     "eventCount": 6
   },
   {
+    "date": "20260315",
+    "eventName": "SettingsChanged",
+    "eventCount": 6
+  },
+  {
     "date": "20251101",
     "eventName": "assessmentCompleted",
     "eventCount": 5
@@ -12165,6 +12435,11 @@
     "eventCount": 5
   },
   {
+    "date": "20260315",
+    "eventName": "SubscriptionOpened",
+    "eventCount": 5
+  },
+  {
     "date": "20251101",
     "eventName": "SettingsChanged",
     "eventCount": 4
@@ -12507,6 +12782,11 @@
   {
     "date": "20260310",
     "eventName": "assessmentCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260314",
+    "eventName": "SubscriptionOpened",
     "eventCount": 4
   },
   {
@@ -12876,6 +13156,16 @@
   },
   {
     "date": "20260311",
+    "eventName": "assessmentCompleted",
+    "eventCount": 3
+  },
+  {
+    "date": "20260313",
+    "eventName": "PlayerDelete",
+    "eventCount": 3
+  },
+  {
+    "date": "20260313",
     "eventName": "assessmentCompleted",
     "eventCount": 3
   },
@@ -13567,6 +13857,21 @@
   {
     "date": "20260312",
     "eventName": "assessmentCompleted",
+    "eventCount": 2
+  },
+  {
+    "date": "20260313",
+    "eventName": "os_update",
+    "eventCount": 2
+  },
+  {
+    "date": "20260314",
+    "eventName": "SettingsChanged",
+    "eventCount": 2
+  },
+  {
+    "date": "20260315",
+    "eventName": "PlayerDelete",
     "eventCount": 2
   },
   {
@@ -14627,6 +14932,21 @@
   {
     "date": "20260312",
     "eventName": "test",
+    "eventCount": 1
+  },
+  {
+    "date": "20260314",
+    "eventName": "PlayerUpdate",
+    "eventCount": 1
+  },
+  {
+    "date": "20260314",
+    "eventName": "assessmentCompleted",
+    "eventCount": 1
+  },
+  {
+    "date": "20260315",
+    "eventName": "assessmentCompleted",
     "eventCount": 1
   }
 ]

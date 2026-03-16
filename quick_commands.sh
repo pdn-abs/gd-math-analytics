@@ -3,29 +3,37 @@
 # ========================
 # Essential commands for GA4 data fetching and analysis
 
-echo "🔧 GD Math Analytics Quick Commands"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "GD Math Analytics Quick Commands"
 echo "===================================="
 echo ""
 
-echo "📊 Fetch Latest GA4 Data:"
-echo "cd /home/pdn/dev/abs/gd-math-godot/.analytics"
-echo "source setup_credentials.sh && cd scripts && node fetch.js"
+echo "Fetch Latest GA4 Data:"
+echo "cd $ROOT"
+echo "source setup_credentials.sh && npm run fetch"
 echo ""
 
-echo "📈 View Latest Insights:"
-echo "cat /home/pdn/dev/abs/gd-math-godot/.analytics/docs/analytics_insights_on_impact_of_drops.md"
+echo "Run one-off full pipeline:"
+echo "cd $ROOT"
+echo "source setup_credentials.sh && npm run run-analysis"
 echo ""
 
-echo "📁 Check Data Files:"
-echo "ls -la /home/pdn/dev/abs/gd-math-godot/.analytics/data/"
+echo "Start scheduler:"
+echo "cd $ROOT"
+echo "source setup_credentials.sh && npm run start-cron"
 echo ""
 
-echo "🔐 Setup Credentials:"
-echo "source /home/pdn/dev/abs/gd-math-godot/.analytics/setup_credentials.sh"
+echo "Check Data Files:"
+echo "ls -la $ROOT/data/"
 echo ""
 
-echo "📖 Full Setup Guide:"
-echo "cat /home/pdn/dev/abs/gd-math-godot/.analytics/GA4_SETUP_GUIDE.md"
+echo "Setup Credentials:"
+echo "source $ROOT/setup_credentials.sh"
 echo ""
 
-echo "✅ All systems ready!"
+echo "Node-cron Setup Guide:"
+echo "cat $ROOT/docs/node_cron_setup.md"
+echo ""
+
+echo "All systems ready."

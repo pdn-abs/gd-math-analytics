@@ -141,48 +141,6 @@ async function fetchRetention() {
     }
 }
 
-async function fetchRetention() {
-    console.log('Fetching retention data...');
-    const client = new BetaAnalyticsDataClient();
-    const request = {
-        property: 'properties/441470574',
-        cohortSpec: {
-            cohorts: [{
-                name: 'Post-Drops Users',
-                dimension: 'firstSessionDate',
-                dateRange: { startDate: '2025-11-01', endDate: '2026-03-08' }
-            }],
-            cohortsRange: {
-                granularity: 'DAILY',
-                startOffset: 0,
-                endOffset: 30
-            }
-        },
-        dimensions: [
-            { name: 'cohort' },
-            { name: 'cohortNthDay' }
-        ],
-        metrics: [
-            { name: 'cohortActiveUsers' },
-            { name: 'cohortTotalUsers' }
-        ]
-    };
-    try {
-        const [response] = await client.runReport(request);
-        const data = response.rows.map(row => ({
-            cohort: row.dimensionValues[0].value,
-            day: parseInt(row.dimensionValues[1].value),
-            activeUsers: parseInt(row.metricValues[0].value),
-            totalUsers: parseInt(row.metricValues[1].value),
-            retentionRate: row.metricValues[1].value > 0 ? (row.metricValues[0].value / row.metricValues[1].value * 100).toFixed(2) : 0
-        }));
-        fs.writeFileSync(path.join(__dirname, '..', 'data', 'retention.json'), JSON.stringify(data, null, 2));
-        console.log('Retention data fetched successfully.');
-    } catch (error) {
-        console.error('Error fetching retention data:', error);
-    }
-}
-
 async function fetchPreDropsLevelEngagement() {
     console.log('Fetching pre-Drops level engagement data...');
     const client = new BetaAnalyticsDataClient();

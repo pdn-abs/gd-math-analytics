@@ -55,19 +55,19 @@
 ### 3.1 Move Credentials to Project
 ```bash
 # Create keys directory
-mkdir -p .analytics/keys
+mkdir -p .analytics/gd-math-analytics/keys
 
 # Move the downloaded key file
-mv ~/Downloads/gd-math-71c48-XXXXX.json .analytics/keys/
+mv <download-dir>/gd-math-71c48-XXXXX.json .analytics/gd-math-analytics/keys/
 
 # Rename for consistency (optional)
-mv .analytics/keys/gd-math-71c48-XXXXX.json .analytics/keys/gd-math-71c48-service-account.json
+mv .analytics/gd-math-analytics/keys/gd-math-71c48-XXXXX.json .analytics/gd-math-analytics/keys/gd-math-71c48-service-account.json
 ```
 
 ### 3.2 Security Setup
 ```bash
-# Create .gitignore for analytics folder
-echo "keys/" > .analytics/.gitignore
+# Ensure analytics .gitignore excludes credentials
+grep -q '^keys/$' .analytics/gd-math-analytics/.gitignore || echo "keys/" >> .analytics/gd-math-analytics/.gitignore
 
 # Verify .gitignore is working
 git status  # Should not show keys/ folder
@@ -76,12 +76,12 @@ git status  # Should not show keys/ folder
 ## ⚙️ Step 4: Environment Configuration
 
 ### 4.1 Create Credentials Setup Script
-The `setup_credentials.sh` script is already created in `.analytics/setup_credentials.sh`
+The `setup_credentials.sh` script is already created in `.analytics/gd-math-analytics/setup_credentials.sh`
 
 ### 4.2 Set Environment Variables
 ```bash
 # Method 1: Source the setup script
-cd .analytics
+cd .analytics/gd-math-analytics
 source setup_credentials.sh
 
 # Method 2: Manual export
@@ -93,20 +93,19 @@ export GOOGLE_APPLICATION_CREDENTIALS="$(pwd)/keys/gd-math-71c48-service-account
 ### 5.1 Run Data Collection
 ```bash
 # Navigate to analytics directory
-cd .analytics
+cd .analytics/gd-math-analytics
 
 # Set up credentials
 source setup_credentials.sh
 
 # Run data fetch
-cd scripts
-node fetch.js
+npm run fetch
 ```
 
 ### 5.2 Verify Data Collection
 ```bash
 # Check that data files were created/updated
-ls -la ../data/
+ls -la data/
 # Should show recent timestamps for:
 # - ga_data.json
 # - level_engagement.json
@@ -120,7 +119,7 @@ ls -la ../data/
 ### 6.1 View Insights
 ```bash
 # Read the analysis report
-cat docs/analytics_insights_on_impact_of_drops.md
+cat reports/analytics_insights_on_impact_of_drops.md
 ```
 
 ### 6.2 Key Metrics Tracked
@@ -137,7 +136,7 @@ cat docs/analytics_insights_on_impact_of_drops.md
 crontab -e
 
 # Add this line for daily 6 AM updates:
-# 0 6 * * * cd /home/pdn/dev/abs/gd-math-godot/.analytics && source setup_credentials.sh && cd scripts && node fetch.js
+# 0 6 * * * cd <repo-root>/.analytics/gd-math-analytics && . ./setup_credentials.sh && npm run fetch
 ```
 
 ### 7.2 Node-cron Integration
@@ -165,7 +164,7 @@ See `docs/node_cron_setup.md` for automated scheduling within Node.js
 
 ### Common Issues
 1. **"Could not load the default credentials"**
-   - Solution: Run `source .analytics/setup_credentials.sh`
+   - Solution: Run `source .analytics/gd-math-analytics/setup_credentials.sh`
 
 2. **"Permission denied" in GA4**
    - Solution: Verify service account email is added to GA4 property
@@ -183,6 +182,5 @@ See `docs/node_cron_setup.md` for automated scheduling within Node.js
 
 ## 📝 Change Log
 - 2026-03-10: Initial setup guide created
-- 2026-03-10: Credentials organized in .analytics/keys/
-- 2026-03-10: Added security measures and .gitignore</content>
-<parameter name="filePath">/home/pdn/dev/abs/gd-math-godot/.analytics/GA4_SETUP_GUIDE.md
+- 2026-03-10: Credentials organized in .analytics/gd-math-analytics/keys/
+- 2026-03-10: Added security measures and .gitignore

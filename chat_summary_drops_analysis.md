@@ -205,7 +205,7 @@ Session Start → Level Start → Success → Segment Complete → Return Visit
 - `drops_impact_analysis.md`
 - `google_analytics_reports_guide.md`
 - `drops_versions_timeline.md`
-- `.analytics/docs/` analytics documentation files
+- `.analytics/gd-math-analytics/docs/` analytics documentation files
 - Android build analytics artifacts
 
 ### 7.2 Packages Uninstalled

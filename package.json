@@ -1,0 +1,18 @@
+{
+	"name": "gd-math-analytics",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Google Analytics automation and reporting for GD Math",
+	"scripts": {
+		"fetch": "node scripts/fetch.js",
+		"analyze": "node scripts/analyze.js",
+		"visualize": "node scripts/visualize.js",
+		"run-analysis": "node scripts/run_analysis.js",
+		"start-cron": "node scripts/automate.js"
+	},
+	"dependencies": {
+		"@google-analytics/data": "^5.2.1",
+		"d3-node": "^4.0.1",
+		"node-cron": "^3.0.3"
+	}
+}

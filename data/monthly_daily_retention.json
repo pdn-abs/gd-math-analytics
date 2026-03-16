@@ -5548,5 +5548,1115 @@
         "retentionRate": "0.66"
       }
     ]
+  },
+  {
+    "name": "June 2025",
+    "data": [
+      {
+        "cohort": "June 2025",
+        "day": 0,
+        "activeUsers": 1286,
+        "totalUsers": 1286,
+        "retentionRate": "100.00"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 1,
+        "activeUsers": 173,
+        "totalUsers": 1286,
+        "retentionRate": "13.45"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 2,
+        "activeUsers": 86,
+        "totalUsers": 1286,
+        "retentionRate": "6.69"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 3,
+        "activeUsers": 57,
+        "totalUsers": 1286,
+        "retentionRate": "4.43"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 6,
+        "activeUsers": 48,
+        "totalUsers": 1286,
+        "retentionRate": "3.73"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 4,
+        "activeUsers": 40,
+        "totalUsers": 1286,
+        "retentionRate": "3.11"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 5,
+        "activeUsers": 38,
+        "totalUsers": 1286,
+        "retentionRate": "2.95"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 7,
+        "activeUsers": 35,
+        "totalUsers": 1286,
+        "retentionRate": "2.72"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 11,
+        "activeUsers": 27,
+        "totalUsers": 1286,
+        "retentionRate": "2.10"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 16,
+        "activeUsers": 18,
+        "totalUsers": 1286,
+        "retentionRate": "1.40"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 8,
+        "activeUsers": 17,
+        "totalUsers": 1286,
+        "retentionRate": "1.32"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 14,
+        "activeUsers": 17,
+        "totalUsers": 1286,
+        "retentionRate": "1.32"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 15,
+        "activeUsers": 17,
+        "totalUsers": 1286,
+        "retentionRate": "1.32"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 17,
+        "activeUsers": 17,
+        "totalUsers": 1286,
+        "retentionRate": "1.32"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 9,
+        "activeUsers": 16,
+        "totalUsers": 1286,
+        "retentionRate": "1.24"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 12,
+        "activeUsers": 16,
+        "totalUsers": 1286,
+        "retentionRate": "1.24"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 10,
+        "activeUsers": 15,
+        "totalUsers": 1286,
+        "retentionRate": "1.17"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 13,
+        "activeUsers": 11,
+        "totalUsers": 1286,
+        "retentionRate": "0.86"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 18,
+        "activeUsers": 10,
+        "totalUsers": 1286,
+        "retentionRate": "0.78"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 20,
+        "activeUsers": 10,
+        "totalUsers": 1286,
+        "retentionRate": "0.78"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 24,
+        "activeUsers": 10,
+        "totalUsers": 1286,
+        "retentionRate": "0.78"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 26,
+        "activeUsers": 10,
+        "totalUsers": 1286,
+        "retentionRate": "0.78"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 21,
+        "activeUsers": 9,
+        "totalUsers": 1286,
+        "retentionRate": "0.70"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 23,
+        "activeUsers": 9,
+        "totalUsers": 1286,
+        "retentionRate": "0.70"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 25,
+        "activeUsers": 9,
+        "totalUsers": 1286,
+        "retentionRate": "0.70"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 22,
+        "activeUsers": 7,
+        "totalUsers": 1286,
+        "retentionRate": "0.54"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 27,
+        "activeUsers": 7,
+        "totalUsers": 1286,
+        "retentionRate": "0.54"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 29,
+        "activeUsers": 7,
+        "totalUsers": 1286,
+        "retentionRate": "0.54"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 19,
+        "activeUsers": 5,
+        "totalUsers": 1286,
+        "retentionRate": "0.39"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 28,
+        "activeUsers": 5,
+        "totalUsers": 1286,
+        "retentionRate": "0.39"
+      },
+      {
+        "cohort": "June 2025",
+        "day": 30,
+        "activeUsers": 5,
+        "totalUsers": 1286,
+        "retentionRate": "0.39"
+      }
+    ]
+  },
+  {
+    "name": "July 2025",
+    "data": [
+      {
+        "cohort": "July 2025",
+        "day": 0,
+        "activeUsers": 2692,
+        "totalUsers": 2692,
+        "retentionRate": "100.00"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 1,
+        "activeUsers": 380,
+        "totalUsers": 2692,
+        "retentionRate": "14.12"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 2,
+        "activeUsers": 226,
+        "totalUsers": 2692,
+        "retentionRate": "8.40"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 3,
+        "activeUsers": 159,
+        "totalUsers": 2692,
+        "retentionRate": "5.91"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 4,
+        "activeUsers": 109,
+        "totalUsers": 2692,
+        "retentionRate": "4.05"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 5,
+        "activeUsers": 109,
+        "totalUsers": 2692,
+        "retentionRate": "4.05"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 7,
+        "activeUsers": 75,
+        "totalUsers": 2692,
+        "retentionRate": "2.79"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 6,
+        "activeUsers": 65,
+        "totalUsers": 2692,
+        "retentionRate": "2.41"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 9,
+        "activeUsers": 59,
+        "totalUsers": 2692,
+        "retentionRate": "2.19"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 8,
+        "activeUsers": 47,
+        "totalUsers": 2692,
+        "retentionRate": "1.75"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 10,
+        "activeUsers": 46,
+        "totalUsers": 2692,
+        "retentionRate": "1.71"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 11,
+        "activeUsers": 45,
+        "totalUsers": 2692,
+        "retentionRate": "1.67"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 13,
+        "activeUsers": 39,
+        "totalUsers": 2692,
+        "retentionRate": "1.45"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 15,
+        "activeUsers": 39,
+        "totalUsers": 2692,
+        "retentionRate": "1.45"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 14,
+        "activeUsers": 33,
+        "totalUsers": 2692,
+        "retentionRate": "1.23"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 16,
+        "activeUsers": 33,
+        "totalUsers": 2692,
+        "retentionRate": "1.23"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 21,
+        "activeUsers": 33,
+        "totalUsers": 2692,
+        "retentionRate": "1.23"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 12,
+        "activeUsers": 32,
+        "totalUsers": 2692,
+        "retentionRate": "1.19"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 17,
+        "activeUsers": 32,
+        "totalUsers": 2692,
+        "retentionRate": "1.19"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 20,
+        "activeUsers": 32,
+        "totalUsers": 2692,
+        "retentionRate": "1.19"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 24,
+        "activeUsers": 29,
+        "totalUsers": 2692,
+        "retentionRate": "1.08"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 23,
+        "activeUsers": 28,
+        "totalUsers": 2692,
+        "retentionRate": "1.04"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 18,
+        "activeUsers": 27,
+        "totalUsers": 2692,
+        "retentionRate": "1.00"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 19,
+        "activeUsers": 26,
+        "totalUsers": 2692,
+        "retentionRate": "0.97"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 22,
+        "activeUsers": 24,
+        "totalUsers": 2692,
+        "retentionRate": "0.89"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 25,
+        "activeUsers": 24,
+        "totalUsers": 2692,
+        "retentionRate": "0.89"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 29,
+        "activeUsers": 23,
+        "totalUsers": 2692,
+        "retentionRate": "0.85"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 26,
+        "activeUsers": 19,
+        "totalUsers": 2692,
+        "retentionRate": "0.71"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 28,
+        "activeUsers": 18,
+        "totalUsers": 2692,
+        "retentionRate": "0.67"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 27,
+        "activeUsers": 16,
+        "totalUsers": 2692,
+        "retentionRate": "0.59"
+      },
+      {
+        "cohort": "July 2025",
+        "day": 30,
+        "activeUsers": 16,
+        "totalUsers": 2692,
+        "retentionRate": "0.59"
+      }
+    ]
+  },
+  {
+    "name": "August 2025",
+    "data": [
+      {
+        "cohort": "August 2025",
+        "day": 0,
+        "activeUsers": 1844,
+        "totalUsers": 1844,
+        "retentionRate": "100.00"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 1,
+        "activeUsers": 254,
+        "totalUsers": 1844,
+        "retentionRate": "13.77"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 2,
+        "activeUsers": 146,
+        "totalUsers": 1844,
+        "retentionRate": "7.92"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 3,
+        "activeUsers": 115,
+        "totalUsers": 1844,
+        "retentionRate": "6.24"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 5,
+        "activeUsers": 74,
+        "totalUsers": 1844,
+        "retentionRate": "4.01"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 4,
+        "activeUsers": 68,
+        "totalUsers": 1844,
+        "retentionRate": "3.69"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 8,
+        "activeUsers": 61,
+        "totalUsers": 1844,
+        "retentionRate": "3.31"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 6,
+        "activeUsers": 54,
+        "totalUsers": 1844,
+        "retentionRate": "2.93"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 7,
+        "activeUsers": 54,
+        "totalUsers": 1844,
+        "retentionRate": "2.93"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 10,
+        "activeUsers": 37,
+        "totalUsers": 1844,
+        "retentionRate": "2.01"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 9,
+        "activeUsers": 34,
+        "totalUsers": 1844,
+        "retentionRate": "1.84"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 19,
+        "activeUsers": 32,
+        "totalUsers": 1844,
+        "retentionRate": "1.74"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 15,
+        "activeUsers": 30,
+        "totalUsers": 1844,
+        "retentionRate": "1.63"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 13,
+        "activeUsers": 25,
+        "totalUsers": 1844,
+        "retentionRate": "1.36"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 16,
+        "activeUsers": 25,
+        "totalUsers": 1844,
+        "retentionRate": "1.36"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 21,
+        "activeUsers": 25,
+        "totalUsers": 1844,
+        "retentionRate": "1.36"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 24,
+        "activeUsers": 25,
+        "totalUsers": 1844,
+        "retentionRate": "1.36"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 12,
+        "activeUsers": 24,
+        "totalUsers": 1844,
+        "retentionRate": "1.30"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 18,
+        "activeUsers": 21,
+        "totalUsers": 1844,
+        "retentionRate": "1.14"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 23,
+        "activeUsers": 21,
+        "totalUsers": 1844,
+        "retentionRate": "1.14"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 11,
+        "activeUsers": 20,
+        "totalUsers": 1844,
+        "retentionRate": "1.08"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 17,
+        "activeUsers": 18,
+        "totalUsers": 1844,
+        "retentionRate": "0.98"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 22,
+        "activeUsers": 18,
+        "totalUsers": 1844,
+        "retentionRate": "0.98"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 14,
+        "activeUsers": 16,
+        "totalUsers": 1844,
+        "retentionRate": "0.87"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 25,
+        "activeUsers": 16,
+        "totalUsers": 1844,
+        "retentionRate": "0.87"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 20,
+        "activeUsers": 15,
+        "totalUsers": 1844,
+        "retentionRate": "0.81"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 26,
+        "activeUsers": 14,
+        "totalUsers": 1844,
+        "retentionRate": "0.76"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 29,
+        "activeUsers": 12,
+        "totalUsers": 1844,
+        "retentionRate": "0.65"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 27,
+        "activeUsers": 11,
+        "totalUsers": 1844,
+        "retentionRate": "0.60"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 30,
+        "activeUsers": 10,
+        "totalUsers": 1844,
+        "retentionRate": "0.54"
+      },
+      {
+        "cohort": "August 2025",
+        "day": 28,
+        "activeUsers": 9,
+        "totalUsers": 1844,
+        "retentionRate": "0.49"
+      }
+    ]
+  },
+  {
+    "name": "September 2025",
+    "data": [
+      {
+        "cohort": "September 2025",
+        "day": 0,
+        "activeUsers": 1227,
+        "totalUsers": 1227,
+        "retentionRate": "100.00"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 1,
+        "activeUsers": 187,
+        "totalUsers": 1227,
+        "retentionRate": "15.24"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 2,
+        "activeUsers": 93,
+        "totalUsers": 1227,
+        "retentionRate": "7.58"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 3,
+        "activeUsers": 64,
+        "totalUsers": 1227,
+        "retentionRate": "5.22"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 4,
+        "activeUsers": 52,
+        "totalUsers": 1227,
+        "retentionRate": "4.24"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 5,
+        "activeUsers": 44,
+        "totalUsers": 1227,
+        "retentionRate": "3.59"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 6,
+        "activeUsers": 40,
+        "totalUsers": 1227,
+        "retentionRate": "3.26"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 7,
+        "activeUsers": 40,
+        "totalUsers": 1227,
+        "retentionRate": "3.26"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 8,
+        "activeUsers": 28,
+        "totalUsers": 1227,
+        "retentionRate": "2.28"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 12,
+        "activeUsers": 28,
+        "totalUsers": 1227,
+        "retentionRate": "2.28"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 10,
+        "activeUsers": 25,
+        "totalUsers": 1227,
+        "retentionRate": "2.04"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 13,
+        "activeUsers": 23,
+        "totalUsers": 1227,
+        "retentionRate": "1.87"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 14,
+        "activeUsers": 22,
+        "totalUsers": 1227,
+        "retentionRate": "1.79"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 9,
+        "activeUsers": 21,
+        "totalUsers": 1227,
+        "retentionRate": "1.71"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 11,
+        "activeUsers": 18,
+        "totalUsers": 1227,
+        "retentionRate": "1.47"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 16,
+        "activeUsers": 18,
+        "totalUsers": 1227,
+        "retentionRate": "1.47"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 22,
+        "activeUsers": 18,
+        "totalUsers": 1227,
+        "retentionRate": "1.47"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 17,
+        "activeUsers": 17,
+        "totalUsers": 1227,
+        "retentionRate": "1.39"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 20,
+        "activeUsers": 17,
+        "totalUsers": 1227,
+        "retentionRate": "1.39"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 26,
+        "activeUsers": 15,
+        "totalUsers": 1227,
+        "retentionRate": "1.22"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 18,
+        "activeUsers": 14,
+        "totalUsers": 1227,
+        "retentionRate": "1.14"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 21,
+        "activeUsers": 14,
+        "totalUsers": 1227,
+        "retentionRate": "1.14"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 25,
+        "activeUsers": 14,
+        "totalUsers": 1227,
+        "retentionRate": "1.14"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 27,
+        "activeUsers": 13,
+        "totalUsers": 1227,
+        "retentionRate": "1.06"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 30,
+        "activeUsers": 12,
+        "totalUsers": 1227,
+        "retentionRate": "0.98"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 15,
+        "activeUsers": 11,
+        "totalUsers": 1227,
+        "retentionRate": "0.90"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 19,
+        "activeUsers": 10,
+        "totalUsers": 1227,
+        "retentionRate": "0.81"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 23,
+        "activeUsers": 10,
+        "totalUsers": 1227,
+        "retentionRate": "0.81"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 29,
+        "activeUsers": 10,
+        "totalUsers": 1227,
+        "retentionRate": "0.81"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 24,
+        "activeUsers": 9,
+        "totalUsers": 1227,
+        "retentionRate": "0.73"
+      },
+      {
+        "cohort": "September 2025",
+        "day": 28,
+        "activeUsers": 9,
+        "totalUsers": 1227,
+        "retentionRate": "0.73"
+      }
+    ]
+  },
+  {
+    "name": "October 2025",
+    "data": [
+      {
+        "cohort": "October 2025",
+        "day": 0,
+        "activeUsers": 1371,
+        "totalUsers": 1371,
+        "retentionRate": "100.00"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 1,
+        "activeUsers": 226,
+        "totalUsers": 1371,
+        "retentionRate": "16.48"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 2,
+        "activeUsers": 123,
+        "totalUsers": 1371,
+        "retentionRate": "8.97"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 3,
+        "activeUsers": 88,
+        "totalUsers": 1371,
+        "retentionRate": "6.42"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 4,
+        "activeUsers": 58,
+        "totalUsers": 1371,
+        "retentionRate": "4.23"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 5,
+        "activeUsers": 55,
+        "totalUsers": 1371,
+        "retentionRate": "4.01"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 8,
+        "activeUsers": 44,
+        "totalUsers": 1371,
+        "retentionRate": "3.21"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 6,
+        "activeUsers": 41,
+        "totalUsers": 1371,
+        "retentionRate": "2.99"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 9,
+        "activeUsers": 35,
+        "totalUsers": 1371,
+        "retentionRate": "2.55"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 7,
+        "activeUsers": 33,
+        "totalUsers": 1371,
+        "retentionRate": "2.41"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 14,
+        "activeUsers": 33,
+        "totalUsers": 1371,
+        "retentionRate": "2.41"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 12,
+        "activeUsers": 26,
+        "totalUsers": 1371,
+        "retentionRate": "1.90"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 11,
+        "activeUsers": 25,
+        "totalUsers": 1371,
+        "retentionRate": "1.82"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 16,
+        "activeUsers": 23,
+        "totalUsers": 1371,
+        "retentionRate": "1.68"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 21,
+        "activeUsers": 23,
+        "totalUsers": 1371,
+        "retentionRate": "1.68"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 18,
+        "activeUsers": 21,
+        "totalUsers": 1371,
+        "retentionRate": "1.53"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 17,
+        "activeUsers": 20,
+        "totalUsers": 1371,
+        "retentionRate": "1.46"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 13,
+        "activeUsers": 19,
+        "totalUsers": 1371,
+        "retentionRate": "1.39"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 15,
+        "activeUsers": 19,
+        "totalUsers": 1371,
+        "retentionRate": "1.39"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 25,
+        "activeUsers": 17,
+        "totalUsers": 1371,
+        "retentionRate": "1.24"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 10,
+        "activeUsers": 16,
+        "totalUsers": 1371,
+        "retentionRate": "1.17"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 23,
+        "activeUsers": 16,
+        "totalUsers": 1371,
+        "retentionRate": "1.17"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 24,
+        "activeUsers": 16,
+        "totalUsers": 1371,
+        "retentionRate": "1.17"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 19,
+        "activeUsers": 15,
+        "totalUsers": 1371,
+        "retentionRate": "1.09"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 20,
+        "activeUsers": 13,
+        "totalUsers": 1371,
+        "retentionRate": "0.95"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 22,
+        "activeUsers": 13,
+        "totalUsers": 1371,
+        "retentionRate": "0.95"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 26,
+        "activeUsers": 13,
+        "totalUsers": 1371,
+        "retentionRate": "0.95"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 27,
+        "activeUsers": 12,
+        "totalUsers": 1371,
+        "retentionRate": "0.88"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 30,
+        "activeUsers": 11,
+        "totalUsers": 1371,
+        "retentionRate": "0.80"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 29,
+        "activeUsers": 10,
+        "totalUsers": 1371,
+        "retentionRate": "0.73"
+      },
+      {
+        "cohort": "October 2025",
+        "day": 28,
+        "activeUsers": 9,
+        "totalUsers": 1371,
+        "retentionRate": "0.66"
+      }
+    ]
   }
 ]

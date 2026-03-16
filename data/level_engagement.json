@@ -110,6 +110,11 @@
     "eventCount": 248
   },
   {
+    "date": "20260314",
+    "levelType": "levelStaged",
+    "eventCount": 239
+  },
+  {
     "date": "20251117",
     "levelType": "levelStarted",
     "eventCount": 230
@@ -358,6 +363,11 @@
     "date": "20260228",
     "levelType": "levelStarted",
     "eventCount": 157
+  },
+  {
+    "date": "20260314",
+    "levelType": "levelStarted",
+    "eventCount": 156
   },
   {
     "date": "20260209",
@@ -915,6 +925,11 @@
     "eventCount": 105
   },
   {
+    "date": "20260315",
+    "levelType": "levelStarted",
+    "eventCount": 105
+  },
+  {
     "date": "20251113",
     "levelType": "levelStarted",
     "eventCount": 104
@@ -940,13 +955,18 @@
     "eventCount": 104
   },
   {
+    "date": "20260311",
+    "levelType": "levelStarted",
+    "eventCount": 104
+  },
+  {
     "date": "20260217",
     "levelType": "levelStarted",
     "eventCount": 103
   },
   {
-    "date": "20260311",
-    "levelType": "levelStarted",
+    "date": "20260314",
+    "levelType": "levelCompleted",
     "eventCount": 103
   },
   {
@@ -990,7 +1010,17 @@
     "eventCount": 100
   },
   {
+    "date": "20260313",
+    "levelType": "levelStaged",
+    "eventCount": 100
+  },
+  {
     "date": "20251126",
+    "levelType": "levelStarted",
+    "eventCount": 99
+  },
+  {
+    "date": "20260313",
     "levelType": "levelStarted",
     "eventCount": 99
   },
@@ -1155,6 +1185,11 @@
     "eventCount": 85
   },
   {
+    "date": "20260312",
+    "levelType": "levelStarted",
+    "eventCount": 85
+  },
+  {
     "date": "20251231",
     "levelType": "levelStarted",
     "eventCount": 84
@@ -1197,11 +1232,6 @@
   {
     "date": "20260116",
     "levelType": "levelStaged",
-    "eventCount": 82
-  },
-  {
-    "date": "20260312",
-    "levelType": "levelStarted",
     "eventCount": 82
   },
   {
@@ -1322,6 +1352,11 @@
   {
     "date": "20260228",
     "levelType": "levelCompleted",
+    "eventCount": 72
+  },
+  {
+    "date": "20260315",
+    "levelType": "levelStaged",
     "eventCount": 72
   },
   {
@@ -1477,7 +1512,7 @@
   {
     "date": "20260312",
     "levelType": "levelStaged",
-    "eventCount": 58
+    "eventCount": 59
   },
   {
     "date": "20251111",
@@ -1695,6 +1730,11 @@
     "eventCount": 41
   },
   {
+    "date": "20260315",
+    "levelType": "levelDropped",
+    "eventCount": 41
+  },
+  {
     "date": "20251128",
     "levelType": "levelDropped",
     "eventCount": 40
@@ -1900,6 +1940,11 @@
     "eventCount": 31
   },
   {
+    "date": "20260313",
+    "levelType": "levelDropped",
+    "eventCount": 31
+  },
+  {
     "date": "20251204",
     "levelType": "levelStaged",
     "eventCount": 30
@@ -2080,6 +2125,11 @@
     "eventCount": 27
   },
   {
+    "date": "20260314",
+    "levelType": "levelDropped",
+    "eventCount": 27
+  },
+  {
     "date": "20251104",
     "levelType": "levelCompleted",
     "eventCount": 26
@@ -2101,6 +2151,11 @@
   },
   {
     "date": "20260310",
+    "levelType": "levelDropped",
+    "eventCount": 26
+  },
+  {
+    "date": "20260312",
     "levelType": "levelDropped",
     "eventCount": 26
   },
@@ -2150,11 +2205,6 @@
     "eventCount": 25
   },
   {
-    "date": "20260312",
-    "levelType": "levelDropped",
-    "eventCount": 25
-  },
-  {
     "date": "20251104",
     "levelType": "levelDropped",
     "eventCount": 24
@@ -2191,6 +2241,11 @@
   },
   {
     "date": "20260307",
+    "levelType": "levelCompleted",
+    "eventCount": 24
+  },
+  {
+    "date": "20260313",
     "levelType": "levelCompleted",
     "eventCount": 24
   },
@@ -2530,6 +2585,11 @@
     "eventCount": 11
   },
   {
+    "date": "20260315",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
     "date": "20251101",
     "levelType": "levelFailed",
     "eventCount": 10
@@ -2865,6 +2925,11 @@
     "eventCount": 3
   },
   {
+    "date": "20260313",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
     "date": "20251102",
     "levelType": "levelFailed",
     "eventCount": 2
@@ -3031,6 +3096,11 @@
   },
   {
     "date": "20260301",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260315",
     "levelType": "levelFailed",
     "eventCount": 1
   }
