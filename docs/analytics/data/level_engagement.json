@@ -1,0 +1,3037 @@
+[
+  {
+    "date": "20260121",
+    "levelType": "levelStarted",
+    "eventCount": 511
+  },
+  {
+    "date": "20251218",
+    "levelType": "levelStaged",
+    "eventCount": 446
+  },
+  {
+    "date": "20260121",
+    "levelType": "levelStaged",
+    "eventCount": 390
+  },
+  {
+    "date": "20260204",
+    "levelType": "levelStaged",
+    "eventCount": 382
+  },
+  {
+    "date": "20260216",
+    "levelType": "levelStaged",
+    "eventCount": 320
+  },
+  {
+    "date": "20260118",
+    "levelType": "levelStaged",
+    "eventCount": 319
+  },
+  {
+    "date": "20260126",
+    "levelType": "levelStaged",
+    "eventCount": 319
+  },
+  {
+    "date": "20260201",
+    "levelType": "levelStaged",
+    "eventCount": 319
+  },
+  {
+    "date": "20251224",
+    "levelType": "levelStaged",
+    "eventCount": 318
+  },
+  {
+    "date": "20260227",
+    "levelType": "levelStarted",
+    "eventCount": 317
+  },
+  {
+    "date": "20260121",
+    "levelType": "levelDropped",
+    "eventCount": 302
+  },
+  {
+    "date": "20251222",
+    "levelType": "levelStaged",
+    "eventCount": 285
+  },
+  {
+    "date": "20251125",
+    "levelType": "levelStaged",
+    "eventCount": 283
+  },
+  {
+    "date": "20251218",
+    "levelType": "levelStarted",
+    "eventCount": 275
+  },
+  {
+    "date": "20251224",
+    "levelType": "levelStarted",
+    "eventCount": 274
+  },
+  {
+    "date": "20260204",
+    "levelType": "levelStarted",
+    "eventCount": 270
+  },
+  {
+    "date": "20260126",
+    "levelType": "levelStarted",
+    "eventCount": 255
+  },
+  {
+    "date": "20260201",
+    "levelType": "levelStarted",
+    "eventCount": 252
+  },
+  {
+    "date": "20260111",
+    "levelType": "levelStaged",
+    "eventCount": 251
+  },
+  {
+    "date": "20251222",
+    "levelType": "levelStarted",
+    "eventCount": 250
+  },
+  {
+    "date": "20260226",
+    "levelType": "levelStaged",
+    "eventCount": 250
+  },
+  {
+    "date": "20251101",
+    "levelType": "levelStaged",
+    "eventCount": 248
+  },
+  {
+    "date": "20251117",
+    "levelType": "levelStarted",
+    "eventCount": 230
+  },
+  {
+    "date": "20260226",
+    "levelType": "levelStarted",
+    "eventCount": 230
+  },
+  {
+    "date": "20260123",
+    "levelType": "levelStarted",
+    "eventCount": 229
+  },
+  {
+    "date": "20260227",
+    "levelType": "levelDropped",
+    "eventCount": 227
+  },
+  {
+    "date": "20260304",
+    "levelType": "levelStaged",
+    "eventCount": 227
+  },
+  {
+    "date": "20260114",
+    "levelType": "levelStaged",
+    "eventCount": 226
+  },
+  {
+    "date": "20251125",
+    "levelType": "levelStarted",
+    "eventCount": 224
+  },
+  {
+    "date": "20260122",
+    "levelType": "levelStarted",
+    "eventCount": 223
+  },
+  {
+    "date": "20251106",
+    "levelType": "levelStarted",
+    "eventCount": 222
+  },
+  {
+    "date": "20260118",
+    "levelType": "levelStarted",
+    "eventCount": 222
+  },
+  {
+    "date": "20251114",
+    "levelType": "levelStarted",
+    "eventCount": 220
+  },
+  {
+    "date": "20260103",
+    "levelType": "levelStaged",
+    "eventCount": 220
+  },
+  {
+    "date": "20260207",
+    "levelType": "levelStaged",
+    "eventCount": 219
+  },
+  {
+    "date": "20251106",
+    "levelType": "levelStaged",
+    "eventCount": 213
+  },
+  {
+    "date": "20260302",
+    "levelType": "levelStaged",
+    "eventCount": 210
+  },
+  {
+    "date": "20251203",
+    "levelType": "levelStarted",
+    "eventCount": 205
+  },
+  {
+    "date": "20260302",
+    "levelType": "levelStarted",
+    "eventCount": 205
+  },
+  {
+    "date": "20260119",
+    "levelType": "levelStarted",
+    "eventCount": 204
+  },
+  {
+    "date": "20260216",
+    "levelType": "levelStarted",
+    "eventCount": 204
+  },
+  {
+    "date": "20260228",
+    "levelType": "levelStaged",
+    "eventCount": 203
+  },
+  {
+    "date": "20251221",
+    "levelType": "levelStaged",
+    "eventCount": 200
+  },
+  {
+    "date": "20260125",
+    "levelType": "levelStaged",
+    "eventCount": 197
+  },
+  {
+    "date": "20251101",
+    "levelType": "levelStarted",
+    "eventCount": 196
+  },
+  {
+    "date": "20251202",
+    "levelType": "levelStarted",
+    "eventCount": 195
+  },
+  {
+    "date": "20260209",
+    "levelType": "levelStaged",
+    "eventCount": 192
+  },
+  {
+    "date": "20251112",
+    "levelType": "levelStaged",
+    "eventCount": 190
+  },
+  {
+    "date": "20260127",
+    "levelType": "levelStaged",
+    "eventCount": 190
+  },
+  {
+    "date": "20260107",
+    "levelType": "levelStaged",
+    "eventCount": 188
+  },
+  {
+    "date": "20260127",
+    "levelType": "levelStarted",
+    "eventCount": 188
+  },
+  {
+    "date": "20260124",
+    "levelType": "levelStaged",
+    "eventCount": 187
+  },
+  {
+    "date": "20260111",
+    "levelType": "levelStarted",
+    "eventCount": 185
+  },
+  {
+    "date": "20260122",
+    "levelType": "levelStaged",
+    "eventCount": 181
+  },
+  {
+    "date": "20260103",
+    "levelType": "levelStarted",
+    "eventCount": 179
+  },
+  {
+    "date": "20260117",
+    "levelType": "levelStaged",
+    "eventCount": 177
+  },
+  {
+    "date": "20260119",
+    "levelType": "levelStaged",
+    "eventCount": 175
+  },
+  {
+    "date": "20251117",
+    "levelType": "levelStaged",
+    "eventCount": 173
+  },
+  {
+    "date": "20251218",
+    "levelType": "levelCompleted",
+    "eventCount": 173
+  },
+  {
+    "date": "20251202",
+    "levelType": "levelStaged",
+    "eventCount": 172
+  },
+  {
+    "date": "20260207",
+    "levelType": "levelStarted",
+    "eventCount": 171
+  },
+  {
+    "date": "20260112",
+    "levelType": "levelStaged",
+    "eventCount": 169
+  },
+  {
+    "date": "20260304",
+    "levelType": "levelStarted",
+    "eventCount": 167
+  },
+  {
+    "date": "20251114",
+    "levelType": "levelStaged",
+    "eventCount": 166
+  },
+  {
+    "date": "20251219",
+    "levelType": "levelStaged",
+    "eventCount": 164
+  },
+  {
+    "date": "20251212",
+    "levelType": "levelStaged",
+    "eventCount": 163
+  },
+  {
+    "date": "20251221",
+    "levelType": "levelStarted",
+    "eventCount": 162
+  },
+  {
+    "date": "20251122",
+    "levelType": "levelStaged",
+    "eventCount": 160
+  },
+  {
+    "date": "20251229",
+    "levelType": "levelStaged",
+    "eventCount": 159
+  },
+  {
+    "date": "20260125",
+    "levelType": "levelStarted",
+    "eventCount": 158
+  },
+  {
+    "date": "20260117",
+    "levelType": "levelStarted",
+    "eventCount": 157
+  },
+  {
+    "date": "20260228",
+    "levelType": "levelStarted",
+    "eventCount": 157
+  },
+  {
+    "date": "20260209",
+    "levelType": "levelStarted",
+    "eventCount": 155
+  },
+  {
+    "date": "20260107",
+    "levelType": "levelStarted",
+    "eventCount": 154
+  },
+  {
+    "date": "20260114",
+    "levelType": "levelStarted",
+    "eventCount": 154
+  },
+  {
+    "date": "20260104",
+    "levelType": "levelStaged",
+    "eventCount": 153
+  },
+  {
+    "date": "20260204",
+    "levelType": "levelCompleted",
+    "eventCount": 153
+  },
+  {
+    "date": "20251201",
+    "levelType": "levelStaged",
+    "eventCount": 151
+  },
+  {
+    "date": "20251123",
+    "levelType": "levelStaged",
+    "eventCount": 150
+  },
+  {
+    "date": "20260214",
+    "levelType": "levelStaged",
+    "eventCount": 148
+  },
+  {
+    "date": "20251229",
+    "levelType": "levelStarted",
+    "eventCount": 147
+  },
+  {
+    "date": "20260124",
+    "levelType": "levelStarted",
+    "eventCount": 147
+  },
+  {
+    "date": "20251207",
+    "levelType": "levelStaged",
+    "eventCount": 145
+  },
+  {
+    "date": "20251212",
+    "levelType": "levelStarted",
+    "eventCount": 145
+  },
+  {
+    "date": "20251102",
+    "levelType": "levelStarted",
+    "eventCount": 144
+  },
+  {
+    "date": "20251122",
+    "levelType": "levelStarted",
+    "eventCount": 144
+  },
+  {
+    "date": "20251225",
+    "levelType": "levelStarted",
+    "eventCount": 143
+  },
+  {
+    "date": "20260214",
+    "levelType": "levelStarted",
+    "eventCount": 143
+  },
+  {
+    "date": "20260218",
+    "levelType": "levelStarted",
+    "eventCount": 143
+  },
+  {
+    "date": "20251118",
+    "levelType": "levelStaged",
+    "eventCount": 142
+  },
+  {
+    "date": "20251230",
+    "levelType": "levelStaged",
+    "eventCount": 142
+  },
+  {
+    "date": "20260120",
+    "levelType": "levelStaged",
+    "eventCount": 142
+  },
+  {
+    "date": "20251228",
+    "levelType": "levelStaged",
+    "eventCount": 141
+  },
+  {
+    "date": "20260305",
+    "levelType": "levelStaged",
+    "eventCount": 141
+  },
+  {
+    "date": "20251112",
+    "levelType": "levelStarted",
+    "eventCount": 140
+  },
+  {
+    "date": "20260102",
+    "levelType": "levelStarted",
+    "eventCount": 140
+  },
+  {
+    "date": "20251113",
+    "levelType": "levelStaged",
+    "eventCount": 139
+  },
+  {
+    "date": "20260110",
+    "levelType": "levelStaged",
+    "eventCount": 138
+  },
+  {
+    "date": "20251105",
+    "levelType": "levelStarted",
+    "eventCount": 137
+  },
+  {
+    "date": "20260102",
+    "levelType": "levelStaged",
+    "eventCount": 136
+  },
+  {
+    "date": "20260110",
+    "levelType": "levelStarted",
+    "eventCount": 136
+  },
+  {
+    "date": "20260208",
+    "levelType": "levelStarted",
+    "eventCount": 136
+  },
+  {
+    "date": "20251129",
+    "levelType": "levelStaged",
+    "eventCount": 135
+  },
+  {
+    "date": "20251210",
+    "levelType": "levelStaged",
+    "eventCount": 135
+  },
+  {
+    "date": "20260120",
+    "levelType": "levelStarted",
+    "eventCount": 135
+  },
+  {
+    "date": "20260203",
+    "levelType": "levelStaged",
+    "eventCount": 135
+  },
+  {
+    "date": "20260208",
+    "levelType": "levelStaged",
+    "eventCount": 135
+  },
+  {
+    "date": "20251130",
+    "levelType": "levelStaged",
+    "eventCount": 134
+  },
+  {
+    "date": "20260112",
+    "levelType": "levelStarted",
+    "eventCount": 134
+  },
+  {
+    "date": "20260123",
+    "levelType": "levelDropped",
+    "eventCount": 134
+  },
+  {
+    "date": "20260218",
+    "levelType": "levelStaged",
+    "eventCount": 134
+  },
+  {
+    "date": "20260219",
+    "levelType": "levelStaged",
+    "eventCount": 134
+  },
+  {
+    "date": "20251114",
+    "levelType": "levelDropped",
+    "eventCount": 133
+  },
+  {
+    "date": "20260216",
+    "levelType": "levelCompleted",
+    "eventCount": 133
+  },
+  {
+    "date": "20260212",
+    "levelType": "levelStarted",
+    "eventCount": 132
+  },
+  {
+    "date": "20251203",
+    "levelType": "levelStaged",
+    "eventCount": 131
+  },
+  {
+    "date": "20260123",
+    "levelType": "levelStaged",
+    "eventCount": 131
+  },
+  {
+    "date": "20260202",
+    "levelType": "levelStarted",
+    "eventCount": 131
+  },
+  {
+    "date": "20251105",
+    "levelType": "levelStaged",
+    "eventCount": 130
+  },
+  {
+    "date": "20251219",
+    "levelType": "levelStarted",
+    "eventCount": 130
+  },
+  {
+    "date": "20260310",
+    "levelType": "levelStaged",
+    "eventCount": 129
+  },
+  {
+    "date": "20251121",
+    "levelType": "levelStaged",
+    "eventCount": 128
+  },
+  {
+    "date": "20251228",
+    "levelType": "levelStarted",
+    "eventCount": 128
+  },
+  {
+    "date": "20260105",
+    "levelType": "levelStaged",
+    "eventCount": 128
+  },
+  {
+    "date": "20260202",
+    "levelType": "levelStaged",
+    "eventCount": 128
+  },
+  {
+    "date": "20251124",
+    "levelType": "levelStaged",
+    "eventCount": 127
+  },
+  {
+    "date": "20251203",
+    "levelType": "levelDropped",
+    "eventCount": 126
+  },
+  {
+    "date": "20251118",
+    "levelType": "levelStarted",
+    "eventCount": 125
+  },
+  {
+    "date": "20260215",
+    "levelType": "levelStarted",
+    "eventCount": 125
+  },
+  {
+    "date": "20260222",
+    "levelType": "levelStarted",
+    "eventCount": 125
+  },
+  {
+    "date": "20260227",
+    "levelType": "levelStaged",
+    "eventCount": 125
+  },
+  {
+    "date": "20251126",
+    "levelType": "levelStaged",
+    "eventCount": 124
+  },
+  {
+    "date": "20251206",
+    "levelType": "levelStaged",
+    "eventCount": 124
+  },
+  {
+    "date": "20251213",
+    "levelType": "levelStaged",
+    "eventCount": 124
+  },
+  {
+    "date": "20251225",
+    "levelType": "levelStaged",
+    "eventCount": 124
+  },
+  {
+    "date": "20260222",
+    "levelType": "levelStaged",
+    "eventCount": 124
+  },
+  {
+    "date": "20260303",
+    "levelType": "levelStarted",
+    "eventCount": 124
+  },
+  {
+    "date": "20260305",
+    "levelType": "levelStarted",
+    "eventCount": 124
+  },
+  {
+    "date": "20251117",
+    "levelType": "levelDropped",
+    "eventCount": 123
+  },
+  {
+    "date": "20251207",
+    "levelType": "levelStarted",
+    "eventCount": 123
+  },
+  {
+    "date": "20260212",
+    "levelType": "levelStaged",
+    "eventCount": 123
+  },
+  {
+    "date": "20260104",
+    "levelType": "levelStarted",
+    "eventCount": 121
+  },
+  {
+    "date": "20251102",
+    "levelType": "levelStaged",
+    "eventCount": 120
+  },
+  {
+    "date": "20251121",
+    "levelType": "levelStarted",
+    "eventCount": 120
+  },
+  {
+    "date": "20260203",
+    "levelType": "levelStarted",
+    "eventCount": 120
+  },
+  {
+    "date": "20260306",
+    "levelType": "levelStaged",
+    "eventCount": 120
+  },
+  {
+    "date": "20260118",
+    "levelType": "levelCompleted",
+    "eventCount": 119
+  },
+  {
+    "date": "20251123",
+    "levelType": "levelStarted",
+    "eventCount": 118
+  },
+  {
+    "date": "20260221",
+    "levelType": "levelStaged",
+    "eventCount": 118
+  },
+  {
+    "date": "20251129",
+    "levelType": "levelStarted",
+    "eventCount": 117
+  },
+  {
+    "date": "20251211",
+    "levelType": "levelStaged",
+    "eventCount": 117
+  },
+  {
+    "date": "20251223",
+    "levelType": "levelStarted",
+    "eventCount": 116
+  },
+  {
+    "date": "20260310",
+    "levelType": "levelStarted",
+    "eventCount": 116
+  },
+  {
+    "date": "20251116",
+    "levelType": "levelStaged",
+    "eventCount": 115
+  },
+  {
+    "date": "20251124",
+    "levelType": "levelStarted",
+    "eventCount": 115
+  },
+  {
+    "date": "20251209",
+    "levelType": "levelStarted",
+    "eventCount": 115
+  },
+  {
+    "date": "20260115",
+    "levelType": "levelStarted",
+    "eventCount": 115
+  },
+  {
+    "date": "20260306",
+    "levelType": "levelStarted",
+    "eventCount": 115
+  },
+  {
+    "date": "20260311",
+    "levelType": "levelStaged",
+    "eventCount": 115
+  },
+  {
+    "date": "20260105",
+    "levelType": "levelStarted",
+    "eventCount": 113
+  },
+  {
+    "date": "20260121",
+    "levelType": "levelCompleted",
+    "eventCount": 113
+  },
+  {
+    "date": "20260205",
+    "levelType": "levelStaged",
+    "eventCount": 113
+  },
+  {
+    "date": "20251104",
+    "levelType": "levelStaged",
+    "eventCount": 112
+  },
+  {
+    "date": "20260128",
+    "levelType": "levelStarted",
+    "eventCount": 112
+  },
+  {
+    "date": "20251120",
+    "levelType": "levelStaged",
+    "eventCount": 111
+  },
+  {
+    "date": "20251224",
+    "levelType": "levelCompleted",
+    "eventCount": 111
+  },
+  {
+    "date": "20260122",
+    "levelType": "levelDropped",
+    "eventCount": 111
+  },
+  {
+    "date": "20260223",
+    "levelType": "levelStaged",
+    "eventCount": 111
+  },
+  {
+    "date": "20251216",
+    "levelType": "levelStaged",
+    "eventCount": 110
+  },
+  {
+    "date": "20260307",
+    "levelType": "levelStarted",
+    "eventCount": 110
+  },
+  {
+    "date": "20251201",
+    "levelType": "levelStarted",
+    "eventCount": 109
+  },
+  {
+    "date": "20251205",
+    "levelType": "levelStaged",
+    "eventCount": 108
+  },
+  {
+    "date": "20251206",
+    "levelType": "levelStarted",
+    "eventCount": 108
+  },
+  {
+    "date": "20260213",
+    "levelType": "levelStarted",
+    "eventCount": 108
+  },
+  {
+    "date": "20260219",
+    "levelType": "levelStarted",
+    "eventCount": 108
+  },
+  {
+    "date": "20260213",
+    "levelType": "levelStaged",
+    "eventCount": 107
+  },
+  {
+    "date": "20260307",
+    "levelType": "levelStaged",
+    "eventCount": 107
+  },
+  {
+    "date": "20251230",
+    "levelType": "levelStarted",
+    "eventCount": 106
+  },
+  {
+    "date": "20260126",
+    "levelType": "levelCompleted",
+    "eventCount": 106
+  },
+  {
+    "date": "20260221",
+    "levelType": "levelStarted",
+    "eventCount": 106
+  },
+  {
+    "date": "20260223",
+    "levelType": "levelStarted",
+    "eventCount": 106
+  },
+  {
+    "date": "20251120",
+    "levelType": "levelStarted",
+    "eventCount": 105
+  },
+  {
+    "date": "20251210",
+    "levelType": "levelStarted",
+    "eventCount": 105
+  },
+  {
+    "date": "20251113",
+    "levelType": "levelStarted",
+    "eventCount": 104
+  },
+  {
+    "date": "20251115",
+    "levelType": "levelStaged",
+    "eventCount": 104
+  },
+  {
+    "date": "20251223",
+    "levelType": "levelStaged",
+    "eventCount": 104
+  },
+  {
+    "date": "20260128",
+    "levelType": "levelStaged",
+    "eventCount": 104
+  },
+  {
+    "date": "20260205",
+    "levelType": "levelStarted",
+    "eventCount": 104
+  },
+  {
+    "date": "20260217",
+    "levelType": "levelStarted",
+    "eventCount": 103
+  },
+  {
+    "date": "20260311",
+    "levelType": "levelStarted",
+    "eventCount": 103
+  },
+  {
+    "date": "20251104",
+    "levelType": "levelStarted",
+    "eventCount": 102
+  },
+  {
+    "date": "20251115",
+    "levelType": "levelStarted",
+    "eventCount": 102
+  },
+  {
+    "date": "20251214",
+    "levelType": "levelStarted",
+    "eventCount": 101
+  },
+  {
+    "date": "20251222",
+    "levelType": "levelDropped",
+    "eventCount": 101
+  },
+  {
+    "date": "20251224",
+    "levelType": "levelDropped",
+    "eventCount": 101
+  },
+  {
+    "date": "20260106",
+    "levelType": "levelStarted",
+    "eventCount": 101
+  },
+  {
+    "date": "20251128",
+    "levelType": "levelStarted",
+    "eventCount": 100
+  },
+  {
+    "date": "20251130",
+    "levelType": "levelStarted",
+    "eventCount": 100
+  },
+  {
+    "date": "20251126",
+    "levelType": "levelStarted",
+    "eventCount": 99
+  },
+  {
+    "date": "20251125",
+    "levelType": "levelCompleted",
+    "eventCount": 98
+  },
+  {
+    "date": "20251216",
+    "levelType": "levelStarted",
+    "eventCount": 98
+  },
+  {
+    "date": "20251222",
+    "levelType": "levelCompleted",
+    "eventCount": 98
+  },
+  {
+    "date": "20251116",
+    "levelType": "levelStarted",
+    "eventCount": 97
+  },
+  {
+    "date": "20251128",
+    "levelType": "levelStaged",
+    "eventCount": 96
+  },
+  {
+    "date": "20251209",
+    "levelType": "levelStaged",
+    "eventCount": 96
+  },
+  {
+    "date": "20260101",
+    "levelType": "levelStarted",
+    "eventCount": 95
+  },
+  {
+    "date": "20251208",
+    "levelType": "levelStaged",
+    "eventCount": 94
+  },
+  {
+    "date": "20260115",
+    "levelType": "levelStaged",
+    "eventCount": 94
+  },
+  {
+    "date": "20260201",
+    "levelType": "levelCompleted",
+    "eventCount": 94
+  },
+  {
+    "date": "20260211",
+    "levelType": "levelStarted",
+    "eventCount": 94
+  },
+  {
+    "date": "20251215",
+    "levelType": "levelStaged",
+    "eventCount": 93
+  },
+  {
+    "date": "20260226",
+    "levelType": "levelDropped",
+    "eventCount": 93
+  },
+  {
+    "date": "20251205",
+    "levelType": "levelStarted",
+    "eventCount": 92
+  },
+  {
+    "date": "20251211",
+    "levelType": "levelStarted",
+    "eventCount": 92
+  },
+  {
+    "date": "20251108",
+    "levelType": "levelStarted",
+    "eventCount": 91
+  },
+  {
+    "date": "20251214",
+    "levelType": "levelStaged",
+    "eventCount": 91
+  },
+  {
+    "date": "20251217",
+    "levelType": "levelStarted",
+    "eventCount": 91
+  },
+  {
+    "date": "20260131",
+    "levelType": "levelStarted",
+    "eventCount": 91
+  },
+  {
+    "date": "20251107",
+    "levelType": "levelStarted",
+    "eventCount": 90
+  },
+  {
+    "date": "20260303",
+    "levelType": "levelStaged",
+    "eventCount": 90
+  },
+  {
+    "date": "20251106",
+    "levelType": "levelDropped",
+    "eventCount": 89
+  },
+  {
+    "date": "20251110",
+    "levelType": "levelStaged",
+    "eventCount": 89
+  },
+  {
+    "date": "20251103",
+    "levelType": "levelStarted",
+    "eventCount": 88
+  },
+  {
+    "date": "20260210",
+    "levelType": "levelStarted",
+    "eventCount": 88
+  },
+  {
+    "date": "20260220",
+    "levelType": "levelStarted",
+    "eventCount": 88
+  },
+  {
+    "date": "20260217",
+    "levelType": "levelStaged",
+    "eventCount": 87
+  },
+  {
+    "date": "20251202",
+    "levelType": "levelDropped",
+    "eventCount": 86
+  },
+  {
+    "date": "20251213",
+    "levelType": "levelStarted",
+    "eventCount": 85
+  },
+  {
+    "date": "20251226",
+    "levelType": "levelStaged",
+    "eventCount": 85
+  },
+  {
+    "date": "20251226",
+    "levelType": "levelStarted",
+    "eventCount": 85
+  },
+  {
+    "date": "20260109",
+    "levelType": "levelStarted",
+    "eventCount": 85
+  },
+  {
+    "date": "20251231",
+    "levelType": "levelStarted",
+    "eventCount": 84
+  },
+  {
+    "date": "20260116",
+    "levelType": "levelStarted",
+    "eventCount": 84
+  },
+  {
+    "date": "20260129",
+    "levelType": "levelStarted",
+    "eventCount": 84
+  },
+  {
+    "date": "20260130",
+    "levelType": "levelStarted",
+    "eventCount": 84
+  },
+  {
+    "date": "20251107",
+    "levelType": "levelStaged",
+    "eventCount": 83
+  },
+  {
+    "date": "20251110",
+    "levelType": "levelStarted",
+    "eventCount": 83
+  },
+  {
+    "date": "20251108",
+    "levelType": "levelStaged",
+    "eventCount": 82
+  },
+  {
+    "date": "20251208",
+    "levelType": "levelStarted",
+    "eventCount": 82
+  },
+  {
+    "date": "20260116",
+    "levelType": "levelStaged",
+    "eventCount": 82
+  },
+  {
+    "date": "20260312",
+    "levelType": "levelStarted",
+    "eventCount": 82
+  },
+  {
+    "date": "20251127",
+    "levelType": "levelStarted",
+    "eventCount": 81
+  },
+  {
+    "date": "20260113",
+    "levelType": "levelStaged",
+    "eventCount": 81
+  },
+  {
+    "date": "20260113",
+    "levelType": "levelStarted",
+    "eventCount": 81
+  },
+  {
+    "date": "20260119",
+    "levelType": "levelDropped",
+    "eventCount": 81
+  },
+  {
+    "date": "20260226",
+    "levelType": "levelCompleted",
+    "eventCount": 81
+  },
+  {
+    "date": "20251217",
+    "levelType": "levelStaged",
+    "eventCount": 80
+  },
+  {
+    "date": "20260101",
+    "levelType": "levelStaged",
+    "eventCount": 80
+  },
+  {
+    "date": "20260106",
+    "levelType": "levelStaged",
+    "eventCount": 79
+  },
+  {
+    "date": "20260206",
+    "levelType": "levelStarted",
+    "eventCount": 79
+  },
+  {
+    "date": "20260111",
+    "levelType": "levelCompleted",
+    "eventCount": 78
+  },
+  {
+    "date": "20260225",
+    "levelType": "levelStarted",
+    "eventCount": 78
+  },
+  {
+    "date": "20260103",
+    "levelType": "levelCompleted",
+    "eventCount": 77
+  },
+  {
+    "date": "20260210",
+    "levelType": "levelStaged",
+    "eventCount": 77
+  },
+  {
+    "date": "20260309",
+    "levelType": "levelStaged",
+    "eventCount": 77
+  },
+  {
+    "date": "20260309",
+    "levelType": "levelStarted",
+    "eventCount": 77
+  },
+  {
+    "date": "20260211",
+    "levelType": "levelStaged",
+    "eventCount": 76
+  },
+  {
+    "date": "20260225",
+    "levelType": "levelStaged",
+    "eventCount": 76
+  },
+  {
+    "date": "20260308",
+    "levelType": "levelStarted",
+    "eventCount": 73
+  },
+  {
+    "date": "20251103",
+    "levelType": "levelStaged",
+    "eventCount": 72
+  },
+  {
+    "date": "20251215",
+    "levelType": "levelStarted",
+    "eventCount": 72
+  },
+  {
+    "date": "20260108",
+    "levelType": "levelStarted",
+    "eventCount": 72
+  },
+  {
+    "date": "20260131",
+    "levelType": "levelStaged",
+    "eventCount": 72
+  },
+  {
+    "date": "20260215",
+    "levelType": "levelDropped",
+    "eventCount": 72
+  },
+  {
+    "date": "20260228",
+    "levelType": "levelCompleted",
+    "eventCount": 72
+  },
+  {
+    "date": "20251119",
+    "levelType": "levelStarted",
+    "eventCount": 70
+  },
+  {
+    "date": "20260130",
+    "levelType": "levelStaged",
+    "eventCount": 70
+  },
+  {
+    "date": "20260207",
+    "levelType": "levelCompleted",
+    "eventCount": 70
+  },
+  {
+    "date": "20251112",
+    "levelType": "levelCompleted",
+    "eventCount": 69
+  },
+  {
+    "date": "20251220",
+    "levelType": "levelStaged",
+    "eventCount": 69
+  },
+  {
+    "date": "20251227",
+    "levelType": "levelStarted",
+    "eventCount": 69
+  },
+  {
+    "date": "20260107",
+    "levelType": "levelCompleted",
+    "eventCount": 69
+  },
+  {
+    "date": "20260109",
+    "levelType": "levelStaged",
+    "eventCount": 69
+  },
+  {
+    "date": "20260215",
+    "levelType": "levelStaged",
+    "eventCount": 69
+  },
+  {
+    "date": "20260302",
+    "levelType": "levelDropped",
+    "eventCount": 69
+  },
+  {
+    "date": "20251101",
+    "levelType": "levelCompleted",
+    "eventCount": 68
+  },
+  {
+    "date": "20251119",
+    "levelType": "levelStaged",
+    "eventCount": 68
+  },
+  {
+    "date": "20260224",
+    "levelType": "levelStarted",
+    "eventCount": 68
+  },
+  {
+    "date": "20260304",
+    "levelType": "levelCompleted",
+    "eventCount": 68
+  },
+  {
+    "date": "20251127",
+    "levelType": "levelStaged",
+    "eventCount": 67
+  },
+  {
+    "date": "20260301",
+    "levelType": "levelStarted",
+    "eventCount": 66
+  },
+  {
+    "date": "20260108",
+    "levelType": "levelStaged",
+    "eventCount": 65
+  },
+  {
+    "date": "20260114",
+    "levelType": "levelCompleted",
+    "eventCount": 65
+  },
+  {
+    "date": "20251231",
+    "levelType": "levelStaged",
+    "eventCount": 64
+  },
+  {
+    "date": "20260129",
+    "levelType": "levelStaged",
+    "eventCount": 64
+  },
+  {
+    "date": "20260220",
+    "levelType": "levelStaged",
+    "eventCount": 62
+  },
+  {
+    "date": "20260224",
+    "levelType": "levelStaged",
+    "eventCount": 62
+  },
+  {
+    "date": "20260206",
+    "levelType": "levelStaged",
+    "eventCount": 61
+  },
+  {
+    "date": "20251202",
+    "levelType": "levelCompleted",
+    "eventCount": 60
+  },
+  {
+    "date": "20251221",
+    "levelType": "levelCompleted",
+    "eventCount": 60
+  },
+  {
+    "date": "20251113",
+    "levelType": "levelCompleted",
+    "eventCount": 59
+  },
+  {
+    "date": "20260201",
+    "levelType": "levelDropped",
+    "eventCount": 59
+  },
+  {
+    "date": "20260302",
+    "levelType": "levelCompleted",
+    "eventCount": 59
+  },
+  {
+    "date": "20260303",
+    "levelType": "levelDropped",
+    "eventCount": 59
+  },
+  {
+    "date": "20260308",
+    "levelType": "levelStaged",
+    "eventCount": 59
+  },
+  {
+    "date": "20260312",
+    "levelType": "levelStaged",
+    "eventCount": 58
+  },
+  {
+    "date": "20251111",
+    "levelType": "levelStaged",
+    "eventCount": 57
+  },
+  {
+    "date": "20251225",
+    "levelType": "levelDropped",
+    "eventCount": 56
+  },
+  {
+    "date": "20251114",
+    "levelType": "levelCompleted",
+    "eventCount": 55
+  },
+  {
+    "date": "20251102",
+    "levelType": "levelDropped",
+    "eventCount": 54
+  },
+  {
+    "date": "20251106",
+    "levelType": "levelCompleted",
+    "eventCount": 54
+  },
+  {
+    "date": "20251111",
+    "levelType": "levelStarted",
+    "eventCount": 54
+  },
+  {
+    "date": "20251201",
+    "levelType": "levelCompleted",
+    "eventCount": 54
+  },
+  {
+    "date": "20251123",
+    "levelType": "levelCompleted",
+    "eventCount": 53
+  },
+  {
+    "date": "20251227",
+    "levelType": "levelStaged",
+    "eventCount": 52
+  },
+  {
+    "date": "20260126",
+    "levelType": "levelDropped",
+    "eventCount": 52
+  },
+  {
+    "date": "20260127",
+    "levelType": "levelDropped",
+    "eventCount": 52
+  },
+  {
+    "date": "20260209",
+    "levelType": "levelCompleted",
+    "eventCount": 52
+  },
+  {
+    "date": "20260301",
+    "levelType": "levelStaged",
+    "eventCount": 52
+  },
+  {
+    "date": "20251105",
+    "levelType": "levelDropped",
+    "eventCount": 51
+  },
+  {
+    "date": "20251118",
+    "levelType": "levelCompleted",
+    "eventCount": 51
+  },
+  {
+    "date": "20251125",
+    "levelType": "levelDropped",
+    "eventCount": 51
+  },
+  {
+    "date": "20251220",
+    "levelType": "levelStarted",
+    "eventCount": 51
+  },
+  {
+    "date": "20260305",
+    "levelType": "levelCompleted",
+    "eventCount": 51
+  },
+  {
+    "date": "20251117",
+    "levelType": "levelCompleted",
+    "eventCount": 50
+  },
+  {
+    "date": "20251130",
+    "levelType": "levelCompleted",
+    "eventCount": 49
+  },
+  {
+    "date": "20251207",
+    "levelType": "levelDropped",
+    "eventCount": 48
+  },
+  {
+    "date": "20251219",
+    "levelType": "levelCompleted",
+    "eventCount": 48
+  },
+  {
+    "date": "20251122",
+    "levelType": "levelCompleted",
+    "eventCount": 47
+  },
+  {
+    "date": "20251204",
+    "levelType": "levelStarted",
+    "eventCount": 47
+  },
+  {
+    "date": "20260104",
+    "levelType": "levelCompleted",
+    "eventCount": 47
+  },
+  {
+    "date": "20251209",
+    "levelType": "levelDropped",
+    "eventCount": 46
+  },
+  {
+    "date": "20251223",
+    "levelType": "levelDropped",
+    "eventCount": 46
+  },
+  {
+    "date": "20260102",
+    "levelType": "levelDropped",
+    "eventCount": 46
+  },
+  {
+    "date": "20260103",
+    "levelType": "levelDropped",
+    "eventCount": 46
+  },
+  {
+    "date": "20251212",
+    "levelType": "levelDropped",
+    "eventCount": 45
+  },
+  {
+    "date": "20260124",
+    "levelType": "levelCompleted",
+    "eventCount": 45
+  },
+  {
+    "date": "20251109",
+    "levelType": "levelStarted",
+    "eventCount": 44
+  },
+  {
+    "date": "20251124",
+    "levelType": "levelCompleted",
+    "eventCount": 44
+  },
+  {
+    "date": "20260214",
+    "levelType": "levelDropped",
+    "eventCount": 44
+  },
+  {
+    "date": "20260218",
+    "levelType": "levelDropped",
+    "eventCount": 43
+  },
+  {
+    "date": "20260219",
+    "levelType": "levelCompleted",
+    "eventCount": 43
+  },
+  {
+    "date": "20251203",
+    "levelType": "levelCompleted",
+    "eventCount": 42
+  },
+  {
+    "date": "20251229",
+    "levelType": "levelDropped",
+    "eventCount": 42
+  },
+  {
+    "date": "20260120",
+    "levelType": "levelDropped",
+    "eventCount": 42
+  },
+  {
+    "date": "20260204",
+    "levelType": "levelDropped",
+    "eventCount": 42
+  },
+  {
+    "date": "20251115",
+    "levelType": "levelDropped",
+    "eventCount": 41
+  },
+  {
+    "date": "20251210",
+    "levelType": "levelCompleted",
+    "eventCount": 41
+  },
+  {
+    "date": "20251230",
+    "levelType": "levelCompleted",
+    "eventCount": 41
+  },
+  {
+    "date": "20251128",
+    "levelType": "levelDropped",
+    "eventCount": 40
+  },
+  {
+    "date": "20251212",
+    "levelType": "levelCompleted",
+    "eventCount": 40
+  },
+  {
+    "date": "20260111",
+    "levelType": "levelDropped",
+    "eventCount": 39
+  },
+  {
+    "date": "20260222",
+    "levelType": "levelDropped",
+    "eventCount": 39
+  },
+  {
+    "date": "20260305",
+    "levelType": "levelDropped",
+    "eventCount": 39
+  },
+  {
+    "date": "20260306",
+    "levelType": "levelCompleted",
+    "eventCount": 39
+  },
+  {
+    "date": "20251101",
+    "levelType": "levelDropped",
+    "eventCount": 38
+  },
+  {
+    "date": "20251102",
+    "levelType": "levelCompleted",
+    "eventCount": 38
+  },
+  {
+    "date": "20251116",
+    "levelType": "levelCompleted",
+    "eventCount": 38
+  },
+  {
+    "date": "20251228",
+    "levelType": "levelCompleted",
+    "eventCount": 38
+  },
+  {
+    "date": "20260304",
+    "levelType": "levelDropped",
+    "eventCount": 38
+  },
+  {
+    "date": "20251118",
+    "levelType": "levelDropped",
+    "eventCount": 37
+  },
+  {
+    "date": "20251124",
+    "levelType": "levelDropped",
+    "eventCount": 37
+  },
+  {
+    "date": "20251227",
+    "levelType": "levelDropped",
+    "eventCount": 37
+  },
+  {
+    "date": "20260122",
+    "levelType": "levelCompleted",
+    "eventCount": 37
+  },
+  {
+    "date": "20260202",
+    "levelType": "levelDropped",
+    "eventCount": 37
+  },
+  {
+    "date": "20260217",
+    "levelType": "levelDropped",
+    "eventCount": 37
+  },
+  {
+    "date": "20251128",
+    "levelType": "levelCompleted",
+    "eventCount": 36
+  },
+  {
+    "date": "20251129",
+    "levelType": "levelCompleted",
+    "eventCount": 36
+  },
+  {
+    "date": "20251206",
+    "levelType": "levelCompleted",
+    "eventCount": 36
+  },
+  {
+    "date": "20251221",
+    "levelType": "levelDropped",
+    "eventCount": 36
+  },
+  {
+    "date": "20251230",
+    "levelType": "levelDropped",
+    "eventCount": 36
+  },
+  {
+    "date": "20260107",
+    "levelType": "levelDropped",
+    "eventCount": 36
+  },
+  {
+    "date": "20251129",
+    "levelType": "levelDropped",
+    "eventCount": 35
+  },
+  {
+    "date": "20260125",
+    "levelType": "levelCompleted",
+    "eventCount": 35
+  },
+  {
+    "date": "20251109",
+    "levelType": "levelStaged",
+    "eventCount": 34
+  },
+  {
+    "date": "20251213",
+    "levelType": "levelCompleted",
+    "eventCount": 34
+  },
+  {
+    "date": "20260209",
+    "levelType": "levelDropped",
+    "eventCount": 34
+  },
+  {
+    "date": "20260213",
+    "levelType": "levelDropped",
+    "eventCount": 34
+  },
+  {
+    "date": "20251107",
+    "levelType": "levelDropped",
+    "eventCount": 33
+  },
+  {
+    "date": "20251207",
+    "levelType": "levelCompleted",
+    "eventCount": 33
+  },
+  {
+    "date": "20260106",
+    "levelType": "levelDropped",
+    "eventCount": 33
+  },
+  {
+    "date": "20260112",
+    "levelType": "levelDropped",
+    "eventCount": 33
+  },
+  {
+    "date": "20260120",
+    "levelType": "levelCompleted",
+    "eventCount": 33
+  },
+  {
+    "date": "20260212",
+    "levelType": "levelDropped",
+    "eventCount": 33
+  },
+  {
+    "date": "20251219",
+    "levelType": "levelDropped",
+    "eventCount": 32
+  },
+  {
+    "date": "20260110",
+    "levelType": "levelDropped",
+    "eventCount": 32
+  },
+  {
+    "date": "20260118",
+    "levelType": "levelDropped",
+    "eventCount": 32
+  },
+  {
+    "date": "20260129",
+    "levelType": "levelDropped",
+    "eventCount": 32
+  },
+  {
+    "date": "20260211",
+    "levelType": "levelDropped",
+    "eventCount": 32
+  },
+  {
+    "date": "20260117",
+    "levelType": "levelDropped",
+    "eventCount": 31
+  },
+  {
+    "date": "20251204",
+    "levelType": "levelStaged",
+    "eventCount": 30
+  },
+  {
+    "date": "20251211",
+    "levelType": "levelCompleted",
+    "eventCount": 30
+  },
+  {
+    "date": "20260114",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20260115",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20260127",
+    "levelType": "levelCompleted",
+    "eventCount": 30
+  },
+  {
+    "date": "20260130",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20260131",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20260208",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20260220",
+    "levelType": "levelDropped",
+    "eventCount": 30
+  },
+  {
+    "date": "20251105",
+    "levelType": "levelCompleted",
+    "eventCount": 29
+  },
+  {
+    "date": "20251110",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20251112",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20251215",
+    "levelType": "levelCompleted",
+    "eventCount": 29
+  },
+  {
+    "date": "20251228",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20251231",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20260205",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20260207",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20260221",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20260307",
+    "levelType": "levelDropped",
+    "eventCount": 29
+  },
+  {
+    "date": "20251108",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251119",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251122",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251127",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251208",
+    "levelType": "levelCompleted",
+    "eventCount": 28
+  },
+  {
+    "date": "20251214",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251215",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20260101",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20260105",
+    "levelType": "levelCompleted",
+    "eventCount": 28
+  },
+  {
+    "date": "20260105",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20260112",
+    "levelType": "levelCompleted",
+    "eventCount": 28
+  },
+  {
+    "date": "20260117",
+    "levelType": "levelCompleted",
+    "eventCount": 28
+  },
+  {
+    "date": "20260119",
+    "levelType": "levelCompleted",
+    "eventCount": 28
+  },
+  {
+    "date": "20260228",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20260308",
+    "levelType": "levelDropped",
+    "eventCount": 28
+  },
+  {
+    "date": "20251103",
+    "levelType": "levelDropped",
+    "eventCount": 27
+  },
+  {
+    "date": "20260128",
+    "levelType": "levelDropped",
+    "eventCount": 27
+  },
+  {
+    "date": "20251104",
+    "levelType": "levelCompleted",
+    "eventCount": 26
+  },
+  {
+    "date": "20251115",
+    "levelType": "levelCompleted",
+    "eventCount": 26
+  },
+  {
+    "date": "20251209",
+    "levelType": "levelCompleted",
+    "eventCount": 26
+  },
+  {
+    "date": "20251213",
+    "levelType": "levelDropped",
+    "eventCount": 26
+  },
+  {
+    "date": "20260310",
+    "levelType": "levelDropped",
+    "eventCount": 26
+  },
+  {
+    "date": "20251121",
+    "levelType": "levelCompleted",
+    "eventCount": 25
+  },
+  {
+    "date": "20251126",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20251217",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260104",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260124",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260213",
+    "levelType": "levelCompleted",
+    "eventCount": 25
+  },
+  {
+    "date": "20260218",
+    "levelType": "levelCompleted",
+    "eventCount": 25
+  },
+  {
+    "date": "20260223",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260311",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20260312",
+    "levelType": "levelDropped",
+    "eventCount": 25
+  },
+  {
+    "date": "20251104",
+    "levelType": "levelDropped",
+    "eventCount": 24
+  },
+  {
+    "date": "20251120",
+    "levelType": "levelDropped",
+    "eventCount": 24
+  },
+  {
+    "date": "20251206",
+    "levelType": "levelDropped",
+    "eventCount": 24
+  },
+  {
+    "date": "20260116",
+    "levelType": "levelDropped",
+    "eventCount": 24
+  },
+  {
+    "date": "20260203",
+    "levelType": "levelDropped",
+    "eventCount": 24
+  },
+  {
+    "date": "20260214",
+    "levelType": "levelCompleted",
+    "eventCount": 24
+  },
+  {
+    "date": "20260223",
+    "levelType": "levelCompleted",
+    "eventCount": 24
+  },
+  {
+    "date": "20260307",
+    "levelType": "levelCompleted",
+    "eventCount": 24
+  },
+  {
+    "date": "20251205",
+    "levelType": "levelCompleted",
+    "eventCount": 23
+  },
+  {
+    "date": "20251216",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20251218",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20260109",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20260206",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20260227",
+    "levelType": "levelCompleted",
+    "eventCount": 23
+  },
+  {
+    "date": "20260306",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20260309",
+    "levelType": "levelDropped",
+    "eventCount": 23
+  },
+  {
+    "date": "20251103",
+    "levelType": "levelCompleted",
+    "eventCount": 22
+  },
+  {
+    "date": "20251123",
+    "levelType": "levelDropped",
+    "eventCount": 22
+  },
+  {
+    "date": "20251126",
+    "levelType": "levelCompleted",
+    "eventCount": 22
+  },
+  {
+    "date": "20251211",
+    "levelType": "levelDropped",
+    "eventCount": 22
+  },
+  {
+    "date": "20260102",
+    "levelType": "levelCompleted",
+    "eventCount": 22
+  },
+  {
+    "date": "20260210",
+    "levelType": "levelDropped",
+    "eventCount": 22
+  },
+  {
+    "date": "20251121",
+    "levelType": "levelDropped",
+    "eventCount": 21
+  },
+  {
+    "date": "20251204",
+    "levelType": "levelDropped",
+    "eventCount": 21
+  },
+  {
+    "date": "20251229",
+    "levelType": "levelCompleted",
+    "eventCount": 21
+  },
+  {
+    "date": "20260108",
+    "levelType": "levelDropped",
+    "eventCount": 21
+  },
+  {
+    "date": "20260216",
+    "levelType": "levelDropped",
+    "eventCount": 21
+  },
+  {
+    "date": "20251201",
+    "levelType": "levelDropped",
+    "eventCount": 20
+  },
+  {
+    "date": "20260303",
+    "levelType": "levelCompleted",
+    "eventCount": 20
+  },
+  {
+    "date": "20251116",
+    "levelType": "levelDropped",
+    "eventCount": 19
+  },
+  {
+    "date": "20251216",
+    "levelType": "levelCompleted",
+    "eventCount": 19
+  },
+  {
+    "date": "20251225",
+    "levelType": "levelCompleted",
+    "eventCount": 19
+  },
+  {
+    "date": "20260110",
+    "levelType": "levelCompleted",
+    "eventCount": 19
+  },
+  {
+    "date": "20260219",
+    "levelType": "levelDropped",
+    "eventCount": 19
+  },
+  {
+    "date": "20260222",
+    "levelType": "levelCompleted",
+    "eventCount": 19
+  },
+  {
+    "date": "20260301",
+    "levelType": "levelDropped",
+    "eventCount": 19
+  },
+  {
+    "date": "20251111",
+    "levelType": "levelDropped",
+    "eventCount": 18
+  },
+  {
+    "date": "20251113",
+    "levelType": "levelDropped",
+    "eventCount": 18
+  },
+  {
+    "date": "20251226",
+    "levelType": "levelDropped",
+    "eventCount": 18
+  },
+  {
+    "date": "20260208",
+    "levelType": "levelCompleted",
+    "eventCount": 18
+  },
+  {
+    "date": "20260225",
+    "levelType": "levelDropped",
+    "eventCount": 18
+  },
+  {
+    "date": "20251108",
+    "levelType": "levelCompleted",
+    "eventCount": 17
+  },
+  {
+    "date": "20251109",
+    "levelType": "levelDropped",
+    "eventCount": 17
+  },
+  {
+    "date": "20260115",
+    "levelType": "levelCompleted",
+    "eventCount": 17
+  },
+  {
+    "date": "20260224",
+    "levelType": "levelDropped",
+    "eventCount": 17
+  },
+  {
+    "date": "20260311",
+    "levelType": "levelCompleted",
+    "eventCount": 17
+  },
+  {
+    "date": "20251107",
+    "levelType": "levelCompleted",
+    "eventCount": 16
+  },
+  {
+    "date": "20251205",
+    "levelType": "levelDropped",
+    "eventCount": 16
+  },
+  {
+    "date": "20251214",
+    "levelType": "levelCompleted",
+    "eventCount": 16
+  },
+  {
+    "date": "20251226",
+    "levelType": "levelCompleted",
+    "eventCount": 16
+  },
+  {
+    "date": "20260113",
+    "levelType": "levelDropped",
+    "eventCount": 16
+  },
+  {
+    "date": "20260310",
+    "levelType": "levelCompleted",
+    "eventCount": 16
+  },
+  {
+    "date": "20260125",
+    "levelType": "levelDropped",
+    "eventCount": 15
+  },
+  {
+    "date": "20260128",
+    "levelType": "levelCompleted",
+    "eventCount": 15
+  },
+  {
+    "date": "20260309",
+    "levelType": "levelCompleted",
+    "eventCount": 15
+  },
+  {
+    "date": "20251120",
+    "levelType": "levelCompleted",
+    "eventCount": 14
+  },
+  {
+    "date": "20251130",
+    "levelType": "levelDropped",
+    "eventCount": 14
+  },
+  {
+    "date": "20251202",
+    "levelType": "levelFailed",
+    "eventCount": 14
+  },
+  {
+    "date": "20251223",
+    "levelType": "levelCompleted",
+    "eventCount": 13
+  },
+  {
+    "date": "20260203",
+    "levelType": "levelCompleted",
+    "eventCount": 13
+  },
+  {
+    "date": "20260211",
+    "levelType": "levelCompleted",
+    "eventCount": 13
+  },
+  {
+    "date": "20260221",
+    "levelType": "levelCompleted",
+    "eventCount": 13
+  },
+  {
+    "date": "20251110",
+    "levelType": "levelCompleted",
+    "eventCount": 12
+  },
+  {
+    "date": "20251208",
+    "levelType": "levelDropped",
+    "eventCount": 12
+  },
+  {
+    "date": "20260205",
+    "levelType": "levelCompleted",
+    "eventCount": 12
+  },
+  {
+    "date": "20251111",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20251210",
+    "levelType": "levelDropped",
+    "eventCount": 11
+  },
+  {
+    "date": "20251231",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260101",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260109",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260123",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260202",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260210",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260212",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20260215",
+    "levelType": "levelCompleted",
+    "eventCount": 11
+  },
+  {
+    "date": "20251101",
+    "levelType": "levelFailed",
+    "eventCount": 10
+  },
+  {
+    "date": "20251104",
+    "levelType": "levelFailed",
+    "eventCount": 10
+  },
+  {
+    "date": "20251217",
+    "levelType": "levelCompleted",
+    "eventCount": 10
+  },
+  {
+    "date": "20251220",
+    "levelType": "levelDropped",
+    "eventCount": 10
+  },
+  {
+    "date": "20260113",
+    "levelType": "levelCompleted",
+    "eventCount": 10
+  },
+  {
+    "date": "20260220",
+    "levelType": "levelCompleted",
+    "eventCount": 10
+  },
+  {
+    "date": "20260225",
+    "levelType": "levelCompleted",
+    "eventCount": 10
+  },
+  {
+    "date": "20251207",
+    "levelType": "levelFailed",
+    "eventCount": 9
+  },
+  {
+    "date": "20251211",
+    "levelType": "levelFailed",
+    "eventCount": 9
+  },
+  {
+    "date": "20251222",
+    "levelType": "levelFailed",
+    "eventCount": 9
+  },
+  {
+    "date": "20251119",
+    "levelType": "levelCompleted",
+    "eventCount": 8
+  },
+  {
+    "date": "20260120",
+    "levelType": "levelFailed",
+    "eventCount": 8
+  },
+  {
+    "date": "20260206",
+    "levelType": "levelCompleted",
+    "eventCount": 8
+  },
+  {
+    "date": "20260304",
+    "levelType": "levelFailed",
+    "eventCount": 8
+  },
+  {
+    "date": "20260308",
+    "levelType": "levelCompleted",
+    "eventCount": 8
+  },
+  {
+    "date": "20251127",
+    "levelType": "levelCompleted",
+    "eventCount": 7
+  },
+  {
+    "date": "20251224",
+    "levelType": "levelFailed",
+    "eventCount": 7
+  },
+  {
+    "date": "20260125",
+    "levelType": "levelFailed",
+    "eventCount": 7
+  },
+  {
+    "date": "20260224",
+    "levelType": "levelCompleted",
+    "eventCount": 7
+  },
+  {
+    "date": "20260301",
+    "levelType": "levelCompleted",
+    "eventCount": 7
+  },
+  {
+    "date": "20260302",
+    "levelType": "levelFailed",
+    "eventCount": 7
+  },
+  {
+    "date": "20251203",
+    "levelType": "levelFailed",
+    "eventCount": 6
+  },
+  {
+    "date": "20251227",
+    "levelType": "levelCompleted",
+    "eventCount": 6
+  },
+  {
+    "date": "20260121",
+    "levelType": "levelFailed",
+    "eventCount": 6
+  },
+  {
+    "date": "20260130",
+    "levelType": "levelCompleted",
+    "eventCount": 6
+  },
+  {
+    "date": "20260226",
+    "levelType": "levelFailed",
+    "eventCount": 6
+  },
+  {
+    "date": "20251117",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20251220",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20251226",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20260114",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20260127",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20260131",
+    "levelType": "levelCompleted",
+    "eventCount": 5
+  },
+  {
+    "date": "20260311",
+    "levelType": "levelFailed",
+    "eventCount": 5
+  },
+  {
+    "date": "20260312",
+    "levelType": "levelCompleted",
+    "eventCount": 5
+  },
+  {
+    "date": "20251114",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251120",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251123",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251125",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251205",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251209",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251220",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20251221",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20260106",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260108",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260116",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260118",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20260129",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260201",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20260217",
+    "levelType": "levelCompleted",
+    "eventCount": 4
+  },
+  {
+    "date": "20260218",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20260307",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20260309",
+    "levelType": "levelFailed",
+    "eventCount": 4
+  },
+  {
+    "date": "20251106",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20251108",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20251109",
+    "levelType": "levelCompleted",
+    "eventCount": 3
+  },
+  {
+    "date": "20251112",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20251212",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20251217",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260105",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260108",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260109",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260117",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260207",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260208",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260214",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260221",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20260225",
+    "levelType": "levelFailed",
+    "eventCount": 3
+  },
+  {
+    "date": "20251102",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251105",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251110",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251118",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251127",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251201",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251210",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251228",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260107",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260124",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260130",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260211",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260213",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20260228",
+    "levelType": "levelFailed",
+    "eventCount": 2
+  },
+  {
+    "date": "20251111",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251113",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251206",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251214",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251215",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251216",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251219",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251225",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20251229",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260102",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260103",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260104",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260113",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260128",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260204",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260209",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260219",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260220",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260222",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  },
+  {
+    "date": "20260301",
+    "levelType": "levelFailed",
+    "eventCount": 1
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 0,
+    "activeUsers": 6304,
+    "totalUsers": 6304,
+    "retentionRate": "100.00"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 1,
+    "activeUsers": 908,
+    "totalUsers": 6304,
+    "retentionRate": "14.40"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 2,
+    "activeUsers": 520,
+    "totalUsers": 6304,
+    "retentionRate": "8.25"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 3,
+    "activeUsers": 377,
+    "totalUsers": 6304,
+    "retentionRate": "5.98"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 4,
+    "activeUsers": 265,
+    "totalUsers": 6304,
+    "retentionRate": "4.20"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 5,
+    "activeUsers": 250,
+    "totalUsers": 6304,
+    "retentionRate": "3.97"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 6,
+    "activeUsers": 193,
+    "totalUsers": 6304,
+    "retentionRate": "3.06"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 7,
+    "activeUsers": 185,
+    "totalUsers": 6304,
+    "retentionRate": "2.93"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 8,
+    "activeUsers": 179,
+    "totalUsers": 6304,
+    "retentionRate": "2.84"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 9,
+    "activeUsers": 132,
+    "totalUsers": 6304,
+    "retentionRate": "2.09"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 10,
+    "activeUsers": 112,
+    "totalUsers": 6304,
+    "retentionRate": "1.78"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 14,
+    "activeUsers": 103,
+    "totalUsers": 6304,
+    "retentionRate": "1.63"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 12,
+    "activeUsers": 102,
+    "totalUsers": 6304,
+    "retentionRate": "1.62"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 13,
+    "activeUsers": 99,
+    "totalUsers": 6304,
+    "retentionRate": "1.57"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 11,
+    "activeUsers": 97,
+    "totalUsers": 6304,
+    "retentionRate": "1.54"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 16,
+    "activeUsers": 97,
+    "totalUsers": 6304,
+    "retentionRate": "1.54"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 15,
+    "activeUsers": 91,
+    "totalUsers": 6304,
+    "retentionRate": "1.44"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 21,
+    "activeUsers": 88,
+    "totalUsers": 6304,
+    "retentionRate": "1.40"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 19,
+    "activeUsers": 82,
+    "totalUsers": 6304,
+    "retentionRate": "1.30"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 18,
+    "activeUsers": 81,
+    "totalUsers": 6304,
+    "retentionRate": "1.28"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 17,
+    "activeUsers": 76,
+    "totalUsers": 6304,
+    "retentionRate": "1.21"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 22,
+    "activeUsers": 76,
+    "totalUsers": 6304,
+    "retentionRate": "1.21"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 24,
+    "activeUsers": 74,
+    "totalUsers": 6304,
+    "retentionRate": "1.17"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 20,
+    "activeUsers": 73,
+    "totalUsers": 6304,
+    "retentionRate": "1.16"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 23,
+    "activeUsers": 68,
+    "totalUsers": 6304,
+    "retentionRate": "1.08"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 26,
+    "activeUsers": 66,
+    "totalUsers": 6304,
+    "retentionRate": "1.05"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 25,
+    "activeUsers": 62,
+    "totalUsers": 6304,
+    "retentionRate": "0.98"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 29,
+    "activeUsers": 56,
+    "totalUsers": 6304,
+    "retentionRate": "0.89"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 27,
+    "activeUsers": 47,
+    "totalUsers": 6304,
+    "retentionRate": "0.75"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 30,
+    "activeUsers": 43,
+    "totalUsers": 6304,
+    "retentionRate": "0.68"
+  },
+  {
+    "cohort": "Pre-Drops Users",
+    "day": 28,
+    "activeUsers": 36,
+    "totalUsers": 6304,
+    "retentionRate": "0.57"
+  }
+]

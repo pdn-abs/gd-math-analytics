@@ -1,0 +1,9596 @@
+[
+  {
+    "date": "20260121",
+    "screen": "Home",
+    "eventCount": 855,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Home",
+    "eventCount": 690,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Home",
+    "eventCount": 629,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Level",
+    "eventCount": 604,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Home",
+    "eventCount": 558,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Home",
+    "eventCount": 537,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Home",
+    "eventCount": 514,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Home",
+    "eventCount": 513,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Home",
+    "eventCount": 503,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Home",
+    "eventCount": 489,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Home",
+    "eventCount": 486,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Home",
+    "eventCount": 486,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Home",
+    "eventCount": 475,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Home",
+    "eventCount": 475,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "LevelsSelection",
+    "eventCount": 472,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Home",
+    "eventCount": 465,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Home",
+    "eventCount": 462,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Home",
+    "eventCount": 461,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Home",
+    "eventCount": 460,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Home",
+    "eventCount": 458,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Home",
+    "eventCount": 448,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Home",
+    "eventCount": 444,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Home",
+    "eventCount": 437,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Home",
+    "eventCount": 435,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Home",
+    "eventCount": 433,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Home",
+    "eventCount": 431,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Home",
+    "eventCount": 428,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Home",
+    "eventCount": 428,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Home",
+    "eventCount": 425,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Home",
+    "eventCount": 425,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Home",
+    "eventCount": 422,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Home",
+    "eventCount": 416,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Home",
+    "eventCount": 412,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Home",
+    "eventCount": 412,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Home",
+    "eventCount": 406,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Home",
+    "eventCount": 405,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Home",
+    "eventCount": 402,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Home",
+    "eventCount": 400,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Home",
+    "eventCount": 397,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Home",
+    "eventCount": 395,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Level",
+    "eventCount": 395,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Home",
+    "eventCount": 393,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Home",
+    "eventCount": 389,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Home",
+    "eventCount": 388,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Level",
+    "eventCount": 385,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Home",
+    "eventCount": 385,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Home",
+    "eventCount": 385,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Home",
+    "eventCount": 384,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Home",
+    "eventCount": 381,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Home",
+    "eventCount": 377,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Home",
+    "eventCount": 374,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Home",
+    "eventCount": 373,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Home",
+    "eventCount": 373,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Home",
+    "eventCount": 369,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Home",
+    "eventCount": 369,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Home",
+    "eventCount": 365,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Home",
+    "eventCount": 362,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Home",
+    "eventCount": 361,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Home",
+    "eventCount": 360,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Home",
+    "eventCount": 358,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Home",
+    "eventCount": 358,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Home",
+    "eventCount": 353,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Level",
+    "eventCount": 352,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Home",
+    "eventCount": 350,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Home",
+    "eventCount": 350,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Home",
+    "eventCount": 349,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Home",
+    "eventCount": 347,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Home",
+    "eventCount": 347,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Home",
+    "eventCount": 347,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Home",
+    "eventCount": 345,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Home",
+    "eventCount": 345,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Home",
+    "eventCount": 344,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Home",
+    "eventCount": 343,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Home",
+    "eventCount": 342,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Home",
+    "eventCount": 340,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Home",
+    "eventCount": 339,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Home",
+    "eventCount": 339,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Home",
+    "eventCount": 337,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Home",
+    "eventCount": 333,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Home",
+    "eventCount": 333,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Home",
+    "eventCount": 330,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Home",
+    "eventCount": 330,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Home",
+    "eventCount": 327,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Home",
+    "eventCount": 325,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Home",
+    "eventCount": 325,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Home",
+    "eventCount": 324,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Level",
+    "eventCount": 324,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Home",
+    "eventCount": 323,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Home",
+    "eventCount": 319,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Home",
+    "eventCount": 317,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Level",
+    "eventCount": 315,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Home",
+    "eventCount": 315,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Level",
+    "eventCount": 314,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Home",
+    "eventCount": 313,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Level",
+    "eventCount": 312,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Level",
+    "eventCount": 311,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Home",
+    "eventCount": 310,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Home",
+    "eventCount": 305,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Level",
+    "eventCount": 305,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Level",
+    "eventCount": 303,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Home",
+    "eventCount": 302,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Home",
+    "eventCount": 302,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Level",
+    "eventCount": 300,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Level",
+    "eventCount": 299,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Home",
+    "eventCount": 299,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Home",
+    "eventCount": 297,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Home",
+    "eventCount": 296,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "LevelsSelection",
+    "eventCount": 296,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Home",
+    "eventCount": 295,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Home",
+    "eventCount": 294,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Home",
+    "eventCount": 294,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Home",
+    "eventCount": 291,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Home",
+    "eventCount": 289,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Home",
+    "eventCount": 287,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Home",
+    "eventCount": 287,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Home",
+    "eventCount": 285,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Home",
+    "eventCount": 284,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Level",
+    "eventCount": 282,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "LevelsSelection",
+    "eventCount": 281,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Home",
+    "eventCount": 280,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Level",
+    "eventCount": 279,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Level",
+    "eventCount": 278,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Home",
+    "eventCount": 277,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Home",
+    "eventCount": 276,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Home",
+    "eventCount": 275,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Level",
+    "eventCount": 274,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Home",
+    "eventCount": 273,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Home",
+    "eventCount": 272,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Home",
+    "eventCount": 271,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Level",
+    "eventCount": 271,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Home",
+    "eventCount": 270,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Level",
+    "eventCount": 270,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Level",
+    "eventCount": 265,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Level",
+    "eventCount": 265,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Home",
+    "eventCount": 263,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Level",
+    "eventCount": 263,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Level",
+    "eventCount": 260,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Level",
+    "eventCount": 258,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Home",
+    "eventCount": 257,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Home",
+    "eventCount": 256,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Level",
+    "eventCount": 255,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Level",
+    "eventCount": 252,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Level",
+    "eventCount": 251,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Home",
+    "eventCount": 250,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Home",
+    "eventCount": 248,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Level",
+    "eventCount": 248,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "LevelsSelection",
+    "eventCount": 248,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Level",
+    "eventCount": 247,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "LevelsSelection",
+    "eventCount": 245,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Home",
+    "eventCount": 242,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Home",
+    "eventCount": 241,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Home",
+    "eventCount": 241,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Home",
+    "eventCount": 240,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Level",
+    "eventCount": 240,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Level",
+    "eventCount": 240,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "LevelsSelection",
+    "eventCount": 238,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Complete",
+    "eventCount": 235,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Level",
+    "eventCount": 235,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "LevelsSelection",
+    "eventCount": 232,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "LevelsSelection",
+    "eventCount": 231,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Level",
+    "eventCount": 229,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Level",
+    "eventCount": 229,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Home",
+    "eventCount": 228,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Level",
+    "eventCount": 227,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Home",
+    "eventCount": 226,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "LevelsSelection",
+    "eventCount": 226,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Complete",
+    "eventCount": 226,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Level",
+    "eventCount": 226,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Level",
+    "eventCount": 225,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "LevelsSelection",
+    "eventCount": 224,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Level",
+    "eventCount": 224,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Level",
+    "eventCount": 222,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Level",
+    "eventCount": 222,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Level",
+    "eventCount": 220,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "LevelsSelection",
+    "eventCount": 219,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Level",
+    "eventCount": 218,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Home",
+    "eventCount": 216,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Level",
+    "eventCount": 216,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "LevelsSelection",
+    "eventCount": 216,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Level",
+    "eventCount": 215,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Complete",
+    "eventCount": 214,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Level",
+    "eventCount": 214,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Home",
+    "eventCount": 211,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Level",
+    "eventCount": 201,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "LevelsSelection",
+    "eventCount": 201,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "LevelsSelection",
+    "eventCount": 199,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Level",
+    "eventCount": 198,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Home",
+    "eventCount": 197,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Level",
+    "eventCount": 197,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "LevelsSelection",
+    "eventCount": 196,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Level",
+    "eventCount": 196,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Level",
+    "eventCount": 195,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Home",
+    "eventCount": 192,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Level",
+    "eventCount": 192,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "LevelsSelection",
+    "eventCount": 191,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Level",
+    "eventCount": 191,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Level",
+    "eventCount": 190,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Level",
+    "eventCount": 189,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Level",
+    "eventCount": 189,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Level",
+    "eventCount": 188,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Home",
+    "eventCount": 188,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Level",
+    "eventCount": 185,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Level",
+    "eventCount": 185,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Level",
+    "eventCount": 184,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Level",
+    "eventCount": 183,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Level",
+    "eventCount": 182,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Complete",
+    "eventCount": 181,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Level",
+    "eventCount": 180,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Level",
+    "eventCount": 180,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Level",
+    "eventCount": 180,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Level",
+    "eventCount": 179,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Level",
+    "eventCount": 178,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "LevelsSelection",
+    "eventCount": 178,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Complete",
+    "eventCount": 175,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Level",
+    "eventCount": 175,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Home",
+    "eventCount": 171,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Home",
+    "eventCount": 171,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "LevelsSelection",
+    "eventCount": 171,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Level",
+    "eventCount": 170,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Complete",
+    "eventCount": 170,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Level",
+    "eventCount": 169,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "LevelsSelection",
+    "eventCount": 169,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Level",
+    "eventCount": 169,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Level",
+    "eventCount": 167,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Complete",
+    "eventCount": 167,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Level",
+    "eventCount": 165,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Level",
+    "eventCount": 165,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "LevelsSelection",
+    "eventCount": 164,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "LevelsSelection",
+    "eventCount": 163,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Level",
+    "eventCount": 162,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Level",
+    "eventCount": 162,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Level",
+    "eventCount": 161,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Level",
+    "eventCount": 160,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Level",
+    "eventCount": 160,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "LevelsSelection",
+    "eventCount": 159,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Level",
+    "eventCount": 159,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "LevelsSelection",
+    "eventCount": 158,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Level",
+    "eventCount": 158,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Complete",
+    "eventCount": 157,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Level",
+    "eventCount": 156,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "LevelsSelection",
+    "eventCount": 155,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "LevelsSelection",
+    "eventCount": 155,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Complete",
+    "eventCount": 154,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Level",
+    "eventCount": 154,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "LevelsSelection",
+    "eventCount": 153,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "LevelsSelection",
+    "eventCount": 152,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Level",
+    "eventCount": 152,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Level",
+    "eventCount": 150,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Level",
+    "eventCount": 150,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Level",
+    "eventCount": 150,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Level",
+    "eventCount": 149,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "LevelsSelection",
+    "eventCount": 149,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Level",
+    "eventCount": 149,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Level",
+    "eventCount": 148,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "LevelsSelection",
+    "eventCount": 146,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "LevelsSelection",
+    "eventCount": 145,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Level",
+    "eventCount": 144,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Level",
+    "eventCount": 144,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "LevelsSelection",
+    "eventCount": 142,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "AgeGate",
+    "eventCount": 141,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "LevelsSelection",
+    "eventCount": 140,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Complete",
+    "eventCount": 140,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "LevelsSelection",
+    "eventCount": 139,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "LevelsSelection",
+    "eventCount": 138,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Complete",
+    "eventCount": 138,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Level",
+    "eventCount": 137,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Level",
+    "eventCount": 137,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Complete",
+    "eventCount": 136,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "LevelsSelection",
+    "eventCount": 135,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "LevelsSelection",
+    "eventCount": 134,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "LevelsSelection",
+    "eventCount": 132,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "LevelsSelection",
+    "eventCount": 132,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "LevelsSelection",
+    "eventCount": 131,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Level",
+    "eventCount": 131,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Complete",
+    "eventCount": 130,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Complete",
+    "eventCount": 129,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "LevelsSelection",
+    "eventCount": 128,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Level",
+    "eventCount": 126,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "LevelsSelection",
+    "eventCount": 125,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Level",
+    "eventCount": 125,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Level",
+    "eventCount": 125,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Complete",
+    "eventCount": 123,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Level",
+    "eventCount": 122,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Complete",
+    "eventCount": 122,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Complete",
+    "eventCount": 122,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Complete",
+    "eventCount": 122,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Level",
+    "eventCount": 121,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Complete",
+    "eventCount": 121,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Level",
+    "eventCount": 119,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Complete",
+    "eventCount": 119,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "AgeGate",
+    "eventCount": 119,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "LevelsSelection",
+    "eventCount": 119,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "LevelsSelection",
+    "eventCount": 118,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Level",
+    "eventCount": 117,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Complete",
+    "eventCount": 117,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Level",
+    "eventCount": 117,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Level",
+    "eventCount": 116,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Level",
+    "eventCount": 116,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Level",
+    "eventCount": 115,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Level",
+    "eventCount": 115,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Complete",
+    "eventCount": 115,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Complete",
+    "eventCount": 114,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "AgeGate",
+    "eventCount": 114,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Complete",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "LevelsSelection",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "LevelsSelection",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "AgeGate",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "LevelsSelection",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Complete",
+    "eventCount": 113,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Level",
+    "eventCount": 112,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Complete",
+    "eventCount": 111,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Complete",
+    "eventCount": 111,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Level",
+    "eventCount": 110,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Level",
+    "eventCount": 110,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "LevelsSelection",
+    "eventCount": 110,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "AgeGate",
+    "eventCount": 110,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Complete",
+    "eventCount": 109,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Complete",
+    "eventCount": 109,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Complete",
+    "eventCount": 109,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Level",
+    "eventCount": 108,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "LevelsSelection",
+    "eventCount": 108,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "LevelsSelection",
+    "eventCount": 108,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Level",
+    "eventCount": 107,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "AgeGate",
+    "eventCount": 107,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Complete",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Complete",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Complete",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "LevelsSelection",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Level",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "AgeGate",
+    "eventCount": 106,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Level",
+    "eventCount": 105,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Complete",
+    "eventCount": 105,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "LevelsSelection",
+    "eventCount": 104,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Level",
+    "eventCount": 104,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Complete",
+    "eventCount": 104,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "LevelsSelection",
+    "eventCount": 103,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Level",
+    "eventCount": 102,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "LevelsSelection",
+    "eventCount": 102,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "AgeGate",
+    "eventCount": 100,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "AgeGate",
+    "eventCount": 100,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "LevelsSelection",
+    "eventCount": 100,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "AgeGate",
+    "eventCount": 100,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Level",
+    "eventCount": 100,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Level",
+    "eventCount": 99,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Complete",
+    "eventCount": 99,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Complete",
+    "eventCount": 98,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Complete",
+    "eventCount": 98,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "AgeGate",
+    "eventCount": 98,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "LevelsSelection",
+    "eventCount": 98,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Complete",
+    "eventCount": 97,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "AgeGate",
+    "eventCount": 97,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Level",
+    "eventCount": 97,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "AgeGate",
+    "eventCount": 96,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "AgeGate",
+    "eventCount": 96,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Complete",
+    "eventCount": 96,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "AgeGate",
+    "eventCount": 96,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "AgeGate",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Level",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Complete",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Complete",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "LevelsSelection",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Complete",
+    "eventCount": 95,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "LevelsSelection",
+    "eventCount": 94,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Complete",
+    "eventCount": 94,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "AgeGate",
+    "eventCount": 94,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Level",
+    "eventCount": 94,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "LevelsSelection",
+    "eventCount": 93,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "LevelsSelection",
+    "eventCount": 93,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "LevelsSelection",
+    "eventCount": 93,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Complete",
+    "eventCount": 92,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Complete",
+    "eventCount": 91,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "AgeGate",
+    "eventCount": 91,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "LevelsSelection",
+    "eventCount": 91,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "AgeGate",
+    "eventCount": 91,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "LevelsSelection",
+    "eventCount": 91,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "LevelsSelection",
+    "eventCount": 90,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "LevelsSelection",
+    "eventCount": 90,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "AgeGate",
+    "eventCount": 89,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "AgeGate",
+    "eventCount": 88,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Complete",
+    "eventCount": 88,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "LevelsSelection",
+    "eventCount": 87,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Complete",
+    "eventCount": 87,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Complete",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Complete",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Complete",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "AgeGate",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "LevelsSelection",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "LevelsSelection",
+    "eventCount": 86,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Level",
+    "eventCount": 85,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Complete",
+    "eventCount": 85,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Complete",
+    "eventCount": 85,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Complete",
+    "eventCount": 85,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "AgeGate",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Complete",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "LevelsSelection",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Complete",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "LevelsSelection",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "AgeGate",
+    "eventCount": 84,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Complete",
+    "eventCount": 83,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Complete",
+    "eventCount": 83,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Complete",
+    "eventCount": 83,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "LevelsSelection",
+    "eventCount": 83,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "LevelsSelection",
+    "eventCount": 82,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "AgeGate",
+    "eventCount": 82,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "LevelsSelection",
+    "eventCount": 81,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Complete",
+    "eventCount": 81,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "AgeGate",
+    "eventCount": 81,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "AgeGate",
+    "eventCount": 81,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "LevelsSelection",
+    "eventCount": 80,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "AgeGate",
+    "eventCount": 80,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "AgeGate",
+    "eventCount": 80,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Onboard",
+    "eventCount": 79,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "AgeGate",
+    "eventCount": 79,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "AgeGate",
+    "eventCount": 79,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "LevelsSelection",
+    "eventCount": 79,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "AgeGate",
+    "eventCount": 79,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Complete",
+    "eventCount": 78,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "AgeGate",
+    "eventCount": 78,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "LevelsSelection",
+    "eventCount": 78,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "LevelsSelection",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "LevelsSelection",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Complete",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Onboard",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Level",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Complete",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "LevelsSelection",
+    "eventCount": 77,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "LevelsSelection",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Complete",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Complete",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Onboard",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Complete",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Onboard",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "AgeGate",
+    "eventCount": 76,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "AgeGate",
+    "eventCount": 75,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Level",
+    "eventCount": 75,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Complete",
+    "eventCount": 75,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Complete",
+    "eventCount": 75,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Level",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Complete",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "LevelsSelection",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "LevelsSelection",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "AgeGate",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Onboard",
+    "eventCount": 74,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Complete",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "AgeGate",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Onboard",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "AgeGate",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Onboard",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Complete",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "AgeGate",
+    "eventCount": 73,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "AgeGate",
+    "eventCount": 72,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "LevelsSelection",
+    "eventCount": 72,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Complete",
+    "eventCount": 72,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Complete",
+    "eventCount": 72,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "AgeGate",
+    "eventCount": 72,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Complete",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "AgeGate",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Complete",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "AgeGate",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Complete",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "AgeGate",
+    "eventCount": 71,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "AgeGate",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "AgeGate",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Level",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Complete",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "AgeGate",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "AgeGate",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Onboard",
+    "eventCount": 70,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Complete",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Complete",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Onboard",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Onboard",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Onboard",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Complete",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Complete",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Complete",
+    "eventCount": 69,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "LevelsSelection",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "LevelsSelection",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "AgeGate",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Onboard",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Onboard",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Complete",
+    "eventCount": 68,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Complete",
+    "eventCount": 67,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "LevelsSelection",
+    "eventCount": 67,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "AgeGate",
+    "eventCount": 67,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Complete",
+    "eventCount": 67,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Onboard",
+    "eventCount": 67,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "LevelsSelection",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "LevelsSelection",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "AgeGate",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Onboard",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Onboard",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Complete",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Complete",
+    "eventCount": 66,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Complete",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "AgeGate",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "LevelsSelection",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "AgeGate",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Onboard",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Complete",
+    "eventCount": 65,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Complete",
+    "eventCount": 64,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "AgeGate",
+    "eventCount": 64,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "AgeGate",
+    "eventCount": 64,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Complete",
+    "eventCount": 64,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Complete",
+    "eventCount": 64,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "AgeGate",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "AgeGate",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Onboard",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "AgeGate",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Onboard",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Onboard",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Onboard",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Onboard",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Complete",
+    "eventCount": 63,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Complete",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "AgeGate",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "AgeGate",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Onboard",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "LevelsSelection",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Onboard",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Onboard",
+    "eventCount": 62,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Complete",
+    "eventCount": 61,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Onboard",
+    "eventCount": 61,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Onboard",
+    "eventCount": 61,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Onboard",
+    "eventCount": 61,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Onboard",
+    "eventCount": 61,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "AgeGate",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "LevelsSelection",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Complete",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Complete",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "AgeGate",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Onboard",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "AgeGate",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Onboard",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "AgeGate",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Level",
+    "eventCount": 60,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "AgeGate",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Complete",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Complete",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "AgeGate",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Onboard",
+    "eventCount": 59,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "AgeGate",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Complete",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "AgeGate",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Onboard",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Onboard",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "AgeGate",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Onboard",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "AgeGate",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Onboard",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Onboard",
+    "eventCount": 58,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Complete",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "AgeGate",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "LevelsSelection",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Onboard",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Onboard",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "AgeGate",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "AgeGate",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Profile",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Complete",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Onboard",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "LevelsSelection",
+    "eventCount": 57,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "LevelsSelection",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "AgeGate",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Onboard",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Consent",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Onboard",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Consent",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Onboard",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "AgeGate",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Onboard",
+    "eventCount": 56,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Onboard",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Complete",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Complete",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Consent",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Consent",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Onboard",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Complete",
+    "eventCount": 55,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Onboard",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "AgeGate",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Complete",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Onboard",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Profile",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "AgeGate",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Consent",
+    "eventCount": 54,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Onboard",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Onboard",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "AgeGate",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "AgeGate",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Onboard",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "AgeGate",
+    "eventCount": 53,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Complete",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "AgeGate",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Complete",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "LevelsSelection",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Onboard",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Onboard",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "AgeGate",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Onboard",
+    "eventCount": 52,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "AgeGate",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "AgeGate",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Onboard",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Onboard",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Complete",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "AgeGate",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Consent",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Onboard",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Onboard",
+    "eventCount": 51,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Onboard",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Onboard",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Onboard",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "AgeGate",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "AgeGate",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Onboard",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Onboard",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Consent",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "LevelsSelection",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Consent",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Complete",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Complete",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Consent",
+    "eventCount": 50,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Onboard",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Onboard",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Onboard",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Onboard",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "AgeGate",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Consent",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "AgeGate",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Consent",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Onboard",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Consent",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "AgeGate",
+    "eventCount": 49,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "AgeGate",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Complete",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Onboard",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Consent",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Settings",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "AgeGate",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "AgeGate",
+    "eventCount": 48,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Onboard",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Onboard",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "AgeGate",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Consent",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Consent",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "LevelsSelection",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Consent",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "AgeGate",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Onboard",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "AgeGate",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Onboard",
+    "eventCount": 47,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "AgeGate",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "AgeGate",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Onboard",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Onboard",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Onboard",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Profile",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "AgeGate",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Consent",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Complete",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Onboard",
+    "eventCount": 46,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Consent",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Settings",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "AgeGate",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Consent",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "LevelsSelection",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Complete",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Consent",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Level",
+    "eventCount": 45,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Complete",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Onboard",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Consent",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "AgeGate",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Consent",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "AgeGate",
+    "eventCount": 44,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Onboard",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Onboard",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "AgeGate",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Onboard",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Onboard",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Consent",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Consent",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Profile",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Onboard",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Consent",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Complete",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Consent",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Consent",
+    "eventCount": 43,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Onboard",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "LevelsSelection",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Onboard",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Consent",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Consent",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Consent",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Consent",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "AgeGate",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Onboard",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Onboard",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Consent",
+    "eventCount": 42,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Profile",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Onboard",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "AgeGate",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "LevelsSelection",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Onboard",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Onboard",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "AgeGate",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Complete",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Profile",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Consent",
+    "eventCount": 41,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Onboard",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "LevelsSelection",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Complete",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Onboard",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Onboard",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "AgeGate",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Complete",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "AgeGate",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Complete",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Profile",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Profile",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "AgeGate",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Onboard",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Consent",
+    "eventCount": 40,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "AgeGate",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Onboard",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Consent",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "LevelsSelection",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Onboard",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Profile",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Consent",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "AgeGate",
+    "eventCount": 39,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Consent",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Onboard",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Consent",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Onboard",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "AgeGate",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Onboard",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Onboard",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Onboard",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Complete",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Profile",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "AgeGate",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Consent",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Profile",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Consent",
+    "eventCount": 38,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "AgeGate",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Onboard",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "LevelsSelection",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Profile",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Profile",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "LevelsSelection",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Consent",
+    "eventCount": 37,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "LevelsSelection",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Consent",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Consent",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Consent",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "AgeGate",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "AgeGate",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Consent",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "LevelsSelection",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Profile",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Consent",
+    "eventCount": 36,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Consent",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "LevelsSelection",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Onboard",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "AgeGate",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Onboard",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Consent",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Consent",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Consent",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Consent",
+    "eventCount": 35,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Onboard",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Onboard",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Complete",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Complete",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Consent",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Profile",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "AgeGate",
+    "eventCount": 34,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Onboard",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Profile",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Consent",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Profile",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Profile",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Complete",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Profile",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "LevelsSelection",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Profile",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "AgeGate",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "AgeGate",
+    "eventCount": 33,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Level",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "AgeGate",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "AgeGate",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Profile",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Profile",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Consent",
+    "eventCount": 32,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Consent",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Consent",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Consent",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Profile",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Consent",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "AgeGate",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Profile",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Profile",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "AgeGate",
+    "eventCount": 31,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Consent",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Consent",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Consent",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Subscription",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Subscription",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "AgeGate",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Profile",
+    "eventCount": 30,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Profile",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Profile",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "Settings",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Settings",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Profile",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Subscription",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Consent",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Profile",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Profile",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "AgeGate",
+    "eventCount": 29,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Consent",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Consent",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Consent",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Consent",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Consent",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Complete",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Settings",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Profile",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Profile",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Profile",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Profile",
+    "eventCount": 28,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Consent",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Consent",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Consent",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "AgeGate",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Profile",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Complete",
+    "eventCount": 27,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Consent",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Consent",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "LevelsSelection",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Profile",
+    "eventCount": 26,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "TimeOut",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Consent",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Consent",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Onboard",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "LevelsSelection",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "Subscription",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Profile",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Complete",
+    "eventCount": 25,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "AgeGate",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Profile",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Consent",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Consent",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Profile",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Profile",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Profile",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "LevelsSelection",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "About",
+    "eventCount": 24,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Profile",
+    "eventCount": 23,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Profile",
+    "eventCount": 23,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "About",
+    "eventCount": 23,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "LevelsSelection",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Subscription",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "LevelsSelection",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Subscription",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Profile",
+    "eventCount": 22,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Subscription",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Settings",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Profile",
+    "eventCount": 21,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "About",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "Subscription",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "LevelsSelection",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "About",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "About",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Profile",
+    "eventCount": 20,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "About",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "LevelsSelection",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "About",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Profile",
+    "eventCount": 19,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Subscription",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "About",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Subscription",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "About",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "About",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Subscription",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "About",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Profile",
+    "eventCount": 18,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Profile",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Consent",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "About",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Profile",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "About",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Subscription",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "About",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "About",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Profile",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "LevelsSelection",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Profile",
+    "eventCount": 17,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Profile",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Profile",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Settings",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Profile",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "PlayerReport",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Subscription",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Settings",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "About",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "About",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "LevelsSelection",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Subscription",
+    "eventCount": 16,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "PlayerReport",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Profile",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Profile",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Profile",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Subscription",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Subscription",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "About",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Settings",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "About",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Profile",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "LevelsSelection",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Subscription",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "About",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "About",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "About",
+    "eventCount": 15,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "LevelsSelection",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Profile",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Profile",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Settings",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Profile",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "About",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Settings",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Settings",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Profile",
+    "eventCount": 14,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Complete",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "About",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "About",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "Settings",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Profile",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Profile",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Profile",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Settings",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Settings",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "About",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "LevelsSelection",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "Subscription",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "About",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "About",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "Settings",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Profile",
+    "eventCount": 13,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Subscription",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "About",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Settings",
+    "eventCount": 12,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Profile",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Profile",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "PlayerReport",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Settings",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "About",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Subscription",
+    "eventCount": 11,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "LevelsSelection",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Settings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "Settings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "PlayerReport",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Settings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Settings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "Settings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "DebugSettings",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Subscription",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "About",
+    "eventCount": 10,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "TimeOut",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "PlayerReport",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Subscription",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "LevelsSelection",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Settings",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "About",
+    "eventCount": 9,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260110",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "Settings",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "About",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Subscription",
+    "eventCount": 8,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "TimeOut",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "PlayerReport",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Subscription",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "About",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260228",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "LevelsSelection",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "Settings",
+    "eventCount": 7,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "PlayerReport",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "TimeOut",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "TimeOut",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "LevelsSelection",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260119",
+    "screen": "DebugSettings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "(not set)",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260208",
+    "screen": "PlayerReport",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "Subscription",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "About",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "Settings",
+    "eventCount": 6,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251102",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251213",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251215",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260103",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260209",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Settings",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "PlayerReport",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "About",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260305",
+    "screen": "Subscription",
+    "eventCount": 5,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "LevelsSelection",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "DebugSettings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251111",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "LevelsSelection",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251123",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251125",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251203",
+    "screen": "DebugSettings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251207",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251210",
+    "screen": "DebugSettings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251225",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260114",
+    "screen": "About",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260122",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260128",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260218",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "PlayerReport",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Settings",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "Subscription",
+    "eventCount": 4,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "About",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251114",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "About",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251120",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251124",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251216",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251217",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251219",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260111",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260124",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260204",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260207",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "Subscription",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260212",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260221",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260222",
+    "screen": "TimeOut",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "DebugSettings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260225",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260227",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260302",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "PlayerReport",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "Settings",
+    "eventCount": 3,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251101",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251103",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251104",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251106",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251112",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251113",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "About",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "LevelsSelection",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "Settings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251130",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "About",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "About",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "Settings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251208",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251212",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251214",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "Settings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251228",
+    "screen": "LevelsSelection",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260101",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260102",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260104",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260107",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "About",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260113",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260125",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260130",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260201",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260205",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260215",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "DebugSettings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260223",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260224",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "About",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "LevelsSelection",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260301",
+    "screen": "Settings",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260306",
+    "screen": "Subscription",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "PlayerReport",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260308",
+    "screen": "TimeOut",
+    "eventCount": 2,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251105",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251107",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251108",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251109",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251110",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251115",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251116",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251117",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251118",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251119",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251121",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251122",
+    "screen": "Settings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251126",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "(not set)",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251127",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251128",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251129",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251201",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251202",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251204",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251205",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251206",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251209",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251211",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251218",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251220",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251221",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251222",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "(not set)",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251223",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251224",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251226",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251227",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251229",
+    "screen": "(not set)",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251230",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20251231",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "Messages",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260105",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260106",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "(not set)",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260108",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260109",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260112",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260115",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260116",
+    "screen": "Settings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260117",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260118",
+    "screen": "Settings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260120",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260121",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260123",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260126",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260127",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260129",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260131",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260202",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260203",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260206",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260210",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260211",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260213",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260214",
+    "screen": "TimeOut",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260216",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260217",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260219",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260220",
+    "screen": "PlayerReport",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260226",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260303",
+    "screen": "Subscription",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260304",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  },
+  {
+    "date": "20260307",
+    "screen": "DebugSettings",
+    "eventCount": 1,
+    "totalDuration": 0
+  }
+]

@@ -1,0 +1,219 @@
+[
+  {
+    "cohort": "Post-Drops Users",
+    "day": 0,
+    "activeUsers": 5544,
+    "totalUsers": 5544,
+    "retentionRate": "100.00"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 1,
+    "activeUsers": 774,
+    "totalUsers": 5544,
+    "retentionRate": "13.96"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 2,
+    "activeUsers": 445,
+    "totalUsers": 5544,
+    "retentionRate": "8.03"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 3,
+    "activeUsers": 318,
+    "totalUsers": 5544,
+    "retentionRate": "5.74"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 4,
+    "activeUsers": 243,
+    "totalUsers": 5544,
+    "retentionRate": "4.38"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 5,
+    "activeUsers": 210,
+    "totalUsers": 5544,
+    "retentionRate": "3.79"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 6,
+    "activeUsers": 184,
+    "totalUsers": 5544,
+    "retentionRate": "3.32"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 8,
+    "activeUsers": 161,
+    "totalUsers": 5544,
+    "retentionRate": "2.90"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 7,
+    "activeUsers": 153,
+    "totalUsers": 5544,
+    "retentionRate": "2.76"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 10,
+    "activeUsers": 130,
+    "totalUsers": 5544,
+    "retentionRate": "2.34"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 11,
+    "activeUsers": 119,
+    "totalUsers": 5544,
+    "retentionRate": "2.15"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 9,
+    "activeUsers": 117,
+    "totalUsers": 5544,
+    "retentionRate": "2.11"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 14,
+    "activeUsers": 94,
+    "totalUsers": 5544,
+    "retentionRate": "1.70"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 13,
+    "activeUsers": 90,
+    "totalUsers": 5544,
+    "retentionRate": "1.62"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 12,
+    "activeUsers": 89,
+    "totalUsers": 5544,
+    "retentionRate": "1.61"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 18,
+    "activeUsers": 82,
+    "totalUsers": 5544,
+    "retentionRate": "1.48"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 16,
+    "activeUsers": 71,
+    "totalUsers": 5544,
+    "retentionRate": "1.28"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 17,
+    "activeUsers": 70,
+    "totalUsers": 5544,
+    "retentionRate": "1.26"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 19,
+    "activeUsers": 69,
+    "totalUsers": 5544,
+    "retentionRate": "1.24"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 15,
+    "activeUsers": 68,
+    "totalUsers": 5544,
+    "retentionRate": "1.23"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 22,
+    "activeUsers": 63,
+    "totalUsers": 5544,
+    "retentionRate": "1.14"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 20,
+    "activeUsers": 57,
+    "totalUsers": 5544,
+    "retentionRate": "1.03"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 21,
+    "activeUsers": 57,
+    "totalUsers": 5544,
+    "retentionRate": "1.03"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 23,
+    "activeUsers": 49,
+    "totalUsers": 5544,
+    "retentionRate": "0.88"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 25,
+    "activeUsers": 49,
+    "totalUsers": 5544,
+    "retentionRate": "0.88"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 27,
+    "activeUsers": 47,
+    "totalUsers": 5544,
+    "retentionRate": "0.85"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 29,
+    "activeUsers": 46,
+    "totalUsers": 5544,
+    "retentionRate": "0.83"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 26,
+    "activeUsers": 41,
+    "totalUsers": 5544,
+    "retentionRate": "0.74"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 28,
+    "activeUsers": 39,
+    "totalUsers": 5544,
+    "retentionRate": "0.70"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 24,
+    "activeUsers": 37,
+    "totalUsers": 5544,
+    "retentionRate": "0.67"
+  },
+  {
+    "cohort": "Post-Drops Users",
+    "day": 30,
+    "activeUsers": 34,
+    "totalUsers": 5544,
+    "retentionRate": "0.61"
+  }
+]
