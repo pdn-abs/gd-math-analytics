@@ -1,4 +1,4 @@
-# Drops Impact Analysis: Pre vs Post Drops Periods (Updated with UserEngagement Metrics.csv)
+# Drops Impact Analysis: Pre vs Post Drops Periods (Updated with UserEngagement_Metrics_UI_Export.csv)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -16,7 +16,7 @@
 
 ## Introduction
 
-This analysis compares user engagement metrics before and after the introduction of drops features in the GD Math app. The data is sourced from `UserEngagement Metrics.csv`, which aggregates analytics from Google Analytics 4 (GA4).
+This analysis compares user engagement metrics before and after the introduction of drops features in the GD Math app. The data is sourced from `UserEngagement_Metrics_UI_Export.csv`, which aggregates analytics from Google Analytics 4 (GA4).
 
 The time period considered for this analysis is from **October 20, 2025 to March 11, 2026**. This period was chosen because it encompasses:
 - Pre-drops baseline versions (v4.3.0, v4.3.2, v4.3.7) representing the app state before major drops implementation

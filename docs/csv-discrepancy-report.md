@@ -1,23 +1,21 @@
 # CSV Discrepancy Report: GA4 UI Export vs API Fetch
 **Date:** March 12, 2026
 **Files Compared:**
-- `UserEngagement Metrics.csv` — GA4 Free-form Exploration export (manual UI export)
-- `UserEngagement Metrics v2.csv` — GA4 Data API fetch (script-based)
+- `UserEngagement_Metrics_UI_Export.csv` — GA4 Free-form Exploration export (manual UI export)
+- `UserEngagement_Metrics_API_Fetch.csv` — GA4 Data API fetch (script-based)
 **Period:** Oct 20, 2025 – Mar 11, 2026 | Stream: GD Math
 
 ---
 
 ## Side-by-Side Comparison
 
-| Version | Active Users (UI) | Active Users (API) | Returning (UI) | Returning (API) | Eng Rate (UI) | Eng Rate (API) | DAU/WAU (UI) | DAU/WAU (API) | WAU/MAU (UI) | WAU/MAU (API) |
-|---------|------------------|--------------------|---------------|----------------|--------------|----------------|-------------|--------------|-------------|--------------|
-| v4.3.19 | 1,885 | 3,137 | 923 | 1,478 | 78.41% | 32.59% | 0.0865 | 0.1827 | 0.3255 | 0.3720 |
-| v4.3.15 | 2,188 | 4,012 | 1,119 | 2,061 | 77.87% | 49.96% | 0.0797 | 0.1857 | 0.2653 | 0.3119 |
-| v4.3.12 | 1,588 | 2,982 | 827 | 1,609 | 78.08% | 68.71% | 0.0774 | 0.1854 | 0.2634 | 0.3086 |
-| v4.3.7  | 1,222 | 2,239 | 641 | 1,163 | 80.74% | 73.44% | 0.0781 | 0.1829 | 0.2603 | 0.3049 |
-| v4.3.2  | 174 | 351 | 159 | 328 | 54.86% | 67.45% | 0.0703 | 0.1539 | 0.0929 | 0.1293 |
-| v4.3.0  | 94 | 213 | 87 | 203 | 53.14% | 54.06% | 0.0701 | 0.1686 | 0.2255 | 0.2616 |
-| **Grand Total** | **6,577** | **12,934** | **3,266** | **6,842** | **76.50%** | **57.70%** | **0.4622** | **0.1831** | **1.4329** | **0.3069** |
+| Metric | v4.3.19 UI | v4.3.19 API | v4.3.15 UI | v4.3.15 API | v4.3.12 UI | v4.3.12 API | v4.3.7 UI | v4.3.7 API | v4.3.2 UI | v4.3.2 API | v4.3.0 UI | v4.3.0 API | Grand Total UI | Grand Total API | How UI Value is Calculated | How API Value is Calculated | Which to Use |
+|--------|------------|-------------|------------|-------------|------------|-------------|-----------|------------|-----------|------------|-----------|------------|----------------|----------------|----------------------------|-----------------------------|--------------|
+| **Active Users** | 1,885 | 3,137 | 2,188 | 4,012 | 1,588 | 2,982 | 1,222 | 2,239 | 174 | 351 | 94 | 213 | 6,577 | 12,934 | Users with at least one engaged session (≥10s or key event) | All users with any session (engaged or not) | UI for quality users, API for total reach |
+| **Returning Users** | 923 | 1,478 | 1,119 | 2,061 | 827 | 1,609 | 641 | 1,163 | 159 | 328 | 87 | 203 | 3,266 | 6,842 | Native GA4 segment: users whose first session was before report period | Computed as `activeUsers − newUsers` (approximation) | UI (accurate native segment) |
+| **Engagement Rate** | 78.41% | 32.59% | 77.87% | 49.96% | 78.08% | 68.71% | 80.74% | 73.44% | 54.86% | 67.45% | 53.14% | 54.06% | 76.50% | 57.70% | Engaged sessions ÷ active users | Engaged sessions ÷ total sessions | UI for user quality, API for session quality |
+| **DAU/WAU** | 0.0865 | 0.1827 | 0.0797 | 0.1857 | 0.0774 | 0.1854 | 0.0781 | 0.1829 | 0.0703 | 0.1539 | 0.0701 | 0.1686 | 0.4622 | 0.1831 | Daily average ratio over the full period | End-of-period rolling window ratio | UI per-version values for stickiness trends |
+| **WAU/MAU** | 0.3255 | 0.3720 | 0.2653 | 0.3119 | 0.2634 | 0.3086 | 0.2603 | 0.3049 | 0.0929 | 0.1293 | 0.2255 | 0.2616 | 1.4329 | 0.3069 | Daily average ratio over the full period | End-of-period rolling window ratio | UI per-version values for stickiness trends |
 
 > Note: User engagement seconds and engaged sessions are consistent across both sources — these are not affected by the differences described below.
 
@@ -82,13 +80,13 @@ Neither is "wrong" — they measure different things:
 
 ## Summary Table
 
-| Metric | UI Behaviour | API Behaviour | Preferred Source |
-|--------|-------------|--------------|-----------------|
-| **Active Users** | Engaged-session users only | All-session users | UI (quality), API (reach) |
-| **Returning Users** | Native GA4 returning segment | `activeUsers − newUsers` approximation | UI |
-| **DAU/WAU** | Daily average across period | End-of-period rolling window ratio | UI per-version values |
-| **WAU/MAU** | Daily average across period | Same rolling window issue | UI per-version values |
-| **Engagement Rate** | Engaged sessions ÷ active users | Engaged sessions ÷ total sessions | Depends on question |
+| Metric | How UI Value is Calculated | How API Value is Calculated | Which to Use |
+|--------|----------------------------|-----------------------------|--------------|
+| **Active Users** | Users with at least one engaged session (≥10s or key event) | All users with any session (engaged or not) | UI for quality users, API for total reach |
+| **Returning Users** | Native GA4 segment: users whose first session was before report period | Computed as `activeUsers − newUsers` (approximation) | UI (accurate native segment) |
+| **DAU/WAU** | Daily average ratio over the full period | End-of-period rolling window ratio | UI per-version values for stickiness trends |
+| **WAU/MAU** | Daily average ratio over the full period | End-of-period rolling window ratio | UI per-version values for stickiness trends |
+| **Engagement Rate** | Engaged sessions ÷ active users | Engaged sessions ÷ total sessions | UI for user quality, API for session quality |
 | **User Engagement (seconds)** | Same | Same | Either |
 | **Engaged Sessions** | Same | Same | Either |
 
