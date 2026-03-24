@@ -1,5 +1,5 @@
 # Pre-Drops vs Post-Drops Engagement Analysis
-**Source:** UserEngagement Metrics v2.csv
+**Source:** UserEngagement_Metrics_API_Fetch.csv
 **Analysis Window:** Oct 20, 2025 – Mar 11, 2026
 **Stream:** GD Math (production only)
 **Date:** March 12, 2026

@@ -1,33 +1,53 @@
-// Fetch monthly version metrics using a simpler approach
+// Fetch analysis window version metrics using a simpler approach
+// MODIFIED: Added user segment to match UI definition of Active Users (users with engaged sessions)
 const { BetaAnalyticsDataClient } = require('@google-analytics/data');
 const fs = require('fs');
 
-async function fetchMonthlyVersionMetricsSimple () {
-    console.log('Fetching monthly version metrics using simplified approach...');
+async function fetchAnalysisWindowVersionMetricsSimple () {
+    console.log('Fetching analysis window version metrics using simplified approach...');
     const client = new BetaAnalyticsDataClient();
 
-    // Define the months to analyze (July 2025 - February 2026)
-    const months = [
-        { name: 'July 2025', start: '2025-07-01', end: '2025-07-31' },
-        { name: 'August 2025', start: '2025-08-01', end: '2025-08-31' },
-        { name: 'September 2025', start: '2025-09-01', end: '2025-09-30' },
-        { name: 'October 2025', start: '2025-10-01', end: '2025-10-31' },
-        { name: 'November 2025', start: '2025-11-01', end: '2025-11-30' },
-        { name: 'December 2025', start: '2025-12-01', end: '2025-12-31' },
-        { name: 'January 2026', start: '2026-01-01', end: '2026-01-31' },
-        { name: 'February 2026', start: '2026-02-01', end: '2026-02-28' },
-    ];
+    // Define the analysis window (Oct 20, 2025 – Mar 11, 2026)
+    const analysisWindow = {
+        start: '2025-10-20',
+        end: '2026-03-11'
+    };
 
     const results = {};
 
-    for(const month of months) {
-        console.log(`Fetching data for ${ month.name }...`);
-        results[month.name] = {};
+    // Fetch data for the analysis window
+    console.log(`Fetching data for Analysis Window: ${analysisWindow.start} to ${analysisWindow.end}...`);
+    results['Analysis Window'] = {};
 
-        // Get all data for this month with both dimensions
+    try {
+        // Get all data for the analysis window
         const request = {
-            property: 'properties/441470574',
-            dateRanges: [{ startDate: month.start, endDate: month.end }],
+        property: 'properties/441470574',
+        dateRanges: [{ startDate: analysisWindow.start, endDate: analysisWindow.end }],
+        dimensionFilter: {
+            andGroup: {
+                expressions: [
+                    {
+                        filter: {
+                            fieldName: 'streamName',
+                            stringFilter: {
+                                value: 'GD Math',
+                                matchType: 'EXACT'
+                            }
+                        }
+                    },
+                    {
+                        filter: {
+                            fieldName: 'appVersion',
+                            stringFilter: {
+                                value: 'v4.3.',
+                                matchType: 'BEGINS_WITH'
+                            }
+                        }
+                    }
+                ]
+            }
+        },
             dimensions: [
                 { name: 'appVersion' },
                 { name: 'streamName' },
@@ -42,12 +62,19 @@ async function fetchMonthlyVersionMetricsSimple () {
                 { name: 'engagementRate' },
                 { name: 'sessions' },
             ],
-            dimensionFilter: {
-                filter: {
-                    fieldName: 'streamName',
-                    stringFilter: {
-                        value: 'GD Math',
-                        matchType: 'EXACT',
+            userSegment: {
+                name: 'Engaged Users',
+                sessionSegment: {
+                    segmentFilter: {
+                        filter: {
+                            fieldName: 'sessionDuration',
+                            numericFilter: {
+                                operation: 'GREATER_THAN',
+                                value: {
+                                    int64Value: '10'
+                                }
+                            },
+                        },
                     },
                 },
             },
@@ -58,17 +85,15 @@ async function fetchMonthlyVersionMetricsSimple () {
             limit: 100,
         };
 
-        try {
-            const [response] = await client.runReport(request);
+        const [response] = await client.runReport(request);
 
-            if(response.rows) {
-                response.rows.forEach((row) => {
-                    const version = row.dimensionValues[0].value;
-                    const stream = row.dimensionValues[1].value;
+        if(response.rows) {
+            response.rows.forEach((row) => {
+                const version = row.dimensionValues[0].value;
+                const stream = row.dimensionValues[1].value;
 
-                    // Only process v4.3.x versions
-                    if(version.startsWith('v4.3.') && stream === 'GD Math') {
-                        const metrics = row.metricValues;
+                // All data already filtered at API level for v4.3.x versions and GD Math stream
+                const metrics = row.metricValues;
 
                         // Calculate ratios
                         const activeUsers = parseInt(metrics[0].value);
@@ -79,7 +104,7 @@ async function fetchMonthlyVersionMetricsSimple () {
                         const dauWauRatio = wau > 0 ? (dau / wau).toFixed(3) : '0.000';
                         const wauMauRatio = mau > 0 ? (wau / mau).toFixed(3) : '0.000';
 
-                        results[month.name][version] = {
+                        results['Analysis Window'][version] = {
                             'Active Users': activeUsers,
                             'DAU/WAU': dauWauRatio,
                             'WAU/MAU': wauMauRatio,
@@ -88,27 +113,22 @@ async function fetchMonthlyVersionMetricsSimple () {
                             'User Engagement Duration': 'N/A', // Removed from query
                             'Returning Users': 'N/A', // Removed from query
                             'Engaged Sessions': parseInt(metrics[5].value),
-                            'Engagement Rate': `${ (parseFloat(metrics[6].value) * 100).toFixed(2) }%`,
+                            'Engagement Rate': `${ parseFloat(metrics[6].value).toFixed(2) }%`,
                         };
-                    }
                 });
 
-                console.log(`Processed ${ Object.keys(results[month.name]).length } v4.3.x versions for ${ month.name }`);
+                console.log(`Processed ${ Object.keys(results['Analysis Window']).length } v4.3.x versions for Analysis Window`);
             }
         }
-        catch (error) {
-            console.error(`Error fetching data for ${ month.name }:`, error.message);
-        }
-
-        // Rate limiting between months
-        await new Promise((resolve) => setTimeout(resolve, 1000));
+    catch (error) {
+        console.error(`Error fetching data for Analysis Window:`, error.message);
     }
 
     fs.writeFileSync('../data/monthly_version_metrics.json', JSON.stringify(
         results, null, 2
     ));
-    console.log('Monthly version metrics data fetched successfully.');
+    console.log('Analysis window version metrics data fetched successfully.');
 }
 
 // Run the fetch
-fetchMonthlyVersionMetricsSimple();
+fetchAnalysisWindowVersionMetricsSimple();

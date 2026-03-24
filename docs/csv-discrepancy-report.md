@@ -7,6 +7,25 @@
 
 ---
 
+## Table of Contents
+
+- [Side-by-Side Comparison](#side-by-side-comparison)
+- [Root Cause Analysis](#root-cause-analysis)
+  - [1. Active Users — ~2× Gap](#1-active-users--2×-gap)
+  - [2. Returning Users — Different Definitions](#2-returning-users--different-definitions)
+  - [3. DAU/WAU and WAU/MAU — Computation Method Differs](#3-dauwau-and-wau-mau--computation-method-differs)
+  - [4. Engagement Rate — Different Denominators](#4-engagement-rate--different-denominators)
+- [Summary Table](#summary-table)
+- [Recommendation](#recommendation)
+- [API Modification Analysis](#api-modification-analysis)
+  - [Key Changes Needed](#key-changes-needed)
+  - [Implementation Requirements](#implementation-requirements)
+  - [Limitations](#limitations)
+  - [Estimated GA4 API Quota Impact](#estimated-ga4-api-quota-impact)
+  - [Recommendation](#recommendation-1)
+
+---
+
 ## Side-by-Side Comparison
 
 | Metric | v4.3.19 UI | v4.3.19 API | v4.3.15 UI | v4.3.15 API | v4.3.12 UI | v4.3.12 API | v4.3.7 UI | v4.3.7 API | v4.3.2 UI | v4.3.2 API | v4.3.0 UI | v4.3.0 API | Grand Total UI | Grand Total API | How UI Value is Calculated | How API Value is Calculated | Which to Use |
@@ -108,3 +127,103 @@ Use the **API CSV** (`UserEngagement Metrics v2.csv`) for:
 ---
 
 *Both files cover the same period (Oct 20, 2025 – Mar 11, 2026) and GD Math production stream. User Engagement (seconds) values match confirming the same underlying data — only metric definitions and computation methods differ.*
+
+---
+
+## API Modification Analysis
+
+Based on the discrepancy report and analysis of the GA4 Data API capabilities, it is possible to modify the API fetch script to make the data match the UI export, but it would require significant changes to the query structure and post-processing logic.
+
+### Key Changes Needed
+
+1. **Active Users** (API: all users with sessions → UI: users with engaged sessions)
+   - Current API: Uses `activeUsers` metric (counts all users with any session)
+   - Required change: Add a filter for `sessionEngaged = "1"` or use `engagedSessions` in combination with user segmentation
+   - GA4 API support: ✅ Possible with dimension filters
+
+2. **Returning Users** (API: computed approximation → UI: native GA4 segment)
+   - Current API: Computes as `activeUsers - newUsers`
+   - Required change: Use GA4 cohort analysis with proper cohort definitions (users whose first session was before the report period)
+   - GA4 API support: ✅ Supported via `cohortSpec` in requests
+
+3. **Engagement Rate** (API: engaged sessions ÷ total sessions → UI: engaged sessions ÷ active users)
+   - Current API: Uses built-in `engagementRate` metric
+   - Required change: Calculate manually as `engagedSessions / activeUsers` instead of using the API metric
+   - GA4 API support: ✅ Can fetch both metrics and compute ratio
+
+4. **DAU/WAU/MAU Ratios** (API: cumulative sums → UI: daily averages)
+   - Current API: Uses `active1DayUsers`, `active7DayUsers`, `active28DayUsers` (cumulative over period)
+   - Required change: Fetch daily data and compute averages, or restructure queries to calculate proper time-averaged ratios
+   - GA4 API support: ✅ Possible by fetching daily breakdowns and computing averages
+
+### Implementation Requirements
+
+The current fetch script would need to be modified to:
+- Use cohort analysis for accurate returning users
+- Apply session engagement filters for active users
+- Fetch additional metrics and perform custom calculations
+- Restructure data aggregation from cumulative to time-averaged
+
+### Limitations
+
+#### Performance Impact
+**What it means:** More complex queries would use up your GA4 API quota much faster, potentially requiring you to pay for more API calls or wait longer between requests.
+
+**Why it matters:** The GA4 Data API has daily limits (around 10,000 requests for free accounts) and charges based on complexity. Adding cohort analysis and daily data breakdowns would multiply the number of API calls needed, especially for analyzing several months of data. You might need to upgrade to a paid plan or add delays between requests to avoid hitting limits.
+
+#### Data Availability
+**What it means:** Some features you see in the GA4 web interface don't have exact matches in the API, so you might not get perfectly identical results.
+
+**Why it matters:** GA4's web interface has pre-built user segments (like "Returning users") that are optimized and ready to use. The API requires you to build these from scratch with complex specifications. Some advanced filtering options in the web interface might not be available through the API at all, leading to small differences even after extensive modifications.
+
+#### Maintenance Complexity
+**What it means:** The code would become much harder to maintain, debug, and update over time.
+
+**Why it matters:** Switching from simple data fetching to custom calculations and complex queries means adding hundreds of lines of error handling, data validation, and reconciliation logic. The code becomes more fragile to GA4 API changes, requiring constant monitoring. Future developers would need to understand complex cohort analysis and time-based calculations, making the system harder to extend or modify.
+
+### Estimated GA4 API Quota Impact
+
+#### How Much Extra Would It Cost?
+
+**Current situation:** Your analytics script runs periodically (likely monthly) and makes about 3 "calls" to GA4 per run.
+
+**With changes:** One analysis run would need 8-25+ calls.
+
+**If you run weekly instead of monthly:**
+- **4x more runs per month** = 32-100+ calls per month total
+- **Still well within free limits** for basic analysis (10,000 calls/day)
+- **Could approach limits** if doing detailed daily breakdowns weekly
+
+**But here's the key issue:** If you want accurate DAU/WAU/MAU ratios (daily averages over time), you'd need separate calls for each day in your analysis period.
+
+**Example scenarios:**
+- **Weekly run, past 7 days:** ~10-30 calls per week = very manageable
+- **Weekly run, cumulative (Nov 2025 - now):** Same 8-25 calls as monthly = even more manageable
+- **Monthly run with daily breakdowns over 5 months:** 150+ calls in one run = could hit daily limits
+
+**Why 150 calls could be a problem:**
+Imagine you're at a coffee shop with a "10,000 coffees per day" limit, but they only serve 50 coffees per hour.
+
+- **Daily limit:** 10,000 coffees OK
+- **Hourly limit:** Only 50 coffees per hour
+- **Your situation:** You order 150 coffees all at once = blocked, even though 150 < 10,000
+
+**Same with GA4:**
+- **Daily limit:** 10,000 calls
+- **Real limits:** Much lower per minute/hour, plus throttling for rapid requests
+- **Your analysis:** 150 calls in quick succession = likely blocked or throttled
+
+**The issue:** GA4 protects their servers by limiting how fast you can make calls, even if you're under the daily total.
+
+**Cost breakdown:**
+- **Free plan:** 10,000 calls per day. Weekly basic analysis = fine. Weekly detailed analysis = might hit limit.
+- **Money cost:** Extra calls cost about $0.0001 each. Weekly basic runs = $0.003-0.01/month.
+- **Real example:** Weekly analysis with 20 extra calls = ~$0.002/week or $0.008/month.
+
+#### What Would You Need to Do?
+
+- **For weekly basic analysis:** No changes needed - stays within free limits easily.
+- **For weekly detailed analysis:** Might need to break analysis into smaller daily chunks or upgrade plan.
+- **Workarounds:** Focus on recent weeks only, or use monthly runs for detailed analysis.
+- **Long-term:** Weekly runs work fine for most use cases without quota issues.
+For the drops impact analysis, the current approach of using UI export for quality metrics and API for volume metrics is actually optimal, as documented in the discrepancy report. The differences reflect fundamental measurement approaches rather than errors, and both provide valuable insights when used appropriately.
