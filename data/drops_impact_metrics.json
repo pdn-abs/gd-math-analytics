@@ -1,0 +1,74 @@
+{
+  "analysisWindow": {
+    "start": "2025-10-20",
+    "end": "2026-03-11"
+  },
+  "preDrops": {
+    "activeUsers": 1783,
+    "engagedUsers": 1475,
+    "totalUsers": 1783,
+    "sessions": 3939,
+    "engagedSessions": 2863,
+    "engagementRate": 72.68342218837269,
+    "avgSessionDurationSec": 6636.289640387408,
+    "avgSessionDurationMin": 110.60482733979013,
+    "totalEngagementSec": 503919,
+    "newUsers": 1109,
+    "sessionsPerActiveUser": 2.209197980931015,
+    "sessionsPerUser": 2.670508474576271,
+    "avgEngagementPerActiveUser": 282.6242288278183
+  },
+  "postDrops": {
+    "activeUsers": 5323,
+    "engagedUsers": 5285,
+    "totalUsers": 5323,
+    "sessions": 13286,
+    "engagedSessions": 10366,
+    "engagementRate": 78.02197802197803,
+    "avgSessionDurationSec": 8946.288963045085,
+    "avgSessionDurationMin": 149.1048160507514,
+    "totalEngagementSec": 1730672,
+    "newUsers": 4983,
+    "sessionsPerActiveUser": 2.4959609242908134,
+    "sessionsPerUser": 2.513907284768212,
+    "avgEngagementPerActiveUser": 325.13094119857226
+  },
+  "summary": {
+    "activeUsers": {
+      "preDrops": 1783,
+      "postDrops": 5323,
+      "change": 3540,
+      "percentChange": "198.5"
+    },
+    "sessions": {
+      "preDrops": 3939,
+      "postDrops": 13286,
+      "change": 9347,
+      "percentChange": "237.3"
+    },
+    "engagedSessions": {
+      "preDrops": 2863,
+      "postDrops": 10366,
+      "change": 7503,
+      "percentChange": "262.1"
+    },
+    "engagementRate": {
+      "preDrops": "72.68",
+      "postDrops": "78.02",
+      "change": "5.34",
+      "percentChange": "7.3"
+    },
+    "avgSessionDurationMin": {
+      "preDrops": "110.60",
+      "postDrops": "149.10",
+      "change": "38.50",
+      "percentChange": "34.8"
+    },
+    "sessionsPerActiveUser": {
+      "preDrops": "2.21",
+      "postDrops": "2.50",
+      "change": "0.29",
+      "percentChange": "13.0"
+    }
+  }
+}

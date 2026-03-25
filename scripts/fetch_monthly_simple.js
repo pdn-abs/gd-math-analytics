@@ -53,14 +53,16 @@ async function fetchAnalysisWindowVersionMetricsSimple () {
                 { name: 'streamName' },
             ],
             metrics: [
-                { name: 'activeUsers' },
-                { name: 'active1DayUsers' },
-                { name: 'active7DayUsers' },
-                { name: 'active28DayUsers' },
-                { name: 'averageSessionDuration' },
-                { name: 'engagedSessions' },
-                { name: 'engagementRate' },
-                { name: 'sessions' },
+                { name: 'activeUsers' },        // index 0
+                { name: 'active1DayUsers' },     // index 1
+                { name: 'active7DayUsers' },     // index 2
+                { name: 'active28DayUsers' },    // index 3
+                { name: 'averageSessionDuration' }, // index 4
+                { name: 'engagedSessions' },     // index 5
+                { name: 'engagementRate' },      // index 6
+                { name: 'sessions' },            // index 7
+                { name: 'totalUsers' },          // index 8
+                { name: 'userEngagementDuration' }, // index 9 (total engagement time in seconds)
             ],
             userSegment: {
                 name: 'Engaged Users',
@@ -100,18 +102,38 @@ async function fetchAnalysisWindowVersionMetricsSimple () {
                         const dau = parseInt(metrics[1].value);
                         const wau = parseInt(metrics[2].value);
                         const mau = parseInt(metrics[3].value);
+                        const avgSessionDurationSec = parseFloat(metrics[4].value);
+                        const sessions = parseInt(metrics[7].value);
+                        const totalUsers = parseInt(metrics[8].value);
+                        const totalEngagementSec = parseFloat(metrics[9].value);
 
                         const dauWauRatio = wau > 0 ? (dau / wau).toFixed(3) : '0.000';
                         const wauMauRatio = mau > 0 ? (wau / mau).toFixed(3) : '0.000';
 
+                        // Sessions per active user vs all users
+                        const sessionsPerActiveUser = activeUsers > 0 ? (sessions / activeUsers).toFixed(2) : '0.00';
+                        const sessionsPerUser = totalUsers > 0 ? (sessions / totalUsers).toFixed(2) : '0.00';
+
+                        // Avg session duration per active user vs all users
+                        // totalEngagementSec / activeUsers gives duration weighted by active users
+                        const avgSessionDurationPerActiveUser = activeUsers > 0
+                            ? (totalEngagementSec / activeUsers).toFixed(2)
+                            : '0.00';
+                        const avgSessionDurationPerUser = totalUsers > 0
+                            ? (totalEngagementSec / totalUsers).toFixed(2)
+                            : '0.00';
+
                         results['Analysis Window'][version] = {
                             'Active Users': activeUsers,
+                            'Total Users': totalUsers,
                             'DAU/WAU': dauWauRatio,
                             'WAU/MAU': wauMauRatio,
-                            'Sessions': parseInt(metrics[7].value),
-                            'Avg Session Duration': `${ parseFloat(metrics[4].value).toFixed(2) }s`,
-                            'User Engagement Duration': 'N/A', // Removed from query
-                            'Returning Users': 'N/A', // Removed from query
+                            'Sessions': sessions,
+                            'Sessions per Active User': sessionsPerActiveUser,
+                            'Sessions per User': sessionsPerUser,
+                            'Avg Session Duration (s)': avgSessionDurationSec.toFixed(2),
+                            'Avg Session Duration per Active User (s)': avgSessionDurationPerActiveUser,
+                            'Avg Session Duration per User (s)': avgSessionDurationPerUser,
                             'Engaged Sessions': parseInt(metrics[5].value),
                             'Engagement Rate': `${ parseFloat(metrics[6].value).toFixed(2) }%`,
                         };

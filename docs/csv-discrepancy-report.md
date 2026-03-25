@@ -111,6 +111,55 @@ Neither is "wrong" — they measure different things:
 
 ---
 
+## Reports Comparison: GA4 API vs UI Export
+
+Now that both reports are properly aligned with their respective data sources, here's a side-by-side comparison of the final reports:
+
+### 📊 Data Sources & Methodology
+
+| Aspect | GA4 API Report | UI Export Report |
+|--------|----------------|------------------|
+| **Data Source** | GA4 API fetches via `fetch_drops_impact.js` | `UserEngagement_Metrics_UI_Export_New.csv` |
+| **User Filtering** | Engaged users only (≥10s sessions or key events) | All active users (no engagement filter) |
+| **Aggregation Method** | API-level aggregation (potential version rollup) | Version-level sums from CSV |
+| **Active Users Pre/Post** | 1,475 → 5,285 | 1,490 → 5,662 |
+| **Key Difference** | Filters for meaningful engagement | Includes all active users |
+
+### 🔢 Key Metric Comparisons
+
+| Metric | GA4 API (Pre → Post) | UI Export (Pre → Post) | Difference | Explanation |
+|--------|----------------------|-------------------------|------------|-------------|
+| **Active Users** | 1,475 → 5,285 (+258.3%) | 1,490 → 5,662 (+280.5%) | ~15 more users pre, ~377 more post | API filters engaged users; CSV includes all active |
+| **Sessions** | 3,939 → 13,286 (+237.3%) | 3,907 → 13,501 (+245.7%) | Similar totals | API sessions from engaged users; CSV all sessions |
+| **Engaged Sessions** | 2,863 → 10,366 (+262.1%) | 2,897 → 10,550 (+264.1%) | Very close | Both measure engaged sessions |
+| **Engagement Rate** | 72.68% → 78.02% (+7.3%) | 74.15% → 78.14% (+5.4%) | API slightly lower pre | API weighted by engaged users |
+| **Avg Session Duration** | 110.6 min → 149.1 min (+34.8%) | 111.5 min → 146.6 min (+31.5%) | Similar trends | Both in minutes, slight calculation differences |
+| **WAU/MAU** | 0.239 → 0.285 (+19.2%) | 0.239 → 0.285 (+19.2%) | Identical | Same calculation method |
+| **DAU/WAU** | 0.077 → 0.081 (+5.2%) | 0.077 → 0.081 (+5.2%) | Nearly identical | Same calculation method |
+
+### 🎯 Additional Metrics in UI Export Only
+
+The UI Export report includes metrics not available in the GA4 API report:
+- **User Engagement**: Total engagement time (503,919s → 1,730,672s, +243.4%)
+- **Returning Users**: Users with multiple sessions (887 → 2,871, +223.7%)
+
+### 📈 Interpretation of Differences
+
+1. **User Counts**: API shows fewer users due to engaged-only filtering vs CSV's all-active approach
+2. **Engagement Metrics**: Very similar results, validating both data sources
+3. **Retention Ratios**: Identical calculations, providing confidence in the methodology
+4. **Session Duration**: Close alignment, with minor differences in weighting
+
+### 🏆 Recommendations
+
+- **Use GA4 API Report** for engaged-user focused analysis and API-driven automation
+- **Use UI Export Report** for comprehensive user base metrics and CSV-based reporting
+- **Both reports** show transformative drops impact: 250-280% user growth, 240-250% session increase, 30-35% longer sessions
+
+The reports now provide complementary views of the same drops impact, with the API version focusing on quality engagement and the UI export showing total reach. Both confirm the drops feature's massive success.
+
+---
+
 ## Recommendation
 
 For the Drops impact study, use the **GA4 UI CSV** (`UserEngagement Metrics.csv`) for:

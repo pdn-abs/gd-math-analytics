@@ -1,0 +1,18 @@
+{
+  "Period": "2025-10-20 to 2026-03-11",
+  "Active Users": 7598,
+  "Total Users": 8094,
+  "New Users": 6949,
+  "Returning Users": 1145,
+  "WAU": 81557,
+  "MAU": 256901,
+  "WAU/MAU": "0.317",
+  "Sessions": 20319,
+  "Engaged Sessions": 15436,
+  "Engagement Rate": "0.76%",
+  "Sessions per Active User": "2.67",
+  "Sessions per User": "2.51",
+  "Avg Session Duration (s)": "7992.64",
+  "Avg Session Duration per Active User (s)": "384.64",
+  "Avg Session Duration per User (s)": "361.07"
+}
