@@ -1,0 +1,377 @@
+{
+  "source": "GA4 Reporting API",
+  "generatedAt": "2026-03-26T14:03:14.045Z",
+  "window": {
+    "start": "2026-01-25",
+    "end": "2026-03-25"
+  },
+  "cohortWindow": {
+    "start": "2026-01-25",
+    "end": "2026-02-23"
+  },
+  "acquisition": {
+    "totalUsers": 4288,
+    "activeUsers": 3841,
+    "newUsers": 3139,
+    "returningUsers": 1149,
+    "sessions": 9683,
+    "engagedSessions": 7179,
+    "engagementRatePct": 74.14,
+    "avgSessionDurationSec": 7614.22,
+    "avgEngagementPerUserSec": 311.22,
+    "dauSnapshot": 6939,
+    "wauSnapshot": 38486,
+    "mauSnapshot": 124623,
+    "dauMauRatio": 0.056,
+    "avgDAU": 116,
+    "peakDAU": 156,
+    "dauByDay": [
+      {
+        "date": "20260125",
+        "dau": 156
+      },
+      {
+        "date": "20260126",
+        "dau": 145
+      },
+      {
+        "date": "20260127",
+        "dau": 138
+      },
+      {
+        "date": "20260128",
+        "dau": 116
+      },
+      {
+        "date": "20260129",
+        "dau": 117
+      },
+      {
+        "date": "20260130",
+        "dau": 109
+      },
+      {
+        "date": "20260131",
+        "dau": 123
+      },
+      {
+        "date": "20260201",
+        "dau": 140
+      },
+      {
+        "date": "20260202",
+        "dau": 122
+      },
+      {
+        "date": "20260203",
+        "dau": 127
+      },
+      {
+        "date": "20260204",
+        "dau": 114
+      },
+      {
+        "date": "20260205",
+        "dau": 98
+      },
+      {
+        "date": "20260206",
+        "dau": 124
+      },
+      {
+        "date": "20260207",
+        "dau": 135
+      },
+      {
+        "date": "20260208",
+        "dau": 144
+      },
+      {
+        "date": "20260209",
+        "dau": 129
+      },
+      {
+        "date": "20260210",
+        "dau": 95
+      },
+      {
+        "date": "20260211",
+        "dau": 115
+      },
+      {
+        "date": "20260212",
+        "dau": 131
+      },
+      {
+        "date": "20260213",
+        "dau": 98
+      },
+      {
+        "date": "20260214",
+        "dau": 130
+      },
+      {
+        "date": "20260215",
+        "dau": 117
+      },
+      {
+        "date": "20260216",
+        "dau": 103
+      },
+      {
+        "date": "20260217",
+        "dau": 113
+      },
+      {
+        "date": "20260218",
+        "dau": 117
+      },
+      {
+        "date": "20260219",
+        "dau": 102
+      },
+      {
+        "date": "20260220",
+        "dau": 130
+      },
+      {
+        "date": "20260221",
+        "dau": 136
+      },
+      {
+        "date": "20260222",
+        "dau": 130
+      },
+      {
+        "date": "20260223",
+        "dau": 109
+      },
+      {
+        "date": "20260224",
+        "dau": 105
+      },
+      {
+        "date": "20260225",
+        "dau": 96
+      },
+      {
+        "date": "20260226",
+        "dau": 105
+      },
+      {
+        "date": "20260227",
+        "dau": 113
+      },
+      {
+        "date": "20260228",
+        "dau": 115
+      },
+      {
+        "date": "20260301",
+        "dau": 102
+      },
+      {
+        "date": "20260302",
+        "dau": 120
+      },
+      {
+        "date": "20260303",
+        "dau": 106
+      },
+      {
+        "date": "20260304",
+        "dau": 115
+      },
+      {
+        "date": "20260305",
+        "dau": 107
+      },
+      {
+        "date": "20260306",
+        "dau": 115
+      },
+      {
+        "date": "20260307",
+        "dau": 117
+      },
+      {
+        "date": "20260308",
+        "dau": 97
+      },
+      {
+        "date": "20260309",
+        "dau": 105
+      },
+      {
+        "date": "20260310",
+        "dau": 98
+      },
+      {
+        "date": "20260311",
+        "dau": 110
+      },
+      {
+        "date": "20260312",
+        "dau": 99
+      },
+      {
+        "date": "20260313",
+        "dau": 109
+      },
+      {
+        "date": "20260314",
+        "dau": 105
+      },
+      {
+        "date": "20260315",
+        "dau": 126
+      },
+      {
+        "date": "20260316",
+        "dau": 99
+      },
+      {
+        "date": "20260317",
+        "dau": 112
+      },
+      {
+        "date": "20260318",
+        "dau": 135
+      },
+      {
+        "date": "20260319",
+        "dau": 99
+      },
+      {
+        "date": "20260320",
+        "dau": 115
+      },
+      {
+        "date": "20260321",
+        "dau": 121
+      },
+      {
+        "date": "20260322",
+        "dau": 106
+      },
+      {
+        "date": "20260323",
+        "dau": 102
+      },
+      {
+        "date": "20260324",
+        "dau": 108
+      },
+      {
+        "date": "20260325",
+        "dau": 114
+      }
+    ]
+  },
+  "retention": {
+    "note": "GA4 cohort endpoint unavailable — see BigQuery script for D1/D7/D30",
+    "bigQueryResults": {
+      "D1": "6.52%",
+      "D7": "2.38%",
+      "D30": "2.04%"
+    }
+  },
+  "paywallFunnel": {
+    "totalUsers": 4288,
+    "reachedPaywall": 194,
+    "subscriptionEvents": 0,
+    "paywallReachRatePct": 4.52,
+    "paywallConversionRatePct": 0,
+    "note": "subscriptionEvents = all GameSubscription events (GA4 API cannot filter by event param)"
+  },
+  "topScreens": [
+    {
+      "screen": "(not set)",
+      "views": 10215,
+      "uniqueUsers": 3838
+    },
+    {
+      "screen": "Home",
+      "views": 9888,
+      "uniqueUsers": 1340
+    },
+    {
+      "screen": "Level",
+      "views": 7885,
+      "uniqueUsers": 1194
+    },
+    {
+      "screen": "Profile",
+      "views": 4320,
+      "uniqueUsers": 2494
+    },
+    {
+      "screen": "Complete",
+      "views": 4020,
+      "uniqueUsers": 659
+    },
+    {
+      "screen": "Onboard",
+      "views": 3748,
+      "uniqueUsers": 2564
+    },
+    {
+      "screen": "AgeGate",
+      "views": 3534,
+      "uniqueUsers": 860
+    },
+    {
+      "screen": "Consent",
+      "views": 3034,
+      "uniqueUsers": 2651
+    },
+    {
+      "screen": "LevelsSelection",
+      "views": 1131,
+      "uniqueUsers": 133
+    },
+    {
+      "screen": "About",
+      "views": 593,
+      "uniqueUsers": 353
+    },
+    {
+      "screen": "Subscription",
+      "views": 447,
+      "uniqueUsers": 194
+    },
+    {
+      "screen": "Settings",
+      "views": 345,
+      "uniqueUsers": 217
+    },
+    {
+      "screen": "PlayerReport",
+      "views": 112,
+      "uniqueUsers": 78
+    },
+    {
+      "screen": "TimeOut",
+      "views": 25,
+      "uniqueUsers": 10
+    },
+    {
+      "screen": "",
+      "views": 10,
+      "uniqueUsers": 8
+    }
+  ],
+  "assessment": {
+    "totalUsers": 4288,
+    "usersCompleted": 149,
+    "totalEvents": 152,
+    "completionRatePct": 3.47
+  },
+  "crashes": {
+    "totalSessions": 9683,
+    "crashEvents": 2,
+    "usersAffected": 2,
+    "crashRatePct": 0.021,
+    "userCrashRatePct": 0.05
+  }
+}

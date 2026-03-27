@@ -59,42 +59,58 @@ async function fetchPeriodMetrics (client, analysisWindow, versions, periodName)
             }
         }));
 
-        const request = {
-            property: 'properties/441470574',
-            dateRanges: [{
-                startDate: analysisWindow.start,
-                endDate: analysisWindow.end
-            }],
-            dimensionFilter: {
-                andGroup: {
-                    expressions: [
-                        {
-                            filter: {
-                                fieldName: 'streamName',
-                                stringFilter: { value: 'GD Math', matchType: 'EXACT' }
-                            }
-                        },
-                        {
-                            orGroup: {
-                                expressions: versionFilters
-                            }
+        const dimensionFilter = {
+            andGroup: {
+                expressions: [
+                    {
+                        filter: {
+                            fieldName: 'streamName',
+                            stringFilter: { value: 'GD Math', matchType: 'EXACT' }
                         }
-                    ]
-                }
-            },
+                    },
+                    {
+                        orGroup: {
+                            expressions: versionFilters
+                        }
+                    }
+                ]
+            }
+        };
+
+        const dateRanges = [{ startDate: analysisWindow.start, endDate: analysisWindow.end }];
+        const property = 'properties/441470574';
+
+        // Request 1: core engagement metrics (max 10)
+        const [response] = await client.runReport({
+            property,
+            dateRanges,
+            dimensionFilter,
             metrics: [
-                { name: 'totalUsers' },               // index 0 - all users (unfiltered)
-                { name: 'activeUsers' },              // index 1 - active users
+                { name: 'totalUsers' },               // index 0 - all unique users
+                { name: 'activeUsers' },              // index 1 - users with engaged sessions
                 { name: 'sessions' },                 // index 2
                 { name: 'engagedSessions' },          // index 3
-                { name: 'engagementRate' },           // index 4
+                { name: 'engagementRate' },           // index 4 - engagedSessions / totalSessions
                 { name: 'averageSessionDuration' },   // index 5 (in seconds)
                 { name: 'userEngagementDuration' },   // index 6 (total, in seconds)
                 { name: 'newUsers' },                 // index 7
             ]
-        };
+        });
 
-        const [response] = await client.runReport(request);
+        // Request 2: stickiness metrics per day — adds 'date' dimension to get one row per day,
+        // then we average the daily ratios to match the UI's time-averaged computation method.
+        const [stickinessResponse] = await client.runReport({
+            property,
+            dateRanges,
+            dimensionFilter,
+            dimensions: [{ name: 'date' }],
+            metrics: [
+                { name: 'active1DayUsers' },
+                { name: 'active7DayUsers' },
+                { name: 'active28DayUsers' },
+            ],
+            orderBys: [{ dimension: { dimensionName: 'date' } }]
+        });
 
         if (!response.rows || response.rows.length === 0) {
             console.log(`  No data returned for ${periodName}.`);
@@ -103,44 +119,66 @@ async function fetchPeriodMetrics (client, analysisWindow, versions, periodName)
 
         const m = response.rows[0].metricValues;
 
-        const totalUsersUnfiltered = parseInt(m[0].value);  // All unique users
-        const activeUsers = parseInt(m[1].value);           // Engaged users
+        const totalUsers = parseInt(m[0].value);            // All unique users (any session)
+        const activeUsers = parseInt(m[1].value);           // Users with engaged sessions
         const sessions = parseInt(m[2].value);
         const engagedSessions = parseInt(m[3].value);
-        const engagementRate = parseFloat(m[4].value) * 100; // Convert to percentage (0.76 -> 76.0)
+        const engagementRate = parseFloat(m[4].value) * 100; // engagedSessions / totalSessions (%)
         const avgSessionDurationSec = parseFloat(m[5].value);
         const totalEngagementSec = parseFloat(m[6].value);
         const newUsers = parseInt(m[7].value);
+
+        // Compute time-averaged DAU/WAU and WAU/MAU — matches UI exploration method.
+        // For each day: compute ratio, then average across all days with non-zero denominators.
+        let dauWauSum = 0, dauWauCount = 0;
+        let wauMauSum = 0, wauMauCount = 0;
+        for (const row of (stickinessResponse.rows ?? [])) {
+            const s = row.metricValues;
+            const d1 = parseInt(s[0].value);
+            const d7 = parseInt(s[1].value);
+            const d28 = parseInt(s[2].value);
+            if (d7 > 0) { dauWauSum += d1 / d7; dauWauCount++; }
+            if (d28 > 0) { wauMauSum += d7 / d28; wauMauCount++; }
+        }
+        const dauWau = dauWauCount > 0 ? dauWauSum / dauWauCount : 0;
+        const wauMau = wauMauCount > 0 ? wauMauSum / wauMauCount : 0;
 
         // Convert session duration from seconds to minutes
         const avgSessionDurationMin = avgSessionDurationSec / 60;
 
         // Calculate derived metrics
-        const sessionsPerActiveUser = sessions / totalUsersUnfiltered;
-        const sessionsPerUser = sessions / activeUsers;
-        const avgEngagementPerActiveUser = totalEngagementSec / totalUsersUnfiltered;
+        // DAU/WAU and WAU/MAU are now time-averaged daily ratios (matches UI exploration method)
+        const sessionsPerActiveUser = sessions / activeUsers;
+        const sessionsPerTotalUser = sessions / totalUsers;
+        const avgEngagementPerActiveUser = totalEngagementSec / activeUsers;
 
         const metrics = {
-            activeUsers: totalUsersUnfiltered,        // Report unfiltered user count
-            engagedUsers: activeUsers,                // Also store engaged count for reference
-            totalUsers: totalUsersUnfiltered,
+            totalUsers,                               // All unique users (any session)
+            activeUsers,                              // Users with engaged sessions (matches UI)
             sessions,
             engagedSessions,
-            engagementRate,
+            engagementRate,                           // engagedSessions / totalSessions (API definition)
+            engagementRateByUser: engagedSessions / sessions * 100, // same; for reference
             avgSessionDurationSec,
             avgSessionDurationMin,
             totalEngagementSec,
             newUsers,
+            returningUsers: totalUsers - newUsers,    // approximation (see csv-discrepancy-report.md)
+            dauWau,
+            wauMau,
             sessionsPerActiveUser,
-            sessionsPerUser,
+            sessionsPerTotalUser,
             avgEngagementPerActiveUser,
         };
 
         console.log(`  ✓ ${periodName} metrics fetched`);
-        console.log(`    - Active Users: ${activeUsers}`);
-        console.log(`    - Sessions: ${sessions}`);
-        console.log(`    - Engaged Sessions: ${engagedSessions}`);
+        console.log(`    - Total Users:        ${totalUsers}`);
+        console.log(`    - Active Users:       ${activeUsers}`);
+        console.log(`    - Sessions:           ${sessions}`);
+        console.log(`    - Engaged Sessions:   ${engagedSessions}`);
         console.log(`    - Avg Session Duration: ${avgSessionDurationMin.toFixed(2)} min`);
+        console.log(`    - DAU/WAU:            ${dauWau.toFixed(4)} (time-averaged)`);
+        console.log(`    - WAU/MAU:            ${wauMau.toFixed(4)} (time-averaged)`);
 
         return metrics;
 
@@ -156,6 +194,12 @@ function calculateSummary (preDrops, postDrops) {
     }
 
     const summary = {
+        totalUsers: {
+            preDrops: preDrops.totalUsers,
+            postDrops: postDrops.totalUsers,
+            change: postDrops.totalUsers - preDrops.totalUsers,
+            percentChange: ((postDrops.totalUsers - preDrops.totalUsers) / preDrops.totalUsers * 100).toFixed(1)
+        },
         activeUsers: {
             preDrops: preDrops.activeUsers,
             postDrops: postDrops.activeUsers,
@@ -191,6 +235,18 @@ function calculateSummary (preDrops, postDrops) {
             postDrops: postDrops.sessionsPerActiveUser.toFixed(2),
             change: (postDrops.sessionsPerActiveUser - preDrops.sessionsPerActiveUser).toFixed(2),
             percentChange: ((postDrops.sessionsPerActiveUser - preDrops.sessionsPerActiveUser) / preDrops.sessionsPerActiveUser * 100).toFixed(1)
+        },
+        dauWau: {
+            preDrops: preDrops.dauWau.toFixed(4),
+            postDrops: postDrops.dauWau.toFixed(4),
+            change: (postDrops.dauWau - preDrops.dauWau).toFixed(4),
+            percentChange: ((postDrops.dauWau - preDrops.dauWau) / preDrops.dauWau * 100).toFixed(1)
+        },
+        wauMau: {
+            preDrops: preDrops.wauMau.toFixed(4),
+            postDrops: postDrops.wauMau.toFixed(4),
+            change: (postDrops.wauMau - preDrops.wauMau).toFixed(4),
+            percentChange: ((postDrops.wauMau - preDrops.wauMau) / preDrops.wauMau * 100).toFixed(1)
         }
     };
 
@@ -209,12 +265,15 @@ function displaySummary (summary) {
         console.log(`  Change:      ${data.change} (${data.percentChange}%)`);
     };
 
-    formatMetric('Active Users', summary.activeUsers);
+    formatMetric('Total Users (all sessions)', summary.totalUsers);
+    formatMetric('Active Users (engaged sessions)', summary.activeUsers);
     formatMetric('Sessions', summary.sessions);
     formatMetric('Engaged Sessions', summary.engagedSessions);
     formatMetric('Engagement Rate', summary.engagementRate);
     formatMetric('Avg Session Duration', summary.avgSessionDurationMin);
     formatMetric('Sessions Per Active User', summary.sessionsPerActiveUser);
+    formatMetric('DAU/WAU (time-averaged)', summary.dauWau);
+    formatMetric('WAU/MAU (time-averaged)', summary.wauMau);
 
     console.log('\n' + '='.repeat(80));
 }

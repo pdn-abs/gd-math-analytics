@@ -4,41 +4,53 @@
     "end": "2026-03-11"
   },
   "preDrops": {
-    "activeUsers": 1783,
-    "engagedUsers": 1475,
     "totalUsers": 1783,
+    "activeUsers": 1475,
     "sessions": 3939,
     "engagedSessions": 2863,
     "engagementRate": 72.68342218837269,
+    "engagementRateByUser": 72.68342218837269,
     "avgSessionDurationSec": 6636.289640387408,
     "avgSessionDurationMin": 110.60482733979013,
     "totalEngagementSec": 503919,
     "newUsers": 1109,
-    "sessionsPerActiveUser": 2.209197980931015,
-    "sessionsPerUser": 2.670508474576271,
-    "avgEngagementPerActiveUser": 282.6242288278183
+    "returningUsers": 674,
+    "dauWau": 0.161999354809477,
+    "wauMau": 0.2510165009848676,
+    "sessionsPerActiveUser": 2.670508474576271,
+    "sessionsPerTotalUser": 2.209197980931015,
+    "avgEngagementPerActiveUser": 341.64
   },
   "postDrops": {
-    "activeUsers": 5323,
-    "engagedUsers": 5285,
     "totalUsers": 5323,
+    "activeUsers": 5285,
     "sessions": 13286,
     "engagedSessions": 10366,
     "engagementRate": 78.02197802197803,
+    "engagementRateByUser": 78.02197802197803,
     "avgSessionDurationSec": 8946.288963045085,
     "avgSessionDurationMin": 149.1048160507514,
     "totalEngagementSec": 1730672,
     "newUsers": 4983,
-    "sessionsPerActiveUser": 2.4959609242908134,
-    "sessionsPerUser": 2.513907284768212,
-    "avgEngagementPerActiveUser": 325.13094119857226
+    "returningUsers": 340,
+    "dauWau": 0.2036659786841123,
+    "wauMau": 0.43193143027301045,
+    "sessionsPerActiveUser": 2.513907284768212,
+    "sessionsPerTotalUser": 2.4959609242908134,
+    "avgEngagementPerActiveUser": 327.46868495742666
   },
   "summary": {
-    "activeUsers": {
+    "totalUsers": {
       "preDrops": 1783,
       "postDrops": 5323,
       "change": 3540,
       "percentChange": "198.5"
+    },
+    "activeUsers": {
+      "preDrops": 1475,
+      "postDrops": 5285,
+      "change": 3810,
+      "percentChange": "258.3"
     },
     "sessions": {
       "preDrops": 3939,
@@ -65,10 +77,22 @@
       "percentChange": "34.8"
     },
     "sessionsPerActiveUser": {
-      "preDrops": "2.21",
-      "postDrops": "2.50",
-      "change": "0.29",
-      "percentChange": "13.0"
+      "preDrops": "2.67",
+      "postDrops": "2.51",
+      "change": "-0.16",
+      "percentChange": "-5.9"
+    },
+    "dauWau": {
+      "preDrops": "0.1620",
+      "postDrops": "0.2037",
+      "change": "0.0417",
+      "percentChange": "25.7"
+    },
+    "wauMau": {
+      "preDrops": "0.2510",
+      "postDrops": "0.4319",
+      "change": "0.1809",
+      "percentChange": "72.1"
     }
   }
 }
