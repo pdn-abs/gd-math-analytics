@@ -1,0 +1,405 @@
+{
+  "generatedAt": "2026-03-26T13:25:23.972Z",
+  "window": {
+    "start": "20260125",
+    "end": "20260325"
+  },
+  "acquisition": {
+    "mau": 3510,
+    "avgDAU": 80,
+    "peakDAU": 104,
+    "dauMauRatio": 0.023,
+    "dauByDay": [
+      {
+        "date": "20260125",
+        "dau": 98
+      },
+      {
+        "date": "20260126",
+        "dau": 97
+      },
+      {
+        "date": "20260127",
+        "dau": 91
+      },
+      {
+        "date": "20260128",
+        "dau": 92
+      },
+      {
+        "date": "20260129",
+        "dau": 84
+      },
+      {
+        "date": "20260130",
+        "dau": 75
+      },
+      {
+        "date": "20260131",
+        "dau": 87
+      },
+      {
+        "date": "20260201",
+        "dau": 104
+      },
+      {
+        "date": "20260202",
+        "dau": 89
+      },
+      {
+        "date": "20260203",
+        "dau": 93
+      },
+      {
+        "date": "20260204",
+        "dau": 88
+      },
+      {
+        "date": "20260205",
+        "dau": 73
+      },
+      {
+        "date": "20260206",
+        "dau": 86
+      },
+      {
+        "date": "20260207",
+        "dau": 95
+      },
+      {
+        "date": "20260208",
+        "dau": 95
+      },
+      {
+        "date": "20260209",
+        "dau": 84
+      },
+      {
+        "date": "20260210",
+        "dau": 61
+      },
+      {
+        "date": "20260211",
+        "dau": 86
+      },
+      {
+        "date": "20260212",
+        "dau": 101
+      },
+      {
+        "date": "20260213",
+        "dau": 66
+      },
+      {
+        "date": "20260214",
+        "dau": 88
+      },
+      {
+        "date": "20260215",
+        "dau": 75
+      },
+      {
+        "date": "20260216",
+        "dau": 79
+      },
+      {
+        "date": "20260217",
+        "dau": 76
+      },
+      {
+        "date": "20260218",
+        "dau": 94
+      },
+      {
+        "date": "20260219",
+        "dau": 68
+      },
+      {
+        "date": "20260220",
+        "dau": 92
+      },
+      {
+        "date": "20260221",
+        "dau": 98
+      },
+      {
+        "date": "20260222",
+        "dau": 78
+      },
+      {
+        "date": "20260223",
+        "dau": 69
+      },
+      {
+        "date": "20260224",
+        "dau": 74
+      },
+      {
+        "date": "20260225",
+        "dau": 84
+      },
+      {
+        "date": "20260226",
+        "dau": 70
+      },
+      {
+        "date": "20260227",
+        "dau": 75
+      },
+      {
+        "date": "20260228",
+        "dau": 75
+      },
+      {
+        "date": "20260301",
+        "dau": 60
+      },
+      {
+        "date": "20260302",
+        "dau": 86
+      },
+      {
+        "date": "20260303",
+        "dau": 74
+      },
+      {
+        "date": "20260304",
+        "dau": 83
+      },
+      {
+        "date": "20260305",
+        "dau": 84
+      },
+      {
+        "date": "20260306",
+        "dau": 73
+      },
+      {
+        "date": "20260307",
+        "dau": 79
+      },
+      {
+        "date": "20260308",
+        "dau": 60
+      },
+      {
+        "date": "20260309",
+        "dau": 67
+      },
+      {
+        "date": "20260310",
+        "dau": 63
+      },
+      {
+        "date": "20260311",
+        "dau": 73
+      },
+      {
+        "date": "20260312",
+        "dau": 74
+      },
+      {
+        "date": "20260313",
+        "dau": 73
+      },
+      {
+        "date": "20260314",
+        "dau": 72
+      },
+      {
+        "date": "20260315",
+        "dau": 75
+      },
+      {
+        "date": "20260316",
+        "dau": 72
+      },
+      {
+        "date": "20260317",
+        "dau": 82
+      },
+      {
+        "date": "20260318",
+        "dau": 87
+      },
+      {
+        "date": "20260319",
+        "dau": 69
+      },
+      {
+        "date": "20260320",
+        "dau": 85
+      },
+      {
+        "date": "20260321",
+        "dau": 75
+      },
+      {
+        "date": "20260322",
+        "dau": 75
+      },
+      {
+        "date": "20260323",
+        "dau": 66
+      },
+      {
+        "date": "20260324",
+        "dau": 77
+      },
+      {
+        "date": "20260325",
+        "dau": 76
+      }
+    ]
+  },
+  "retention": [
+    {
+      "dayOffset": 1,
+      "retainedUsers": 218,
+      "eligibleCohortSize": 3344,
+      "retentionRatePct": 6.52
+    },
+    {
+      "dayOffset": 7,
+      "retainedUsers": 41,
+      "eligibleCohortSize": 1726,
+      "retentionRatePct": 2.38
+    },
+    {
+      "dayOffset": 30,
+      "retainedUsers": 13,
+      "eligibleCohortSize": 636,
+      "retentionRatePct": 2.04
+    }
+  ],
+  "paywallFunnel": {
+    "totalUsers": 3510,
+    "reachedPaywall": 0,
+    "purchased": 0,
+    "paywallReachRatePct": 0,
+    "paywallConversionRatePct": 0,
+    "overallConversionRatePct": 0,
+    "planBreakdown": null
+  },
+  "topScreens": [
+    {
+      "screen": "Level",
+      "events": 28161,
+      "uniqueUsers": 1159
+    },
+    {
+      "screen": "LevelsSelection",
+      "events": 10092,
+      "uniqueUsers": 237
+    },
+    {
+      "screen": "Complete",
+      "events": 8432,
+      "uniqueUsers": 696
+    },
+    {
+      "screen": "Home",
+      "events": 7144,
+      "uniqueUsers": 1197
+    },
+    {
+      "screen": "Profile",
+      "events": 173,
+      "uniqueUsers": 75
+    },
+    {
+      "screen": "AgeGate",
+      "events": 8,
+      "uniqueUsers": 7
+    }
+  ],
+  "featureEngagement": {
+    "segmentFunnel": [
+      {
+        "event": "LevelLoaded",
+        "events": 18775,
+        "uniqueUsers": 1354
+      },
+      {
+        "event": "segmentStarted",
+        "events": 18682,
+        "uniqueUsers": 1336
+      },
+      {
+        "event": "segmentCompleted",
+        "events": 10556,
+        "uniqueUsers": 890
+      },
+      {
+        "event": "segmentDropped",
+        "events": 6325,
+        "uniqueUsers": 827
+      }
+    ],
+    "topLevels": [
+      {
+        "level": "simpleIdentificationVegetablesSet2AL",
+        "loads": 1681,
+        "uniqueUsers": 471
+      },
+      {
+        "level": "stackVegetablesAndFruitsOverall2AL",
+        "loads": 680,
+        "uniqueUsers": 172
+      },
+      {
+        "level": "orderBasedOnWeightSameObject",
+        "loads": 676,
+        "uniqueUsers": 12
+      },
+      {
+        "level": "simpleIdentificationToysSet22AL",
+        "loads": 640,
+        "uniqueUsers": 267
+      },
+      {
+        "level": "matchNumberCount1to72AL",
+        "loads": 468,
+        "uniqueUsers": 134
+      },
+      {
+        "level": "matchObjectWithFraction1AL",
+        "loads": 404,
+        "uniqueUsers": 121
+      },
+      {
+        "level": "maskPattern",
+        "loads": 353,
+        "uniqueUsers": 13
+      },
+      {
+        "level": "stackColorTilesSet1And22AL",
+        "loads": 351,
+        "uniqueUsers": 170
+      },
+      {
+        "level": "orderUpToSevenNumber2AL",
+        "loads": 329,
+        "uniqueUsers": 81
+      },
+      {
+        "level": "matchCurrencyWithCombinedCurrency4",
+        "loads": 328,
+        "uniqueUsers": 8
+      }
+    ]
+  },
+  "assessment": {
+    "totalUsers": 3510,
+    "usersCompletedAssessment": 152,
+    "totalAssessmentEvents": 155,
+    "completionRatePct": 4.33
+  },
+  "crashes": {
+    "totalSessions": 5376,
+    "crashEvents": 2,
+    "usersAffected": 2,
+    "crashRatePct": 0.037,
+    "userCrashRatePct": 0.06
+  }
+}
