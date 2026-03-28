@@ -1,23 +1,20 @@
 {
-  "generatedAt": "2026-03-26T13:25:23.972Z",
+  "generatedAt": "2026-03-28T06:59:28.437Z",
   "window": {
     "start": "20260125",
     "end": "20260325"
   },
   "acquisition": {
-    "mau": 3510,
+    "mau": 3389,
+    "newUsers": 0,
+    "returningUsers": 3389,
+    "activeUsers": 0,
+    "engagedSessions": 0,
+    "avgEngagementMsPerUser": 0,
     "avgDAU": 80,
     "peakDAU": 104,
-    "dauMauRatio": 0.023,
+    "dauMauRatio": 0.024,
     "dauByDay": [
-      {
-        "date": "20260125",
-        "dau": 98
-      },
-      {
-        "date": "20260126",
-        "dau": 97
-      },
       {
         "date": "20260127",
         "dau": 91
@@ -244,36 +241,36 @@
       },
       {
         "date": "20260324",
-        "dau": 77
+        "dau": 78
       },
       {
         "date": "20260325",
-        "dau": 76
+        "dau": 83
       }
     ]
   },
   "retention": [
     {
       "dayOffset": 1,
-      "retainedUsers": 218,
-      "eligibleCohortSize": 3344,
-      "retentionRatePct": 6.52
+      "retainedUsers": 210,
+      "eligibleCohortSize": 3216,
+      "retentionRatePct": 6.53
     },
     {
       "dayOffset": 7,
-      "retainedUsers": 41,
-      "eligibleCohortSize": 1726,
-      "retentionRatePct": 2.38
+      "retainedUsers": 40,
+      "eligibleCohortSize": 1584,
+      "retentionRatePct": 2.53
     },
     {
       "dayOffset": 30,
-      "retainedUsers": 13,
-      "eligibleCohortSize": 636,
-      "retentionRatePct": 2.04
+      "retainedUsers": 9,
+      "eligibleCohortSize": 474,
+      "retentionRatePct": 1.9
     }
   ],
   "paywallFunnel": {
-    "totalUsers": 3510,
+    "totalUsers": 3389,
     "reachedPaywall": 0,
     "purchased": 0,
     "paywallReachRatePct": 0,
@@ -284,28 +281,28 @@
   "topScreens": [
     {
       "screen": "Level",
-      "events": 28161,
-      "uniqueUsers": 1159
+      "events": 26987,
+      "uniqueUsers": 1132
     },
     {
       "screen": "LevelsSelection",
-      "events": 10092,
-      "uniqueUsers": 237
+      "events": 10030,
+      "uniqueUsers": 236
     },
     {
       "screen": "Complete",
-      "events": 8432,
-      "uniqueUsers": 696
+      "events": 7960,
+      "uniqueUsers": 672
     },
     {
       "screen": "Home",
-      "events": 7144,
-      "uniqueUsers": 1197
+      "events": 6817,
+      "uniqueUsers": 1162
     },
     {
       "screen": "Profile",
-      "events": 173,
-      "uniqueUsers": 75
+      "events": 163,
+      "uniqueUsers": 71
     },
     {
       "screen": "AgeGate",
@@ -317,89 +314,89 @@
     "segmentFunnel": [
       {
         "event": "LevelLoaded",
-        "events": 18775,
-        "uniqueUsers": 1354
+        "events": 18064,
+        "uniqueUsers": 1319
       },
       {
         "event": "segmentStarted",
-        "events": 18682,
-        "uniqueUsers": 1336
+        "events": 17972,
+        "uniqueUsers": 1302
       },
       {
         "event": "segmentCompleted",
-        "events": 10556,
-        "uniqueUsers": 890
+        "events": 10013,
+        "uniqueUsers": 866
       },
       {
         "event": "segmentDropped",
-        "events": 6325,
-        "uniqueUsers": 827
+        "events": 6235,
+        "uniqueUsers": 809
       }
     ],
     "topLevels": [
       {
         "level": "simpleIdentificationVegetablesSet2AL",
-        "loads": 1681,
-        "uniqueUsers": 471
+        "loads": 1636,
+        "uniqueUsers": 464
       },
       {
         "level": "stackVegetablesAndFruitsOverall2AL",
-        "loads": 680,
-        "uniqueUsers": 172
-      },
-      {
-        "level": "orderBasedOnWeightSameObject",
-        "loads": 676,
-        "uniqueUsers": 12
+        "loads": 637,
+        "uniqueUsers": 166
       },
       {
         "level": "simpleIdentificationToysSet22AL",
-        "loads": 640,
-        "uniqueUsers": 267
+        "loads": 630,
+        "uniqueUsers": 261
+      },
+      {
+        "level": "orderBasedOnWeightSameObject",
+        "loads": 565,
+        "uniqueUsers": 12
       },
       {
         "level": "matchNumberCount1to72AL",
-        "loads": 468,
-        "uniqueUsers": 134
+        "loads": 452,
+        "uniqueUsers": 129
       },
       {
         "level": "matchObjectWithFraction1AL",
-        "loads": 404,
-        "uniqueUsers": 121
-      },
-      {
-        "level": "maskPattern",
-        "loads": 353,
-        "uniqueUsers": 13
+        "loads": 374,
+        "uniqueUsers": 115
       },
       {
         "level": "stackColorTilesSet1And22AL",
-        "loads": 351,
-        "uniqueUsers": 170
+        "loads": 349,
+        "uniqueUsers": 169
       },
       {
-        "level": "orderUpToSevenNumber2AL",
-        "loads": 329,
-        "uniqueUsers": 81
+        "level": "maskPattern",
+        "loads": 335,
+        "uniqueUsers": 12
       },
       {
         "level": "matchCurrencyWithCombinedCurrency4",
         "loads": 328,
         "uniqueUsers": 8
+      },
+      {
+        "level": "orderUpToSevenNumber2AL",
+        "loads": 300,
+        "uniqueUsers": 76
       }
     ]
   },
   "assessment": {
-    "totalUsers": 3510,
-    "usersCompletedAssessment": 152,
-    "totalAssessmentEvents": 155,
-    "completionRatePct": 4.33
+    "totalUsers": 3389,
+    "usersCompletedAssessment": 143,
+    "totalAssessmentEvents": 145,
+    "completionRatePct": 4.22
   },
   "crashes": {
-    "totalSessions": 5376,
+    "totalSessions": 5163,
     "crashEvents": 2,
     "usersAffected": 2,
-    "crashRatePct": 0.037,
+    "crashRatePct": 0.039,
     "userCrashRatePct": 0.06
   }
 }

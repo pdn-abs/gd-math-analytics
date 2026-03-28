@@ -1,0 +1,37 @@
+# ----------------------------------------
+# gd-math-71c48
+# Pre-Subscription Phase-Free-form 4
+# 20260125-20260325
+# ----------------------------------------
+
+Event name,Event count
+,328176,Grand total
+DebugInfo,68551
+screen_view,67769
+TimeTaken,57477
+LevelData,32434
+LevelLoaded,18790
+segmentStarted,18697
+user_engagement,14573
+segmentCompleted,10566
+session_start,9959
+segmentDropped,6329
+DropData,4510
+first_open,3218
+app_remove,2961
+PlayerSessionFinish,2845
+PlayerSessionStart,2845
+Score,2740
+PlayerCreate,1546
+GameFirstStart,1033
+SettingsChanged,472
+SubscriptionOpened,471
+assessmentCompleted,155
+PlayerDelete,84
+PlayerUpdate,69
+os_update,54
+app_clear_data,9
+test,9
+app_update,8
+app_exception,2
+

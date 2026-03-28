@@ -303,6 +303,73 @@ async function fetchCrashes (totalSessions) {
     };
 }
 
+// ─── 8. Segment / gameplay funnel ───────────────────────────────────────────────
+// Fetches event counts + unique users for the four core gameplay events:
+//   LevelLoaded → segmentStarted → segmentCompleted / segmentDropped
+//
+// Note: GA4 API returns aggregate counts across the whole window, not per-user.
+// The unique `activeUsers` per event gives the user-level funnel step.
+
+async function fetchSegmentFunnel () {
+    console.log('\n[7/7] Fetching segment / gameplay funnel...');
+
+    const GAMEPLAY_EVENTS = ['LevelLoaded', 'segmentStarted', 'segmentCompleted', 'segmentDropped'];
+
+    const [response] = await client.runReport({
+        property: PROPERTY,
+        dateRanges: [{ startDate: START_DATE, endDate: END_DATE }],
+        dimensionFilter: {
+            andGroup: {
+                expressions: [
+                    { filter: STREAM_FILTER.filter },
+                    {
+                        filter: {
+                            fieldName: 'eventName',
+                            inListFilter: { values: GAMEPLAY_EVENTS },
+                        },
+                    },
+                ],
+            },
+        },
+        dimensions: [{ name: 'eventName' }],
+        metrics: [
+            { name: 'eventCount' },  // 0 — total event fires
+            { name: 'activeUsers' }, // 1 — unique users who fired this event
+        ],
+        orderBys: [{ metric: { metricName: 'eventCount' }, desc: true }],
+    });
+
+    const result = {};
+    (response.rows || []).forEach(r => {
+        result[r.dimensionValues[0].value] = {
+            eventCount: parseInt(r.metricValues[0].value),
+            uniqueUsers: parseInt(r.metricValues[1].value),
+        };
+    });
+
+    const started   = result['segmentStarted']   || { eventCount: 0, uniqueUsers: 0 };
+    const completed = result['segmentCompleted'] || { eventCount: 0, uniqueUsers: 0 };
+    const dropped   = result['segmentDropped']   || { eventCount: 0, uniqueUsers: 0 };
+    const loaded    = result['LevelLoaded']      || { eventCount: 0, uniqueUsers: 0 };
+
+    const completionRateEvents = started.eventCount > 0
+        ? parseFloat((100 * completed.eventCount / started.eventCount).toFixed(2)) : 0;
+    const completionRateUsers  = started.uniqueUsers > 0
+        ? parseFloat((100 * completed.uniqueUsers / started.uniqueUsers).toFixed(2)) : 0;
+    const dropRateEvents = started.eventCount > 0
+        ? parseFloat((100 * dropped.eventCount / started.eventCount).toFixed(2)) : 0;
+
+    return {
+        levelLoaded: loaded,
+        segmentStarted: started,
+        segmentCompleted: completed,
+        segmentDropped: dropped,
+        completionRateByEventsPct: completionRateEvents,
+        completionRateByUsersPct: completionRateUsers,
+        dropRateByEventsPct: dropRateEvents,
+    };
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main () {
@@ -320,6 +387,7 @@ async function main () {
     const screens    = await fetchTopScreens();
     const assessment = await fetchAssessment(core.totalUsers);
     const crashes    = await fetchCrashes(core.sessions);
+    const segments   = await fetchSegmentFunnel();
 
     // ── DAU stats
     const dauValues = dauByDay.map(r => r.dau);
@@ -401,7 +469,23 @@ async function main () {
     }
 
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log('5. ONBOARDING / ASSESSMENT COMPLETION');
+    console.log('5. FEATURE ENGAGEMENT — SEGMENT FUNNEL');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log(`   LevelLoaded       : ${segments.levelLoaded.eventCount.toLocaleString()} events  ${segments.levelLoaded.uniqueUsers.toLocaleString()} unique users`);
+    console.log(`   segmentStarted    : ${segments.segmentStarted.eventCount.toLocaleString()} events  ${segments.segmentStarted.uniqueUsers.toLocaleString()} unique users`);
+    console.log(`   segmentCompleted  : ${segments.segmentCompleted.eventCount.toLocaleString()} events  ${segments.segmentCompleted.uniqueUsers.toLocaleString()} unique users`);
+    console.log(`   segmentDropped    : ${segments.segmentDropped.eventCount.toLocaleString()} events  ${segments.segmentDropped.uniqueUsers.toLocaleString()} unique users`);
+    console.log('');
+    console.log(`   Completion rate (by events)  : ${segments.completionRateByEventsPct}%  (${segments.segmentCompleted.eventCount}/${segments.segmentStarted.eventCount})`);
+    console.log(`   Completion rate (by users)   : ${segments.completionRateByUsersPct}%  (${segments.segmentCompleted.uniqueUsers}/${segments.segmentStarted.uniqueUsers})`);
+    console.log(`   Drop rate (by events)        : ${segments.dropRateByEventsPct}%  (${segments.segmentDropped.eventCount}/${segments.segmentStarted.eventCount})`);
+    const completionBench = segments.completionRateByEventsPct >= 70 ? '✓ Good (≥70%)'
+        : segments.completionRateByEventsPct >= 50 ? '⚠ Moderate (50–70%)'
+        : '✗ Low (<50%) — review level difficulty';
+    console.log(`   Status                       : ${completionBench}`);
+
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('6. ONBOARDING / ASSESSMENT COMPLETION');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
     const assessStatus = assessment.completionRatePct >= 50 ? '✓ Good (≥50%)'
         : assessment.completionRatePct >= 30 ? '⚠ Moderate (30–50%)'
@@ -456,6 +540,7 @@ async function main () {
             note: 'subscriptionEvents = all GameSubscription events (GA4 API cannot filter by event param)',
         },
         topScreens: screens,
+        segmentFunnel: segments,
         assessment,
         crashes: { ...crashes, userCrashRatePct: parseFloat(userCrashPct) },
     };

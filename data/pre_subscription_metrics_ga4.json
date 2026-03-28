@@ -1,6 +1,6 @@
 {
   "source": "GA4 Reporting API",
-  "generatedAt": "2026-03-26T14:03:14.045Z",
+  "generatedAt": "2026-03-28T06:28:56.147Z",
   "window": {
     "start": "2026-01-25",
     "end": "2026-03-25"
@@ -10,18 +10,18 @@
     "end": "2026-02-23"
   },
   "acquisition": {
-    "totalUsers": 4288,
-    "activeUsers": 3841,
-    "newUsers": 3139,
+    "totalUsers": 4292,
+    "activeUsers": 3845,
+    "newUsers": 3143,
     "returningUsers": 1149,
-    "sessions": 9683,
-    "engagedSessions": 7179,
-    "engagementRatePct": 74.14,
-    "avgSessionDurationSec": 7614.22,
-    "avgEngagementPerUserSec": 311.22,
-    "dauSnapshot": 6939,
-    "wauSnapshot": 38486,
-    "mauSnapshot": 124623,
+    "sessions": 9700,
+    "engagedSessions": 7194,
+    "engagementRatePct": 74.16,
+    "avgSessionDurationSec": 7601.03,
+    "avgEngagementPerUserSec": 311.13,
+    "dauSnapshot": 6945,
+    "wauSnapshot": 38492,
+    "mauSnapshot": 124629,
     "dauMauRatio": 0.056,
     "avgDAU": 116,
     "peakDAU": 156,
@@ -260,11 +260,11 @@
       },
       {
         "date": "20260324",
-        "dau": 108
+        "dau": 109
       },
       {
         "date": "20260325",
-        "dau": 114
+        "dau": 119
       }
     ]
   },
@@ -277,7 +277,7 @@
     }
   },
   "paywallFunnel": {
-    "totalUsers": 4288,
+    "totalUsers": 4292,
     "reachedPaywall": 194,
     "subscriptionEvents": 0,
     "paywallReachRatePct": 4.52,
@@ -287,43 +287,43 @@
   "topScreens": [
     {
       "screen": "(not set)",
-      "views": 10215,
-      "uniqueUsers": 3838
+      "views": 10234,
+      "uniqueUsers": 3845
     },
     {
       "screen": "Home",
-      "views": 9888,
-      "uniqueUsers": 1340
+      "views": 9902,
+      "uniqueUsers": 1341
     },
     {
       "screen": "Level",
-      "views": 7885,
-      "uniqueUsers": 1194
+      "views": 7893,
+      "uniqueUsers": 1195
     },
     {
       "screen": "Profile",
-      "views": 4320,
-      "uniqueUsers": 2494
+      "views": 4322,
+      "uniqueUsers": 2495
     },
     {
       "screen": "Complete",
-      "views": 4020,
-      "uniqueUsers": 659
+      "views": 4025,
+      "uniqueUsers": 660
     },
     {
       "screen": "Onboard",
-      "views": 3748,
-      "uniqueUsers": 2564
+      "views": 3750,
+      "uniqueUsers": 2565
     },
     {
       "screen": "AgeGate",
-      "views": 3534,
-      "uniqueUsers": 860
+      "views": 3538,
+      "uniqueUsers": 861
     },
     {
       "screen": "Consent",
-      "views": 3034,
-      "uniqueUsers": 2651
+      "views": 3037,
+      "uniqueUsers": 2653
     },
     {
       "screen": "LevelsSelection",
@@ -332,8 +332,8 @@
     },
     {
       "screen": "About",
-      "views": 593,
-      "uniqueUsers": 353
+      "views": 597,
+      "uniqueUsers": 354
     },
     {
       "screen": "Subscription",
@@ -342,8 +342,8 @@
     },
     {
       "screen": "Settings",
-      "views": 345,
-      "uniqueUsers": 217
+      "views": 347,
+      "uniqueUsers": 218
     },
     {
       "screen": "PlayerReport",
@@ -354,21 +354,37 @@
       "screen": "TimeOut",
       "views": 25,
       "uniqueUsers": 10
-    },
-    {
-      "screen": "",
-      "views": 10,
-      "uniqueUsers": 8
     }
   ],
+  "segmentFunnel": {
+    "levelLoaded": {
+      "eventCount": 12369,
+      "uniqueUsers": 1190
+    },
+    "segmentStarted": {
+      "eventCount": 12283,
+      "uniqueUsers": 1173
+    },
+    "segmentCompleted": {
+      "eventCount": 8449,
+      "uniqueUsers": 791
+    },
+    "segmentDropped": {
+      "eventCount": 2206,
+      "uniqueUsers": 672
+    },
+    "completionRateByEventsPct": 68.79,
+    "completionRateByUsersPct": 67.43,
+    "dropRateByEventsPct": 17.96
+  },
   "assessment": {
-    "totalUsers": 4288,
+    "totalUsers": 4292,
     "usersCompleted": 149,
     "totalEvents": 152,
     "completionRatePct": 3.47
   },
   "crashes": {
-    "totalSessions": 9683,
+    "totalSessions": 9700,
     "crashEvents": 2,
     "usersAffected": 2,
     "crashRatePct": 0.021,

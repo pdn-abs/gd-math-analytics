@@ -70,6 +70,70 @@ async function fetchMAU () {
     return rows[0].mau;
 }
 
+// ─── 1b. Extended user activity: new users, active users, avg engagement, engaged sessions ───────
+
+async function fetchUserActivityExtended () {
+    console.log('\n[1b/6] Fetching extended user activity (new users, avg engagement, engaged sessions)...');
+
+    const [newUsersRows] = await client.query({
+        query: `
+            SELECT COUNT(DISTINCT user_pseudo_id) AS new_users
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'first_open'
+        `,
+        location: LOCATION,
+    });
+
+    const [activeUsersRows] = await client.query({
+        query: `
+            SELECT COUNT(DISTINCT user_pseudo_id) AS active_users
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'session_start'
+        `,
+        location: LOCATION,
+    });
+
+    const [engagementRows] = await client.query({
+        query: `
+            SELECT
+                SUM((SELECT value.int_value FROM UNNEST(event_params) WHERE key = 'engagement_time_msec')) AS total_engagement_ms,
+                COUNT(DISTINCT user_pseudo_id) AS engaged_users
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'user_engagement'
+        `,
+        location: LOCATION,
+    });
+
+    const [engagedSessionsRows] = await client.query({
+        query: `
+            WITH session_engagement AS (
+                SELECT
+                    (SELECT value.int_value FROM UNNEST(event_params) WHERE key = 'ga_session_id') AS session_id,
+                    SUM((SELECT value.int_value FROM UNNEST(event_params) WHERE key = 'engagement_time_msec')) AS session_engagement_ms
+                FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+                WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+                  AND event_name = 'user_engagement'
+                GROUP BY session_id
+            )
+            SELECT COUNT(*) AS engaged_sessions
+            FROM session_engagement
+            WHERE session_engagement_ms > 10000
+        `,
+        location: LOCATION,
+    });
+
+    return {
+        newUsers: parseInt(newUsersRows[0].new_users),
+        activeUsers: parseInt(activeUsersRows[0].active_users),
+        totalEngagementMs: parseInt(engagementRows[0].total_engagement_ms || 0),
+        engagedUsers: parseInt(engagementRows[0].engaged_users || 0),
+        engagedSessions: parseInt(engagedSessionsRows[0].engaged_sessions),
+    };
+}
+
 // ─── 2. Retention cohorts: D1, D7, D30 ───────────────────────────────────────
 // Cohort = first day a user was seen (proxy for first_open, since Firebase's
 // first_open event may not appear in BigQuery if the export started after install).
@@ -347,6 +411,7 @@ async function main () {
     const [
         dauRows,
         mau,
+        activity,
         retentionRows,
         paywallFunnel,
         topScreens,
@@ -356,6 +421,7 @@ async function main () {
     ] = await Promise.all([
         fetchDAU(),
         fetchMAU(),
+        fetchUserActivityExtended(),
         fetchRetention(),
         fetchPaywallFunnel(),
         fetchTopScreens(),
@@ -370,15 +436,38 @@ async function main () {
     const peakDAU   = dauValues.length ? Math.max(...dauValues) : 0;
     const dauMau    = mau > 0 ? (avgDAU / mau).toFixed(3) : '0.000';
 
+    // ── Compute extended activity stats ───────────────────────────────────────
+    // Check whether Firebase auto-collected events are in the BQ export
+    const autoEventsAvailable = activity.newUsers > 0 || activity.activeUsers > 0;
+    const returningUsers     = autoEventsAvailable ? mau - activity.newUsers : null;
+    const avgEngagementMs    = activity.engagedUsers > 0 ? Math.round(activity.totalEngagementMs / activity.engagedUsers) : 0;
+    const avgEngagementMin   = Math.floor(avgEngagementMs / 60000);
+    const avgEngagementSec   = Math.round((avgEngagementMs % 60000) / 1000);
+
     // ── Print report ───────────────────────────────────────────────────────────
 
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
     console.log('1. USER ACQUISITION & ACTIVITY');
     console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-    console.log(`   MAU (window)   : ${mau.toLocaleString()}`);
-    console.log(`   Avg DAU        : ${avgDAU.toLocaleString()}`);
-    console.log(`   Peak DAU       : ${peakDAU.toLocaleString()}`);
-    console.log(`   DAU/MAU ratio  : ${dauMau}  ${parseFloat(dauMau) >= 0.2 ? '✓ Good (≥0.20)' : '⚠ Low (<0.20)'}`);
+    console.log(`   MAU (window)    : ${mau.toLocaleString()}`);
+    if (!autoEventsAvailable) {
+        console.log('   New users       : N/A  ⚠ first_open not in BQ export (auto-events disabled)');
+        console.log('   Returning users : N/A');
+        console.log('   Active users    : N/A  ⚠ session_start not in BQ export');
+        console.log('   Engaged sessions: N/A  ⚠ user_engagement not in BQ export');
+        console.log('   Avg engagement  : N/A');
+        console.log('   ℹ  To enable: Firebase Console → Project Settings → Integrations → BigQuery');
+        console.log('      → Streaming → include automatically collected events');
+    } else {
+        console.log(`   New users       : ${activity.newUsers.toLocaleString()}  (first_open events)`);
+        console.log(`   Returning users : ${returningUsers.toLocaleString()}  (MAU − new users)`);
+        console.log(`   Active users    : ${activity.activeUsers.toLocaleString()}  (≥1 session, approx)`);
+        console.log(`   Engaged sessions: ${activity.engagedSessions.toLocaleString()}  (>10s engagement, approx)`);
+        console.log(`   Avg engagement  : ${avgEngagementMin}m ${avgEngagementSec}s per user`);
+    }
+    console.log(`   Avg DAU         : ${avgDAU.toLocaleString()}`);
+    console.log(`   Peak DAU        : ${peakDAU.toLocaleString()}`);
+    console.log(`   DAU/MAU ratio   : ${dauMau}  ${parseFloat(dauMau) >= 0.2 ? '✓ Good (≥0.20)' : '⚠ Low (<0.20)'}`);
     console.log('\n   DAU trend (last 14 days):');
     dauRows.slice(-14).forEach(r => {
         const d = parseInt(r.dau);
@@ -503,6 +592,15 @@ async function main () {
         window: { start: START_DATE, end: END_DATE },
         acquisition: {
             mau,
+            ...(autoEventsAvailable ? {
+                newUsers: activity.newUsers,
+                returningUsers,
+                activeUsers: activity.activeUsers,
+                engagedSessions: activity.engagedSessions,
+                avgEngagementMsPerUser: avgEngagementMs,
+            } : {
+                autoEventsNote: 'first_open/session_start/user_engagement not in BQ export',
+            }),
             avgDAU,
             peakDAU,
             dauMauRatio: parseFloat(dauMau),

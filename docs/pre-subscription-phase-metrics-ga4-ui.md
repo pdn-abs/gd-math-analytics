@@ -194,6 +194,55 @@ Three metrics are **more accurate or only available** in the UI:
 
 ---
 
+## 5. Feature Engagement
+
+> **Source**: `CSV/eventType.csv` — GA4 UI → Explore → Free form
+> Metric: `Event count` per event name · Total all-event count: **328,176**
+> Note: event counts only — unique user counts not available from this export
+
+### Segment Funnel
+
+| Event | GA4 UI event count | BigQuery event count | Delta |
+|---|---|---|---|
+| LevelLoaded | **18,790** | 18,775 | +15 |
+| segmentStarted | **18,697** | 18,682 | +15 |
+| segmentCompleted | **10,566** | 10,556 | +10 |
+| segmentDropped | **6,329** | 6,325 | +4 |
+| **Segment completion rate** | **56.5%** (10,566/18,697) | **56.5%** (10,556/18,682) | ✅ Consistent |
+
+BigQuery and GA4 UI are nearly identical for gameplay events (delta ≤15 events across 18k+ records — within normal processing lag). These events are reliably captured in both sources.
+
+### All Events (GA4 UI)
+
+| Event | Count | Notes |
+|---|---|---|
+| DebugInfo | 68,551 | Highest volume — internal debug logging |
+| screen_view | 67,769 | Navigation events |
+| TimeTaken | 57,477 | |
+| LevelData | 32,434 | |
+| LevelLoaded | 18,790 | Level starts |
+| segmentStarted | 18,697 | |
+| user_engagement | 14,573 | |
+| segmentCompleted | 10,566 | |
+| session_start | 9,959 | |
+| segmentDropped | 6,329 | |
+| DropData | 4,510 | |
+| first_open | 3,218 | Installs |
+| app_remove | 2,961 | Uninstalls |
+| PlayerSessionFinish / Start | 2,845 each | |
+| Score | 2,740 | |
+| PlayerCreate | 1,546 | |
+| GameFirstStart | 1,033 | First-time app launch |
+| SettingsChanged | 472 | |
+| **SubscriptionOpened** | **471** | Paywall opens — see note below |
+| assessmentCompleted | 155 | |
+| PlayerDelete | 84 | |
+| app_exception | 2 | Crashes |
+
+> ⚠ **SubscriptionOpened = 471 events vs 194 unique users** (from funnel export): avg 2.4 opens per user who reached the paywall. Users are returning to the subscription screen multiple times — strong intent signal, but still zero conversions. This confirms the billing flow or UX is blocking purchase, not disinterest.
+
+---
+
 ## Priority Actions
 
 1. **🔴 Fix conversion (0%)** — 194 users on the paywall, zero subscribed. First: verify the Google Play billing flow works end-to-end on a real device (does `GameSubscription` fire in a sandbox purchase?). Then: redesign the subscription screen with clearer pricing and trust signals.
