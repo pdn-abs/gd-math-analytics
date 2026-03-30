@@ -1,28 +1,16 @@
 {
-  "generatedAt": "2026-03-28T06:59:28.437Z",
+  "generatedAt": "2026-03-30T10:37:12.813Z",
   "window": {
     "start": "20260125",
     "end": "20260325"
   },
   "acquisition": {
-    "mau": 3389,
-    "newUsers": 0,
-    "returningUsers": 3389,
-    "activeUsers": 0,
-    "engagedSessions": 0,
-    "avgEngagementMsPerUser": 0,
-    "avgDAU": 80,
+    "mau": 3262,
+    "autoEventsNote": "first_open/session_start/user_engagement not in BQ export",
+    "avgDAU": 79,
     "peakDAU": 104,
     "dauMauRatio": 0.024,
     "dauByDay": [
-      {
-        "date": "20260127",
-        "dau": 91
-      },
-      {
-        "date": "20260128",
-        "dau": 92
-      },
       {
         "date": "20260129",
         "dau": 84
@@ -245,32 +233,316 @@
       },
       {
         "date": "20260325",
-        "dau": 83
+        "dau": 84
       }
     ]
   },
   "retention": [
     {
       "dayOffset": 1,
-      "retainedUsers": 210,
-      "eligibleCohortSize": 3216,
-      "retentionRatePct": 6.53
+      "retainedUsers": 201,
+      "eligibleCohortSize": 3088,
+      "retentionRatePct": 6.51
     },
     {
       "dayOffset": 7,
-      "retainedUsers": 40,
-      "eligibleCohortSize": 1584,
-      "retentionRatePct": 2.53
+      "retainedUsers": 38,
+      "eligibleCohortSize": 1442,
+      "retentionRatePct": 2.64
     },
     {
       "dayOffset": 30,
       "retainedUsers": 9,
-      "eligibleCohortSize": 474,
-      "retentionRatePct": 1.9
+      "eligibleCohortSize": 400,
+      "retentionRatePct": 2.25
+    }
+  ],
+  "retentionBySkillAge": [
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 1,
+      "retainedUsers": 17,
+      "eligibleCohortSize": 42,
+      "retentionRatePct": 40.48
+    },
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 7,
+      "retainedUsers": 5,
+      "eligibleCohortSize": 11,
+      "retentionRatePct": 45.45
+    },
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 30,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 8,
+      "retentionRatePct": 25
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 1,
+      "retainedUsers": 108,
+      "eligibleCohortSize": 628,
+      "retentionRatePct": 17.2
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 7,
+      "retainedUsers": 21,
+      "eligibleCohortSize": 211,
+      "retentionRatePct": 9.95
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 30,
+      "retainedUsers": 4,
+      "eligibleCohortSize": 60,
+      "retentionRatePct": 6.67
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 1,
+      "retainedUsers": 19,
+      "eligibleCohortSize": 55,
+      "retentionRatePct": 34.55
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 7,
+      "retainedUsers": 6,
+      "eligibleCohortSize": 19,
+      "retentionRatePct": 31.58
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 30,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 7,
+      "retentionRatePct": 28.57
+    },
+    {
+      "skillAge": "4 Y",
+      "dayOffset": 1,
+      "retainedUsers": 27,
+      "eligibleCohortSize": 63,
+      "retentionRatePct": 42.86
+    },
+    {
+      "skillAge": "4 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 3,
+      "retentionRatePct": 33.33
+    },
+    {
+      "skillAge": "5 Y",
+      "dayOffset": 1,
+      "retainedUsers": 18,
+      "eligibleCohortSize": 33,
+      "retentionRatePct": 54.55
+    },
+    {
+      "skillAge": "5 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 50
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 1,
+      "retainedUsers": 5,
+      "eligibleCohortSize": 8,
+      "retentionRatePct": 62.5
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 7,
+      "retainedUsers": 3,
+      "eligibleCohortSize": 4,
+      "retentionRatePct": 75
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 30,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 50
+    },
+    {
+      "skillAge": "7 Y",
+      "dayOffset": 1,
+      "retainedUsers": 3,
+      "eligibleCohortSize": 4,
+      "retentionRatePct": 75
+    },
+    {
+      "skillAge": "7 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 1,
+      "retentionRatePct": 100
+    },
+    {
+      "skillAge": "8 Y",
+      "dayOffset": 1,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 100
+    },
+    {
+      "skillAge": "9 Y",
+      "dayOffset": 1,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 100
+    }
+  ],
+  "retentionLevelPlayers": [
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 1,
+      "retainedUsers": 17,
+      "eligibleCohortSize": 42,
+      "retentionRatePct": 40.48
+    },
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 7,
+      "retainedUsers": 5,
+      "eligibleCohortSize": 11,
+      "retentionRatePct": 45.45
+    },
+    {
+      "skillAge": "10 Y",
+      "dayOffset": 30,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 8,
+      "retentionRatePct": 25
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 1,
+      "retainedUsers": 108,
+      "eligibleCohortSize": 628,
+      "retentionRatePct": 17.2
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 7,
+      "retainedUsers": 21,
+      "eligibleCohortSize": 211,
+      "retentionRatePct": 9.95
+    },
+    {
+      "skillAge": "2 Y",
+      "dayOffset": 30,
+      "retainedUsers": 4,
+      "eligibleCohortSize": 60,
+      "retentionRatePct": 6.67
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 1,
+      "retainedUsers": 19,
+      "eligibleCohortSize": 55,
+      "retentionRatePct": 34.55
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 7,
+      "retainedUsers": 6,
+      "eligibleCohortSize": 19,
+      "retentionRatePct": 31.58
+    },
+    {
+      "skillAge": "3 Y",
+      "dayOffset": 30,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 7,
+      "retentionRatePct": 28.57
+    },
+    {
+      "skillAge": "4 Y",
+      "dayOffset": 1,
+      "retainedUsers": 27,
+      "eligibleCohortSize": 63,
+      "retentionRatePct": 42.86
+    },
+    {
+      "skillAge": "4 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 3,
+      "retentionRatePct": 33.33
+    },
+    {
+      "skillAge": "5 Y",
+      "dayOffset": 1,
+      "retainedUsers": 18,
+      "eligibleCohortSize": 33,
+      "retentionRatePct": 54.55
+    },
+    {
+      "skillAge": "5 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 50
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 1,
+      "retainedUsers": 5,
+      "eligibleCohortSize": 8,
+      "retentionRatePct": 62.5
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 7,
+      "retainedUsers": 3,
+      "eligibleCohortSize": 4,
+      "retentionRatePct": 75
+    },
+    {
+      "skillAge": "6 Y",
+      "dayOffset": 30,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 50
+    },
+    {
+      "skillAge": "7 Y",
+      "dayOffset": 1,
+      "retainedUsers": 3,
+      "eligibleCohortSize": 4,
+      "retentionRatePct": 75
+    },
+    {
+      "skillAge": "7 Y",
+      "dayOffset": 7,
+      "retainedUsers": 1,
+      "eligibleCohortSize": 1,
+      "retentionRatePct": 100
+    },
+    {
+      "skillAge": "8 Y",
+      "dayOffset": 1,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 100
+    },
+    {
+      "skillAge": "9 Y",
+      "dayOffset": 1,
+      "retainedUsers": 2,
+      "eligibleCohortSize": 2,
+      "retentionRatePct": 100
     }
   ],
   "paywallFunnel": {
-    "totalUsers": 3389,
+    "totalUsers": 3262,
     "reachedPaywall": 0,
     "purchased": 0,
     "paywallReachRatePct": 0,
@@ -281,93 +553,88 @@
   "topScreens": [
     {
       "screen": "Level",
-      "events": 26987,
-      "uniqueUsers": 1132
+      "events": 25891,
+      "uniqueUsers": 1094
     },
     {
       "screen": "LevelsSelection",
-      "events": 10030,
-      "uniqueUsers": 236
+      "events": 9658,
+      "uniqueUsers": 231
     },
     {
       "screen": "Complete",
-      "events": 7960,
-      "uniqueUsers": 672
+      "events": 7642,
+      "uniqueUsers": 647
     },
     {
       "screen": "Home",
-      "events": 6817,
-      "uniqueUsers": 1162
+      "events": 6541,
+      "uniqueUsers": 1120
     },
     {
       "screen": "Profile",
-      "events": 163,
-      "uniqueUsers": 71
+      "events": 161,
+      "uniqueUsers": 70
     },
     {
       "screen": "AgeGate",
-      "events": 8,
-      "uniqueUsers": 7
+      "events": 6,
+      "uniqueUsers": 6
     }
   ],
   "featureEngagement": {
     "segmentFunnel": [
       {
         "event": "LevelLoaded",
-        "events": 18064,
-        "uniqueUsers": 1319
+        "events": 17343,
+        "uniqueUsers": 1273
       },
       {
         "event": "segmentStarted",
-        "events": 17972,
-        "uniqueUsers": 1302
+        "events": 17257,
+        "uniqueUsers": 1258
       },
       {
         "event": "segmentCompleted",
-        "events": 10013,
-        "uniqueUsers": 866
+        "events": 9584,
+        "uniqueUsers": 837
       },
       {
         "event": "segmentDropped",
-        "events": 6235,
-        "uniqueUsers": 809
+        "events": 6024,
+        "uniqueUsers": 784
       }
     ],
     "topLevels": [
       {
         "level": "simpleIdentificationVegetablesSet2AL",
-        "loads": 1636,
-        "uniqueUsers": 464
+        "loads": 1569,
+        "uniqueUsers": 446
       },
       {
         "level": "stackVegetablesAndFruitsOverall2AL",
-        "loads": 637,
-        "uniqueUsers": 166
+        "loads": 611,
+        "uniqueUsers": 161
       },
       {
         "level": "simpleIdentificationToysSet22AL",
-        "loads": 630,
-        "uniqueUsers": 261
+        "loads": 599,
+        "uniqueUsers": 251
       },
       {
         "level": "orderBasedOnWeightSameObject",
-        "loads": 565,
-        "uniqueUsers": 12
+        "loads": 561,
+        "uniqueUsers": 11
       },
       {
         "level": "matchNumberCount1to72AL",
-        "loads": 452,
-        "uniqueUsers": 129
+        "loads": 435,
+        "uniqueUsers": 124
       },
       {
         "level": "matchObjectWithFraction1AL",
-        "loads": 374,
-        "uniqueUsers": 115
-      },
-      {
-        "level": "stackColorTilesSet1And22AL",
-        "loads": 349,
-        "uniqueUsers": 169
+        "loads": 364,
+        "uniqueUsers": 111
       },
       {
         "level": "maskPattern",
@@ -380,23 +647,28 @@
         "uniqueUsers": 8
       },
       {
-        "level": "orderUpToSevenNumber2AL",
-        "loads": 300,
-        "uniqueUsers": 76
+        "level": "stackColorTilesSet1And22AL",
+        "loads": 326,
+        "uniqueUsers": 157
+      },
+      {
+        "level": "stackingDifferentPairsOfSameValue202AL",
+        "loads": 280,
+        "uniqueUsers": 72
       }
     ]
   },
   "assessment": {
-    "totalUsers": 3389,
-    "usersCompletedAssessment": 143,
-    "totalAssessmentEvents": 145,
-    "completionRatePct": 4.22
+    "totalUsers": 3262,
+    "usersCompletedAssessment": 131,
+    "totalAssessmentEvents": 132,
+    "completionRatePct": 4.02
   },
   "crashes": {
-    "totalSessions": 5163,
+    "totalSessions": 4956,
     "crashEvents": 2,
     "usersAffected": 2,
-    "crashRatePct": 0.039,
+    "crashRatePct": 0.04,
     "userCrashRatePct": 0.06
   }
 }

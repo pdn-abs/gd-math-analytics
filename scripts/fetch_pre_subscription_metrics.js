@@ -201,6 +201,183 @@ async function fetchRetention () {
     return rows;
 }
 
+// ─── 2b. Retention by skill age ───────────────────────────────────────────────
+// Skill age = currentSkillAge from a user's first segmentStarted event.
+// Users who never fired segmentStarted are grouped as "(no skillage)".
+
+async function fetchRetentionBySkillAge () {
+    console.log('\n[2b/6] Fetching D1/D7/D30 retention by skill age...');
+    const query = `
+        WITH user_skillage AS (
+            -- Each user's skill age = currentSkillAge on their earliest segmentStarted
+            SELECT
+                user_pseudo_id,
+                ARRAY_AGG(
+                    (SELECT ep.value.string_value FROM UNNEST(event_params) ep WHERE ep.key = 'currentSkillAge')
+                    ORDER BY event_timestamp LIMIT 1
+                )[OFFSET(0)] AS skill_age
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'segmentStarted'
+            GROUP BY user_pseudo_id
+        ),
+        first_opens AS (
+            SELECT user_pseudo_id, MIN(event_date) AS cohort_date
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+            GROUP BY user_pseudo_id
+        ),
+        user_days AS (
+            SELECT DISTINCT user_pseudo_id, event_date AS activity_date
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+        ),
+        cohort_sizes AS (
+            SELECT
+                fo.cohort_date,
+                COALESCE(us.skill_age, '(no skillage)') AS skill_age,
+                COUNT(DISTINCT fo.user_pseudo_id) AS cohort_size
+            FROM first_opens fo
+            LEFT JOIN user_skillage us USING (user_pseudo_id)
+            GROUP BY fo.cohort_date, skill_age
+        ),
+        day_offsets AS (
+            SELECT
+                fo.cohort_date,
+                fo.user_pseudo_id,
+                COALESCE(us.skill_age, '(no skillage)') AS skill_age,
+                DATE_DIFF(
+                    PARSE_DATE('%Y%m%d', ud.activity_date),
+                    PARSE_DATE('%Y%m%d', fo.cohort_date),
+                    DAY
+                ) AS day_offset
+            FROM first_opens fo
+            JOIN user_days ud USING (user_pseudo_id)
+            LEFT JOIN user_skillage us USING (user_pseudo_id)
+        ),
+        filtered AS (
+            SELECT cohort_date, user_pseudo_id, skill_age, day_offset
+            FROM day_offsets
+            WHERE day_offset IN (1, 7, 30)
+        ),
+        retained AS (
+            SELECT cohort_date, skill_age, day_offset, COUNT(DISTINCT user_pseudo_id) AS retained_users
+            FROM filtered
+            GROUP BY cohort_date, skill_age, day_offset
+        )
+        SELECT
+            r.skill_age,
+            r.day_offset,
+            SUM(r.retained_users)                                                       AS retained_users,
+            SUM(cs.cohort_size)                                                         AS eligible_cohort_size,
+            ROUND(100.0 * SUM(r.retained_users) / NULLIF(SUM(cs.cohort_size), 0), 2)   AS retention_rate_pct
+        FROM retained r
+        JOIN cohort_sizes cs
+          ON r.cohort_date = cs.cohort_date AND r.skill_age = cs.skill_age
+        WHERE
+            (r.day_offset = 1  AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 1  DAY))
+            OR (r.day_offset = 7  AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 7  DAY))
+            OR (r.day_offset = 30 AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 30 DAY))
+        GROUP BY r.skill_age, r.day_offset
+        ORDER BY r.skill_age, r.day_offset
+    `;
+    const [rows] = await client.query({ query, location: LOCATION });
+    return rows;
+}
+
+// ─── 2c. Retention — level players only (LevelLoaded cohort) ─────────────────
+// Restricts cohort to the 1,273 users who fired at least one LevelLoaded event.
+// Also breaks down by skill age. Excludes the ~1,988 campaign-bounce users who
+// never reached gameplay, giving a cleaner picture of actual player retention.
+
+async function fetchRetentionLevelPlayers () {
+    console.log('\n[2c/6] Fetching D1/D7/D30 retention for level-players (LevelLoaded cohort)...');
+    const query = `
+        WITH level_players AS (
+            -- Only users who loaded at least one level
+            SELECT DISTINCT user_pseudo_id
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'LevelLoaded'
+        ),
+        user_skillage AS (
+            SELECT
+                user_pseudo_id,
+                ARRAY_AGG(
+                    (SELECT ep.value.string_value FROM UNNEST(event_params) ep WHERE ep.key = 'currentSkillAge')
+                    ORDER BY event_timestamp LIMIT 1
+                )[OFFSET(0)] AS skill_age
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND event_name = 'segmentStarted'
+            GROUP BY user_pseudo_id
+        ),
+        first_opens AS (
+            SELECT user_pseudo_id, MIN(event_date) AS cohort_date
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND user_pseudo_id IN (SELECT user_pseudo_id FROM level_players)
+            GROUP BY user_pseudo_id
+        ),
+        user_days AS (
+            SELECT DISTINCT user_pseudo_id, event_date AS activity_date
+            FROM \`${PROJECT_ID}.${DATASET}.events_*\`
+            WHERE _TABLE_SUFFIX BETWEEN '${START_DATE}' AND '${END_DATE}'
+              AND user_pseudo_id IN (SELECT user_pseudo_id FROM level_players)
+        ),
+        cohort_sizes AS (
+            SELECT
+                fo.cohort_date,
+                COALESCE(us.skill_age, '(no skillage)') AS skill_age,
+                COUNT(DISTINCT fo.user_pseudo_id) AS cohort_size
+            FROM first_opens fo
+            LEFT JOIN user_skillage us USING (user_pseudo_id)
+            GROUP BY fo.cohort_date, skill_age
+        ),
+        day_offsets AS (
+            SELECT
+                fo.cohort_date,
+                fo.user_pseudo_id,
+                COALESCE(us.skill_age, '(no skillage)') AS skill_age,
+                DATE_DIFF(
+                    PARSE_DATE('%Y%m%d', ud.activity_date),
+                    PARSE_DATE('%Y%m%d', fo.cohort_date),
+                    DAY
+                ) AS day_offset
+            FROM first_opens fo
+            JOIN user_days ud USING (user_pseudo_id)
+            LEFT JOIN user_skillage us USING (user_pseudo_id)
+        ),
+        filtered AS (
+            SELECT cohort_date, user_pseudo_id, skill_age, day_offset
+            FROM day_offsets
+            WHERE day_offset IN (1, 7, 30)
+        ),
+        retained AS (
+            SELECT cohort_date, skill_age, day_offset, COUNT(DISTINCT user_pseudo_id) AS retained_users
+            FROM filtered
+            GROUP BY cohort_date, skill_age, day_offset
+        )
+        SELECT
+            r.skill_age,
+            r.day_offset,
+            SUM(r.retained_users)                                                       AS retained_users,
+            SUM(cs.cohort_size)                                                         AS eligible_cohort_size,
+            ROUND(100.0 * SUM(r.retained_users) / NULLIF(SUM(cs.cohort_size), 0), 2)   AS retention_rate_pct
+        FROM retained r
+        JOIN cohort_sizes cs
+          ON r.cohort_date = cs.cohort_date AND r.skill_age = cs.skill_age
+        WHERE
+            (r.day_offset = 1  AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 1  DAY))
+            OR (r.day_offset = 7  AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 7  DAY))
+            OR (r.day_offset = 30 AND PARSE_DATE('%Y%m%d', r.cohort_date) <= DATE_SUB(PARSE_DATE('%Y%m%d', '${END_DATE}'), INTERVAL 30 DAY))
+        GROUP BY r.skill_age, r.day_offset
+        ORDER BY r.skill_age, r.day_offset
+    `;
+    const [rows] = await client.query({ query, location: LOCATION });
+    return rows;
+}
+
 // ─── 3. Paywall funnel ────────────────────────────────────────────────────────
 // Step 1: app_open (all users)
 // Step 2: SubscriptionOpened (reached paywall)
@@ -413,6 +590,8 @@ async function main () {
         mau,
         activity,
         retentionRows,
+        retentionBySkillAge,
+        retentionLevelPlayers,
         paywallFunnel,
         topScreens,
         featureEngagement,
@@ -423,6 +602,8 @@ async function main () {
         fetchMAU(),
         fetchUserActivityExtended(),
         fetchRetention(),
+        fetchRetentionBySkillAge(),
+        fetchRetentionLevelPlayers(),
         fetchPaywallFunnel(),
         fetchTopScreens(),
         fetchFeatureEngagement(),
@@ -494,6 +675,83 @@ async function main () {
         console.log('\n   Note: Low D1 may indicate onboarding friction.');
         console.log('         Low D7 suggests weak engagement loop.');
         console.log('         Low D30 = churn risk before paywall.');
+    }
+
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('2b. RETENTION BY SKILL AGE');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('   Skill age = currentSkillAge on user\'s first segmentStarted event.');
+    if (retentionBySkillAge.length === 0) {
+        console.log('   No data — no segmentStarted events in this window.');
+    } else {
+        // Group rows by skill_age
+        const bySkillAge = {};
+        retentionBySkillAge.forEach(r => {
+            const sa = r.skill_age || '(no skillage)';
+            if (!bySkillAge[sa]) bySkillAge[sa] = {};
+            bySkillAge[sa][r.day_offset] = r;
+        });
+        const colW = 12;
+        const header = '   Skill age   '.padEnd(14) + ' D01'.padStart(colW) + ' D07'.padStart(colW) + ' D30'.padStart(colW);
+        console.log('\n' + header);
+        console.log('   ' + '─'.repeat(header.length - 3));
+        Object.keys(bySkillAge).sort().forEach(sa => {
+            const d = bySkillAge[sa];
+            const fmt = (offset) => {
+                if (!d[offset]) return '   —'.padStart(colW);
+                const rate = parseFloat(d[offset].retention_rate_pct);
+                const eligible = parseInt(d[offset].eligible_cohort_size);
+                return `${rate.toFixed(1)}% (n=${eligible})`.padStart(colW);
+            };
+            console.log(`   ${sa.padEnd(11)} ${fmt(1)}${fmt(7)}${fmt(30)}`);
+        });
+    }
+
+    console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('2c. RETENTION — LEVEL PLAYERS ONLY  (LevelLoaded cohort, n=1,273)');
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log('   Excludes ~1,988 campaign-bounce users who never loaded a level.');
+    if (retentionLevelPlayers.length === 0) {
+        console.log('   No data.');
+    } else {
+        // Overall totals across all skill ages
+        const overallByOffset = {};
+        retentionLevelPlayers.forEach(r => {
+            const o = r.day_offset;
+            if (!overallByOffset[o]) overallByOffset[o] = { retained: 0, cohort: 0 };
+            overallByOffset[o].retained += parseInt(r.retained_users);
+            overallByOffset[o].cohort   += parseInt(r.eligible_cohort_size);
+        });
+        [1, 7, 30].forEach(o => {
+            const data = overallByOffset[o];
+            if (!data) return;
+            const rate = (100 * data.retained / data.cohort).toFixed(1);
+            const bench = o === 1 ? 40 : o === 7 ? 20 : 10;
+            const status = parseFloat(rate) >= bench ? '✓' : '⚠';
+            console.log(`   D${String(o).padStart(2,'0')}  ${bar(parseFloat(rate), 100)}  ${String(rate).padStart(5)}%  ${status} (benchmark ≥${bench}%)  — ${data.retained}/${data.cohort} users`);
+        });
+
+        // By skill age
+        const bySkillAge2 = {};
+        retentionLevelPlayers.forEach(r => {
+            const sa = r.skill_age || '(no skillage)';
+            if (!bySkillAge2[sa]) bySkillAge2[sa] = {};
+            bySkillAge2[sa][r.day_offset] = r;
+        });
+        const colW = 12;
+        const header2 = '\n   Skill age   '.padEnd(15) + ' D01'.padStart(colW) + ' D07'.padStart(colW) + ' D30'.padStart(colW);
+        console.log(header2);
+        console.log('   ' + '─'.repeat(header2.trim().length));
+        Object.keys(bySkillAge2).sort().forEach(sa => {
+            const d = bySkillAge2[sa];
+            const fmt = (offset) => {
+                if (!d[offset]) return '   —'.padStart(colW);
+                const rate = parseFloat(d[offset].retention_rate_pct);
+                const eligible = parseInt(d[offset].eligible_cohort_size);
+                return `${rate.toFixed(1)}% (n=${eligible})`.padStart(colW);
+            };
+            console.log(`   ${sa.padEnd(11)} ${fmt(1)}${fmt(7)}${fmt(30)}`);
+        });
     }
 
     console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
@@ -607,6 +865,20 @@ async function main () {
             dauByDay: dauRows.map(r => ({ date: r.event_date, dau: parseInt(r.dau) })),
         },
         retention: retentionRows.map(r => ({
+            dayOffset: r.day_offset,
+            retainedUsers: parseInt(r.retained_users),
+            eligibleCohortSize: parseInt(r.eligible_cohort_size),
+            retentionRatePct: parseFloat(r.retention_rate_pct),
+        })),
+        retentionBySkillAge: retentionBySkillAge.map(r => ({
+            skillAge: r.skill_age,
+            dayOffset: r.day_offset,
+            retainedUsers: parseInt(r.retained_users),
+            eligibleCohortSize: parseInt(r.eligible_cohort_size),
+            retentionRatePct: parseFloat(r.retention_rate_pct),
+        })),
+        retentionLevelPlayers: retentionLevelPlayers.map(r => ({
+            skillAge: r.skill_age,
             dayOffset: r.day_offset,
             retainedUsers: parseInt(r.retained_users),
             eligibleCohortSize: parseInt(r.eligible_cohort_size),

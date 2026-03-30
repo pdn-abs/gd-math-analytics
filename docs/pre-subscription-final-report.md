@@ -3,7 +3,7 @@
 > **Period**: Jan 25 → Mar 25, 2026 (60 days)
 > **Status**: Subscriptions live — zero conversions. Priority is driving the first subscriber.
 > **Sources**: BigQuery export · GA4 Reporting API · GA4 UI manual exports
-> **Last updated**: 2026-03-28
+> **Last updated**: 2026-03-30
 
 ---
 
@@ -15,6 +15,9 @@
 - [Part 3 — Actual State of Pre-Subscription Metrics](#part-3--actual-state-of-pre-subscription-metrics)
   - [Headline numbers](#headline-numbers-jan-25--mar-25-2026)
   - [Funnel shape](#funnel-shape)
+  - [Retention deep-dive](#retention-deep-dive)
+  - [App usage by skill age](#app-usage-by-skill-age)
+  - [Level failure analysis](#level-failure-analysis)
 - [Part 4 — Actions to Drive First Subscribers](#part-4--actions-to-drive-first-subscribers)
   - [Priority 1 — Fix the billing flow](#-priority-1--fix-the-billing-flow-blocker)
   - [Priority 2 — Fix D1 retention](#-priority-2--fix-d1-retention-126---40)
@@ -145,6 +148,155 @@ The funnel has **two collapse points**:
 
 ---
 
+### Retention deep-dive
+
+#### Install cohort composition
+
+Of the 3,262 BQ users in the window:
+
+| Cohort | Users | % |
+|---|---|---|
+| Played at least one level (have skillage) | 1,258 | 38% |
+| Loaded a level but never started a segment | 15 | 0.5% |
+| Only `firebase_campaign` event — never played | **1,988** | **61%** |
+| **Total** | **3,262** | |
+
+**61% of installs never reached gameplay.** These users were acquired via campaign, registered as installs, and immediately churned — before the D1 retention window even started. They inflate all retention denominators without contributing any retention signal.
+
+#### Retention: all installs vs. level players only
+
+Excluding the 1,988 campaign-bounce users and scoping to the 1,273 users who loaded at least one level reveals substantially better underlying retention:
+
+| | All installs (n=3,262) | Level players only (n=1,273) | Benchmark |
+|---|---|---|---|
+| D1 | 6.5% | **24.0%** | ≥ 40% |
+| D7 | 2.6% | **15.1%** | ≥ 20% |
+| D30 | 2.3% | **11.7% ✓** | ≥ 10% |
+
+Scoping to actual players **3–4× improves all rates** and pushes D30 above the 10% benchmark. The headline D1 = 6.5% is almost entirely a denominator problem, not a product problem.
+
+#### D1/D7/D30 retention by skill age (level players)
+
+Skill age = `currentSkillAge` on a user's first `segmentStarted` event.
+
+| Skill age | D1 | D7 | D30 |
+|---|---|---|---|
+| 2 Y | 17.2% (n=628) | 9.9% (n=211) | 6.7% (n=60) |
+| 3 Y | 34.5% (n=55) | 31.6% (n=19) | 28.6% (n=7) |
+| 4 Y | 42.9% (n=63) | 33.3% (n=3) | — |
+| 5 Y | 54.5% (n=33) | 50.0% (n=2) | — |
+| 6 Y | 62.5% (n=8) | 75.0% (n=4) | 50.0% (n=2) |
+| 7 Y | 75.0% (n=4) | 100.0% (n=1) | — |
+| 8 Y | 100.0% (n=2) | — | — |
+| 9 Y | 100.0% (n=2) | — | — |
+| 10 Y | 40.5% (n=42) | 45.5% (n=11) | 25.0% (n=8) |
+
+**Key findings:**
+- **Retention climbs sharply with skill age.** Users at 5–9 Y have 2–4× better D1 retention than 2 Y users.
+- **2 Y is the problem cohort.** At 628 users it is by far the largest group (50% of level players) yet has the worst retention (17% D1, 10% D7). This alone drags the overall level-player D1 from ~35% down to 24%.
+- **3–10 Y users retain well.** D1 retention of 34–100% across all other skill ages meets or approaches the 40% benchmark.
+- **Implication**: the app works well for older-skill-age users. The issue is with the youngest/beginner cohort — likely content difficulty mismatch or missing beginner onboarding.
+- **D7/D30 cohorts are too small** (n ≤ 19 for most skill ages above 2 Y) for statistical confidence — treat those numbers as directional only.
+
+---
+
+### App usage by skill age
+
+Engagement depth per skill-age cohort, measured across all users who played at least one level (1,258 total).
+
+| Skill Age | Users | Levels | Avg Lvl/User | Seg Started | Seg Completed | Seg Dropped | Done% | Avg Seg/User |
+|---|---|---|---|---|---|---|---|---|
+| 2 Y | 685 | 8,948 | 13.1 | 151,800 | 4,022 | 4,188 | 2.6% | 221.6 |
+| 3 Y | 143 | 1,182 | 8.3 | 20,087 | 742 | 212 | 3.7% | 140.5 |
+| 4 Y | 120 | 1,220 | 10.2 | 20,750 | 765 | 273 | 3.7% | 172.9 |
+| 5 Y | 82 | 627 | 7.6 | 10,668 | 383 | 128 | 3.6% | 130.1 |
+| 6 Y | 57 | 714 | 12.5 | 12,095 | 377 | 260 | 3.1% | 212.2 |
+| 7 Y | 35 | 281 | 8.0 | 4,791 | 181 | 62 | 3.8% | 136.9 |
+| **8 Y** | **23** | **2,442** | **106.2** | **41,520** | **2,220** | 133 | **5.3%** | **1,805.2** |
+| 9 Y | 9 | 71 | 7.9 | 1,207 | 47 | 12 | 3.9% | 134.1 |
+| 10 Y | 104 | 1,765 | 17.0 | 29,980 | 847 | 756 | 2.8% | 288.3 |
+| **TOTAL** | **1,258** | **17,250** | **13.7** | **292,898** | **9,584** | **6,024** | **3.3%** | **232.8** |
+
+**Key findings:**
+- **2 Y dominates in users (685, 54%)** but has the lowest segment completion rate (2.6%) and the highest absolute drop count (4,188) — consistent with the worst retention profile.
+- **8 Y is a power-user outlier** — only 23 users but they average 106 levels and 1,805 segments each, with the best completion rate (5.3%). Total volume from 23 users rivals entire other cohorts.
+- **Segment completion is universally low (2.6–5.3%)** across all ages — expected, as `segmentCompleted` counts only board-level completions while most activity is exploratory browsing.
+- **3 Y–7 Y** are broadly consistent: 8–12 levels and 130–220 segments per user with ~3.5–3.8% completion.
+- **10 Y** (104 users) shows above-average depth at 17 levels and 288 segments per user — this cohort punches above its size.
+
+---
+
+### Level failure analysis
+
+#### Failure & drop rates by skill age
+
+`segmentCompleted` with `status=fail` = formal failure (scored, wrong). `segmentDropped` = silent abandonment (user left without completing).
+
+| Age | Started | Pass | Fail | Drop | Fail% | Drop% | F+D% | Users w/Fail | Avg Wrong on Fail |
+|---|---|---|---|---|---|---|---|---|---|
+| 2 Y | 9,563 | 4,265 | 302 | 4,248 | 3.2% | **44.4%** | **47.6%** | 155 | 2.3 |
+| 3 Y | 1,081 | 574 | 69 | 205 | 6.4% | 19.0% | 25.3% | 41 | 4.7 |
+| 4 Y | 878 | 459 | 23 | 229 | 2.6% | 26.1% | 28.7% | 16 | 5.0 |
+| 5 Y | 693 | 398 | 44 | 127 | 6.3% | 18.3% | 24.7% | 18 | 3.6 |
+| 6 Y | 587 | 259 | 7 | 254 | 1.2% | **43.3%** | **44.5%** | 7 | 1.9 |
+| 7 Y | 181 | 83 | 8 | 53 | 4.4% | 29.3% | 33.7% | 4 | 3.8 |
+| **8 Y** | 2,364 | 2,139 | 16 | 124 | 0.7% | **5.2%** | **5.9%** | 3 | 8.8 |
+| 9 Y | 44 | 26 | 0 | 8 | 0.0% | 18.2% | 18.2% | 0 | — |
+| 10 Y | 1,851 | 886 | 18 | 773 | 1.0% | 41.8% | **42.7%** | 13 | 6.8 |
+
+#### Top 25 levels by failure+drop rate (min 20 starts)
+
+All 25 worst levels belong to the **2 Y skill age** cohort, concentrated in **Measurements**, **Time**, and **Money** branches. The predominant signal is drops (silent abandonment), not formal failures — users leave without being scored.
+
+| Level | Branch | F+D% | Started | Pass | Fail | Drop |
+|---|---|---|---|---|---|---|
+| findDifferenceOfHeight1 | Measurements | 85.7% | 21 | 3 | 1 | 17 |
+| matchMonthNumberWithName3 | Time | 79.2% | 24 | 5 | 0 | 19 |
+| matchObjectsWithKgs1 | Measurements | 77.3% | 22 | 4 | 0 | 17 |
+| findDifferenceOfHeight2 | Measurements | 76.2% | 21 | 3 | 0 | 16 |
+| addCapacity4 | Measurements | 75.0% | 20 | 4 | 1 | 14 |
+| matchHeavyLightObjects1 | Measurements | 75.0% | 20 | 5 | 0 | 15 |
+| formGivenWeight4 | Measurements | 75.0% | 20 | 5 | 1 | 14 |
+| matchHeavyLightObjects2 | Measurements | 71.4% | 21 | 5 | 1 | 14 |
+| findWeight1 | Measurements | 70.4% | 27 | 8 | 0 | 19 |
+| matchToyWithMoney1 | Money | 69.6% | 23 | 6 | 0 | 16 |
+| findTheTotalAmountPaid1 | Money | 68.2% | 22 | 6 | 0 | 15 |
+| convertLengthAndDistanceUnits | Measurements | 68.0% | 25 | 8 | 0 | 17 |
+| matchDifferentMinuteWithTimeLabel | Time | 66.7% | 21 | 6 | 0 | 14 |
+| differenceInWeight4 | Measurements | 63.8% | 47 | 15 | 0 | 30 |
+| findDiffInCapacity3 | Measurements | 62.5% | 24 | 9 | 0 | 15 |
+| differenceInWeight3 | Measurements | 62.5% | 32 | 11 | 0 | 20 |
+| orderHrsAndMinutesDifferentHr | Time | 61.9% | 21 | 7 | 0 | 13 |
+| addCapacity2 | Measurements | 61.9% | 21 | 8 | 0 | 13 |
+| differenceInWeight2 | Measurements | 61.9% | 21 | 8 | 1 | 12 |
+| matchAnimalWaterInTakeInL | Measurements | 60.9% | 23 | 8 | 0 | 14 |
+| findDiffInCapacity1 | Measurements | 60.9% | 23 | 8 | 0 | 14 |
+| matchPersonWithGlasses | Measurements | 60.7% | 28 | 11 | 0 | 17 |
+| matchBalloonWithMoney6 | Money | 58.3% | 24 | 9 | 0 | 14 |
+| formGivenWeight2 | Measurements | 57.1% | 21 | 9 | 0 | 12 |
+| simpleIdentificationAnimalsSet4 | Objects | 56.5% | 23 | 3 | 0 | 13 |
+
+#### D1 retention by failure experience
+
+Users bucketed by their personal fail+drop rate (minimum 5 segments started).
+
+| Failure Bucket | Users | Returned D1 | D1 Ret% |
+|---|---|---|---|
+| Very low (<20%) | 244 | 57 | 23.4% |
+| Low failure (20–49%) | 230 | 63 | **27.4%** |
+| Mid failure (50–79%) | 85 | 25 | **29.4%** |
+| High failure (≥80%) | 64 | 12 | 18.8% |
+
+**Key findings:**
+- **Failure is almost entirely a 2 Y / Measurements + Time + Money problem** — 44% of 2Y segments are silently dropped, vs 5–18% for all other ages. The Measurements branch accounts for 17 of the top 25 worst levels.
+- **Drops, not formal failures, are the churn signal.** Formal fail% is low (0.7–6.4%) across all ages. The real problem is users abandoning without being scored — indicating content confusion or difficulty mismatch, not just hard problems.
+- **Low avg-wrong-on-fail for 2Y (2.3)** confirms users are giving up almost immediately on failure, not persisting.
+- **8 Y has the healthiest profile** — 5.9% combined fail+drop, highest pass rate (90%), and the best engagement depth from the usage stats section.
+- **Moderate failure improves retention:** users with 50–79% fail+drop rate retain at 29.4% D1 vs 23.4% for very-low-failure users — a healthy challenge keeps users coming back. Only at ≥80% (overwhelmed) does retention collapse to 18.8%.
+- **Implication**: the 2Y Measurements cluster is the single highest-impact fix — these levels are driving the majority of silent churn in the largest cohort.
+
+---
+
 ## Part 4 — Actions to Drive First Subscribers
 
 ### 🔴 Priority 1 — Fix the billing flow (blocker)
@@ -158,9 +310,9 @@ The funnel has **two collapse points**:
 | Verify `GameSubscription` event wiring | Check it fires on `BillingClient.BILLING_RESPONSE_RESULT_OK`, not on tap |
 | Check plan availability by region | Verify the subscription products are published and available in Play Console for target regions |
 
-### 🔴 Priority 2 — Fix D1 retention (12.6% → ≥ 40%)
+### 🔴 Priority 2 — Fix D1 retention for the 2 Y cohort (12.6% → ≥ 40%)
 
-**Problem**: 87% of new users never return the next day. They never reach the paywall, never engage with levels, and never convert. This is the root cause of low paywall reach.
+**Problem**: The headline D1 = 6.5% (all installs) inflates the severity — level players retain at 24% D1 overall. However, the **2 Y skill-age cohort** (628 users, 50% of level players) retains at only 17% D1 and 10% D7, while every other skill-age group retains at 35–100%. The content or onboarding experience at the youngest/beginner level is failing to bring users back.
 
 | Action | Detail |
 |---|---|

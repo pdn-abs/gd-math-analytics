@@ -12,6 +12,7 @@
   - [Avg Session Duration](#avg-session-duration)
   - [DAU/WAU](#dauwau)
   - [WAU/MAU](#waumau)
+- [Retention Analysis (D1/D7/D30)](#retention-analysis-d1d7d30)
 - [Summary](#summary)
 
 ## Introduction
@@ -132,6 +133,92 @@ All metrics are weighted by active users for accurate aggregation. The engaged u
   - Send personalized weekly progress summaries
   - Add streak rewards for consecutive weekly activity
   - Create weekly leaderboard and achievement systems
+
+## Retention Analysis (D1/D7/D30)
+
+### Methodology
+
+Retention is calculated using the GA4 Reporting API (`runReport`) with `firstSessionDate` and `date` as dimensions and `activeUsers` as the metric, filtered by app version. The cohort logic is applied in post-processing:
+
+- **Cohort base (D0)**: users whose `firstSessionDate` falls within the version's active period
+- **D1 returned**: cohort users with an active session on `firstSessionDate + 1`
+- **D7 returned**: cohort users with an active session on `firstSessionDate + 7`
+- **D30 returned**: cohort users with an active session on `firstSessionDate + 30`
+- **Eligibility gate**: only users whose `firstSessionDate` was ≥ X days before the data end (Mar 11, 2026) are counted in the DX denominator, ensuring no artificially deflated rates from incomplete windows.
+
+**Source**: `query_drops_retention_ga4.js` · Full window Oct 20, 2025 → Mar 11, 2026
+
+---
+
+### Results
+
+| Group | New Users (D0) | D1 Base | D1 Returned | D1% | D7 Base | D7 Returned | D7% | D30 Base | D30 Returned | D30% |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Pre-Drops | 1,094 | 1,094 | 163 | **14.9%** | 1,094 | 28 | **2.6%** | 1,091 | 14 | **1.3%** |
+| Post-Drops | 4,918 | 4,918 | 696 | **14.2%** | 4,899 | 144 | **2.9%** | 3,928 | 33 | **0.8%** |
+| **Δ (post − pre)** | | | | **−0.7 pp** | | | **+0.3 pp** | | | **−0.5 pp** |
+
+---
+
+### Interpretation
+
+**D1 retention — flat (−0.7 pp, not significant)**
+
+D1 retention is essentially unchanged: 14.9% pre-drops vs 14.2% post-drops. The −0.7 pp difference is within noise and indicates drops had no meaningful impact on whether users return the day after install. The same proportion of new users come back the next day regardless of the drops feature.
+
+**D7 retention — marginal improvement (+0.3 pp)**
+
+A slight positive trend: 2.6% → 2.9%. This is a small but directionally positive signal — drops may help retain a slightly higher fraction of users across the first week. However, the absolute numbers are small (28 vs 144 returnees, proportions very close) and this should not be interpreted as a strong causal effect without further analysis.
+
+**D30 retention — lower post-drops (−0.5 pp), with caveats**
+
+D30 appears lower post-drops (0.8% vs 1.3%). Two important caveats:
+1. **Cohort maturity**: Pre-drops users (acquired Oct–Dec 2025) all had ≥30 days of history — 1,091/1,094 (99.7%) are D30-eligible. Post-drops users include a large Jan–Mar 2026 cohort where only 3,928/4,918 (79.9%) had 30 days available. The eligibility gate filters these correctly, but the two cohorts still represent different acquisition periods.
+2. **Organic vs paid mix**: If post-drops growth (from 1,094 to 4,918 new users = 4.5× increase) was partly driven by paid or lower-quality acquisition, D30 will naturally be lower regardless of the feature.
+
+**Overall retention verdict**: Drops did **not worsen** and **did not dramatically improve** day-level retention rates. The feature's retention value is better captured by WAU/MAU (+19.4%) and DAU/WAU (+6.0%) from the engagement analysis — these weekly/monthly patterns reflect the drop-reward loop (collect daily drops → return this week) more than isolated calendar-day cohort tracking.
+
+| Retention metric | Pre-Drops | Post-Drops | Δ | Benchmark | Status |
+|---|---|---|---|---|---|
+| D1 | 14.9% | 14.2% | −0.7 pp | ≥ 40% | 🔴 Both below benchmark |
+| D7 | 2.6% | 2.9% | +0.3 pp | ≥ 20% | 🔴 Both below benchmark |
+| D30 | 1.3% | 0.8% | −0.5 pp | ≥ 10% | 🔴 Both below benchmark |
+| DAU/WAU | 0.077 | 0.081 | +0.4 pp | — | 🟡 Marginal improvement |
+| WAU/MAU | 0.239 | 0.285 | +4.6 pp | — | 🟢 Meaningful improvement |
+
+---
+
+### Retention — Users Who Played At Least One Level
+
+Filtering to users who fired at least one `segmentStarted` event reveals the retention of genuine players, excluding installs that never reached gameplay.
+
+**Data source**: BigQuery export Jan 25 → Mar 25, 2026.
+**Limitation**: Pre-drops users (v4.3.0 / v4.3.2 / v4.3.7) were acquired Oct–Dec 2025 — outside the BQ export window. Only 12 such users appear in BQ (returning users who still ran an old version in Jan–Mar 2026). The pre-drops row is not statistically meaningful and is shown for completeness only.
+
+| Group | Total | D1 Base | D1 Ret | D1% | D7 Base | D7 Ret | D7% | D30 Base | D30 Ret | D30% |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **All level players** | 1,258 | 1,248 | 201 | **16.1%** | 1,137 | 38 | **3.3%** | 674 | 9 | **1.3%** |
+| Post-Drops players | 708 | 707 | 110 | 15.6% | 703 | 22 | 3.1% | 588 | 8 | 1.4% |
+| Other versions | 538 | 529 | 91 | 17.2% | 423 | 15 | 3.5% | 81 | 1 | 1.2% |
+| Pre-Drops ⚠️ | 12 | 12 | 0 | 0% | 11 | 1 | 9.1% | 5 | 0 | 0% |
+
+> ⚠️ Pre-drops row: only 12 users in BQ window — not representative of the true pre-drops cohort.
+
+**Comparison: all installs vs. level players only**
+
+| Metric | All installs (GA4 API) | Level players only (BQ) | Lift |
+|---|---|---|---|
+| D1 | Post: 14.2% / Pre: 14.9% | Post-drops players: 15.6% | +1.4 pp |
+| D7 | Post: 2.9% / Pre: 2.6% | Post-drops players: 3.1% | +0.2 pp |
+| D30 | Post: 0.8% / Pre: 1.3% | Post-drops players: 1.4% | +0.6 pp |
+
+**Key findings:**
+
+- **Level players retain only marginally better than all installs** at the cohort level (16.1% D1 vs 14.2% for all post-drops). This is lower than expected and contrasts with the pre-subscription analysis finding of 24% D1 for level players overall. The difference is explained by the denominator: the GA4 cohort uses all users on a version while BQ uses first-event-in-export as the cohort anchor, and the export window is heavily skewed towards recent (Jan–Mar) installs with short observation windows.
+- **D30 is barely measurable** — 674 of 1,258 level players had 30+ days of follow-up in the BQ window. Of those, only 9 returned on exactly D30 (1.3%). Long-tail day-exact retention is noisy; WAU/MAU is a better long-term engagement signal.
+- **Post-drops level-player D1 (15.6%) is consistent** with the all-installs post-drops figure (14.2%), confirming that reaching gameplay does not dramatically change same-version retention at the cohort level. The meaningful retention gap (24% vs 14%) seen in the pre-subscription report was driven by the version-agnostic "campaign bounce" exclusion, not by version differences.
+
+---
 
 ## Summary
 The introduction of drops features led to transformative improvements in user engagement metrics as measured by GA4 API data without user double-counting. Key highlights include:
