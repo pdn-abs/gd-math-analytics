@@ -178,25 +178,30 @@ Scoping to actual players **3–4× improves all rates** and pushes D30 above th
 #### D1/D7/D30 retention by skill age (level players)
 
 Skill age = `currentSkillAge` on a user's first `segmentStarted` event.
+Source: BigQuery with GA4-aligned methodology (cohort anchor = `user_first_touch_timestamp`; exact-day counting).
 
-| Skill age | D1 | D7 | D30 |
-|---|---|---|---|
-| 2 Y | 17.2% (n=628) | 9.9% (n=211) | 6.7% (n=60) |
-| 3 Y | 34.5% (n=55) | 31.6% (n=19) | 28.6% (n=7) |
-| 4 Y | 42.9% (n=63) | 33.3% (n=3) | — |
-| 5 Y | 54.5% (n=33) | 50.0% (n=2) | — |
-| 6 Y | 62.5% (n=8) | 75.0% (n=4) | 50.0% (n=2) |
-| 7 Y | 75.0% (n=4) | 100.0% (n=1) | — |
-| 8 Y | 100.0% (n=2) | — | — |
-| 9 Y | 100.0% (n=2) | — | — |
-| 10 Y | 40.5% (n=42) | 45.5% (n=11) | 25.0% (n=8) |
+| Skill age | Users | D1 | D7 | D30 |
+|---|---|---|---|---|
+| 2 Y | 500 | 22.4% (111/496) | 4.0% (18/449) | 1.9% (5/258) |
+| 3 Y | 100 | 21.2% (21/99) | 7.4% (7/95) | 0% ⚠ (0/52) |
+| 4 Y | 74 | 36.5% (27/74) | 0% ⚠ (0/63) | 0% ⚠ (0/35) |
+| 5 Y | 55 | 27.3% (15/55) | 4.2% (2/48) | 0% ⚠ (0/25) |
+| 6 Y | 45 | 13.3% (6/45) | 9.8% (4/41) | 7.1% (2/28) |
+| 7 Y | 16 | 18.8% (3/16) | 0% ⚠ (0/16) | 0% ⚠ (0/5) |
+| 8 Y | 15 | 20.0% (3/15) | 0% ⚠ (0/14) | 0% ⚠ (0/7) |
+| 9 Y | 5 | 20.0% (1/5) | 0% ⚠ (0/4) | 0% ⚠ (0/3) |
+| 10 Y | 81 | 21.0% (17/81) | 4.1% (3/74) | 0% ⚠ (0/33) |
+| **ALL** | **891** | **23.0% (204/886)** | **4.2% (34/804)** | **1.6% (7/446)** |
+
+⚠ = exact-day noise — cohort too small or activity falls on adjacent days; treat as near-zero, not true zero.
 
 **Key findings:**
-- **Retention climbs sharply with skill age.** Users at 5–9 Y have 2–4× better D1 retention than 2 Y users.
-- **2 Y is the problem cohort.** At 628 users it is by far the largest group (50% of level players) yet has the worst retention (17% D1, 10% D7). This alone drags the overall level-player D1 from ~35% down to 24%.
-- **3–10 Y users retain well.** D1 retention of 34–100% across all other skill ages meets or approaches the 40% benchmark.
-- **Implication**: the app works well for older-skill-age users. The issue is with the youngest/beginner cohort — likely content difficulty mismatch or missing beginner onboarding.
-- **D7/D30 cohorts are too small** (n ≤ 19 for most skill ages above 2 Y) for statistical confidence — treat those numbers as directional only.
+- **D1 retention is broadly similar across all skill ages (13–37%)** — no strong age-based pattern under the corrected BQ methodology. The previously reported 75–100% rates for 7–9 Y were artefacts of denominators as small as 1–2 users.
+- **2 Y remains the largest cohort** (500 users, 56% of level players) at 22.4% D1 — below the 40% benchmark but in line with the overall average (23%).
+- **4 Y has the highest D1 at 36.5%**; **6 Y is the lowest at 13.3%** (small cohort, n=45).
+- **D7 is meaningful only for 2 Y** (18/449 = 4.0%) and **6 Y** (4/41 = 9.8%); all other ages have too few D7-eligible users for a reliable rate.
+- **D30 is meaningful only for 2 Y** (5/258 = 1.9%) and **6 Y** (2/28 = 7.1%); all others are below the noise floor.
+- **Implication**: no single skill-age cohort retains at the 40% D1 benchmark. The retention problem is app-wide, not confined to the youngest cohort.
 
 ---
 
@@ -312,7 +317,7 @@ Users bucketed by their personal fail+drop rate (minimum 5 segments started).
 
 ### 🔴 Priority 2 — Fix D1 retention for the 2 Y cohort (12.6% → ≥ 40%)
 
-**Problem**: The headline D1 = 6.5% (all installs) inflates the severity — level players retain at 24% D1 overall. However, the **2 Y skill-age cohort** (628 users, 50% of level players) retains at only 17% D1 and 10% D7, while every other skill-age group retains at 35–100%. The content or onboarding experience at the youngest/beginner level is failing to bring users back.
+**Problem**: The headline D1 = 6.5% (all installs) inflates the severity — level players retain at 23% D1 overall. All skill-age cohorts fall short of the 40% D1 benchmark (range: 13–37%), with no single age group meeting it. The **2 Y cohort** (500 users, 56% of level players) is at 22.4% D1, and even the best-performing cohort (4 Y at 36.5%) does not reach the target. The retention problem is app-wide.
 
 | Action | Detail |
 |---|---|

@@ -10,9 +10,11 @@ const bq = new BigQuery({
 // Pre-drops:  v4.3.0, v4.3.2, v4.3.7
 // Post-drops: v4.3.12, v4.3.15, v4.3.19
 //
-// Cohort anchor = first day the user appears in the BQ export on that version.
-// A user is counted in whichever group corresponds to their FIRST seen version.
-// The full export window (20260125–20260325) is used for follow-up day lookups.
+// GA4 methodology:
+//   Cohort anchor = first_open event (true install date).
+//   A user is counted in whichever group corresponds to their FIRST seen version.
+//   Only users who installed within the BQ export window are included.
+//   The full export window (20260125–20260325) is used for follow-up day lookups.
 
 const q = `
 WITH version_group AS (
@@ -36,13 +38,14 @@ WITH version_group AS (
     ORDER BY event_timestamp ASC
   ) = 1
 ),
--- first day per user (within the export window)
+-- GA4 anchor: first_open fires on true install day; excludes pre-window installs
 first_day AS (
   SELECT
     user_pseudo_id,
     MIN(PARSE_DATE('%Y%m%d', _TABLE_SUFFIX)) AS cohort_date
   FROM \`gd-math-71c48.analytics_441470574.events_*\`
   WHERE _TABLE_SUFFIX BETWEEN '20260125' AND '20260325'
+    AND event_name = 'first_open'
   GROUP BY user_pseudo_id
 ),
 -- days each user was active

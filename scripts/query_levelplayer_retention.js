@@ -9,6 +9,12 @@ const bq = new BigQuery({
 // D1 / D7 / D30 retention for users who played at least one level,
 // split by: all level players, post-drops, pre-drops (small sample caveat).
 // "Played a level" = fired at least one segmentStarted event in the window.
+//
+// GA4 methodology:
+//   Cohort anchor = first_open event (true install date, not first in-window event).
+//   Only users who installed within the BQ export window are included.
+//   Denominator = D0-active eligible users (anchored from first_open, every
+//   user with a first_open event is active on D0 by definition).
 const q = `
 WITH version_grp AS (
   SELECT DISTINCT
@@ -31,9 +37,11 @@ level_players AS (
     AND event_name = 'segmentStarted'
 ),
 first_day AS (
+  -- GA4 anchor: first_open fires on true install day; excludes pre-window installs
   SELECT user_pseudo_id, MIN(PARSE_DATE('%Y%m%d', _TABLE_SUFFIX)) AS cohort_date
   FROM \`gd-math-71c48.analytics_441470574.events_*\`
   WHERE _TABLE_SUFFIX BETWEEN '20260125' AND '20260325'
+    AND event_name = 'first_open'
   GROUP BY user_pseudo_id
 ),
 active_days AS (

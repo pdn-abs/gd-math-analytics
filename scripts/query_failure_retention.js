@@ -8,10 +8,12 @@ const bq = new BigQuery({
 
 const q = `
 WITH first_day AS (
+  -- GA4 anchor: first_open fires on true install day; excludes pre-window installs
   SELECT user_pseudo_id,
     MIN(PARSE_DATE('%Y%m%d', _TABLE_SUFFIX)) AS first_date
   FROM \`gd-math-71c48.analytics_441470574.events_*\`
   WHERE _TABLE_SUFFIX BETWEEN '20260125' AND '20260325'
+    AND event_name = 'first_open'
   GROUP BY user_pseudo_id
 ),
 -- pivot params per event occurrence
