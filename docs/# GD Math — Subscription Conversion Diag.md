@@ -1,5 +1,5 @@
 # GD Math — Subscription Conversion Diagnosis & Action Plan
-*Updated: 9 April 2026 | App: GD Math (v1.3.0 → v4.3.19, 29 versions) | Launched: 14 August 2024*
+*Updated: 10 April 2026 | App: GD Math (v1.3.0 → v4.3.19, 29 versions) | Launched: 14 August 2024*
 *Sources: Codebase audit · Pre-subscription report (Jan 25–Mar 25) · Production retention data · Level failure analysis · Formal failure analysis · GA4 funnel explorations (Jan 9–Apr 8)*
 
 ---
@@ -12,7 +12,7 @@ GD Math offers 30 minutes of free playtime, after which users must subscribe (1 
 
 ## The Diagnosis in One Paragraph
 
-4,289 users installed. Only 1,354 ever played a level, 194 reached the paywall, and zero subscribed. The root causes are now fully identified: the **subscription screen is gated behind an age-gate math puzzle** that blocks every conversion attempt — including 88 confirmed high-intent users who completed the full assessment and still could not subscribe — **61% of users never play a level** because a mandatory 50-board assessment walls off gameplay, a **content routing bug** serves 8–10Y content to 2-year-olds (54% of the install base) causing 100% drop rates on first sessions, and the **assessment counts against the 30-minute free trial** leaving users who complete it with almost no gameplay time before the paywall activates.
+4,289 users installed. Only 1,354 ever played a level, 194 reached the paywall, and zero subscribed. The root causes are now fully identified: the **subscription screen is gated behind an Android system lock screen (PIN, pattern, or biometric) — not a math puzzle as previously believed; the math problem variables in ageGate/main.gd are dead code from a removed implementation** that blocks every conversion attempt — including 88 confirmed high-intent users who completed the full assessment and still could not subscribe — **61% of users never play a level** because a mandatory 50-board assessment walls off gameplay, a **content routing bug** serves 8–10Y content to 2-year-olds (54% of the install base) causing 100% drop rates on first sessions, and the **assessment counts against the 30-minute free trial** leaving users who complete it with almost no gameplay time before the paywall activates.
 
 ---
 
@@ -45,7 +45,7 @@ GD Math offers 30 minutes of free playtime, after which users must subscribe (1 
 
 †OpenedSubscription (88) > ViewPlayerReport (70) for the same reason — users can reach the subscription screen directly from Home or the paywall without going through PlayerReport. GA4 counts them independently in an indirect funnel.
 
-> **Critical insight:** 88 users completed the hardest onboarding path in the app — 50-board assessment — then navigated to subscribe and still could not convert. This group had the highest possible intent. The only plausible blockers are (1) the age gate math problem on the subscription screen, or (2) an empty plan list due to wrong product IDs. Both are fixable today.
+> **Critical insight:** 88 users completed the hardest onboarding path in the app — 50-board assessment — then navigated to subscribe and still could not convert. This group had the highest possible intent. The only plausible blockers are (1) the Android system lock screen (PIN/biometric) on the subscription screen, or (2) an empty plan list due to wrong product IDs. Both are fixable today.
 ### Three Critical Drop Points
 1. **GenderPicked (30% drop)** — biggest single loss in profile creation, 568 users
 2. **AssessmentStarted → AssessmentCompleted (43% drop)** — 469 users quit mid-assessment
@@ -60,7 +60,7 @@ There are two completely separate minute counters running simultaneously:
 | Counter | Stored in | Counts | Resets | Controls |
 |---|---|---|---|---|
 | **Trial counter** | `global.save` via `Game.getPlayedTime()` | Total minutes ever played, all sessions combined | Never | 30-min subscription paywall |
-| **Daily session counter** | Per-player profile via `Player.getPlayTime().playedMinutes` | Minutes played today only | Every calendar day at midnight | `timeOutLevel` daily limit (default 10 min) |
+| **Daily session counter** | Per-player profile via `Player.getPlayTime().playedMinutes` | Minutes played today only | On next Level screen load if date has changed (checked in `_handleElapsedTime()` in `levels/main.gd`, not a midnight timer) | `timeOutLevel` daily limit (default 10 min) |
 
 Every minute in the Level screen increments both simultaneously. A parent who sets the daily limit to 10 min hits the paywall on Day 3. The daily counter reset is actually a natural re-engagement hook — currently wasted as a hard stop screen.
 
@@ -80,21 +80,31 @@ Every minute in the Level screen increments both simultaneously. A parent who se
 | `GameSubscription` (Created/Expired) | Purchase lifecycle | `type`, `plan` |
 | `PlayerCreate/Delete/Update` | Profile management | `gender`, `age_in_days`, `skill_age` |
 | `SettingsChanged` | Any setting saved | All changed keys |
+| `LevelData` (type=levelStarted) | Level begins | `list`, `level`, `mode` |
+| `LevelData` (type=levelDropped) | Level abandoned | `list`, `level`, `board`, `duration` |
+| `LevelData` (type=levelStaged) | Level staged | `list`, `level` |
+| `LevelData` (type=levelFailed) | Level formal fail | `list`, `level`, `board`, `score` |
+| `assessmentCompleted` | Full assessment done | via `UserEvents.gd` |
+| `SubscriptionOpened` | Subscription screen viewed | via `UserEvents.gd` |
+| `LevelLoaded` | Level resource loaded | — |
+| `segmentStarted/Dropped/Completed` | Segment lifecycle | — |
+| `DropData` | Drop event detail | — |
+| `DebugInfo` | Debug use only | — |
 
 ### Critical Gaps
-- **Zero events** between paywall redirect and `GameSubscription(Created)` — entire conversion funnel invisible
-- **`LevelStarted` event does not exist** — `_onLevelStarted()` in `UserEvents.gd` only starts a timer, fires no analytics
-- **`AssessmentStarted/Completed` do not exist** as dedicated events
+- **`SubscriptionOpened` fires** when the subscription screen is viewed, but `BuyButtonTapped`, `SubscriptionAbandoned`, and `PaywallReached` are still missing — most of the conversion funnel remains invisible
+- **`LevelData` (type=levelStarted) exists** but uses a generic event name — a dedicated `LevelStarted` event with consistent params (`list`, `level`, `mode`, `skill_age`) is still needed for clean GA4 segmentation
+- **`AssessmentStarted` does not exist.** `assessmentCompleted` exists in `UserEvents.gd` but params need verification
 - **`PlayerReportViewed` does not exist** — screen only tracked as a departure point in `TimeTaken`
-- All billing errors (`_onConnectError`, `_onPurchaseError`) only `print()` — invisible in Firebase
+- All billing error handlers (`_onConnectionError` and others) only call `printerr()` — no analytics fired, invisible in Firebase
 
 ---
 
 ## Priority 1 — Remove Age Gate from Subscription Screen (TODAY — 1 line)
 
-**Evidence:** `ageGates = ["Profile", "Settings", "Subscription"]` in `ScreenManager.gd`. Every one of 471 paywall visits — including the 88 high-intent users who completed the full assessment — was preceded by a math addition problem the parent had to solve. Billing is confirmed working. This is the confirmed cause of zero conversions.
+**Evidence:** `ageGates = ["Profile", "Settings", "Subscription", "PlayerReport"]` in `autoload/ScreenManager.gd`. The age gate delegates to the Android ScreenLock system plugin — users must pass their device PIN, pattern, or biometric before accessing these screens. The GDScript math problem variables (`minVal`, `maxVal`, `answer`) in `ageGate/main.gd` are dead code from a removed implementation and do nothing. Every one of 471 paywall visits was preceded by this device lock screen. Billing is confirmed working. This is the confirmed cause of zero conversions.
 
-**Fix:** Remove `"Subscription"` from the `ageGates` array in `scenes/screens/main/ScreenManager.gd`.
+**Fix:** Remove `"Subscription"` and `"PlayerReport"` from the `ageGates` array in `autoload/ScreenManager.gd` (2 entries, not 1). `PlayerReport` is newly found to be gated — the 70 users who reached it also had to pass the device lock.
 
 > Note: Keep `AgeGateShown/Passed/Failed` instrumentation (Phase 2 below) in a release before removing the gate, so you can measure exactly how many conversions it was blocking. Then remove it.
 
@@ -102,10 +112,9 @@ Every minute in the Level screen increments both simultaneously. A parent who se
 
 ## Priority 2 — Verify Production Plan IDs (TODAY — 5 min)
 
-Current IDs in `configOverrides.json`: `"test_pan"`, `"testplan_two"`, `"testplan_3"`.
-If these don't match exact Play Store product IDs → `_onSKUDetailsQueryError` fires silently → users see empty plan list → nothing to buy even with billing working.
+`subscriptionPlans` is loaded from `ConfigManager.getConfig().get("subscriptionPlan", {})` — the config file (`res://assets/config.json`) is not committed to the repository. A hardcoded dummy ID `"in.abstractit.gd.math.default.month.12"` exists in `autoload/Subscription.gd`. The previously cited test plan IDs (`"test_pan"`, `"testplan_two"`, `"testplan_3"`) were not found in any code file — they may exist only in the runtime config. If plan IDs don't match exact Play Store product IDs → `_onConnectionError` fires silently → users see empty plan list → nothing to buy even with billing working.
 
-Check Play Console → Monetisation → Products → Subscriptions and compare IDs exactly.
+Check Play Console → Monetisation → Products → Subscriptions and compare IDs against the runtime config exactly.
 
 ---
 
@@ -184,17 +193,17 @@ Currently only fires when 30-min trial expires. Add triggers at:
 
 | Event | File | Key Parameters |
 |---|---|---|
-| `LevelStarted` | `autoload/UserEvents.gd` — fix `_onLevelStarted()` | `list`, `level`, `mode`, `age_in_days`, `skill_age` |
+| `LevelStarted` | `autoload/UserEvents.gd` — rename/extend existing `LevelData` (type=levelStarted) — add `skill_age` param | `list`, `level`, `mode`, `age_in_days`, `skill_age` |
 | `AssessmentStarted` | `scenes/screens/levels/main.gd` — when `list = "assessment"` | `age_in_days`, `skill_age` |
 | `AssessmentBoardCompleted` | `scenes/screens/levels/main.gd` — each board done during assessment | `board_number`, `duration` |
-| `AssessmentCompleted` | `scenes/screens/levels/main.gd` — assessment level completion | `duration`, `age_in_days`, `skill_age` |
+| `AssessmentCompleted` | `autoload/UserEvents.gd` — event exists as `"assessmentCompleted"`; verify params include `duration`, `age_in_days`, `skill_age` | `duration`, `age_in_days`, `skill_age` |
 | `AssessmentAbandoned` | `scenes/screens/levels/main.gd` — back nav during assessment | `board_number`, `time_spent` |
 | `PlayerReportViewed` | PlayerReport screen `start()` | `age_in_days`, `skill_age`, `source` |
 | `PaywallReached` | `scenes/screens/main/ScreenManager.gd` | `played_minutes`, `age_in_days`, `skill_age` |
 | `SubscriptionScreenViewed` | `scenes/screens/subscription/main.gd` | `source` (paywall/voluntary/post-assessment/post-level), `subscription_status`, `plans_count` |
 | `BuyButtonTapped` | `scenes/screens/subscription/plan.gd` | `plan_id`, `price`, `duration_unit` |
 | `SubscriptionAbandoned` | `scenes/screens/subscription/main.gd` | `time_on_screen`, `subscription_status` |
-| `BillingConnectionError` | `autoload/Subscription.gd` — `_onConnectError` + `_onPurchaseError` | `error_code`, `message` |
+| `BillingConnectionError` | `autoload/Subscription.gd` — `_onConnectionError()` and all error callbacks currently only call `printerr()` | `error_code`, `message` |
 | `AgeGateShown` | `scenes/screens/ageGate/main.gd` | `destination_screen` |
 | `AgeGatePassed` | `scenes/screens/ageGate/main.gd` | `destination_screen`, `attempts` |
 | `AgeGateFailed` | `scenes/screens/ageGate/main.gd` | `destination_screen` |
@@ -204,9 +213,9 @@ Currently only fires when 30-min trial expires. Add triggers at:
 
 ### Bugs to Fix
 
-1. **`_onPlayerCreate` bug** in `autoload/UserEvents.gd` — sends raw GDScript object instead of `props` dict. Event is broken.
-2. **`Score` sent as string** via `_convertAsDimension()` — Firebase cannot aggregate. Send as integer.
-3. **Register custom dimensions in Firebase Console** — `list`, `level`, `level_status`, `duration`, `score`, `age_in_days`, `skill_age`, `plan` are collected but invisible in reports until registered. GA4 free tier limit: 50 event-scoped dimensions.
+1. **`Score` sent as string** via `_convertAsDimension()` — Firebase cannot aggregate. Send as integer.
+2. **Register custom dimensions in Firebase Console** — `list`, `level`, `level_status`, `duration`, `score`, `age_in_days`, `skill_age`, `plan` are collected but invisible in reports until registered. GA4 free tier limit: 50 event-scoped dimensions.
+3. **`PlayerCreate` missing `skill_age` param** — event sends `gender` and `age_in_days` but not `skill_age`, making it inconsistent with `PlayerSessionStart/Finish`.
 
 ---
 
