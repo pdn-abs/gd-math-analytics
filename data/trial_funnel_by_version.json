@@ -1,0 +1,151 @@
+{
+  "source": "GA4 Reporting API",
+  "generatedAt": "2026-04-13T10:51:47.036Z",
+  "window": {
+    "start": "2026-01-25",
+    "end": "2026-03-25"
+  },
+  "methodology": {
+    "startedLevel": "activeUsers who viewed unifiedScreenName=\"Level\" at least once",
+    "trialExhausted": "activeUsers who fired SubscriptionOpened event; fired by ScreenManager when playedTime > freeTrialMinutes (30 min)",
+    "caveat": "User counts are not deduplicated across app versions. Per-user duration thresholds (≥29 min) require BigQuery."
+  },
+  "summary": {
+    "grandTotal": 4044,
+    "startedLevel": 1273,
+    "trialExhausted": 195,
+    "startedLevelPct": 31.5,
+    "trialExhaustedPctOfTotal": 4.8,
+    "trialExhaustedPctOfLevelPlayers": 15.3
+  },
+  "byVersion": {
+    "v4.3.21": {
+      "totalUsers": 1338,
+      "sessions": 2639,
+      "startedLevel": {
+        "users": 423,
+        "levelScreenViews": 1831,
+        "pctOfTotalUsers": "31.6%"
+      },
+      "trialExhausted": {
+        "users": 58,
+        "subscriptionOpenedEvents": 101,
+        "pctOfTotalUsers": "4.3%",
+        "pctOfLevelPlayers": "13.7%",
+        "avgTriggersPerUser": 1.74
+      }
+    },
+    "v4.3.19": {
+      "totalUsers": 1908,
+      "sessions": 4326,
+      "startedLevel": {
+        "users": 579,
+        "levelScreenViews": 2940,
+        "pctOfTotalUsers": "30.3%"
+      },
+      "trialExhausted": {
+        "users": 83,
+        "subscriptionOpenedEvents": 205,
+        "pctOfTotalUsers": "4.4%",
+        "pctOfLevelPlayers": "14.3%",
+        "avgTriggersPerUser": 2.47
+      }
+    },
+    "v4.3.15": {
+      "totalUsers": 640,
+      "sessions": 1940,
+      "startedLevel": {
+        "users": 212,
+        "levelScreenViews": 1286,
+        "pctOfTotalUsers": "33.1%"
+      },
+      "trialExhausted": {
+        "users": 43,
+        "subscriptionOpenedEvents": 122,
+        "pctOfTotalUsers": "6.7%",
+        "pctOfLevelPlayers": "20.3%",
+        "avgTriggersPerUser": 2.84
+      }
+    },
+    "v4.3.12": {
+      "totalUsers": 64,
+      "sessions": 198,
+      "startedLevel": {
+        "users": 25,
+        "levelScreenViews": 120,
+        "pctOfTotalUsers": "39.1%"
+      },
+      "trialExhausted": {
+        "users": 5,
+        "subscriptionOpenedEvents": 8,
+        "pctOfTotalUsers": "7.8%",
+        "pctOfLevelPlayers": "20.0%",
+        "avgTriggersPerUser": 1.6
+      }
+    },
+    "v4.3.7": {
+      "totalUsers": 32,
+      "sessions": 80,
+      "startedLevel": {
+        "users": 13,
+        "levelScreenViews": 36,
+        "pctOfTotalUsers": "40.6%"
+      },
+      "trialExhausted": {
+        "users": 2,
+        "subscriptionOpenedEvents": 2,
+        "pctOfTotalUsers": "6.3%",
+        "pctOfLevelPlayers": "15.4%",
+        "avgTriggersPerUser": 1
+      }
+    },
+    "v4.3.5": {
+      "totalUsers": 12,
+      "sessions": 55,
+      "startedLevel": {
+        "users": 5,
+        "levelScreenViews": 27,
+        "pctOfTotalUsers": "41.7%"
+      },
+      "trialExhausted": {
+        "users": 0,
+        "subscriptionOpenedEvents": 0,
+        "pctOfTotalUsers": "0.0%",
+        "pctOfLevelPlayers": "0.0%",
+        "avgTriggersPerUser": 0
+      }
+    },
+    "v4.3.2": {
+      "totalUsers": 26,
+      "sessions": 86,
+      "startedLevel": {
+        "users": 10,
+        "levelScreenViews": 33,
+        "pctOfTotalUsers": "38.5%"
+      },
+      "trialExhausted": {
+        "users": 2,
+        "subscriptionOpenedEvents": 2,
+        "pctOfTotalUsers": "7.7%",
+        "pctOfLevelPlayers": "20.0%",
+        "avgTriggersPerUser": 1
+      }
+    },
+    "v4.3.0": {
+      "totalUsers": 24,
+      "sessions": 77,
+      "startedLevel": {
+        "users": 6,
+        "levelScreenViews": 26,
+        "pctOfTotalUsers": "25.0%"
+      },
+      "trialExhausted": {
+        "users": 2,
+        "subscriptionOpenedEvents": 3,
+        "pctOfTotalUsers": "8.3%",
+        "pctOfLevelPlayers": "33.3%",
+        "avgTriggersPerUser": 1.5
+      }
+    }
+  }
+}

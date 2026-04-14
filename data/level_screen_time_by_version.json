@@ -1,0 +1,976 @@
+{
+  "source": "GA4 Reporting API",
+  "generatedAt": "2026-04-13T10:24:06.408Z",
+  "window": {
+    "start": "2026-01-25",
+    "end": "2026-03-25"
+  },
+  "targetVersions": [
+    "v4.3.21",
+    "v4.3.19",
+    "v4.3.15",
+    "v4.3.12",
+    "v4.3.7",
+    "v4.3.5",
+    "v4.3.2",
+    "v4.3.0"
+  ],
+  "detectedLevelScreenNames": [
+    "Level",
+    "LevelsSelection"
+  ],
+  "byVersion": {
+    "v4.3.21": {
+      "versionTotal": {
+        "totalEngageSec": 309383,
+        "activeUsers": 1338,
+        "sessions": 2639
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 166483,
+          "pageViews": 1831,
+          "uniqueUsers": 423,
+          "pctOfTotal": "53.8"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 51483,
+          "pageViews": 1417,
+          "uniqueUsers": 896,
+          "pctOfTotal": "16.6"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 38315,
+          "pageViews": 2983,
+          "uniqueUsers": 1338,
+          "pctOfTotal": "12.4"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 16114,
+          "pageViews": 1236,
+          "uniqueUsers": 932,
+          "pctOfTotal": "5.2"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 14102,
+          "pageViews": 2473,
+          "uniqueUsers": 471,
+          "pctOfTotal": "4.6"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 7756,
+          "pageViews": 1122,
+          "uniqueUsers": 991,
+          "pctOfTotal": "2.5"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 6960,
+          "pageViews": 837,
+          "uniqueUsers": 206,
+          "pctOfTotal": "2.2"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 3774,
+          "pageViews": 833,
+          "uniqueUsers": 273,
+          "pctOfTotal": "1.2"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 1413,
+          "pageViews": 121,
+          "uniqueUsers": 29,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 1214,
+          "pageViews": 85,
+          "uniqueUsers": 64,
+          "pctOfTotal": "0.4"
+        },
+        {
+          "screen": "About",
+          "engageSec": 957,
+          "pageViews": 162,
+          "uniqueUsers": 106,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 592,
+          "pageViews": 101,
+          "uniqueUsers": 58,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 213,
+          "pageViews": 21,
+          "uniqueUsers": 18,
+          "pctOfTotal": "0.1"
+        },
+        {
+          "screen": "TimeOut",
+          "engageSec": 7,
+          "pageViews": 2,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 167896,
+        "totalPageViews": 1952,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 166483,
+            "pageViews": 1831,
+            "uniqueUsers": 423,
+            "pctOfTotal": "53.8"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 1413,
+            "pageViews": 121,
+            "uniqueUsers": 29,
+            "pctOfTotal": "0.5"
+          }
+        ]
+      }
+    },
+    "v4.3.19": {
+      "versionTotal": {
+        "totalEngageSec": 510656,
+        "activeUsers": 1908,
+        "sessions": 4326
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 259580,
+          "pageViews": 2940,
+          "uniqueUsers": 579,
+          "pctOfTotal": "50.8"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 80033,
+          "pageViews": 2202,
+          "uniqueUsers": 1255,
+          "pctOfTotal": "15.7"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 60494,
+          "pageViews": 4782,
+          "uniqueUsers": 1908,
+          "pctOfTotal": "11.8"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 37905,
+          "pageViews": 1911,
+          "uniqueUsers": 1290,
+          "pctOfTotal": "7.4"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 22725,
+          "pageViews": 4340,
+          "uniqueUsers": 636,
+          "pctOfTotal": "4.5"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 19991,
+          "pageViews": 1588,
+          "uniqueUsers": 1392,
+          "pctOfTotal": "3.9"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 11889,
+          "pageViews": 1326,
+          "uniqueUsers": 324,
+          "pctOfTotal": "2.3"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 7376,
+          "pageViews": 1627,
+          "uniqueUsers": 393,
+          "pctOfTotal": "1.4"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 4022,
+          "pageViews": 317,
+          "uniqueUsers": 52,
+          "pctOfTotal": "0.8"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 2555,
+          "pageViews": 178,
+          "uniqueUsers": 110,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 1945,
+          "pageViews": 205,
+          "uniqueUsers": 83,
+          "pctOfTotal": "0.4"
+        },
+        {
+          "screen": "About",
+          "engageSec": 1363,
+          "pageViews": 273,
+          "uniqueUsers": 160,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 749,
+          "pageViews": 51,
+          "uniqueUsers": 35,
+          "pctOfTotal": "0.1"
+        },
+        {
+          "screen": "TimeOut",
+          "engageSec": 29,
+          "pageViews": 11,
+          "uniqueUsers": 5,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 263602,
+        "totalPageViews": 3257,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 259580,
+            "pageViews": 2940,
+            "uniqueUsers": 579,
+            "pctOfTotal": "50.8"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 4022,
+            "pageViews": 317,
+            "uniqueUsers": 52,
+            "pctOfTotal": "0.8"
+          }
+        ]
+      }
+    },
+    "v4.3.15": {
+      "versionTotal": {
+        "totalEngageSec": 204170,
+        "activeUsers": 640,
+        "sessions": 1940
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 115399,
+          "pageViews": 1286,
+          "uniqueUsers": 212,
+          "pctOfTotal": "56.5"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 23442,
+          "pageViews": 576,
+          "uniqueUsers": 316,
+          "pctOfTotal": "11.5"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 22078,
+          "pageViews": 1753,
+          "uniqueUsers": 640,
+          "pctOfTotal": "10.8"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 10978,
+          "pageViews": 1903,
+          "uniqueUsers": 262,
+          "pctOfTotal": "5.4"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 7438,
+          "pageViews": 789,
+          "uniqueUsers": 176,
+          "pctOfTotal": "3.6"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 7342,
+          "pageViews": 508,
+          "uniqueUsers": 322,
+          "pctOfTotal": "3.6"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 7079,
+          "pageViews": 653,
+          "uniqueUsers": 120,
+          "pctOfTotal": "3.5"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 4918,
+          "pageViews": 282,
+          "uniqueUsers": 248,
+          "pctOfTotal": "2.4"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 2001,
+          "pageViews": 200,
+          "uniqueUsers": 35,
+          "pctOfTotal": "1.0"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 1106,
+          "pageViews": 53,
+          "uniqueUsers": 33,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "About",
+          "engageSec": 1034,
+          "pageViews": 114,
+          "uniqueUsers": 70,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 932,
+          "pageViews": 122,
+          "uniqueUsers": 43,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 393,
+          "pageViews": 29,
+          "uniqueUsers": 18,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "TimeOut",
+          "engageSec": 30,
+          "pageViews": 9,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 117400,
+        "totalPageViews": 1486,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 115399,
+            "pageViews": 1286,
+            "uniqueUsers": 212,
+            "pctOfTotal": "56.5"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 2001,
+            "pageViews": 200,
+            "uniqueUsers": 35,
+            "pctOfTotal": "1.0"
+          }
+        ]
+      }
+    },
+    "v4.3.12": {
+      "versionTotal": {
+        "totalEngageSec": 18208,
+        "activeUsers": 64,
+        "sessions": 198
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 10322,
+          "pageViews": 120,
+          "uniqueUsers": 25,
+          "pctOfTotal": "56.7"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 3130,
+          "pageViews": 191,
+          "uniqueUsers": 36,
+          "pctOfTotal": "17.2"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 1871,
+          "pageViews": 143,
+          "uniqueUsers": 64,
+          "pctOfTotal": "10.3"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 1266,
+          "pageViews": 4,
+          "uniqueUsers": 4,
+          "pctOfTotal": "7.0"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 687,
+          "pageViews": 33,
+          "uniqueUsers": 24,
+          "pctOfTotal": "3.8"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 305,
+          "pageViews": 69,
+          "uniqueUsers": 19,
+          "pctOfTotal": "1.7"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 243,
+          "pageViews": 55,
+          "uniqueUsers": 13,
+          "pctOfTotal": "1.3"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 164,
+          "pageViews": 22,
+          "uniqueUsers": 19,
+          "pctOfTotal": "0.9"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 110,
+          "pageViews": 12,
+          "uniqueUsers": 4,
+          "pctOfTotal": "0.6"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 58,
+          "pageViews": 8,
+          "uniqueUsers": 5,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "About",
+          "engageSec": 28,
+          "pageViews": 9,
+          "uniqueUsers": 7,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 13,
+          "pageViews": 4,
+          "uniqueUsers": 4,
+          "pctOfTotal": "0.1"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 7,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.0"
+        },
+        {
+          "screen": "TimeOut",
+          "engageSec": 4,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 10432,
+        "totalPageViews": 132,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 10322,
+            "pageViews": 120,
+            "uniqueUsers": 25,
+            "pctOfTotal": "56.7"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 110,
+            "pageViews": 12,
+            "uniqueUsers": 4,
+            "pctOfTotal": "0.6"
+          }
+        ]
+      }
+    },
+    "v4.3.7": {
+      "versionTotal": {
+        "totalEngageSec": 8512,
+        "activeUsers": 32,
+        "sessions": 80
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 5527,
+          "pageViews": 36,
+          "uniqueUsers": 13,
+          "pctOfTotal": "64.9"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 1022,
+          "pageViews": 63,
+          "uniqueUsers": 32,
+          "pctOfTotal": "12.0"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 770,
+          "pageViews": 14,
+          "uniqueUsers": 9,
+          "pctOfTotal": "9.0"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 545,
+          "pageViews": 20,
+          "uniqueUsers": 10,
+          "pctOfTotal": "6.4"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 360,
+          "pageViews": 59,
+          "uniqueUsers": 16,
+          "pctOfTotal": "4.2"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 99,
+          "pageViews": 21,
+          "uniqueUsers": 6,
+          "pctOfTotal": "1.2"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 93,
+          "pageViews": 19,
+          "uniqueUsers": 7,
+          "pctOfTotal": "1.1"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 23,
+          "pageViews": 3,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 19,
+          "pageViews": 2,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "About",
+          "engageSec": 18,
+          "pageViews": 5,
+          "uniqueUsers": 3,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 17,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "TimeOut",
+          "engageSec": 10,
+          "pageViews": 2,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.1"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 6,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.1"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 3,
+          "pageViews": 2,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 5544,
+        "totalPageViews": 37,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 5527,
+            "pageViews": 36,
+            "uniqueUsers": 13,
+            "pctOfTotal": "64.9"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 17,
+            "pageViews": 1,
+            "uniqueUsers": 1,
+            "pctOfTotal": "0.2"
+          }
+        ]
+      }
+    },
+    "v4.3.5": {
+      "versionTotal": {
+        "totalEngageSec": 3847,
+        "activeUsers": 12,
+        "sessions": 55
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 2544,
+          "pageViews": 27,
+          "uniqueUsers": 5,
+          "pctOfTotal": "66.1"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 598,
+          "pageViews": 51,
+          "uniqueUsers": 12,
+          "pctOfTotal": "15.5"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 212,
+          "pageViews": 57,
+          "uniqueUsers": 6,
+          "pctOfTotal": "5.5"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 159,
+          "pageViews": 9,
+          "uniqueUsers": 6,
+          "pctOfTotal": "4.1"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 110,
+          "pageViews": 27,
+          "uniqueUsers": 4,
+          "pctOfTotal": "2.9"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 69,
+          "pageViews": 8,
+          "uniqueUsers": 5,
+          "pctOfTotal": "1.8"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 66,
+          "pageViews": 11,
+          "uniqueUsers": 1,
+          "pctOfTotal": "1.7"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 61,
+          "pageViews": 9,
+          "uniqueUsers": 1,
+          "pctOfTotal": "1.6"
+        },
+        {
+          "screen": "PlayerReport",
+          "engageSec": 13,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "About",
+          "engageSec": 11,
+          "pageViews": 3,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.3"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 4,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.1"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 2610,
+        "totalPageViews": 38,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 2544,
+            "pageViews": 27,
+            "uniqueUsers": 5,
+            "pctOfTotal": "66.1"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 66,
+            "pageViews": 11,
+            "uniqueUsers": 1,
+            "pctOfTotal": "1.7"
+          }
+        ]
+      }
+    },
+    "v4.3.2": {
+      "versionTotal": {
+        "totalEngageSec": 7908,
+        "activeUsers": 26,
+        "sessions": 86
+      },
+      "screens": [
+        {
+          "screen": "Level",
+          "engageSec": 3558,
+          "pageViews": 33,
+          "uniqueUsers": 10,
+          "pctOfTotal": "45.0"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 2739,
+          "pageViews": 42,
+          "uniqueUsers": 11,
+          "pctOfTotal": "34.6"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 607,
+          "pageViews": 14,
+          "uniqueUsers": 9,
+          "pctOfTotal": "7.7"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 547,
+          "pageViews": 61,
+          "uniqueUsers": 26,
+          "pctOfTotal": "6.9"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 207,
+          "pageViews": 66,
+          "uniqueUsers": 13,
+          "pctOfTotal": "2.6"
+        },
+        {
+          "screen": "Onboard",
+          "engageSec": 176,
+          "pageViews": 12,
+          "uniqueUsers": 10,
+          "pctOfTotal": "2.2"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 42,
+          "pageViews": 18,
+          "uniqueUsers": 6,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "LevelsSelection",
+          "engageSec": 15,
+          "pageViews": 5,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "About",
+          "engageSec": 12,
+          "pageViews": 6,
+          "uniqueUsers": 6,
+          "pctOfTotal": "0.2"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 3,
+          "pageViews": 1,
+          "uniqueUsers": 1,
+          "pctOfTotal": "0.0"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 2,
+          "pageViews": 2,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.0"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 3573,
+        "totalPageViews": 38,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 3558,
+            "pageViews": 33,
+            "uniqueUsers": 10,
+            "pctOfTotal": "45.0"
+          },
+          {
+            "screen": "LevelsSelection",
+            "engageSec": 15,
+            "pageViews": 5,
+            "uniqueUsers": 1,
+            "pctOfTotal": "0.2"
+          }
+        ]
+      }
+    },
+    "v4.3.0": {
+      "versionTotal": {
+        "totalEngageSec": 7577,
+        "activeUsers": 24,
+        "sessions": 77
+      },
+      "screens": [
+        {
+          "screen": "Onboard",
+          "engageSec": 1989,
+          "pageViews": 15,
+          "uniqueUsers": 12,
+          "pctOfTotal": "26.3"
+        },
+        {
+          "screen": "Level",
+          "engageSec": 1935,
+          "pageViews": 26,
+          "uniqueUsers": 6,
+          "pctOfTotal": "25.5"
+        },
+        {
+          "screen": "Consent",
+          "engageSec": 1503,
+          "pageViews": 4,
+          "uniqueUsers": 4,
+          "pctOfTotal": "19.8"
+        },
+        {
+          "screen": "Profile",
+          "engageSec": 760,
+          "pageViews": 15,
+          "uniqueUsers": 9,
+          "pctOfTotal": "10.0"
+        },
+        {
+          "screen": "Home",
+          "engageSec": 649,
+          "pageViews": 63,
+          "uniqueUsers": 11,
+          "pctOfTotal": "8.6"
+        },
+        {
+          "screen": "(not set)",
+          "engageSec": 512,
+          "pageViews": 43,
+          "uniqueUsers": 24,
+          "pctOfTotal": "6.8"
+        },
+        {
+          "screen": "AgeGate",
+          "engageSec": 124,
+          "pageViews": 57,
+          "uniqueUsers": 8,
+          "pctOfTotal": "1.6"
+        },
+        {
+          "screen": "About",
+          "engageSec": 35,
+          "pageViews": 8,
+          "uniqueUsers": 3,
+          "pctOfTotal": "0.5"
+        },
+        {
+          "screen": "Complete",
+          "engageSec": 34,
+          "pageViews": 9,
+          "uniqueUsers": 3,
+          "pctOfTotal": "0.4"
+        },
+        {
+          "screen": "Settings",
+          "engageSec": 30,
+          "pageViews": 6,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.4"
+        },
+        {
+          "screen": "Subscription",
+          "engageSec": 6,
+          "pageViews": 3,
+          "uniqueUsers": 2,
+          "pctOfTotal": "0.1"
+        }
+      ],
+      "levelScreensSummary": {
+        "totalEngageSec": 1935,
+        "totalPageViews": 26,
+        "screens": [
+          {
+            "screen": "Level",
+            "engageSec": 1935,
+            "pageViews": 26,
+            "uniqueUsers": 6,
+            "pctOfTotal": "25.5"
+          }
+        ]
+      }
+    }
+  },
+  "note": [
+    "userEngagementDuration = total foreground engagement seconds attributed to a screen by GA4.",
+    "GA4 does not expose native \"time on screen\". This metric is the best available proxy.",
+    "screenPageViews = number of screen_view events for that screen.",
+    "Avg time/view = userEngagementDuration / screenPageViews (approximation)."
+  ]
+}

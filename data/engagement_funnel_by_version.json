@@ -1,0 +1,328 @@
+{
+  "source": "BigQuery (GA4 raw events)",
+  "generatedAt": "2026-04-13T11:15:37.111Z",
+  "window": {
+    "start": "20260125",
+    "end": "20260325"
+  },
+  "targetVersions": [
+    "v4.3.21",
+    "v4.3.19",
+    "v4.3.15",
+    "v4.3.12",
+    "v4.3.7",
+    "v4.3.5",
+    "v4.3.2",
+    "v4.3.0"
+  ],
+  "grandTotal": 2282,
+  "summary": {
+    "LevelLoaded": {
+      "uniqueUsers": 852,
+      "totalEvents": 6215,
+      "pctOfTotalUsers": "37.3%"
+    },
+    "segmentStarted": {
+      "uniqueUsers": 843,
+      "totalEvents": 6149,
+      "pctOfTotalUsers": "36.9%"
+    },
+    "segmentCompleted": {
+      "uniqueUsers": 553,
+      "totalEvents": 3913,
+      "pctOfTotalUsers": "24.2%"
+    },
+    "segmentDropped": {
+      "uniqueUsers": 485,
+      "totalEvents": 1214,
+      "pctOfTotalUsers": "21.3%"
+    },
+    "assessmentCompleted": {
+      "uniqueUsers": 87,
+      "totalEvents": 88,
+      "pctOfTotalUsers": "3.8%"
+    }
+  },
+  "byVersion": {
+    "v4.3.21": {
+      "totalUsers": 1205,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 423,
+          "totalEvents": 2779,
+          "avgPerUser": 6.6,
+          "pctOfTotalUsers": "35.1%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 423,
+          "totalEvents": 2779,
+          "avgPerUser": 6.6,
+          "pctOfTotalUsers": "35.1%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 257,
+          "totalEvents": 1785,
+          "avgPerUser": 6.9,
+          "pctOfTotalUsers": "21.3%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 245,
+          "totalEvents": 532,
+          "avgPerUser": 2.2,
+          "pctOfTotalUsers": "20.3%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 39,
+          "totalEvents": 40,
+          "avgPerUser": 1,
+          "pctOfTotalUsers": "3.2%"
+        }
+      }
+    },
+    "v4.3.19": {
+      "totalUsers": 1020,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 390,
+          "totalEvents": 2786,
+          "avgPerUser": 7.1,
+          "pctOfTotalUsers": "38.2%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 390,
+          "totalEvents": 2789,
+          "avgPerUser": 7.2,
+          "pctOfTotalUsers": "38.2%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 265,
+          "totalEvents": 1750,
+          "avgPerUser": 6.6,
+          "pctOfTotalUsers": "26.0%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 214,
+          "totalEvents": 587,
+          "avgPerUser": 2.7,
+          "pctOfTotalUsers": "21.0%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 41,
+          "totalEvents": 41,
+          "avgPerUser": 1,
+          "pctOfTotalUsers": "4.0%"
+        }
+      }
+    },
+    "v4.3.15": {
+      "totalUsers": 79,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 61,
+          "totalEvents": 429,
+          "avgPerUser": 7,
+          "pctOfTotalUsers": "77.2%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 61,
+          "totalEvents": 429,
+          "avgPerUser": 7,
+          "pctOfTotalUsers": "77.2%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 44,
+          "totalEvents": 282,
+          "avgPerUser": 6.4,
+          "pctOfTotalUsers": "55.7%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 31,
+          "totalEvents": 75,
+          "avgPerUser": 2.4,
+          "pctOfTotalUsers": "39.2%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 7,
+          "totalEvents": 7,
+          "avgPerUser": 1,
+          "pctOfTotalUsers": "8.9%"
+        }
+      }
+    },
+    "v4.3.12": {
+      "totalUsers": 16,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 14,
+          "totalEvents": 120,
+          "avgPerUser": 8.6,
+          "pctOfTotalUsers": "87.5%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 15,
+          "totalEvents": 121,
+          "avgPerUser": 8.1,
+          "pctOfTotalUsers": "93.8%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 10,
+          "totalEvents": 84,
+          "avgPerUser": 8.4,
+          "pctOfTotalUsers": "62.5%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 6,
+          "totalEvents": 13,
+          "avgPerUser": 2.2,
+          "pctOfTotalUsers": "37.5%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        }
+      }
+    },
+    "v4.3.7": {
+      "totalUsers": 10,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 9,
+          "totalEvents": 17,
+          "avgPerUser": 1.9,
+          "pctOfTotalUsers": "90.0%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 9,
+          "totalEvents": 18,
+          "avgPerUser": 2,
+          "pctOfTotalUsers": "90.0%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 2,
+          "totalEvents": 8,
+          "avgPerUser": 4,
+          "pctOfTotalUsers": "20.0%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 4,
+          "totalEvents": 4,
+          "avgPerUser": 1,
+          "pctOfTotalUsers": "40.0%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        }
+      }
+    },
+    "v4.3.5": {
+      "totalUsers": 3,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 3,
+          "totalEvents": 13,
+          "avgPerUser": 4.3,
+          "pctOfTotalUsers": "100.0%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 3,
+          "totalEvents": 13,
+          "avgPerUser": 4.3,
+          "pctOfTotalUsers": "100.0%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 1,
+          "totalEvents": 4,
+          "avgPerUser": 4,
+          "pctOfTotalUsers": "33.3%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 1,
+          "totalEvents": 3,
+          "avgPerUser": 3,
+          "pctOfTotalUsers": "33.3%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        }
+      }
+    },
+    "v4.3.2": {
+      "totalUsers": 5,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 5,
+          "totalEvents": 39,
+          "avgPerUser": 7.8,
+          "pctOfTotalUsers": "100.0%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        }
+      }
+    },
+    "v4.3.0": {
+      "totalUsers": 7,
+      "events": {
+        "LevelLoaded": {
+          "uniqueUsers": 5,
+          "totalEvents": 32,
+          "avgPerUser": 6.4,
+          "pctOfTotalUsers": "71.4%"
+        },
+        "segmentStarted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "segmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "segmentDropped": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        },
+        "assessmentCompleted": {
+          "uniqueUsers": 0,
+          "totalEvents": 0,
+          "avgPerUser": 0,
+          "pctOfTotalUsers": "0.0%"
+        }
+      }
+    }
+  }
+}
