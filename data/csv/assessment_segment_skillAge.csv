@@ -1,0 +1,21 @@
+# ----------------------------------------
+# gd-math-71c48
+# Free-form-Free-form 1
+# 20260125-20260325
+# ----------------------------------------
+
+Segment,Production Only,Production Only,Production Only,Totals
+Event name,segmentStarted,segmentCompleted,segmentDropped,Totals
+type,assessment,assessment,assessment,Totals
+currentSkillAge,Total users,Total users,Total users,Total users
+,1107,744,597,1107,Grand total
+2 Y,609,453,329,609
+3 Y,137,84,74,137
+4 Y,109,70,68,109
+10 Y,107,65,54,107
+5 Y,76,47,37,76
+6 Y,45,20,29,45
+7 Y,30,6,14,30
+8 Y,23,13,10,23
+9 Y,8,6,3,8
+

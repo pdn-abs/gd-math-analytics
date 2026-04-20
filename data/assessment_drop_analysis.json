@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-04-15T07:30:44.170Z",
+  "window": {
+    "start": "20260125",
+    "end": "20260325"
+  },
+  "overallDropSignal": {
+    "total_drops": 926,
+    "avg_progress_pct": 23.5,
+    "median_progress_pct": 20,
+    "quit_in_first_quarter": 597,
+    "quit_in_middle": 243,
+    "quit_in_last_quarter": 86,
+    "avg_duration_sec": 43,
+    "median_duration_sec": 21,
+    "immediate_quit_under10s": 323,
+    "quick_quit_under30s": 553,
+    "avg_wrong_moves": 2,
+    "avg_right_moves": 4,
+    "avg_wrong_pct": 22.7
+  },
+  "segmentTypeBreakdown": [
+    {
+      "segment_type": "training",
+      "drops": 772,
+      "avg_duration_sec": 46,
+      "median_duration_sec": 20,
+      "avg_wrong_pct": 24.7,
+      "quick_quit_under30s": 464
+    },
+    {
+      "segment_type": "speedrun",
+      "drops": 154,
+      "avg_duration_sec": 28,
+      "median_duration_sec": 24,
+      "avg_wrong_pct": 15.7,
+      "quick_quit_under30s": 89
+    }
+  ],
+  "topDropLevels": [
+    {
+      "level_id": "simpleIdentificationVegetablesSet2AL",
+      "drop_count": 281,
+      "started_count": 1080,
+      "drop_rate_pct": 26,
+      "avg_duration_sec": 26,
+      "avg_wrong_pct": 14.5,
+      "quick_quits": 202
+    },
+    {
+      "level_id": "stackVegetablesAndFruitsOverall2AL",
+      "drop_count": 111,
+      "started_count": 418,
+      "drop_rate_pct": 26.6,
+      "avg_duration_sec": 34,
+      "avg_wrong_pct": 36.2,
+      "quick_quits": 62
+    },
+    {
+      "level_id": "matchNumberCount1to72AL",
+      "drop_count": 80,
+      "started_count": 325,
+      "drop_rate_pct": 24.6,
+      "avg_duration_sec": 61,
+      "avg_wrong_pct": 19.1,
+      "quick_quits": 42
+    },
+    {
+      "level_id": "matchObjectWithFraction1AL",
+      "drop_count": 61,
+      "started_count": 233,
+      "drop_rate_pct": 26.2,
+      "avg_duration_sec": 24,
+      "avg_wrong_pct": 23.2,
+      "quick_quits": 43
+    },
+    {
+      "level_id": "matchActivitiesWithObject2AL",
+      "drop_count": 49,
+      "started_count": 120,
+      "drop_rate_pct": 40.8,
+      "avg_duration_sec": 48,
+      "avg_wrong_pct": 20.3,
+      "quick_quits": 22
+    },
+    {
+      "level_id": "stackingDifferentPairsOfSameValue202AL",
+      "drop_count": 47,
+      "started_count": 172,
+      "drop_rate_pct": 27.3,
+      "avg_duration_sec": 59,
+      "avg_wrong_pct": 36.6,
+      "quick_quits": 24
+    },
+    {
+      "level_id": "simpleIdentificationToysSet22AL",
+      "drop_count": 45,
+      "started_count": 406,
+      "drop_rate_pct": 11.1,
+      "avg_duration_sec": 22,
+      "avg_wrong_pct": 4.2,
+      "quick_quits": 35
+    },
+    {
+      "level_id": "orderUpToSevenNumber2AL",
+      "drop_count": 34,
+      "started_count": 135,
+      "drop_rate_pct": 25.2,
+      "avg_duration_sec": 115,
+      "avg_wrong_pct": 26.6,
+      "quick_quits": 25
+    },
+    {
+      "level_id": "numbersFrom500To999AL",
+      "drop_count": 26,
+      "started_count": 36,
+      "drop_rate_pct": 72.2,
+      "avg_duration_sec": 71,
+      "avg_wrong_pct": 53.5,
+      "quick_quits": 10
+    },
+    {
+      "level_id": "stackColorTilesSet1And22AL",
+      "drop_count": 24,
+      "started_count": 230,
+      "drop_rate_pct": 10.4,
+      "avg_duration_sec": 65,
+      "avg_wrong_pct": 18.6,
+      "quick_quits": 7
+    },
+    {
+      "level_id": "stackMultiStickInMultiSlot1To52AL",
+      "drop_count": 24,
+      "started_count": 92,
+      "drop_rate_pct": 26.1,
+      "avg_duration_sec": 71,
+      "avg_wrong_pct": 13.3,
+      "quick_quits": 6
+    },
+    {
+      "level_id": "smallBigFrom1To99NumbersAL",
+      "drop_count": 23,
+      "started_count": 87,
+      "drop_rate_pct": 26.4,
+      "avg_duration_sec": 29,
+      "avg_wrong_pct": 19.1,
+      "quick_quits": 13
+    },
+    {
+      "level_id": "mergeNumberUpTo9WithBAsTwoAL",
+      "drop_count": 18,
+      "started_count": 44,
+      "drop_rate_pct": 40.9,
+      "avg_duration_sec": 107,
+      "avg_wrong_pct": 24.3,
+      "quick_quits": 2
+    },
+    {
+      "level_id": "summarizeTheSentences1AL",
+      "drop_count": 12,
+      "started_count": 56,
+      "drop_rate_pct": 21.4,
+      "avg_duration_sec": 34,
+      "avg_wrong_pct": 48.4,
+      "quick_quits": 7
+    },
+    {
+      "level_id": "fractionMultiplication6AL",
+      "drop_count": 11,
+      "started_count": 70,
+      "drop_rate_pct": 15.7,
+      "avg_duration_sec": 18,
+      "avg_wrong_pct": 46.9,
+      "quick_quits": 8
+    },
+    {
+      "level_id": "matchObjectSetFirst2AL",
+      "drop_count": 11,
+      "started_count": 143,
+      "drop_rate_pct": 7.7,
+      "avg_duration_sec": 21,
+      "avg_wrong_pct": 11.8,
+      "quick_quits": 8
+    },
+    {
+      "level_id": "stackMultiStick1To52AL",
+      "drop_count": 10,
+      "started_count": 185,
+      "drop_rate_pct": 5.4,
+      "avg_duration_sec": 31,
+      "avg_wrong_pct": 17.4,
+      "quick_quits": 7
+    },
+    {
+      "level_id": "stackUtensilsVehicles2AL",
+      "drop_count": 7,
+      "started_count": 85,
+      "drop_rate_pct": 8.2,
+      "avg_duration_sec": 38,
+      "avg_wrong_pct": 28.8,
+      "quick_quits": 4
+    },
+    {
+      "level_id": "matrixMultiplicationRandomNumbers3AL",
+      "drop_count": 7,
+      "started_count": 22,
+      "drop_rate_pct": 31.8,
+      "avg_duration_sec": 110,
+      "avg_wrong_pct": 60.6,
+      "quick_quits": 1
+    },
+    {
+      "level_id": "simpleIdentifyApparelAndStationery2AL",
+      "drop_count": 7,
+      "started_count": 56,
+      "drop_rate_pct": 12.5,
+      "avg_duration_sec": 38,
+      "avg_wrong_pct": 16.5,
+      "quick_quits": 2
+    }
+  ],
+  "dropsByBoardIndex": [
+    {
+      "board_index": 1,
+      "drops": 443
+    },
+    {
+      "board_index": 2,
+      "drops": 154
+    },
+    {
+      "board_index": 3,
+      "drops": 120
+    },
+    {
+      "board_index": 4,
+      "drops": 109
+    },
+    {
+      "board_index": 5,
+      "drops": 84
+    },
+    {
+      "board_index": 6,
+      "drops": 8
+    },
+    {
+      "board_index": 7,
+      "drops": 2
+    },
+    {
+      "board_index": 8,
+      "drops": 1
+    },
+    {
+      "board_index": 9,
+      "drops": 3
+    },
+    {
+      "board_index": 10,
+      "drops": 2
+    }
+  ]
+}

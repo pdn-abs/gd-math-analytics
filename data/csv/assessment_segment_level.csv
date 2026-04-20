@@ -1,0 +1,57 @@
+# ----------------------------------------
+# gd-math-71c48
+# Free-form-Free-form 1
+# 20260125-20260325
+# ----------------------------------------
+
+Segment,Production Only,Production Only,Production Only,Totals
+Event name,segmentStarted,segmentCompleted,segmentDropped,Totals
+type,assessment,assessment,assessment,Totals
+levelID,Total users,Total users,Total users,Total users
+,1107,744,597,1107,Grand total
+simpleIdentificationVegetablesSet2AL,448,332,192,448
+simpleIdentificationToysSet22AL,259,205,63,259
+stackVegetablesAndFruitsOverall2AL,170,124,90,170
+stackColorTilesSet1And22AL,163,130,32,163
+matchNumberCount1to72AL,134,82,61,134
+matchObjectWithFraction1AL,118,72,49,118
+stackMultiStick1To52AL,103,97,14,103
+matchObjectSetFirst2AL,111,82,16,111
+orderUpToSevenNumber2AL,77,67,32,77
+simpleIdentificationAnimalsSet1And22AL,85,75,9,85
+stackingDifferentPairsOfSameValue202AL,76,47,36,76
+stackUtensilsVehicles2AL,65,54,12,65
+stackMultiStickInMultiSlot1To52AL,63,36,25,63
+matchActivitiesWithObject2AL,61,25,27,61
+mergeNumberUpTo9WithBAsTwoAL,51,27,26,51
+simpleIdentifyApparelAndStationery2AL,47,38,9,47
+fractionMultiplication6AL,49,30,12,49
+smallBigFrom1To99NumbersAL,44,20,23,44
+subtractionMissingAUpTo20AL,38,27,7,38
+sortRedGreenYellowWhiteBlackGray2AL,32,27,3,32
+writeLevelSimpleLine2AL,25,22,5,25
+numbersFrom500To999AL,30,5,14,30
+matrixMultiplicationRandomNumbers3AL,26,12,10,26
+matchShapesByObjects2AL,24,21,2,24
+summarizeTheSentences1AL,24,13,10,24
+dataHandlingIconsBirdsAnimals2AL,23,20,3,23
+missingBRandomAAndB50To99AL,17,16,5,17
+writeLevel1To52AL,19,18,1,19
+stackTensAndOnes20UpTo502AL,17,16,0,17
+smallBigUpTo50Number2AL,13,11,1,13
+matchEdgesCorners22AL,11,11,1,11
+fillSubtractionStaticB3UpTo52AL,10,8,1,10
+placeValueMatrix1AL,10,8,1,10
+reviseDivideTable8And9AL,9,8,2,9
+givenSmartChartScale6AL,9,5,4,9
+groupAdditionOf5AL,9,8,1,9
+patternBasicFoods2AL,9,8,1,9
+cowBananaTable4AL,8,6,1,8
+numberDiceMatching2AL,8,6,1,8
+descendingOrdering1to999by50AL,6,3,2,6
+matchFractionWithImage4AL,5,5,1,5
+greaterSmallerUpTo999OperatorsAL,5,2,3,5
+multiplication3TableAL,2,1,1,2
+division4TableAL,1,1,0,1
+stackLivingAndNonLivingThingsAL,1,0,0,1
+
