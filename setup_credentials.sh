@@ -2,7 +2,7 @@
 # Analytics Environment Setup
 # This script sets up the Google Analytics credentials for the project
 #
-# For complete setup instructions, see: GA4_SETUP_GUIDE.md
+# For complete setup instructions, see: docs/ga4-setup-guide.md
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 

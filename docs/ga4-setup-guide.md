@@ -119,7 +119,7 @@ ls -la data/
 ### 6.1 View Insights
 ```bash
 # Read the analysis report
-cat reports/analytics_insights_on_impact_of_drops.md
+cat reports/drops-impact-analysis/analytics-insights-on-impact-of-drops.md
 ```
 
 ### 6.2 Key Metrics Tracked
