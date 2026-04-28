@@ -1,4 +1,16 @@
-### **Tier 1 Action Plan for Assessment Level Improvement**
+# ⚠️ DEPRECATED: See Revised Analysis
+
+> **This document includes first assessment levels, which have +24.4% higher drop rates due to onboarding friction, not content quality.**
+>
+> **Use these documents instead:**
+> - **[Revised Assessment Drop Analysis (Non-First Levels)](revised-assessment-drop-analysis-table.md)** ← Recommended for action planning
+> - **[First-Level Onboarding Analysis](first-level-onboarding-analysis.md)** ← Separate onboarding friction analysis
+>
+> **Key Difference:** First levels have 46.2% average drop rate; non-first levels have 32.0%. This is an onboarding/UX issue, not content quality.
+
+---
+
+### **Tier 1 Action Plan for Assessment Level Improvement** (INCLUDES FIRST LEVELS - SEE REVISED ANALYSIS)
 
 | Level ID | SkillAge | Reason: Why This is a Problematic Level (with Data Evidence) | Action To Be Taken |
 | :--- | :--- | :--- | :--- |
