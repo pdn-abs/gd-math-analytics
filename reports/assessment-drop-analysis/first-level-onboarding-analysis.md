@@ -1,6 +1,6 @@
 # First-Level Assessment Onboarding Analysis
 
-> **Last Updated:** April 27, 2026
+> **Last Updated:** April 28, 2026
 > **Data Range:** Jan 25 – Mar 25, 2026
 > **Focus:** Why first assessment levels have significantly higher drop rates than subsequent levels
 > **WM Methodology:** Wrong Moves shown as **per-group averages** (Drop WM/user vs Done WM/user), not blended totals.
@@ -21,18 +21,18 @@
 
 ## 🔍 First-Level Drop Rate Analysis by SkillAge
 
-| SkillAge | First Level | Started | Drop% | Avg (Non-First) | Difference | Drop WM/User | Pattern |
-|:---:|---|---:|:---:|:---:|:---:|:---:|---|
-| **2** | `simpleIdentificationVegetablesSet2AL` | 448 | 42.9% | 19.4% | +23.5% | **1.22** | Pure early quit |
-| **3** | `stackVegetablesAndFruitsOverall2AL` | 170 | 52.9% | 15.2% | +37.7% | **2.83** | Low engagement before quit |
-| **4** | `matchNumberCount1to72AL` | 134 | 45.5% | 17.8% | +27.7% | **2.31** | Low engagement before quit |
-| **5** | `matchActivitiesWithObject2AL` | 61 | 44.3% | 28.4% | +15.9% | **3.74** | Mixed: some engagement then quit |
-| **6** | `stackingDifferentPairsOfSameValue202AL` | 76 | 47.4% | 9.6% | +37.8% | **5.75** ⚠️ | Mixed: onboarding + content difficulty |
-| **7** | `smallBigFrom1To99NumbersAL` | 44 | 52.3% | 17.7% | +34.6% | **0.74** | Pure early quit |
-| **8** | `numbersFrom500To999AL` | 30 | 46.7% | 35.8% | +10.9% | **19.07** ⚠️ | Content too hard (not onboarding friction) |
-| **9** | `summarizeTheSentences1AL` | 24 | 41.7% | 16.2% | +25.5% | **1.70** | Pure early quit |
-| **10** | `matchObjectWithFraction1AL` | 118 | 41.5% | 35.8% | +5.7% | **2.45** | Low engagement before quit |
-| | **AVERAGE** | | **46.2%** | **22.1%** | **+24.1%** | | Onboarding friction is massive |
+| SkillAge | First Level | Mechanic | Started | Drop% | Avg (Non-First) | Difference | Drop WM/User | Pattern |
+|:---:|---|---|---:|:---:|:---:|:---:|:---:|---|
+| **2** | `simpleIdentificationVegetablesSet2AL` | Drag-to-match pairs (5×15s, 4 tiles) | 448 | 42.9% | 19.4% | +23.5% | **1.22** | Pure early quit |
+| **3** | `stackVegetablesAndFruitsOverall2AL` | Category sort into slots (5×14s, 4 tiles, 2 categories) | 170 | 52.9% | 15.2% | +37.7% | **2.83** | Low engagement before quit |
+| **4** | `matchNumberCount1to72AL` | Match count group → numeral (5×21s, 3 rows, values 1–7) | 134 | 45.5% | 17.8% | +27.7% | **2.31** | Low engagement before quit |
+| **5** | `matchActivitiesWithObject2AL` | Drag-to-match pairs (10×14s, 6 tiles, 3 pairs) | 61 | 44.3% | 28.4% | +15.9% | **3.74** | Mixed: some engagement then quit |
+| **6** | `stackingDifferentPairsOfSameValue202AL` | Arithmetic fill-in (5×14s, 2 equations `a+b=x` per board) | 76 | 47.4% | 9.6% | +37.8% | **5.75** ⚠️ | Mixed: onboarding + content difficulty |
+| **7** | `smallBigFrom1To99NumbersAL` | Comparison fill-in (5×14s, 2 rows `A [op] __`, range 1–99) | 44 | 52.3% | 17.7% | +34.6% | **0.74** | Pure early quit |
+| **8** | `numbersFrom500To999AL` | Addition fill-in (5×23s, 2 equations `a+b=x`, 500–999) | 30 | 46.7% | 35.8% | +10.9% | **19.07** ⚠️ | Content too hard (not onboarding friction) |
+| **9** | `summarizeTheSentences1AL` | Drag-to-match rank tiles (4×18s, tally table, MOST/LEAST) | 24 | 41.7% | 16.2% | +25.5% | **1.70** | Pure early quit |
+| **10** | `matchObjectWithFraction1AL` | Drag-to-match pairs (6×13s, fraction image → notation, denom 8) | 118 | 41.5% | 35.8% | +5.7% | **2.45** | Low engagement before quit |
+| | **AVERAGE** | | | **46.2%** | **22.1%** | **+24.1%** | | Onboarding friction is massive |
 
 ### Key Patterns
 
@@ -81,34 +81,37 @@
 
 **SkillAge 3, 6, 7**
 
-| SkillAge | First Level | Excess Friction | Drop WM/User | Users Affected | Priority |
-|:---:|---|:---:|:---:|:---:|---|
-| 3 | `stackVegetablesAndFruitsOverall2AL` | 37.7% | 2.83 | 63 droppers | **HIGH** |
-| 6 | `stackingDifferentPairsOfSameValue202AL` | 37.8% | 5.75 ⚠️ | 28 droppers | **HIGH** (content + onboarding) |
-| 7 | `smallBigFrom1To99NumbersAL` | 34.6% | 0.74 | 15 droppers | MEDIUM |
+| SkillAge | First Level | Mechanic | Excess Friction | Drop WM/User | Users Affected | Priority |
+|:---:|---|---|:---:|:---:|:---:|---|
+| 3 | `stackVegetablesAndFruitsOverall2AL` | Category sort: drag 4 tiles (fruit/vegetable) into 2 labeled slots | 37.7% | 2.83 | 63 droppers | **HIGH** |
+| 6 | `stackingDifferentPairsOfSameValue202AL` | Arithmetic fill-in: 2 equations `a+b=x` per board (sum ≤20) | 37.8% | 5.75 ⚠️ | 28 droppers | **HIGH** (content + onboarding) |
+| 7 | `smallBigFrom1To99NumbersAL` | Comparison fill-in: drag number to satisfy `A [op] __` (range 1–99) | 34.6% | 0.74 | 15 droppers | MEDIUM |
 
-**Recommendation:** Redesign first-level experience for these ages. SA6 requires both onboarding improvements AND content difficulty reduction (dropper WM 5.75, success 43%).
+**Recommendation:** Redesign first-level experience for these ages.
+- SA3 (`stackVegetablesAndFruitsOverall2AL`): the drag-to-category-slot mechanic is unfamiliar; introduce it with a guided first board before the timed phase.
+- SA6 (`stackingDifferentPairsOfSameValue202AL`): requires both onboarding improvements AND content difficulty reduction. The fill-in arithmetic mechanic (tens+ones columns, 2 equations per board) is genuinely hard for a first-level assessment encounter; dropper WM 5.75, success 43%.
+- SA7 (`smallBigFrom1To99NumbersAL`): despite being comparison fill-in (drag a number to make `A [op] __` true), drop WM of 0.74 signals pure early quit — the mechanic is understood but users disengage immediately.
 
 ### 🟡 Moderate (20–35% higher)
 
 **SkillAge 2, 4, 9**
 
-| SkillAge | First Level | Excess Friction | Drop WM/User | Users Affected | Priority |
-|:---:|---|:---:|:---:|:---:|---|
-| 2 | `simpleIdentificationVegetablesSet2AL` | 23.5% | 1.22 | 111 droppers | **HIGH** (volume) |
-| 4 | `matchNumberCount1to72AL` | 27.7% | 2.31 | 41 droppers | MEDIUM |
-| 9 | `summarizeTheSentences1AL` | 25.5% | 1.70 | 10 droppers | LOW |
+| SkillAge | First Level | Mechanic | Excess Friction | Drop WM/User | Users Affected | Priority |
+|:---:|---|---|:---:|:---:|:---:|---|
+| 2 | `simpleIdentificationVegetablesSet2AL` | Drag-to-match: 4 vegetable tiles, 2 left → 2 right | 23.5% | 1.22 | 111 droppers | **HIGH** (volume) |
+| 4 | `matchNumberCount1to72AL` | Match count group → numeral: 3 stick-count rows, values 1–7 | 27.7% | 2.31 | 41 droppers | MEDIUM |
+| 9 | `summarizeTheSentences1AL` | Drag-to-match rank: tally table shown, drag MOST/LEAST to fruit tiles | 25.5% | 1.70 | 10 droppers | LOW |
 
-**Recommendation:** Moderate improvements needed. Focus on SkillAge 2 due to high user volume. Low dropper WM (<2) for SA2 and SA9 confirms pure early quit — onboarding tutorial is the right fix.
+**Recommendation:** Moderate improvements needed. Focus on SkillAge 2 due to high user volume. Low dropper WM (<2) for SA2 and SA9 confirms pure early quit — both are drag-to-match mechanics that users understand but abandon; onboarding context-setting (not a mechanic tutorial) is the right fix.
 
 ### 🟢 Low (<15% higher)
 
 **SkillAge 5, 10**
 
-| SkillAge | First Level | Excess Friction | Drop WM/User | Users Affected | Priority |
-|:---:|---|:---:|:---:|:---:|---|
-| 5 | `matchActivitiesWithObject2AL` | 15.9% | 3.74 | 11 droppers | LOW |
-| 10 | `matchObjectWithFraction1AL` | 5.7% | 2.45 | 5 droppers | LOW |
+| SkillAge | First Level | Mechanic | Excess Friction | Drop WM/User | Users Affected | Priority |
+|:---:|---|---|:---:|:---:|:---:|---|
+| 5 | `matchActivitiesWithObject2AL` | Drag-to-match: 6 tiles, 3 activity-label → 3 object pairs | 15.9% | 3.74 | 11 droppers | LOW |
+| 10 | `matchObjectWithFraction1AL` | Drag-to-match: fraction image tiles → notation tiles (denominator 8) | 5.7% | 2.45 | 5 droppers | LOW |
 
 **Recommendation:** Lower priority. Monitor or make minor UX improvements.
 
@@ -120,12 +123,13 @@
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Addition fill-in: 5 boards × 23s. Shows 2 equations `a + b = x` (x = 500–999, 3-column layout) with one blank each. Player drags the correct 2–3 digit number tile to fill it. |
 | **Excess Friction** | 10.9% (lowest of all first levels) |
 | **Drop WM/User** | **19.07** |
 | **Dropper Success** | 40% |
 | **Done WM/User** | 10.20 |
 
-**Key Insight:** This level is misclassified if treated purely as an onboarding problem. Droppers make **19.07 wrong moves per user** and have only 40% success. The content itself is too hard — likely compounded by age misclassification. The low excess friction (+10.9%) reflects that non-first SA8 levels also have elevated drop rates (35.8% avg), not that this level is performing well.
+**Key Insight:** This level is misclassified if treated purely as an onboarding problem. Droppers make **19.07 wrong moves per user** — they are actively attempting the 3-digit addition fill-in and failing repeatedly, not passively quitting. The fill-in mechanic (drag a 2–3 digit addend into a blank column slot) is inherently hard when the number range is 500–999 and the user may be age-misclassified.
 
 **Recommendation:** Treat as a **content difficulty issue first**, onboarding friction second. Reduce the number range or add scaffolding regardless of onboarding improvements.
 
@@ -157,9 +161,9 @@
 **Implementation:**
 - Reduce the difficulty of the first-level content by **20–30%**
 - Examples:
-  - SkillAge 3 (`stackVegetablesAndFruitsOverall2AL`): Reduce the number of stacking pairs or complexity rules
-  - SkillAge 6 (`stackingDifferentPairsOfSameValue202AL`): Start with only 2–3 pairs, not 5+
-  - SkillAge 7 (`smallBigFrom1To99NumbersAL`): Use numbers 1–50, not 1–99
+  - SkillAge 3 (`stackVegetablesAndFruitsOverall2AL`): Pre-fill one category slot on the first board so users see the drag-to-category action demonstrated before they attempt it
+  - SkillAge 6 (`stackingDifferentPairsOfSameValue202AL`): Reduce from 2 equations per board to 1 for the first 2 boards; use a narrower sum range (e.g. ≤10) before introducing ≤20
+  - SkillAge 7 (`smallBigFrom1To99NumbersAL`): Restrict first 2 boards to multiples of 10 (1–50) before opening to 1–99; the comparison fill-in mechanic is understood (Drop WM 0.74) but the number range may feel unbounded
 - Keep the mechanic the same; just reduce scope
 
 **Expected Impact:** Reduce first-level drop rate by **5–10%**

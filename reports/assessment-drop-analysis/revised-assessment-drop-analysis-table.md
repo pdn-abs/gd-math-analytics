@@ -1,6 +1,6 @@
 # Assessment Drop Analysis: Revised Action Plan (Non-First Levels)
 
-> **Last Updated:** April 27, 2026
+> **Last Updated:** April 28, 2026
 > **Methodology:** Excludes first assessment level for each SkillAge to remove onboarding friction bias
 > **First Levels Excluded:** 9 levels (see [First-Level Onboarding Analysis](first-level-onboarding-analysis.md))
 > **WM Methodology:** Wrong Moves (WM) shown as **per-group averages** — Droppers WM/user vs Completers (Done) WM/user. Previous blended totals have been replaced with accurate per-group figures.
@@ -30,6 +30,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Merge-and-place (unique among equation-style levels): 4 boards × 23s. Left side shows 2 columns × 3 rows of movable tiles: one column has number tiles (1–7 windowed by board), the other has only 2-tiles. Player drags a number tile over a 2-tile to merge and create a sum tile, then drags that sum tile into slot(s) with silhouette targets of the required sum number. Most other equation-style levels in this report are standard drag-and-fill blanks, not merge-based. |
 | **Users Started** | 51 |
 | **Drop Rate** | 51.0% |
 | **Success (Completers)** | 88% |
@@ -46,10 +47,10 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 - **Signature:** Drop WM > Done WM = frustration/difficulty barrier, not a UI or instruction issue
 
 **Action:**
-1. **Reduce difficulty ramp** — Add 2–3 easier starter boards before complexity increases
-2. **Add adaptive hints** — When a user makes >4 wrong moves on a single board, show a scaffolded hint
-3. **Reduce wrong-move frustration** — Add positive reinforcement for near-correct answers, not only for correct ones
-4. **Consider splitting** — Break into shorter sub-levels to reduce accumulated frustration before dropout
+1. **Add merge-mechanic onboarding on first board** — Use a forced mini-demo: drag a number tile over a 2-tile to create a sum tile, then place it into a silhouette slot.
+2. **Add merge-specific adaptive hints** — Trigger contextual hints when users make repeated non-merge drags (e.g., highlight valid merge pairs, then pulse the target silhouette after a correct merge).
+3. **Strengthen merge feedback to reduce frustration** — Add clear snap/glow/sum-pop feedback at merge time and positive reinforcement for valid merge attempts, not only final correct placement.
+4. **Reduce complexity ramp after merge mastery** — Keep early boards constrained to easier sums and gradually increase number range only after users demonstrate successful merge-and-place completion.
 
 ---
 
@@ -57,6 +58,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Order: 5 boards × 14s (70s total). 4–6 shuffled number tiles (range 1–7, window advances per board). Player drags them into ascending-order position slots. |
 | **Users Started** | 77 |
 | **Drop Rate** | 41.6% |
 | **Success (Completers)** | 85% |
@@ -70,13 +72,15 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 - Despite spending **72 seconds** at the level, they barely attempt the boards (vs 5.70 WM for completers)
 - Droppers have **75% success** on boards they do attempt → they understand the content perfectly
 - **Signature:** Low drop WM (1.09) + long drop time (72s) + high dropper success (75%) = users understand but feel uncompelled to continue
-- Likely cause: 20-board length feels overwhelming; users disengage rather than struggle
+- **The level is 5 boards × 14s = 70s total.** Drop time of 72s ≈ full level duration — droppers are spending time on all boards without placing tiles, effectively letting the timer expire rather than engaging (≈0.22 WM per board)
+- The root cause is **lack of engagement with the drag-to-sort mechanic**, not board count or length
 - ⚠️ **Previous classification as "Comprehension Barrier" was incorrect** — based on blended 5.41 WM/user that mixed completer and dropper data
+- ⚠️ **Previous attribution to "20-board length" was also incorrect** — the level has 5 boards; that note was based on an earlier misread of the config
 
 **Action:**
-1. **Shorten the level** — Reduce from 20 boards to 10; this is the most direct fix for passive disengagement
-2. **Add mid-level motivation** — Insert a reward/milestone at the halfway point to encourage completion
-3. **Review engagement of the ordering mechanic** — Consider adding visual variation or challenge escalation
+1. **Improve mechanic engagement** — The level is already only 5 boards; the problem is that passive users let the timer run out without dragging tiles. Consider adding an animated drag-prompt when no interaction occurs for >3s
+2. **Improve first-move activation before scaling challenge** — Add ghost-drag guidance and a quick reward for first placement; only increase tile count after first-move rate improves.
+3. **Review ordering mechanic appeal** — Consider adding visual variation (e.g. number line display, colour coding) to make the ascending-sort goal more compelling
 4. **Do NOT add more instructions** — Dropper WM data confirms users understand the content; adding tutorials would have no impact
 
 ---
@@ -85,6 +89,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Part-whole count: 5 boards × 25s (125s total). Each board shows 3 labeled count slots — total `x` (2–5), part `b` (1–2), part `a = x−b`. Player drags visual stick-count groups into all three slots simultaneously. |
 | **Users Started** | 63 |
 | **Drop Rate** | 39.7% |
 | **Success (Completers)** | 89% |
@@ -93,16 +98,16 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 | **Done WM/User** | 7.50 |
 | **Avg Time (Done/Drop)** | 162s / 72s |
 
-**Root Cause: Grind/Complexity (Confirmed by Moderate Drop WM)**
-- **162-second completion time** is nearly *triple* the level average
-- Droppers make **2.84 WM/user** — moderate engagement; they try the content but quit when the level feels endless
-- Droppers understand the mechanic well (83% success, 72s drop time) but abandon due to length fatigue
-- Completers work through it (7.50 WM) but it takes over 2.5 minutes
+**Root Cause: Per-Board Cognitive Overload (NOT Board Count)**
+- **162-second completion time** vs 125s allotted (5 boards × 25s) — completers consistently exceed the board time, averaging ~32s per board
+- The level has **only 5 boards**; the grind comes from per-board complexity: filling 3 simultaneous count slots (x, a, b where a+b=x) requires understanding a part-whole relationship plus correctly counting and placing each stick group
+- Droppers make **2.84 WM/user** — moderate engagement; they attempt the mechanic but abandon when the 3-slot constraint is not resolved within the time limit
+- Droppers understand the concept at a surface level (83% success, 72s drop time) but the simultaneous 3-slot fill requirement amplifies errors under time pressure
 
 **Action:**
-1. **Reduce boards per level** — Drop from 10 to 6–7 boards
-2. **Simplify the stacking rules** — Fewer constraints or clearer visual feedback
-3. **Streamline animations** — Faster stick placement to reduce perceived grind
+1. **Preserve 3-slot construct but scaffold early boards** — Keep the x/a/b part-whole structure, but prefill one slot on initial boards so users solve the same construct with lower working-memory load.
+2. **Extend the board time** — 25s is insufficient for the 3-slot fill at this age; increase to 35–40s to reduce time-pressure abandonment
+3. **Streamline animations** — Faster stick placement to reduce mechanical wait time per board
 
 ---
 
@@ -110,6 +115,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Matrix fill: 5 boards × 36s. A 4×4 multiplication grid with headers from [6,7,8,9]. 4 random cells are blank per board. Player drags the correct product tile into each blank cell. |
 | **Users Started** | 26 |
 | **Drop Rate** | 38.5% |
 | **Success (Completers)** | 54% |
@@ -144,6 +150,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Fraction fill-in: 6 boards × 27s. Shows 2 fraction multiplication equations `a × b = __` per board (mixed fractions, denominator 4, result 2–12). Player drags the correct fraction tile into the product slot. |
 | **Users Started** | 49 |
 | **Drop Rate** | 24.5% |
 | **Success (Completers)** | 72% |
@@ -168,6 +175,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Drag-to-match: 5 boards × 11s. 4 toy picture tiles shown — 2 on the left, 2 on the right. Player drags each left tile to its matching pair on the right. |
 | **Users Started** | 259 |
 | **Drop Rate** | 24.3% |
 | **Success (Completers)** | 92% |
@@ -192,6 +200,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Trace: 5 boards × 14s. Player traces a dotted-line path character from the `writeLevelLineSet` (simple lines, not numerals) with finger/stylus. |
 | **Users Started** | 25 |
 | **Drop Rate** | 20.0% |
 | **Success (Completers)** | 0% |
@@ -215,6 +224,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Addition fill-in: 5 boards × 14s. Shows 2 equations `a + __ = x` or `a + b = __` in tens/ones columns (sum range 50–99). Player drags the missing addend or total tile into the blank slot. |
 | **Users Started** | 17 |
 | **Drop Rate** | 29.4% |
 | **Success (Completers)** | 76% |
@@ -243,6 +253,7 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 | Metric | Value |
 |--------|-------|
+| **Mechanic** | Category sort: 5 boards × 18s. 4 colored tiles (2 per color, 2 random colors from 6) shown shuffled. Two labeled color-category slots shown. Player drags each tile into its matching color slot. |
 | **Users Started** | 163 |
 | **Drop Rate** | 19.6% |
 | **Success (Completers)** | 86% |
@@ -285,15 +296,14 @@ After excluding first assessment levels (which have +24.4% higher drop rates due
 
 1. **Fix DOB/age-profiling** — Two Tier 1 levels (matrixMultiplicationRandomNumbers3AL, fractionMultiplication6AL) are primarily impacted by young children receiving SkillAge 10 content.
 
-2. **Reduce difficulty ramp for `mergeNumberUpTo9WithBAsTwoAL`** — Droppers make *more* wrong moves than completers (11.92 vs 7.37); this is a frustration pattern. Add easier starter boards and adaptive hints — not just better instructions.
+2. **Target merge-mechanic friction in `mergeNumberUpTo9WithBAsTwoAL`** — This level uses a unique merge-and-place flow (tile overlap to create a sum, then slot placement). Prioritize merge onboarding, merge-specific hints, and stronger merge feedback before general difficulty tuning.
 
-3. **Shorten `orderUpToSevenNumber2AL` from 20 to 10 boards** — Dropper WM of 1.09 confirms users understand the content but passively disengage. This is a length/motivation problem, NOT a comprehension problem. Do not add tutorials.
+3. **Fix passive disengagement in `orderUpToSevenNumber2AL`** — The level is **5 boards, not 20**. Dropper WM of 1.09 (≈0.22 per board) and drop time of 72s ≈ full level duration confirm users are letting the timer expire without placing tiles. This is a **mechanic engagement** problem, NOT a length or comprehension problem. Add an idle-prompt animation and do not add tutorials.
 
-4. **Reduce grind** — stackMultiStickInMultiSlot1To52AL needs **fewer boards** and **simpler mechanics**, not content difficulty reduction.
+4. **Reduce per-board overload in `stackMultiStickInMultiSlot1To52AL`** — Already only 5 boards. Keep the 3-slot part-whole construct (x, a, b where a+b=x), but prefill one slot on early boards and increase board time to 35–40s.
 
 ### Medium-Term Actions
 
-4. **Split long levels** — orderUpToSevenNumber2AL should be split into two 10-board levels
 5. **UX testing for write/trace** — Investigate why writeLevelSimpleLine2AL has a 20% drop
 6. **Monitor post-DOB fix** — Several levels may improve without content changes
 
