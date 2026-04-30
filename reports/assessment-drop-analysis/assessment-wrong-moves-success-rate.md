@@ -91,6 +91,100 @@
 | 44 | stackLivingAndNonLivingThingsAL | 5 | Objects | 2 | 0 | 0 | 0% | 0% | - | - | - | - | 0 |
 | 45 | division4TableAL | 8 | Arithmetic | 1 | 1 | 0 | 0% | 100% | 80% | - | 97s | - | 5 |
 
+## Wrong Moves by SkillAge (All Assessment Levels)
+
+> **Formatting rule:** Max wrong moves in each SkillAge table are **bold**; min wrong moves are *italic*.
+
+### SkillAge 2
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| simpleIdentificationVegetablesSet2AL | **1549** | 3.5 |
+| stackColorTilesSet1And22AL | 491 | 3.0 |
+| simpleIdentificationToysSet22AL | 394 | 1.5 |
+| matchObjectSetFirst2AL | *116* | 1.0 |
+
+### SkillAge 3
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| stackVegetablesAndFruitsOverall2AL | **1669** | 9.8 |
+| stackMultiStick1To52AL | 525 | 5.1 |
+| stackUtensilsVehicles2AL | 198 | 3.0 |
+| simpleIdentificationAnimalsSet1And22AL | 139 | 1.6 |
+| sortRedGreenYellowWhiteBlackGray2AL | 93 | 2.9 |
+| simpleIdentifyApparelAndStationery2AL | 54 | 1.1 |
+| writeLevelSimpleLine2AL | *0* | 0.0 |
+
+### SkillAge 4
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| matchNumberCount1to72AL | **751** | 5.6 |
+| stackMultiStickInMultiSlot1To52AL | 341 | 5.4 |
+| matchShapesByObjects2AL | 113 | 4.7 |
+| writeLevel1To52AL | *0* | 0.0 |
+
+### SkillAge 5
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| mergeNumberUpTo9WithBAsTwoAL | **509** | 10.0 |
+| orderUpToSevenNumber2AL | 417 | 5.4 |
+| matchActivitiesWithObject2AL | 383 | 6.3 |
+| patternBasicFoods2AL | 50 | 5.6 |
+| fillSubtractionStaticB3UpTo52AL | 8 | 0.8 |
+| stackLivingAndNonLivingThingsAL | *0* | 0.0 |
+
+### SkillAge 6
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| stackingDifferentPairsOfSameValue202AL | **595** | 7.8 |
+| subtractionMissingAUpTo20AL | 272 | 7.2 |
+| stackTensAndOnes20UpTo502AL | 204 | 12.0 |
+| matchEdgesCorners22AL | 120 | 10.9 |
+| smallBigUpTo50Number2AL | 87 | 6.7 |
+| dataHandlingIconsBirdsAnimals2AL | *61* | 2.7 |
+
+### SkillAge 7
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| smallBigFrom1To99NumbersAL | **168** | 3.8 |
+| missingBRandomAAndB50To99AL | 104 | 6.1 |
+| groupAdditionOf5AL | 91 | 10.1 |
+| cowBananaTable4AL | *17* | 2.1 |
+
+### SkillAge 8
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| numbersFrom500To999AL | **318** | 10.6 |
+| descendingOrdering1to999by50AL | 50 | 8.3 |
+| multiplication3TableAL | 6 | 3.0 |
+| division4TableAL | 5 | 5.0 |
+| greaterSmallerUpTo999OperatorsAL | *4* | 0.8 |
+
+### SkillAge 9
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| summarizeTheSentences1AL | **137** | 5.7 |
+| placeValueMatrix1AL | 94 | 9.4 |
+| reviseDivideTable8And9AL | 77 | 8.6 |
+| numberDiceMatching2AL | 24 | 3.0 |
+| matchFractionWithImage4AL | *21* | 4.2 |
+
+### SkillAge 10
+
+| Level | Wrong Moves | WM/User |
+|---|---:|---:|
+| matchObjectWithFraction1AL | **667** | 5.7 |
+| matrixMultiplicationRandomNumbers3AL | 663 | 25.5 |
+| fractionMultiplication6AL | 424 | 8.7 |
+| givenSmartChartScale6AL | *55* | 6.1 |
+
 
 ## Key Signals
 
@@ -311,18 +405,18 @@
 
 > **Method:** Combined score (equal 25% weight each): low wrong moves/user (normalised), high success rate, low drop rate, high completion rate. Excludes write/tracing levels.
 
-| # | Level | SkillAge | Branch | Started | WM/User | Drop% | Complete% | Success% | Score |
-|---|-------|:--------:|--------|--------:|--------:|------:|----------:|---------:|------:|
-| 1 | simpleIdentificationAnimalsSet1And22AL | 3 | Objects | 85 | 1.6 | 11% | 88% | 92% | 0.91 |
-| 2 | fillSubtractionStaticB3UpTo52AL | 5 | Arithmetic | 10 | 0.8 | 10% | 80% | 93% | 0.90 |
-| 3 | simpleIdentifyApparelAndStationery2AL | 3 | Objects | 47 | 1.1 | 19% | 81% | 94% | 0.88 |
-| 4 | matchFractionWithImage4AL | 9 | Numbers | 5 | 4.2 | 20% | 100% | 87% | 0.88 |
-| 5 | matchObjectSetFirst2AL | 2 | Objects | 111 | 1.0 | 14% | 74% | 93% | 0.87 |
-| 6 | sortRedGreenYellowWhiteBlackGray2AL | 3 | Objects | 32 | 2.9 | 9% | 84% | 85% | 0.87 |
-| 7 | dataHandlingIconsBirdsAnimals2AL | 6 | Data Handling | 23 | 2.7 | 13% | 87% | 84% | 0.87 |
-| 8 | matchShapesByObjects2AL | 4 | Geometry | 24 | 4.7 | 8% | 88% | 84% | 0.86 |
-| 9 | stackMultiStick1To52AL | 3 | Numbers | 103 | 5.1 | 14% | 94% | 83% | 0.86 |
-| 10 | cowBananaTable4AL | 7 | Arithmetic | 8 | 2.1 | 13% | 75% | 88% | 0.85 |
+| # | Level | SkillAge | Position in SkillAge | Branch | Started | WM/User | Drop% | Complete% | Success% | Score | Why Best Performing |
+|---|-------|:--------:|:----:|--------|--------:|--------:|------:|----------:|---------:|------:|---|
+| 1 | simpleIdentificationAnimalsSet1And22AL | 3 | 3rd | Objects | 85 | 1.6 | 11% | 88% | 92% | 0.91 | Low wrong moves (1.6) + 92% success; visual recognition task is intuitive |
+| 2 | fillSubtractionStaticB3UpTo52Al | 5 | 4th | Arithmetic | 10 | 0.8 | 10% | 80% | 93% | 0.90 | **Lowest wrong moves in pool (0.8)** — exceptional clarity or simplicity |
+| 3 | simpleIdentifyApparelAndStationery2AL | 3 | 5th | Objects | 47 | 1.1 | 19% | 81% | 94% | 0.88 | **Highest success rate (94%)** — near-perfect completion of task |
+| 4 | matchFractionWithImage4AL | 9 | 5th | Numbers | 5 | 4.2 | 20% | 100% | 87% | 0.88 | **100% completion rate** — all users who started finished the level |
+| 5 | matchObjectSetFirst2AL | 2 | 4th | Objects | 111 | 1.0 | 14% | 74% | 93% | 0.87 | Very low wrong moves (1.0) + highest volume (111 users) + 93% success |
+| 6 | sortRedGreenYellowWhiteBlackGray2AL | 3 | 6th | Objects | 32 | 2.9 | 9% | 84% | 85% | 0.87 | **Lowest drop rate (9%)** — excellent engagement; categorisation mechanic works well |
+| 7 | dataHandlingIconsBirdsAnimals2AL | 6 | 3rd | Data Handling | 23 | 2.7 | 13% | 87% | 84% | 0.87 | Balanced across all metrics; clean data-handling task |
+| 8 | matchShapesByObjects2AL | 4 | 3rd | Geometry | 24 | 4.7 | 8% | 88% | 84% | 0.86 | Very low drop (8%); shape matching is clear and engaging |
+| 9 | stackMultiStick1To52AL | 3 | 2nd | Numbers | 103 | 5.1 | 14% | 94% | 83% | 0.86 | **Highest completion (94%)** + 103 users (high volume); ideal early-level design |
+| 10 | cowBananaTable4AL | 7 | 4th | Arithmetic | 8 | 2.1 | 13% | 75% | 88% | 0.85 | Low wrong moves (2.1) + high success (88%); visual table reading is intuitive |
 
 ---
 

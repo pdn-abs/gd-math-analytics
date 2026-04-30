@@ -45,6 +45,37 @@
 ---
 
 ## 🎯 Why First Levels Have Higher Drop Rates
+++ Add before this marker:
+
+## 📊 Wrong Moves: Completers vs Droppers (First Level per SkillAge)
+
+> **Source:** GA4 / BigQuery — `segmentCompleted` vs `segmentDropped` wrong-move totals per level.
+> **Completer WM/User** = wrong moves by completers ÷ number of completers.
+> **Dropper WM/User** = wrong moves by droppers ÷ number of droppers.
+> Levels where Dropper WM/User > Completer WM/User signal **content difficulty** (users struggle and quit).
+> Levels where Dropper WM/User < Completer WM/User signal **early quit** (users leave before engaging).
+
+| SA | First Level | Completers | Compl WM (total) | **Compl WM/User** | Droppers | Drop WM (total) | **Drop WM/User** | Pattern |
+|:--:|---|:---:|:---:|:---:|:---:|:---:|:---:|---|
+| 2 | `simpleIdentificationVegetablesSet2AL` | 332 | 1315 | 3.96 | 192 | 234 | **1.22** | Early quit — droppers barely engage |
+| 3 | `stackVegetablesAndFruitsOverall2AL` | 124 | 1414 | 11.40 | 90 | 255 | **2.83** | Early quit — completers struggle far more |
+| 4 | `matchNumberCount1to72AL` | 82 | 610 | 7.44 | 61 | 141 | **2.31** | Early quit — low dropper engagement |
+| 5 | `matchActivitiesWithObject2AL` | 25 | 282 | 11.28 | 27 | 101 | **3.74** | Early quit — completers work 3× harder |
+| 6 | `stackingDifferentPairsOfSameValue202AL` | 47 | 388 | 8.26 | 36 | 207 | **5.75** ⚠️ | Mixed — elevated dropper WM signals content difficulty |
+| 7 | `smallBigFrom1To99NumbersAL` | 20 | 151 | 7.55 | 23 | 17 | **0.74** | Pure early quit — droppers almost never try |
+| 8 | `numbersFrom500To999AL` | 5 | 51 | 10.20 | 14 | 267 | **19.07** ⚠️ | Content too hard — droppers make 19 WM before quitting |
+| 9 | `summarizeTheSentences1AL` | 13 | 120 | 9.23 | 10 | 17 | **1.70** | Early quit — droppers make almost no moves |
+| 10 | `matchObjectWithFraction1AL` | 72 | 547 | 7.60 | 49 | 120 | **2.45** | Early quit — completers engage 3× more |
+
+### Key Readings
+
+1. **SA8 is the only genuine content-difficulty case** — Droppers (19.07 WM/user) make nearly **2× more wrong moves** than completers (10.20). Users are trying hard and failing, not leaving early. This is content, not onboarding friction.
+2. **SA6 is mixed** — Droppers at 5.75 WM/user is noticeably higher than SA2/3/4/5/7/9/10 early-quit levels (all ≤3.74). Some users attempt the arithmetic and struggle before quitting.
+3. **SA7 is the purest early quit** — 0.74 dropper WM/user means users leave before making even one meaningful attempt.
+4. **In all other ages (2, 3, 4, 5, 9, 10) completers make far more wrong moves than droppers** — Completers persist through difficulty; droppers decide at a glance this isn't for them. This confirms these are **UX/expectation mismatches**, not content problems.
+5. **SA3 and SA5 show the largest completer-to-dropper WM gap** (11.40 vs 2.83 and 11.28 vs 3.74 respectively) — The content is genuinely hard for completers, but droppers quit long before hitting that difficulty wall.
+
+---
 
 ### Hypothesis 1: Unmet Expectations
 - **First time seeing assessment mode** — Users expect casual/exploratory play; assessment implies evaluation/testing
