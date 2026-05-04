@@ -220,3 +220,100 @@ The distinction: **Low WM + high drop = UX issue. High WM + high drop = content 
 | `orderUpToSevenNumber2AL` | Early quit despite low WM | Fix intro screen; add first-board idle animation to trigger engagement |
 | `writeLevelSimpleLine2AL` | Draw mechanic, no tracking | Add visual feedback on stroke completion; test interface responsiveness |
 | `simpleIdentificationToysSet22AL` | Mechanically identical to best but drops more | Audit shared intro/first-board UX across all SA2 levels |
+
+---
+
+## SkillAge-Wise Tables: All 45 Assessment Levels
+
+> Columns: `levelID`, `nth level in the skillage`, `no of starters`, `completers/wrongmoves`, `droppers/wrongMoves`, `wrongMoves per completer`, `wrongMoves per dropper`, `mechanics`.
+> Note: `completers/wrongmoves` = completed users / completed wrong-moves total; `droppers/wrongMoves` = dropped users / dropped wrong-moves total; `wrongMoves per completer` = wrongMoves / completers; `wrongMoves per dropper` = wrongMoves / droppers.
+
+### SkillAge 2
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| simpleIdentificationVegetablesSet2AL | 1/4 | 448 | 332/1315 | 192/234 | 3.96 | 1.22 | Pure recognition. 4 vegetable tiles (2 per side), shuffle order. Drag left→right match. No computation. |
+| simpleIdentificationToysSet22AL | 2/4 | 259 | 205/372 | 63/22 | 1.81 | 0.35 | Pure recognition. 4 toy tiles (2 per side), drag left→right match. Mechanically identical to best-performing SA2 levels. |
+| stackColorTilesSet1And22AL | 3/4 | 163 | 130/457 | 32/34 | 3.52 | 1.06 | Simple color categorization. 4 colored tiles → 2 color slots. Mechanically identical to best-performing sortRedGreenYellowWhiteBlackGray2AL but with 20% drop vs 9%. |
+| matchObjectSetFirst2AL | 4/4 | 111 | 82/108 | 16/8 | 1.32 | 0.50 | Pure recognition. 4 everyday objects. No reasoning needed. |
+
+### SkillAge 3
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| stackVegetablesAndFruitsOverall2AL | 1/7 | 170 | 124/1414 | 90/255 | 11.40 | 2.83 | Categorization by type. Vegetables and fruits tiles → separate slots for each category. |
+| stackMultiStick1To52AL | 2/7 | 103 | 97/479 | 14/46 | 4.94 | 3.29 | Visual counting. Count sticks on screen → drag into labeled slot (1–5). No arithmetic. |
+| simpleIdentificationAnimalsSet1And22AL | 3/7 | 85 | 75/128 | 9/11 | 1.71 | 1.22 | Pure recognition. 4 animal tiles (2 per side), shuffle order. Drag left→right match. No computation. |
+| stackUtensilsVehicles2AL | 4/7 | 65 | 54/183 | 12/15 | 3.39 | 1.25 | Categorization by type. Utensils and vehicles tiles → separate slots. |
+| simpleIdentifyApparelAndStationery2AL | 5/7 | 47 | 38/45 | 9/9 | 1.18 | 1.00 | Pure recognition. 4 school-supply tiles, visual matching only. |
+| sortRedGreenYellowWhiteBlackGray2AL | 6/7 | 32 | 27/88 | 3/5 | 3.26 | 1.67 | Simple categorization. 4 colored tiles → 2 color-category slots. Clear visual rule. |
+| writeLevelSimpleLine2AL | 7/7 | 25 | 22/0 | 5/0 | 0.00 | 0.00 | Finger/stylus tracing. Player traces dotted-line characters. No GA4 tracking of success/WM. 20% drop indicates UI/interface issues or low engagement with draw mechanic. |
+
+### SkillAge 4
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| matchNumberCount1to72AL | 1/4 | 134 | 82/610 | 61/141 | 7.44 | 2.31 | Match count → numeral. Visual counting of objects → matching number tile. |
+| stackMultiStickInMultiSlot1To52AL | 2/4 | 63 | 36/270 | 25/71 | 7.50 | 2.84 | Part-whole simultaneous fill. 3 labeled slots per board: total x, part a, part b where a+b=x. All 3 slots filled from visual stick groups. Cognitive load: hold 3 relationships simultaneously, count sticks 3 times, place each correctly. |
+| matchShapesByObjects2AL | 3/4 | 24 | 21/105 | 2/8 | 5.00 | 4.00 | Shape matching. 6 tiles (3 labels ↔ 3 objects). Geometric reasoning but visually clear. |
+| writeLevel1To52AL | 4/4 | 19 | 18/0 | 1/0 | 0.00 | 0.00 | Finger/stylus tracing. Player traces dotted-line numbers 1–5. |
+
+### SkillAge 5
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| stackLivingAndNonLivingThingsAL | 1/6 | 2 | 0/0 | 0/0 | 0.00 | 0.00 | Categorization by living/non-living. Tiles → 2 category slots. |
+| matchActivitiesWithObject2AL | 2/6 | 61 | 25/282 | 27/101 | 11.28 | 3.74 | Match: drag left → right pair for activities and objects. |
+| orderUpToSevenNumber2AL | 3/6 | 77 | 67/382 | 32/35 | 5.70 | 1.09 | Sequence ordering. 4–6 shuffled number tiles (1–7) → drag into labeled position slots in ascending order. Pure ordering, no arithmetic, but 42% drop with only 1.09 WM. Users understand but quit passively. |
+| mergeNumberUpTo9WithBAsTwoAL | 4/6 | 51 | 27/199 | 26/310 | 7.37 | 11.92 | Tile overlap + multi-slot placement. Left: 2 columns × 3 rows (numberTile + 2-tile only). Player drags numberTile onto 2-tile, creating sum tile. Then drags sum into slot showing silhouette target. Requires 3 simultaneous cognitive steps: identify valid pair, merge mentally, place result. |
+| fillSubtractionStaticB3UpTo52AL | 5/6 | 10 | 8/8 | 1/0 | 1.00 | 0.00 | Minimal slots. Subtraction a−3=x with 1–2 blanks (tens/ones columns). Only 3 boards. |
+| patternBasicFoods2AL | 6/6 | 9 | 8/49 | 1/1 | 6.13 | 1.00 | Pattern recognition. Basic food patterns → slot. |
+
+### SkillAge 6
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| stackingDifferentPairsOfSameValue202AL | 1/6 | 76 | 47/388 | 36/207 | 8.26 | 5.75 | Value pairing. Drag tiles into slots to form pairs with the same value. |
+| subtractionMissingAUpTo20AL | 2/6 | 38 | 27/269 | 7/3 | 9.96 | 0.43 | Equation fill-in. Solve subtraction with missing first term up to 20, then place the correct tile in the blank slot. |
+| dataHandlingIconsBirdsAnimals2AL | 3/6 | 23 | 20/60 | 3/1 | 3.00 | 0.33 | Category matching. 2 icon tiles (bird/animal) are dragged to their matching category labels. |
+| stackTensAndOnes20UpTo502AL | 4/6 | 17 | 16/204 | 0/0 | 12.75 | 0.00 | Place-value construction. Build 20-50 numbers by placing tens and ones tiles into the correct slots. |
+| smallBigUpTo50Number2AL | 5/6 | 13 | 11/85 | 1/2 | 7.73 | 2.00 | Comparison task. Drag number tiles into "small" or "big" target slots for values up to 50. |
+| matchEdgesCorners22AL | 6/6 | 11 | 11/115 | 1/5 | 10.45 | 5.00 | Audio-to-visual selection. Hear a prompt, then tap the tile representing edges/corners classification. |
+
+### SkillAge 7
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| smallBigFrom1To99NumbersAL | 1/4 | 44 | 20/151 | 23/17 | 7.55 | 0.74 | Number comparison. Drag each number tile to "small" or "big" slot across the 1-99 range. |
+| missingBRandomAAndB50To99AL | 2/4 | 17 | 16/92 | 5/12 | 5.75 | 2.40 | Addition equation fill-in with larger range. 2 equations `a+__=x` or `a+b=__` (sum 50-99, tens/ones columns), requiring calculation before tile placement. |
+| groupAdditionOf5AL | 3/4 | 9 | 8/91 | 1/0 | 11.38 | 0.00 | Group-based addition match. Interpret grouped visuals and drag to the matching sum outcome tile. |
+| cowBananaTable4AL | 4/4 | 8 | 6/17 | 1/0 | 2.83 | 0.00 | Visual table reading. Cow groups are mapped to banana totals from a pictured table, then matched by drag-and-drop. |
+
+### SkillAge 8
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| numbersFrom500To999AL | 1/5 | 30 | 5/51 | 14/267 | 10.20 | 19.07 | Merge + place-value build. Combine tiles to form numbers in the 500-999 range, then place the constructed value into the correct slot. |
+| descendingOrdering1to999by50AL | 2/5 | 6 | 3/14 | 2/36 | 4.67 | 18.00 | Ordering task. Arrange number tiles from 1 to 999 in descending sequence with step-size patterns by 50. |
+| greaterSmallerUpTo999OperatorsAL | 3/5 | 5 | 2/0 | 3/4 | 0.00 | 1.33 | Operator selection. Compare up-to-999 numbers and place the correct greater/less operator tile between them. |
+| multiplication3TableAL | 4/5 | 2 | 1/5 | 1/1 | 5.00 | 1.00 | Table fact fill-in. Solve multiplication using table-of-3 facts and drag the answer tile into the equation slot. |
+| division4TableAL | 5/5 | 1 | 1/5 | 0/0 | 5.00 | 0.00 | Table fact fill-in. Solve division using table-of-4 facts and place the result tile into the blank. |
+
+### SkillAge 9
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| summarizeTheSentences1AL | 1/5 | 24 | 13/120 | 10/17 | 9.23 | 1.70 | Reading-comprehension matching. Drag sentence summaries to the correct statement/meaning counterpart. |
+| placeValueMatrix1AL | 2/5 | 10 | 8/87 | 1/7 | 10.88 | 7.00 | Matrix place-value fill. Insert tiles into a place-value grid where each position encodes digit significance. |
+| reviseDivideTable8And9AL | 3/5 | 9 | 8/72 | 2/5 | 9.00 | 2.50 | Division practice. Solve division equations from 8 and 9 tables and place correct answer tiles into blanks. |
+| numberDiceMatching2AL | 4/5 | 8 | 6/24 | 1/0 | 4.00 | 0.00 | Visual matching. Pair dice-face quantities with corresponding number tiles via drag-and-drop. |
+| matchFractionWithImage4AL | 5/5 | 5 | 5/21 | 1/0 | 4.20 | 0.00 | Visual fraction matching. Match symbolic fractions with pictorial fraction representations, no arithmetic required. |
+
+### SkillAge 10
+
+| levelID | nth level in the skillage | no of starters | completers/wrongmoves | droppers/wrongMoves | wrongMoves per completer | wrongMoves per dropper | mechanics |
+|---|:---:|---:|---:|---:|---:|---:|---|
+| matchObjectWithFraction1AL | 1/4 | 118 | 72/547 | 49/120 | 7.60 | 2.45 | Concept mapping. Match object/portion visuals to equivalent fraction notation using pair-based drag matching. |
+| fractionMultiplication6AL | 2/4 | 49 | 30/388 | 12/36 | 12.93 | 3.00 | Fraction arithmetic fill-in. 2 equations `a x b = __` (mixed fractions, denominator 4) per board across 6 boards. Requires fraction understanding plus multiplication before tile placement. |
+| matrixMultiplicationRandomNumbers3AL | 3/4 | 26 | 12/553 | 10/110 | 46.08 | 11.00 | 4x4 multiplication matrix grid. Headers [6,7,8,9] on rows/columns with random blank cells. Player computes each row x column product mentally, then places the matching product tile in the correct cell. |
+| givenSmartChartScale6AL | 4/4 | 9 | 5/28 | 4/27 | 5.60 | 6.75 | Chart-scale interpretation. Read a scaled chart value and match/place the corresponding numeric tile. |
