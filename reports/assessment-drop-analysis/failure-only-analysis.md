@@ -1,5 +1,28 @@
 # Formal Failure Analysis (Drops Excluded)
 
+## Table of Contents
+- [Summary](#summary)
+- [Complete Data Table](#complete-data-table)
+- [Formal Failure Rates by Skill Age](#formal-failure-rates-by-skill-age)
+- [Top Levels by Formal Fail% per Skill Age (min 10 starts, at least 1 failure)](#top-levels-by-formal-fail-per-skill-age-min-10-starts-at-least-1-failure)
+  - [2 Y](#2-y)
+  - [3 Y](#3-y)
+  - [4 Y](#4-y)
+  - [5 Y](#5-y)
+  - [6 Y](#6-y)
+  - [7 Y](#7-y)
+  - [8 Y](#8-y)
+  - [9 Y](#9-y)
+  - [10 Y](#10-y)
+- [Cross-Cutting Findings](#cross-cutting-findings)
+  - [Avg wrong moves on fail — interpretation guide](#avg-wrong-moves-on-fail-interpretation-guide)
+  - [Retry signal (AvgAttempt on fail > 1.0)](#retry-signal-avgattempt-on-fail-10)
+  - [Levels with near-zero wrong on fail (UI / mechanic confusion)](#levels-with-near-zero-wrong-on-fail-ui-mechanic-confusion)
+- [Comparison: Failures vs. Drops](#comparison-failures-vs-drops)
+
+---
+
+
 > **Period**: Jan 25 → Mar 25, 2026 (60 days)
 > **Source**: BigQuery — `segmentStarted`, `segmentCompleted` (status=fail only)
 > **Scope**: Only scored outcomes where the user reached the end and got it wrong. Silent drops excluded.

@@ -1,5 +1,26 @@
 # Level Player Retention by Skill Age
 
+## Table of Contents
+- [Data Sources](#data-sources)
+- [Methodology](#methodology)
+- [D1 / D7 / D30 Retention by Skill Age](#d1-d7-d30-retention-by-skill-age)
+  - [Benchmarks](#benchmarks)
+- [Data Quality Caveats](#data-quality-caveats)
+  - [⚠ Exact-day measurement noise](#-exact-day-measurement-noise)
+  - [Sample size thresholds](#sample-size-thresholds)
+  - [Population scope](#population-scope)
+- [Key Findings](#key-findings)
+  - [D1 Retention](#d1-retention)
+  - [D7 Retention](#d7-retention)
+  - [D30 Retention](#d30-retention)
+  - [Summary rankings (by statistically usable metrics)](#summary-rankings-by-statistically-usable-metrics)
+- [Comparison with Previously Reported BigQuery Estimates](#comparison-with-previously-reported-bigquery-estimates)
+- [BQ (GA4-aligned) vs GA4 CSV Comparison](#bq-ga4-aligned-vs-ga4-csv-comparison)
+- [Recommended Actions](#recommended-actions)
+
+---
+
+
 > **Source**: GA4 UI Daily Cohort Export (CSV)
 > **Period**: 2026-01-25 → 2026-03-25 (60 days)
 > **Population**: Users who played at least one level (have a `CurrentSkillAge` value)

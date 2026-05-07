@@ -1,4 +1,11 @@
 # Retention by Skill Age — Production Cohorts
+
+## Table of Contents
+- [D0 / D1 / D7 / D30 Retention](#d0-d1-d7-d30-retention)
+- [Notes](#notes)
+
+---
+
 **Period**: Jan 25 – Mar 25, 2026
 **Source**: GA4 cohort export (Production track only — builds 65, 68, 72; skill ages 2–10)
 **Updated**: Apr 6, 2026 — corrected CSVs

@@ -1,5 +1,24 @@
 # Assessment Drop Analysis — Report Index
 
+## Table of Contents
+- [📋 Which Document Should I Use?](#-which-document-should-i-use)
+  - [🟢 **For Action Planning / Content Improvement**](#-for-action-planning-content-improvement)
+  - [🔵 **For Understanding First-Level Friction**](#-for-understanding-first-level-friction)
+  - [⚠️ **For Reference Only (DEPRECATED)**](#-for-reference-only-deprecated)
+- [🎯 Quick Decision Tree](#-quick-decision-tree)
+- [📊 Key Numbers to Remember](#-key-numbers-to-remember)
+- [🔬 Methodology: Why We Split Analysis](#-methodology-why-we-split-analysis)
+  - [Original Problem](#original-problem)
+  - [Root Cause](#root-cause)
+  - [How We Did It](#how-we-did-it)
+- [📈 Expected Improvements from Both Solutions](#-expected-improvements-from-both-solutions)
+- [🗂️ Related Files](#-related-files)
+- [❓ FAQ](#-faq)
+- [📞 Questions?](#-questions)
+
+---
+
+
 > **Last Updated:** April 27, 2026
 > **Key Insight:** First assessment levels have +24% higher drop rates due to onboarding friction, not content quality
 

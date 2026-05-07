@@ -1,5 +1,34 @@
 # First-Level Assessment Onboarding Analysis
 
+## Table of Contents
+- [📊 Executive Summary](#-executive-summary)
+- [🔍 First-Level Drop Rate Analysis by SkillAge](#-first-level-drop-rate-analysis-by-skillage)
+  - [Key Patterns](#key-patterns)
+- [🎯 Why First Levels Have Higher Drop Rates](#-why-first-levels-have-higher-drop-rates)
+- [📊 Wrong Moves: Completers vs Droppers (First Level per SkillAge)](#-wrong-moves-completers-vs-droppers-first-level-per-skillage)
+  - [Key Readings](#key-readings)
+  - [Hypothesis 1: Unmet Expectations](#hypothesis-1-unmet-expectations)
+  - [Hypothesis 2: Difficulty Ramp Confusion](#hypothesis-2-difficulty-ramp-confusion)
+  - [Hypothesis 3: UI/Presentation Friction](#hypothesis-3-uipresentation-friction)
+- [🚨 Risk Assessment by Onboarding Friction Level](#-risk-assessment-by-onboarding-friction-level)
+  - [🔴 Critical (>35% higher than non-first)](#-critical-35-higher-than-non-first)
+  - [🟡 Moderate (20–35% higher)](#-moderate-2035-higher)
+  - [🟢 Low (<15% higher)](#-low-15-higher)
+  - [⚠️ Special Case: Mixed Onboarding + Content Difficulty](#-special-case-mixed-onboarding-content-difficulty)
+- [💡 Solutions to Reduce First-Level Friction](#-solutions-to-reduce-first-level-friction)
+  - [Solution 1: Pre-Assessment Tutorial (Highest Impact)](#solution-1-pre-assessment-tutorial-highest-impact)
+  - [Solution 2: Easier First Level Content (Medium Impact)](#solution-2-easier-first-level-content-medium-impact)
+  - [Solution 3: Optional Training Phase Before Speedrun (Low-Medium Impact)](#solution-3-optional-training-phase-before-speedrun-low-medium-impact)
+  - [Solution 4: Clear Theme/Expectation Setting (Low Impact)](#solution-4-clear-themeexpectation-setting-low-impact)
+  - [Solution 5: Success/Encouragement Feedback (Low Impact)](#solution-5-successencouragement-feedback-low-impact)
+- [📈 Implementation Roadmap](#-implementation-roadmap)
+- [🎯 Success Metrics](#-success-metrics)
+- [📋 Not the Root Cause: Age Misclassification](#-not-the-root-cause-age-misclassification)
+- [✅ Conclusion](#-conclusion)
+
+---
+
+
 > **Last Updated:** April 28, 2026
 > **Data Range:** Jan 25 – Mar 25, 2026
 > **Focus:** Why first assessment levels have significantly higher drop rates than subsequent levels

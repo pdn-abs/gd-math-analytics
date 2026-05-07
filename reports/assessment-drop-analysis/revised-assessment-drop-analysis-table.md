@@ -1,5 +1,45 @@
 # Assessment Drop Analysis: Revised Action Plan (Non-First Levels)
 
+## Table of Contents
+- [📌 Executive Summary](#-executive-summary)
+- [🔴 Tier 1: Critical High-Impact Issues](#-tier-1-critical-high-impact-issues)
+  - [Priority 1A: `mergeNumberUpTo9WithBAsTwoAL` (SkillAge 5)](#priority-1a-mergenumberupto9withbastwoal-skillage-5)
+  - [Priority 1B: `orderUpToSevenNumber2AL` (SkillAge 5)](#priority-1b-orderuptosevennumber2al-skillage-5)
+  - [Priority 1C: `stackMultiStickInMultiSlot1To52AL` (SkillAge 4)](#priority-1c-stackmultistickinmultislot1to52al-skillage-4)
+  - [Priority 1D: `matrixMultiplicationRandomNumbers3AL` (SkillAge 10)](#priority-1d-matrixmultiplicationrandomnumbers3al-skillage-10)
+- [🟡 Tier 2: Moderate Impact Issues](#-tier-2-moderate-impact-issues)
+  - [Priority 2A: `fractionMultiplication6AL` (SkillAge 10)](#priority-2a-fractionmultiplication6al-skillage-10)
+  - [Priority 2B: `simpleIdentificationToysSet22AL` (SkillAge 2)](#priority-2b-simpleidentificationtoysset22al-skillage-2)
+  - [Priority 2C: `writeLevelSimpleLine2AL` (SkillAge 3, Geometry)](#priority-2c-writelevelsimpleline2al-skillage-3-geometry)
+  - [Priority 2D: `missingBRandomAAndB50To99AL` (SkillAge 7)](#priority-2d-missingbrandomaandb50to99al-skillage-7)
+- [🟢 Tier 3: Lower Priority](#-tier-3-lower-priority)
+  - [Priority 3A: `stackColorTilesSet1And22AL` (SkillAge 2)](#priority-3a-stackcolortilesset1and22al-skillage-2)
+- [📊 Comparison: Non-First Levels vs First Levels](#-comparison-non-first-levels-vs-first-levels)
+- [🔎 Mechanics Overlap Check (9 Problematic vs Remaining 35)](#-mechanics-overlap-check-9-problematic-vs-remaining-35)
+  - [A) Broad Mechanic-Family Overlap (parser + leftVariant + rightVariant)](#a-broad-mechanic-family-overlap-parser-leftvariant-rightvariant)
+  - [B) Strict Nearest-Mechanic Twins (same family + closest cognitive pattern)](#b-strict-nearest-mechanic-twins-same-family-closest-cognitive-pattern)
+  - [Practical Takeaway](#practical-takeaway)
+  - [C) Performance Comparison: 9 Problematic Levels vs Twins](#c-performance-comparison-9-problematic-levels-vs-twins)
+    - [Readout](#readout)
+- [🎯 Recommendations Summary](#-recommendations-summary)
+  - [Immediate Actions (High Impact)](#immediate-actions-high-impact)
+  - [Medium-Term Actions](#medium-term-actions)
+  - [Lower Priority](#lower-priority)
+- [� Section D: Twin-Comparison Inferences — Why Each Problematic Level Underperforms](#-section-d-twin-comparison-inferences-why-each-problematic-level-underperforms)
+  - [D1. `mergeNumberUpTo9WithBAsTwoAL` vs `numbersFrom500To999AL`](#d1-mergenumberupto9withbastwoal-vs-numbersfrom500to999al)
+  - [D2. `orderUpToSevenNumber2AL` vs `descendingOrdering1to999by50AL`](#d2-orderuptosevennumber2al-vs-descendingordering1to999by50al)
+  - [D3. `stackMultiStickInMultiSlot1To52AL` vs `stackMultiStick1To52AL`](#d3-stackmultistickinmultislot1to52al-vs-stackmultistick1to52al)
+  - [D4. `matrixMultiplicationRandomNumbers3AL` vs `givenSmartChartScale6AL`*](#d4-matrixmultiplicationrandomnumbers3al-vs-givensmartchartscale6al)
+  - [D5. `fractionMultiplication6AL` vs `multiplication3TableAL`](#d5-fractionmultiplication6al-vs-multiplication3tableal)
+  - [D6. `simpleIdentificationToysSet22AL` vs `simpleIdentificationVegetablesSet2AL`](#d6-simpleidentificationtoysset22al-vs-simpleidentificationvegetablesset2al)
+  - [D7. `writeLevelSimpleLine2AL` vs `writeLevel1To52AL`](#d7-writelevelsimpleline2al-vs-writelevel1to52al)
+  - [D8. `missingBRandomAAndB50To99AL` vs `stackingDifferentPairsOfSameValue202AL`](#d8-missingbrandomaandb50to99al-vs-stackingdifferentpairsofsamevalue202al)
+  - [D9. `stackColorTilesSet1And22AL` vs `sortRedGreenYellowWhiteBlackGray2AL`](#d9-stackcolortilesset1and22al-vs-sortredgreenyellowwhiteblackgray2al)
+- [�📋 Related Documents](#-related-documents)
+
+---
+
+
 > **Last Updated:** April 28, 2026
 > **Methodology:** Excludes first assessment level for each SkillAge to remove onboarding friction bias
 > **First Levels Excluded:** 9 levels (see [First-Level Onboarding Analysis](first-level-onboarding-analysis.md))

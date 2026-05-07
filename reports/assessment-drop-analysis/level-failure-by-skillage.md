@@ -1,5 +1,16 @@
 # Level Failure & Drop Analysis by Skill Age
 
+## Table of Contents
+- [How to read this table](#how-to-read-this-table)
+- [Top 10 Levels by F+D% per Skill Age](#top-10-levels-by-fd-per-skill-age)
+- [Key Findings](#key-findings)
+  - [🔴 2 Y — Content routing bug (critical)](#-2-y-content-routing-bug-critical)
+  - [🟠 High-volume problem levels (broad impact)](#-high-volume-problem-levels-broad-impact)
+  - [✅ 8 Y — Healthiest cohort](#-8-y-healthiest-cohort)
+
+---
+
+
 > **Period**: Jan 25 → Mar 25, 2026 (60 days)
 > **Source**: BigQuery — `segmentStarted`, `segmentCompleted` (status=fail/pass), `segmentDropped`
 > **Min threshold**: 10 segment starts per level per skill age

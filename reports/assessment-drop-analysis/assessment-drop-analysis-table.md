@@ -1,5 +1,13 @@
 # ⚠️ DEPRECATED: See Revised Analysis
 
+## Table of Contents
+  - [**Tier 1 Action Plan for Assessment Level Improvement** (INCLUDES FIRST LEVELS - SEE REVISED ANALYSIS)](#tier-1-action-plan-for-assessment-level-improvement-includes-first-levels---see-revised-analysis)
+  - [**Tier 2 Action Plan for Assessment Level Improvement**](#tier-2-action-plan-for-assessment-level-improvement)
+  - [**Tier 3 Action Plan for Assessment Level Improvement**](#tier-3-action-plan-for-assessment-level-improvement)
+
+---
+
+
 > **This document includes first assessment levels, which have +24.4% higher drop rates due to onboarding friction, not content quality.**
 >
 > **Use these documents instead:**

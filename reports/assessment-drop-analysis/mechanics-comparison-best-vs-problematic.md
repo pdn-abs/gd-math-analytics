@@ -1,5 +1,40 @@
 # Mechanics Comparison: Best Performing vs Problematic Levels
 
+## Table of Contents
+- [Summary: Key Mechanical Differences](#summary-key-mechanical-differences)
+- [Detailed Mechanics Breakdown](#detailed-mechanics-breakdown)
+  - [BEST PERFORMING LEVELS (10 levels)](#best-performing-levels-10-levels)
+  - [PROBLEMATIC LEVELS from Revised Analysis (9 levels)](#problematic-levels-from-revised-analysis-9-levels)
+- [Side-by-Side Mechanical Comparison](#side-by-side-mechanical-comparison)
+  - [Pattern 1: Recognition (Tile-to-Tile Matching) — BEST Pattern](#pattern-1-recognition-tile-to-tile-matching-best-pattern)
+  - [Pattern 2: Construction via Slots — Mixed Results](#pattern-2-construction-via-slots-mixed-results)
+  - [Pattern 3: Concrete vs Abstract Concepts](#pattern-3-concrete-vs-abstract-concepts)
+  - [Pattern 4: Single vs Multiple Simultaneous Operations](#pattern-4-single-vs-multiple-simultaneous-operations)
+  - [Pattern 5: Board Time Misalignment](#pattern-5-board-time-misalignment)
+- [Design Principles Extracted](#design-principles-extracted)
+  - [✅ BEST PERFORMING PATTERN](#-best-performing-pattern)
+  - [❌ PROBLEMATIC PATTERN](#-problematic-pattern)
+- [Key Insights](#key-insights)
+  - [Insight 1: Mechanics Ceiling](#insight-1-mechanics-ceiling)
+  - [Insight 2: The Simplicity Payoff](#insight-2-the-simplicity-payoff)
+  - [Insight 3: The Part-Whole Overload](#insight-3-the-part-whole-overload)
+  - [Insight 4: Early Quit vs Content Difficulty](#insight-4-early-quit-vs-content-difficulty)
+  - [Insight 5: Scaffold Before Complexity](#insight-5-scaffold-before-complexity)
+- [Recommendations](#recommendations)
+- [SkillAge-Wise Tables: All 45 Assessment Levels](#skillage-wise-tables-all-45-assessment-levels)
+  - [SkillAge 2](#skillage-2)
+  - [SkillAge 3](#skillage-3)
+  - [SkillAge 4](#skillage-4)
+  - [SkillAge 5](#skillage-5)
+  - [SkillAge 6](#skillage-6)
+  - [SkillAge 7](#skillage-7)
+  - [SkillAge 8](#skillage-8)
+  - [SkillAge 9](#skillage-9)
+  - [SkillAge 10](#skillage-10)
+
+---
+
+
 **Purpose:** Identify mechanical and design patterns that differentiate high-performing levels from struggling ones.
 
 ---

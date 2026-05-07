@@ -1,5 +1,18 @@
 # Training vs Speedrun — by SkillAge
 
+## Table of Contents
+- [Table](#table)
+- [Insights](#insights)
+  - [1. The ~50% training drop is a pure comprehension failure — time is not a factor](#1-the-50-training-drop-is-a-pure-comprehension-failure-time-is-not-a-factor)
+  - [2. Speedrun drops confirm most users who learn untimed *can* handle timed](#2-speedrun-drops-confirm-most-users-who-learn-untimed-can-handle-timed)
+  - [3. SA6 speedrun (40% drop) is a time-pressure-specific failure](#3-sa6-speedrun-40-drop-is-a-time-pressure-specific-failure)
+  - [4. SA7 training collapse (20% conversion to speedrun) is a raw comprehension problem](#4-sa7-training-collapse-20-conversion-to-speedrun-is-a-raw-comprehension-problem)
+  - [5. SA5 is the cleanest funnel after training](#5-sa5-is-the-cleanest-funnel-after-training)
+  - [6. SA2 dominates volume — fixing it has the largest absolute impact](#6-sa2-dominates-volume-fixing-it-has-the-largest-absolute-impact)
+
+---
+
+
 > Source: `assessment_segment_skillAge_type.csv` | Jan 25–Mar 25 2026 | Production Only
 > Note: **Training boards are untimed. Speedrun boards are timed.**
 

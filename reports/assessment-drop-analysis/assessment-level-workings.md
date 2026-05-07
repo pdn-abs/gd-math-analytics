@@ -1,5 +1,13 @@
 # Assessment Levels — Precise Working
 
+## Table of Contents
+- [Interaction Legend](#interaction-legend)
+- [Interaction Mode Mapping (leftVariant → rightVariant)](#interaction-mode-mapping-leftvariant-rightvariant)
+- [All 44 Assessment Levels](#all-44-assessment-levels)
+
+---
+
+
 Source: `assets/config.json` + `services/boardFactory/boards/` scripts.
 Generated: 2026-04-28
 

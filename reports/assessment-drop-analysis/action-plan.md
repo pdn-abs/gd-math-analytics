@@ -1,5 +1,23 @@
 # Assessment Levels Action Plan by SkillAge
 
+## Table of Contents
+- [SkillAge 2](#skillage-2)
+- [SkillAge 3](#skillage-3)
+- [SkillAge 4](#skillage-4)
+- [SkillAge 5](#skillage-5)
+- [SkillAge 6](#skillage-6)
+- [SkillAge 7](#skillage-7)
+- [SkillAge 8](#skillage-8)
+- [SkillAge 9](#skillage-9)
+- [SkillAge 10](#skillage-10)
+- [Global Gamification & Drops Enhancements](#global-gamification-drops-enhancements)
+  - [1. Levels with "Initial Mechanics Understanding Difficulty" (Introductions / New Layouts)](#1-levels-with-initial-mechanics-understanding-difficulty-introductions-new-layouts)
+  - [2. Levels with "Solving the problem is difficult" (High Cognitive Load / Complex Math)](#2-levels-with-solving-the-problem-is-difficult-high-cognitive-load-complex-math)
+  - [3. Levels with "Boring / Low Engagement" (High UI Friction / Repetitive Drilling)](#3-levels-with-boring-low-engagement-high-ui-friction-repetitive-drilling)
+
+---
+
+
 > **Ranking Methodology:** Priority is calculated based on: **Higher Drop Rate + Higher Wrong Moves + Lower Success Rate**. Priority 1 = High (must fix), Priority 2 = Medium, Priority 3 = Low.
 > **Sorting:** Levels are evaluated and listed strictly in chronological assessment order per SkillAge.
 

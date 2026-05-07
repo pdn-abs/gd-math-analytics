@@ -1,4 +1,21 @@
 # Retention by Skill Age — Production Cohorts
+
+## Table of Contents
+- [D0 / D1 / D7 / D30 Retention — Production vs All Users](#d0-d1-d7-d30-retention-production-vs-all-users)
+  - [Cohort Sizes — Returners / D0 (normalised)](#cohort-sizes-returners-d0-normalised)
+  - [Retention Rates (%) — Normalised to D0](#retention-rates-normalised-to-d0)
+- [Notes](#notes)
+- [Comparative Study: Production-Only vs All Users (GA4 CSV)](#comparative-study-production-only-vs-all-users-ga4-csv)
+  - [What the normalised comparison reveals](#what-the-normalised-comparison-reveals)
+  - [Normalised D1 Comparison](#normalised-d1-comparison)
+  - [D0 User Pool — Internal Tester Headcount](#d0-user-pool-internal-tester-headcount)
+  - [SA4 / SA6 / SA10 Tester Behaviour Stories](#sa4-sa6-sa10-tester-behaviour-stories)
+  - [True Production D1 Rankings](#true-production-d1-rankings)
+  - [D7 / D30 Normalised Comparison](#d7-d30-normalised-comparison)
+  - [5 Key Takeaways](#5-key-takeaways)
+
+---
+
 **Period**: Jan 25 – Mar 25, 2026
 **Source**: GA4 cohort export (Production track only — builds 65, 68, 72; skill ages 2–10)
 **Updated**: Apr 6, 2026 — corrected CSVs

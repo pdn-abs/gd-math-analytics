@@ -1,5 +1,24 @@
 # Twin Structural Analysis — Why Twins Are Not Problematic
 
+## Table of Contents
+- [Positional Reference: All 9 Pairs](#positional-reference-all-9-pairs)
+- [Three Root Reasons — Why Twins Escape the Problematic List](#three-root-reasons-why-twins-escape-the-problematic-list)
+  - [Pattern A — "Not problematic" only by exclusion rule (Pairs 1, 6, 8)](#pattern-a-not-problematic-only-by-exclusion-rule-pairs-1-6-8)
+  - [Pattern B — Older age group or late sequence position (Pairs 2, 4, 9)](#pattern-b-older-age-group-or-late-sequence-position-pairs-2-4-9)
+    - [Pair 2: `orderUpToSevenNumber2AL` (SA5, rank 2/5) vs `descendingOrdering1to999by50AL` (SA8, rank 2/5)](#pair-2-orderuptosevennumber2al-sa5-rank-25-vs-descendingordering1to999by50al-sa8-rank-25)
+    - [Pair 4: `matrixMultiplicationRandomNumbers3AL` (SA10, rank 3/4) vs `givenSmartChartScale6AL` (SA10, rank 4/4)](#pair-4-matrixmultiplicationrandomnumbers3al-sa10-rank-34-vs-givensmartchartscale6al-sa10-rank-44)
+    - [Pair 9: `stackColorTilesSet1And22AL` (SA2, rank 3/4) vs `sortRedGreenYellowWhiteBlackGray2AL` (SA3, rank 6/7)](#pair-9-stackcolortilesset1and22al-sa2-rank-34-vs-sortredgreenyellowwhiteblackgray2al-sa3-rank-67)
+  - [Pattern C — Simpler task design (Pairs 3, 7)](#pattern-c-simpler-task-design-pairs-3-7)
+    - [Pair 3: `stackMultiStickInMultiSlot1To52AL` (SA4, rank 2/4) vs `stackMultiStick1To52AL` (SA3, rank 2/7)](#pair-3-stackmultistickinmultislot1to52al-sa4-rank-24-vs-stackmultistick1to52al-sa3-rank-27)
+    - [Pair 7: `writeLevelSimpleLine2AL` (SA3, rank 7/7 [LAST]) vs `writeLevel1To52AL` (SA4, rank 4/4 [LAST])](#pair-7-writelevelsimpleline2al-sa3-rank-77-last-vs-writelevel1to52al-sa4-rank-44-last)
+  - [Pattern D — The "twin" is not actually healthy (Pair 5)](#pattern-d-the-twin-is-not-actually-healthy-pair-5)
+    - [Pair 5: `fractionMultiplication6AL` (SA10, rank 2/4) vs `multiplication3TableAL` (SA8, rank 4/5)](#pair-5-fractionmultiplication6al-sa10-rank-24-vs-multiplication3tableal-sa8-rank-45)
+- [Summary Table](#summary-table)
+- [📋 Related Documents](#-related-documents)
+
+---
+
+
 > **Last Updated:** April 30, 2026
 > **Context:** Companion to [revised-assessment-drop-analysis-table.md](revised-assessment-drop-analysis-table.md)
 > **Question answered:** We have similar levels (twins) to the 9 problematic ones. Why don't the twins appear in the problematic list?
