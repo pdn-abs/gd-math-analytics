@@ -1,4 +1,39 @@
 # Google Analytics 4 Setup Guide for GD Math Project
+
+## Table of Contents
+- [📋 Prerequisites](#-prerequisites)
+- [🔐 Step 1: Google Cloud Console Setup](#-step-1-google-cloud-console-setup)
+  - [1.1 Enable Google Analytics Data API](#11-enable-google-analytics-data-api)
+  - [1.2 Create Service Account](#12-create-service-account)
+  - [1.3 Download Service Account Key](#13-download-service-account-key)
+- [🔑 Step 2: Google Analytics 4 Property Access](#-step-2-google-analytics-4-property-access)
+  - [2.1 Add Service Account to GA4 Property](#21-add-service-account-to-ga4-property)
+- [🗂️ Step 3: Project Organization](#-step-3-project-organization)
+  - [3.1 Move Credentials to Project](#31-move-credentials-to-project)
+  - [3.2 Security Setup](#32-security-setup)
+- [⚙️ Step 4: Environment Configuration](#-step-4-environment-configuration)
+  - [4.1 Create Credentials Setup Script](#41-create-credentials-setup-script)
+  - [4.2 Set Environment Variables](#42-set-environment-variables)
+- [📊 Step 5: Data Fetching](#-step-5-data-fetching)
+  - [5.1 Run Data Collection](#51-run-data-collection)
+  - [5.2 Verify Data Collection](#52-verify-data-collection)
+- [📈 Step 6: Analysis & Reporting](#-step-6-analysis-reporting)
+  - [6.1 View Insights](#61-view-insights)
+  - [6.2 Key Metrics Tracked](#62-key-metrics-tracked)
+- [🔄 Step 7: Automation (Optional)](#-step-7-automation-optional)
+  - [7.1 Cron Job Setup](#71-cron-job-setup)
+  - [7.2 Node-cron Integration](#72-node-cron-integration)
+- [🚨 Security Best Practices](#-security-best-practices)
+  - [8.1 Key Management](#81-key-management)
+  - [8.2 Access Control](#82-access-control)
+  - [8.3 Data Protection](#83-data-protection)
+- [🐛 Troubleshooting](#-troubleshooting)
+  - [Common Issues](#common-issues)
+- [📞 Support](#-support)
+- [📝 Change Log](#-change-log)
+
+---
+
 # ==================================================
 # Complete setup instructions for GA4 data fetching and analysis
 # Last updated: March 10, 2026

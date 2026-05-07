@@ -1,5 +1,17 @@
 # Steps to Automate and Simplify Google Analytics Data Analysis for GD Math
 
+## Table of Contents
+- [1. Prerequisites](#1-prerequisites)
+- [2. Create a Data Fetching Script](#2-create-a-data-fetching-script)
+- [3. Process and Analyze Data](#3-process-and-analyze-data)
+- [4. Visualize and Report](#4-visualize-and-report)
+- [5. Automate Execution](#5-automate-execution)
+- [6. Integrate with GD Math Project](#6-integrate-with-gd-math-project)
+- [7. Testing and Maintenance](#7-testing-and-maintenance)
+
+---
+
+
 Automating GA data analysis for your Godot-based GD Math project involves setting up API access, scripting data pulls, processing, and reporting. This reduces manual effort and integrates with your game's event tracking (e.g., via `Analytics.gd`). Use Python for scripting, as it's versatile and works with GA's API.
 
 ## 1. Prerequisites

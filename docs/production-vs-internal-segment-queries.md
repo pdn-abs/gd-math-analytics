@@ -1,5 +1,30 @@
 # Production vs Internal Testing — Segment Analysis Plan
 
+## Table of Contents
+- [Version → Track Mapping](#version-track-mapping)
+  - [Production builds active during the analytics window](#production-builds-active-during-the-analytics-window)
+  - [Internal Testing builds active during the analytics window](#internal-testing-builds-active-during-the-analytics-window)
+- [Segment Classification Method](#segment-classification-method)
+- [Metrics to Re-run Per Segment](#metrics-to-re-run-per-segment)
+  - [1 — User Acquisition & Activity](#1-user-acquisition-activity)
+  - [1 — User Acquisition & Activity](#1-user-acquisition-activity)
+  - [2 — D1 / D7 / D30 Retention](#2-d1-d7-d30-retention)
+  - [3 — Paywall Funnel](#3-paywall-funnel)
+  - [4 — Gameplay Funnel (Segment Funnel)](#4-gameplay-funnel-segment-funnel)
+  - [5 — App Usage by Skill Age](#5-app-usage-by-skill-age)
+  - [6 — Retention by Skill Age (level players only)](#6-retention-by-skill-age-level-players-only)
+  - [7 — Level Failure & Drop Analysis by Skill Age](#7-level-failure-drop-analysis-by-skill-age)
+  - [8 — Top 25 High Failure+Drop Levels](#8-top-25-high-failuredrop-levels)
+  - [9 — Onboarding / Assessment Completion](#9-onboarding-assessment-completion)
+  - [10 — Crash / Stability](#10-crash-stability)
+- [Expected Insights When Results Are In](#expected-insights-when-results-are-in)
+  - [What the production-only numbers will clarify](#what-the-production-only-numbers-will-clarify)
+  - [What the internal-testing-only numbers will confirm](#what-the-internal-testing-only-numbers-will-confirm)
+- [Notes on Methodology](#notes-on-methodology)
+
+---
+
+
 > **Period**: Jan 25 → Mar 25, 2026
 > **Dataset**: `analytics_441470574` · **Project**: `gd-math-71c48`
 > **Location**: `asia-south1`

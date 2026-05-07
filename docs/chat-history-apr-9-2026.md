@@ -1,4 +1,34 @@
 # GD Math — Analytics & Conversion Strategy Chat History
+
+## Table of Contents
+- [Q: App background and zero subscriber problem](#q-app-background-and-zero-subscriber-problem)
+  - [Plan: Diagnose Zero Subscriptions via Google Analytics](#plan-diagnose-zero-subscriptions-via-google-analytics)
+- [Q: Save this as a md file](#q-save-this-as-a-md-file)
+- [Q: When does the trial period actually start](#q-when-does-the-trial-period-actually-start)
+- [Q: Explanation of two counters](#q-explanation-of-two-counters)
+- [Q: Any event to check how many users complete assessment](#q-any-event-to-check-how-many-users-complete-assessment)
+- [Q: list and level are not in custom events or dimensions](#q-list-and-level-are-not-in-custom-events-or-dimensions)
+- [Q: Sharing pre-subscription final report](#q-sharing-pre-subscription-final-report)
+  - [The funnel collapses in two places](#the-funnel-collapses-in-two-places)
+- [Q: Sharing retention by skill age report](#q-sharing-retention-by-skill-age-report)
+- [Q: Sharing level failure analysis](#q-sharing-level-failure-analysis)
+- [Q: Sharing formal failure analysis](#q-sharing-formal-failure-analysis)
+- [Q: Consolidated plan requested](#q-consolidated-plan-requested)
+- [Q: Billing manually tested — it works](#q-billing-manually-tested-it-works)
+- [Q: Add engagement and subscription strategy to plan](#q-add-engagement-and-subscription-strategy-to-plan)
+- [Q: Is the assessment-first flow correct for new users](#q-is-the-assessment-first-flow-correct-for-new-users)
+- [Q: How to add PlayerReport as a funnel step in GA4](#q-how-to-add-playerreport-as-a-funnel-step-in-ga4)
+- [Q: When does the Complete screen trigger for the first time](#q-when-does-the-complete-screen-trigger-for-the-first-time)
+- [Q: GA4 funnel PDFs — direct vs indirect](#q-ga4-funnel-pdfs-direct-vs-indirect)
+- [Q: How to check first-time level play in GA4 funnel](#q-how-to-check-first-time-level-play-in-ga4-funnel)
+- [Q: New data — 88 of 631 assessment completers opened subscription](#q-new-data-88-of-631-assessment-completers-opened-subscription)
+- [Q: Update the plan document](#q-update-the-plan-document)
+- [Q: Age gate clarification](#q-age-gate-clarification)
+- [Q: GA4 method to find users who spent 30+ minutes in levels](#q-ga4-method-to-find-users-who-spent-30-minutes-in-levels)
+- [Q: Save this complete chat history as a md file](#q-save-this-complete-chat-history-as-a-md-file)
+
+---
+
 *Date: 8–10 April 2026 | GitHub Copilot (Claude Sonnet 4.6)*
 
 ---

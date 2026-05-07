@@ -1,5 +1,15 @@
 # How GitHub Copilot Can Help with Analyzing Google Analytics Data
 
+## Table of Contents
+- [1. API Integration](#1-api-integration)
+- [2. Data Processing](#2-data-processing)
+- [3. Visualization and Reporting](#3-visualization-and-reporting)
+- [4. Event Tracking](#4-event-tracking)
+- [5. Automation](#5-automation)
+
+---
+
+
 GitHub Copilot is an AI-powered coding assistant that can help with analyzing Google Analytics data by generating code snippets, scripts, and suggestions for various tasks. Below is a detailed explanation with examples for each area.
 
 ## 1. API Integration

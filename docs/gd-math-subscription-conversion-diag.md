@@ -1,4 +1,34 @@
 # GD Math — Subscription Conversion Diagnosis & Action Plan
+
+## Table of Contents
+- [Background](#background)
+- [The Diagnosis in One Paragraph](#the-diagnosis-in-one-paragraph)
+- [Funnel Reality (GA4 Exploration Data — Jan 9 to Apr 8, 2026)](#funnel-reality-ga4-exploration-data-jan-9-to-apr-8-2026)
+  - [Profile Creation](#profile-creation)
+  - [Assessment & Subscription Funnel (indirect — real picture)](#assessment-subscription-funnel-indirect-real-picture)
+  - [Three Critical Drop Points](#three-critical-drop-points)
+- [Two Counters — How Playtime Works](#two-counters-how-playtime-works)
+- [Currently Tracked Events (Baseline)](#currently-tracked-events-baseline)
+  - [Critical Gaps](#critical-gaps)
+- [Priority 1 — Remove Age Gate from Subscription Screen (TODAY — 1 line)](#priority-1-remove-age-gate-from-subscription-screen-today-1-line)
+- [Priority 2 — Verify Production Plan IDs (TODAY — 5 min)](#priority-2-verify-production-plan-ids-today-5-min)
+- [Priority 3 — Fix Content Routing Bug (Week 1)](#priority-3-fix-content-routing-bug-week-1)
+- [Priority 4 — Fix the Assessment Wall (Week 1)](#priority-4-fix-the-assessment-wall-week-1)
+- [Priority 5 — Fix GenderPicked Drop (Week 1)](#priority-5-fix-genderpicked-drop-week-1)
+- [Part A — Make Users Play Regularly](#part-a-make-users-play-regularly)
+  - [A1 — Fix the first session](#a1-fix-the-first-session)
+  - [A2 — Create a daily return reason](#a2-create-a-daily-return-reason)
+  - [A3 — Make progress visible](#a3-make-progress-visible)
+- [Part B — Convert Engaged Users to Subscribers](#part-b-convert-engaged-users-to-subscribers)
+  - [B1 — Surface paywall at high-intent moments](#b1-surface-paywall-at-high-intent-moments)
+  - [B2 — Improve subscription screen](#b2-improve-subscription-screen)
+- [Analytics Instrumentation Required](#analytics-instrumentation-required)
+  - [New Events to Add](#new-events-to-add)
+  - [Bugs to Fix](#bugs-to-fix)
+- [GA4 Funnel to Build (After Instrumentation)](#ga4-funnel-to-build-after-instrumentation)
+
+---
+
 *Updated: 10 April 2026 | App: GD Math (v1.3.0 → v4.3.19, 29 versions) | Launched: 14 August 2024*
 *Sources: Codebase audit · Pre-subscription report (Jan 25–Mar 25) · Production retention data · Level failure analysis · Formal failure analysis · GA4 funnel explorations (Jan 9–Apr 8)*
 

@@ -1,5 +1,16 @@
 # GD Math App Version Metrics (July 2025 - February 2026)
 
+## Table of Contents
+- [Key Insights](#key-insights)
+  - [User Activity Patterns](#user-activity-patterns)
+  - [Retention Metrics (WAU/MAU Ratios)](#retention-metrics-waumau-ratios)
+  - [Daily Activity (DAU/WAU Ratios)](#daily-activity-dauwau-ratios)
+  - [Session Duration & Engagement](#session-duration-engagement)
+- [Important Caveats](#important-caveats)
+
+---
+
+
 | Version | WAU/MAU | DAU/WAU | Avg Session Duration | Engaged Sessions | Engagement Rate | Active Users |
 |---------|---------|---------|---------------------|------------------|----------------|--------------|
 | v4.3.0 | 0.305 | 0.183 | **755996.43s** | **6418** | **11531.38%** | **5737** |

@@ -1,3 +1,9 @@
+
+## Table of Contents
+- [Assessment Levels — Precise Working (from config + board classes)](#assessment-levels-precise-working-from-config-board-classes)
+
+---
+
 Let me first map what scene/script files exist for each level type, then read the relevant ones to write precise workings.
 
 Read [](file:///home/pdn/dev/abs/gd-math-godot/components)

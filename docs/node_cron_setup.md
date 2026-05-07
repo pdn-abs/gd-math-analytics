@@ -1,5 +1,19 @@
 # Complete Setup for Google Analytics Automation Using node-cron
 
+## Table of Contents
+- [1. Prerequisites](#1-prerequisites)
+- [2. Project Setup](#2-project-setup)
+- [3. Credentials Setup](#3-credentials-setup)
+- [4. Manual Pipeline Test](#4-manual-pipeline-test)
+- [5. Start Scheduled Automation](#5-start-scheduled-automation)
+  - [Optional Environment Overrides](#optional-environment-overrides)
+- [6. Process Management](#6-process-management)
+- [7. Troubleshooting](#7-troubleshooting)
+- [8. Current Script Wiring](#8-current-script-wiring)
+
+---
+
+
 This guide is tailored to this repository layout:
 `./.analytics/gd-math-analytics/`
 

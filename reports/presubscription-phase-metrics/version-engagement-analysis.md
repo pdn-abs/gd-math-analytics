@@ -1,4 +1,31 @@
 # GD MATH – Version Engagement Metrics Analysis
+
+## Table of Contents
+- [Overview](#overview)
+  - [Version Groups & Periods](#version-groups-periods)
+- [Per-Version Metrics](#per-version-metrics)
+  - [Pre-Drops Versions](#pre-drops-versions)
+  - [Post-Drops Versions](#post-drops-versions)
+- [Pre-Drops vs Post-Drops Aggregate Comparison](#pre-drops-vs-post-drops-aggregate-comparison)
+- [Version Trend Analysis](#version-trend-analysis)
+  - [Engagement Rate Trend (by version release order)](#engagement-rate-trend-by-version-release-order)
+  - [Avg Session Duration Trend](#avg-session-duration-trend)
+  - [Events per Session Trend](#events-per-session-trend)
+  - [WAU/MAU Stickiness Trend](#waumau-stickiness-trend)
+  - [DAU/WAU Daily Engagement Trend](#dauwau-daily-engagement-trend)
+- [Key Insights](#key-insights)
+  - [1. Engagement Rate — v4.3.12 Reset Effect](#1-engagement-rate-v4312-reset-effect)
+  - [2. Session Duration — Slight Post-Drops Decline](#2-session-duration-slight-post-drops-decline)
+  - [3. Events per Session — Drops Add Interaction](#3-events-per-session-drops-add-interaction)
+  - [4. Returning Users — Drops Improve Retention of Existing Users](#4-returning-users-drops-improve-retention-of-existing-users)
+  - [5. WAU/MAU Stickiness — Consistent ~0.30–0.37](#5-waumau-stickiness-consistent-030037)
+  - [6. DAU/WAU — Flat ~0.183–0.208](#6-dauwau-flat-01830208)
+- [Summary: Impact of Drops on Engagement Metrics](#summary-impact-of-drops-on-engagement-metrics)
+  - [Headline Conclusion](#headline-conclusion)
+- [Data Quality Notes](#data-quality-notes)
+
+---
+
 # ===============================================
 # Pre-Drops vs Post-Drops version comparison
 # Data Stream: GD MATH (production only)
