@@ -1,5 +1,23 @@
 # Drops Impact Analysis: Data Source Comparison
 
+## Table of Contents
+- [Overview](#overview)
+- [Comparison Table](#comparison-table)
+- [Key Discrepancies & Insights](#key-discrepancies-insights)
+  - [1. **Scale Differences**](#1-scale-differences)
+  - [2. **Session Duration Discrepancy**](#2-session-duration-discrepancy)
+  - [3. **Retention Metrics**](#3-retention-metrics)
+  - [4. **Level Metrics Coverage**](#4-level-metrics-coverage)
+  - [5. **Engagement Rate Consistency**](#5-engagement-rate-consistency)
+- [Recommendations](#recommendations)
+  - [For Analysis](#for-analysis)
+  - [For Decision Making](#for-decision-making)
+  - [Next Steps](#next-steps)
+- [Summary Verdict](#summary-verdict)
+
+---
+
+
 ## Overview
 This table compares key metrics from two different data sources analyzing the drops feature impact:
 

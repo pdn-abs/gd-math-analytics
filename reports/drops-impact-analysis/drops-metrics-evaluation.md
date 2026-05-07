@@ -1,5 +1,43 @@
 # Drops Impact Analysis: Metrics Evaluation and Recommendations
 
+## Table of Contents
+- [Current Metrics Assessment](#current-metrics-assessment)
+  - [✅ **Strengths of Current Report**](#-strengths-of-current-report)
+  - [❌ **Critical Gaps for Drops Impact Analysis**](#-critical-gaps-for-drops-impact-analysis)
+- [Required Additional Metrics](#required-additional-metrics)
+  - [1. **Session Duration Metrics** (CRITICAL - Missing)](#1-session-duration-metrics-critical---missing)
+  - [2. **Success Rate & Completion Metrics** (CRITICAL - Missing)](#2-success-rate-completion-metrics-critical---missing)
+  - [3. **Age and Skill Level Segmentation** (HIGH PRIORITY - Missing)](#3-age-and-skill-level-segmentation-high-priority---missing)
+  - [4. **Behavioral Pattern Metrics** (HIGH PRIORITY - Missing)](#4-behavioral-pattern-metrics-high-priority---missing)
+  - [5. **Retention Cohort Analysis** (HIGH PRIORITY - Missing)](#5-retention-cohort-analysis-high-priority---missing)
+  - [6. **Drop-Specific Events** (If Available)](#6-drop-specific-events-if-available)
+- [Enhanced Analysis Framework](#enhanced-analysis-framework)
+  - [Recommended Metrics Hierarchy](#recommended-metrics-hierarchy)
+    - [**Primary KPIs** (Direct Attribution)](#primary-kpis-direct-attribution)
+    - [**Secondary KPIs** (Supporting Evidence)](#secondary-kpis-supporting-evidence)
+    - [**Contextual Metrics** (Control Variables)](#contextual-metrics-control-variables)
+- [Recommended GA4 Implementation](#recommended-ga4-implementation)
+  - [Custom Dimensions to Add](#custom-dimensions-to-add)
+  - [Custom Metrics to Add](#custom-metrics-to-add)
+- [Statistical Analysis Requirements](#statistical-analysis-requirements)
+  - [A/B Testing Framework](#ab-testing-framework)
+  - [Correlation Analysis](#correlation-analysis)
+- [Data Collection Improvements](#data-collection-improvements)
+  - [Enhanced Event Tracking](#enhanced-event-tracking)
+  - [User Journey Mapping](#user-journey-mapping)
+- [Conclusion: Current Metrics Are Insufficient](#conclusion-current-metrics-are-insufficient)
+  - [**Verdict**: ❌ **NOT ENOUGH** for comprehensive drops impact analysis](#verdict-not-enough-for-comprehensive-drops-impact-analysis)
+- [Recommended Next Steps](#recommended-next-steps)
+  - [Phase 1: Immediate Improvements (1-2 weeks)](#phase-1-immediate-improvements-1-2-weeks)
+  - [Phase 2: Advanced Analysis (2-4 weeks)](#phase-2-advanced-analysis-2-4-weeks)
+  - [Phase 3: Direct Attribution (4-8 weeks)](#phase-3-direct-attribution-4-8-weeks)
+- [Alternative Analysis Approach](#alternative-analysis-approach)
+  - [**Proxy Analysis Using Existing Data**](#proxy-analysis-using-existing-data)
+  - [**Statistical Controls**](#statistical-controls)
+
+---
+
+
 ## Current Metrics Assessment
 
 ### ✅ **Strengths of Current Report**

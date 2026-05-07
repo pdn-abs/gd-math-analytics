@@ -1,4 +1,27 @@
 # Pre-Drops vs Post-Drops Engagement Analysis
+
+## Table of Contents
+- [Version Classification](#version-classification)
+- [Per-Version Metrics](#per-version-metrics)
+- [Aggregate Comparison](#aggregate-comparison)
+- [Per-Version Trend Analysis](#per-version-trend-analysis)
+  - [Engagement Rate by Version](#engagement-rate-by-version)
+  - [Avg Session Duration by Version](#avg-session-duration-by-version)
+  - [WAU/MAU (Weekly Stickiness) by Version](#waumau-weekly-stickiness-by-version)
+  - [DAU/WAU (Daily Habit) by Version](#dauwau-daily-habit-by-version)
+- [Returning Users Analysis](#returning-users-analysis)
+- [Key Insights](#key-insights)
+  - [1. Drops Drove Massive User Growth](#1-drops-drove-massive-user-growth)
+  - [2. Quality Per Session Was Preserved (Not Degraded)](#2-quality-per-session-was-preserved-not-degraded)
+  - [3. Weighted Engagement Rate Improved](#3-weighted-engagement-rate-improved)
+  - [4. v4.3.12 Was the Peak Experience Version](#4-v4312-was-the-peak-experience-version)
+  - [5. Weekly Stickiness Is the Strongest Positive Signal](#5-weekly-stickiness-is-the-strongest-positive-signal)
+  - [6. Daily Habit Formation Is Consistent Post-Drops](#6-daily-habit-formation-is-consistent-post-drops)
+  - [7. Pre-Drops v4.3.0 and v4.3.2 Are Tail-Phase Data](#7-pre-drops-v430-and-v432-are-tail-phase-data)
+- [Summary Verdict](#summary-verdict)
+
+---
+
 **Source:** UserEngagement_Metrics_API_Fetch.csv
 **Analysis Window:** Oct 20, 2025 – Mar 11, 2026
 **Stream:** GD Math (production only)

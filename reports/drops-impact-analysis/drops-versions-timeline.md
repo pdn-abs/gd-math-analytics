@@ -1,5 +1,20 @@
 # GD Math Versions with Drops Features
 
+## Table of Contents
+- [Overview](#overview)
+- [Versions Timeline](#versions-timeline)
+- [Summary Statistics](#summary-statistics)
+- [Major Milestones](#major-milestones)
+- [Drop Types by Category](#drop-types-by-category)
+  - [Positive Effects](#positive-effects)
+  - [Neutral/Visual Effects](#neutralvisual-effects)
+  - [Negative/Challenge Effects](#negativechallenge-effects)
+- [Technical Implementation](#technical-implementation)
+- [Development Notes](#development-notes)
+
+---
+
+
 ## Overview
 
 This document lists all versions of GD Math that included drops-related features, along with their release dates and the specific drops functionality added in each version.

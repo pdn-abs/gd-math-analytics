@@ -1,4 +1,41 @@
 # GD MATH Stream Analytics Report
+
+## Table of Contents
+- [Executive Summary](#executive-summary)
+  - [Period Definitions](#period-definitions)
+  - [App Version Reference](#app-version-reference)
+  - [Key Findings (GD MATH Stream Only)](#key-findings-gd-math-stream-only)
+- [Data Overview](#data-overview)
+  - [Data Collection Parameters](#data-collection-parameters)
+  - [Monthly Activity Summary](#monthly-activity-summary)
+- [Level Engagement Analysis (GD MATH Stream)](#level-engagement-analysis-gd-math-stream)
+  - [Pre-Drops Period (Jul 19 – Nov 19, 2025 | v4.3.0, v4.3.2, v4.3.7)](#pre-drops-period-jul-19-nov-19-2025-v430-v432-v437)
+    - [Aggregate](#aggregate)
+    - [Monthly Breakdown](#monthly-breakdown)
+  - [Post-Drops Period (Nov 20, 2025 – Mar 11, 2026 | v4.3.12, v4.3.15, v4.3.19)](#post-drops-period-nov-20-2025-mar-11-2026-v4312-v4315-v4319)
+    - [Aggregate](#aggregate)
+    - [Monthly Breakdown](#monthly-breakdown)
+  - [Level Engagement Insights](#level-engagement-insights)
+- [User Retention Analysis (GD MATH Stream Only)](#user-retention-analysis-gd-math-stream-only)
+  - [Pre-Drops vs Post-Drops Retention Cohorts](#pre-drops-vs-post-drops-retention-cohorts)
+  - [Pre-Drops Monthly Cohorts](#pre-drops-monthly-cohorts)
+  - [Retention Insights](#retention-insights)
+- [Drops Feature Impact Analysis](#drops-feature-impact-analysis)
+  - [Activity Impact](#activity-impact)
+  - [Level Engagement Impact](#level-engagement-impact)
+  - [Retention Impact](#retention-impact)
+- [Key Findings & Recommendations](#key-findings-recommendations)
+  - [Critical Findings](#critical-findings)
+  - [Strategic Recommendations](#strategic-recommendations)
+    - [Immediate Actions (Next 30 Days)](#immediate-actions-next-30-days)
+    - [Feature Optimization (Next 60 Days)](#feature-optimization-next-60-days)
+    - [Long-term Strategy (3–6 Months)](#long-term-strategy-36-months)
+  - [Technical Recommendations](#technical-recommendations)
+- [Summary Table (GD MATH Stream Only)](#summary-table-gd-math-stream-only)
+  - [Data Quality Notes](#data-quality-notes)
+
+---
+
 # ================================
 # Comprehensive analysis of GD Math app performance - Production data only
 # Data Stream: GD MATH (filtered from all test/development streams)
