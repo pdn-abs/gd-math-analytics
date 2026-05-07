@@ -1,5 +1,30 @@
 # Pre-Subscription Phase Metrics — GA4 Reporting API
 
+## Table of Contents
+- [API Limitations & Trust Notes](#api-limitations-trust-notes)
+- [1. User Acquisition & Activity](#1-user-acquisition-activity)
+- [2. Retention Cohorts](#2-retention-cohorts)
+- [3. Paywall Funnel](#3-paywall-funnel)
+- [4. Screen Distribution](#4-screen-distribution)
+- [5. Onboarding / Assessment Completion](#5-onboarding-assessment-completion)
+- [6. Crash / Stability](#6-crash-stability)
+- [Priority Actions](#priority-actions)
+- [GA4 UI Navigation Guide](#ga4-ui-navigation-guide)
+  - [1. User Acquisition & Activity](#1-user-acquisition-activity)
+    - [Total users, new users, returning users, sessions, engaged sessions](#total-users-new-users-returning-users-sessions-engaged-sessions)
+    - [DAU / WAU / MAU trend and DAU/MAU ratio](#dau-wau-mau-trend-and-daumau-ratio)
+    - [Avg engagement time per user](#avg-engagement-time-per-user)
+    - [DAU by day (the 14-day trend table)](#dau-by-day-the-14-day-trend-table)
+  - [2. Retention Cohorts (D1 / D7 / D30)](#2-retention-cohorts-d1-d7-d30)
+  - [3. Paywall Funnel (Subscription reach → Purchase)](#3-paywall-funnel-subscription-reach-purchase)
+  - [4. Screen Distribution](#4-screen-distribution)
+  - [5. Assessment Completion](#5-assessment-completion)
+  - [6. Crash Rate](#6-crash-rate)
+  - [Quick Reference: Report Section → GA4 UI Path](#quick-reference-report-section-ga4-ui-path)
+
+---
+
+
 > **Data source**: GA4 Data API v1beta (`properties/441470574`)
 > **Script**: `scripts/fetch_pre_subscription_metrics_ga4.js`
 > **Output**: `data/pre_subscription_metrics_ga4.json`

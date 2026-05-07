@@ -1,5 +1,21 @@
 # Pre-Subscription Phase Metrics — GA4 UI Exports
 
+## Table of Contents
+- [Why UI exports over the API?](#why-ui-exports-over-the-api)
+- [1. User Acquisition & Activity](#1-user-acquisition-activity)
+- [2. Retention Cohorts](#2-retention-cohorts)
+  - [Summary](#summary)
+  - [Retention by Cohort Date](#retention-by-cohort-date)
+- [3. Paywall Funnel](#3-paywall-funnel)
+- [4. Screen Event Distribution](#4-screen-event-distribution)
+- [5. Feature Engagement](#5-feature-engagement)
+  - [Segment Funnel](#segment-funnel)
+  - [All Events (GA4 UI)](#all-events-ga4-ui)
+- [Priority Actions](#priority-actions)
+
+---
+
+
 > **Data source**: GA4 Explore UI manual exports (`analytics.google.com`, property `GD Math` / `441470574`)
 > **CSV files**: `CSV/userAcquisitionAndActivity.csv` · `CSV/retentionCohort.csv` · `CSV/paywallFunnel.csv` · `CSV/screenDistribution.csv`
 > **Window**: Jan 25 → Mar 25, 2026

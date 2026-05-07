@@ -1,5 +1,22 @@
 # GD Math App Monthly Version Metrics (July 2025 - February 2026)
 
+## Table of Contents
+- [Session Duration & Engagement (Monthly Analysis)](#session-duration-engagement-monthly-analysis)
+  - [July 2025](#july-2025)
+  - [August 2025](#august-2025)
+  - [September 2025](#september-2025)
+  - [October 2025](#october-2025)
+  - [November 2025](#november-2025)
+  - [December 2025](#december-2025)
+  - [January 2026](#january-2026)
+  - [February 2026](#february-2026)
+- [Key Monthly Insights](#key-monthly-insights)
+  - [Version Adoption Patterns](#version-adoption-patterns)
+  - [Monthly Session Duration Reality Check](#monthly-session-duration-reality-check)
+
+---
+
+
 ## Session Duration & Engagement (Monthly Analysis)
 
 This monthly breakdown provides much more accurate session-level metrics compared to the 8-month aggregated data.

@@ -1,5 +1,16 @@
 # Drops Impact Metrics: Source Verification
 
+## Table of Contents
+- [Metrics Comparison](#metrics-comparison)
+- [Analysis](#analysis)
+  - [Pre-Drops (v4.3.0, v4.3.2, v4.3.7)](#pre-drops-v430-v432-v437)
+  - [Post-Drops (v4.3.12, v4.3.15, v4.3.19)](#post-drops-v4312-v4315-v4319)
+- [Recommendation](#recommendation)
+- [Next Steps](#next-steps)
+
+---
+
+
 ## Metrics Comparison
 
 | Source | Pre-Drops Active Users | Post-Drops Active Users | Change | Notes |

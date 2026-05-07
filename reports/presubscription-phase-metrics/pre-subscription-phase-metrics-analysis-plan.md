@@ -1,3 +1,17 @@
+
+## Table of Contents
+- [User Acquisition Metrics (Priority #1: 20-25% of time)](#user-acquisition-metrics-priority-1-20-25-of-time)
+- [Engagement Metrics (Priority #2: 20-25% of time)](#engagement-metrics-priority-2-20-25-of-time)
+- [Paywall & Conversion Funnel Metrics (Priority #1 — Now Critical)](#paywall-conversion-funnel-metrics-priority-1-now-critical)
+- [Viral Growth Metrics (Priority #4: 10-15% of time)](#viral-growth-metrics-priority-4-10-15-of-time)
+- [Feedback & Quality Metrics (Priority #5: 10% of time)](#feedback-quality-metrics-priority-5-10-of-time)
+- [Time Allocation (First 4-6 weeks, 20 hours)](#time-allocation-first-4-6-weeks-20-hours)
+- [Actions to Get First Subscribers](#actions-to-get-first-subscribers)
+- [Current Phase Status](#current-phase-status)
+- [Tools & Tips](#tools-tips)
+
+---
+
 ## User Acquisition Metrics (Priority #1: 20-25% of time)
 - **Downloads/Installs**: Total app downloads. Track sources (app stores, referrals).
 - **Daily/Monthly Active Users (DAU/MAU)**: Engagement frequency.

@@ -1,5 +1,18 @@
 # Early Acquisition Phase Metrics for GD-Math
 
+## Table of Contents
+- [Measurement Run — Jan 25 → Mar 25, 2026](#measurement-run-jan-25-mar-25-2026)
+  - [1. User Acquisition & Activity](#1-user-acquisition-activity)
+  - [2. Retention Cohorts](#2-retention-cohorts)
+  - [3. Paywall Funnel](#3-paywall-funnel)
+  - [4. Feature Engagement & Screen Distribution](#4-feature-engagement-screen-distribution)
+  - [5. Onboarding / Assessment Completion](#5-onboarding-assessment-completion)
+  - [6. Crash / Stability](#6-crash-stability)
+  - [Priority Actions (Ranked)](#priority-actions-ranked)
+
+---
+
+
 > **Status (March 2026)**: Subscriptions are live but no subscribers acquired yet. The priority has shifted from "preparing for subscriptions" to **driving the first conversions**. Engagement and acquisition metrics remain critical as leading indicators, but paywall funnel tracking is now the top focus.
 
 ---
