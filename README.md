@@ -1,29 +1,52 @@
-# gd-math-analytics
+# GD Math Analytics Hub
 
-## Quick Start
+## Overview
 
-From repository root:
+This is the central hub for all GD Math analytics documentation, reports, and data analysis. The analytics ecosystem is organized into two main sections: **Reports** (targeted analytical deep-dives and findings) and **Docs** (foundational documentation, setup guides, and operational references).
 
-```bash
-cd .analytics/gd-math-analytics
-npm install
-source setup_credentials.sh
-```
+## Directory Structure
 
-Run one-off analysis and chart generation:
+### 📊 Reports
+Deep-dive analytical reports on specific topics, with data-driven insights and recommendations.
 
-```bash
-npm run run-analysis
-```
+- **[Assessment Drop Analysis Index](reports/assessment-drop-analysis/assessment-drop-analysis-index.md)**: Analysis of user drop-offs during the assessment phase, including level-by-level breakdowns and action plans.
+- **[Drops Impact Analysis Index](reports/drops-impact-analysis/drops-impact-analysis-index.md)**: Comprehensive analysis of the gamification drops feature, including version timelines, user engagement metrics, and retention impacts.
+- **[Pre-Subscription Phase Metrics Index](reports/presubscription-phase-metrics/presubscription-phase-metrics-index.md)**: Metrics and diagnostics from the pre-subscription phase, focusing on why conversions were zero and funnel optimization.
 
-Start the daily scheduler (09:00 by default):
+### 📚 Documentation
+Foundational documentation, setup guides, event summaries, and system notes.
 
-```bash
-npm run start-cron
-```
+- **[Analytics Documentation Index](docs/analytics-docs-index.md)**: Index of all documentation files, including GA4 setup, event tracking, version segmentation, and diagnostic reports.
 
-Custom schedule example:
+### 📁 Data & CSVs
+Raw data exports and processed CSVs for analysis.
 
-```bash
-CRON_SCHEDULE="0 6 * * *" RUN_ON_START=true npm run start-cron
-```
+- **[CSV Folder](CSV/)**: Contains exported data from GA4, BigQuery, and UI reports.
+
+## Quick Start Guide
+
+If you're new to GD Math analytics:
+
+1. **Start with the Documentation Index**: [Analytics Docs Index](docs/analytics-docs-index.md) for setup and event tracking basics.
+2. **Explore Key Reports**: Use the indices above to navigate to specific analytical findings.
+3. **Dive into Data**: Check the [CSV folder](CSV/) for raw data to verify insights.
+
+## Key Insights Summary
+
+- **Zero Conversions Issue**: Diagnosed in [GD Math Subscription Conversion Diagnosis](docs/gd-math-subscription-conversion-diag.md) — root causes include age gate bugs, assessment friction, and content routing issues.
+- **Drops Feature Impact**: Added in v4.3.7, expected to boost session duration by 15-25% for engaged users ([Drops Analysis Summary](docs/chat-summary-drops-analysis.md)).
+- **Assessment Drop Rates**: First levels show +24% higher drop rates due to onboarding friction ([Assessment Drop Analysis](reports/assessment-drop-analysis/assessment-drop-analysis-index.md)).
+
+## Tools & Setup
+
+- **GA4 Setup**: [Complete Guide](docs/ga4-setup-guide.md)
+- **Automation Scripts**: [Python Automation](docs/automation-steps-python.md)
+- **Version Segmentation**: [App Versions Guide](docs/app-version-segments.md)
+
+## Contact & Updates
+
+For questions or updates, refer to the individual report indices or the [Copilot Analytics Guide](docs/copilot-analytics-guide.md).
+
+---
+
+*Last Updated: May 8, 2026*
