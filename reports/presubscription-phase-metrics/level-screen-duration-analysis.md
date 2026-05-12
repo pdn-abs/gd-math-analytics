@@ -62,6 +62,8 @@ When investigating whether any user spent nearly **1800 seconds (30 minutes)** o
 1. **The Average User Never Reaches the Paywall:**
    The highest average total time per user is **9.4 minutes** (in `v4.3.7`). Across the most populated versions, players only accrue **6 to 8 minutes** of total level playtime before abandoning the app. This is far short of the 30-minute (1800s) trigger for the paywall.
 
+   **Important Limitation:** This average does **not** mean no individual user could have spent more than 10 minutes (or even 30 minutes) on the Level screen. Averages can be skewed by many short sessions and a few long ones. Without individual user data, we cannot rule out power users who exceeded these thresholds.
+
 2. **Why Most Fall Short:**
    This aligns with pre-subscription funnel analyses indicating major drop-offs before the trial expires:
    - High assessment failure rates (abandoned mid-assessment).

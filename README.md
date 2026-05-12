@@ -27,9 +27,10 @@ Raw data exports and processed CSVs for analysis.
 
 If you're new to GD Math analytics:
 
-1. **Start with the Documentation Index**: [Analytics Docs Index](docs/analytics-docs-index.md) for setup and event tracking basics.
-2. **Explore Key Reports**: Use the indices above to navigate to specific analytical findings.
-3. **Dive into Data**: Check the [CSV folder](CSV/) for raw data to verify insights.
+1. **Read the Final Summary**: [Final Analytics Summary Report](reports/final-analytics-summary.md) for executive overview of all problems, evidence, and fixes.
+2. **Start with the Documentation Index**: [Analytics Docs Index](docs/analytics-docs-index.md) for setup and event tracking basics.
+3. **Explore Key Reports**: Use the indices above to navigate to specific analytical findings.
+4. **Dive into Data**: Check the [CSV folder](CSV/) for raw data to verify insights.
 
 ## Key Insights Summary
 
