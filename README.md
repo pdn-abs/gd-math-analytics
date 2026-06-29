@@ -37,6 +37,7 @@ If you're new to GD Math analytics:
 - **Zero Conversions Issue**: Diagnosed in [GD Math Subscription Conversion Diagnosis](docs/gd-math-subscription-conversion-diag.md) — root causes include age gate bugs, assessment friction, and content routing issues.
 - **Drops Feature Impact**: Added in v4.3.7, expected to boost session duration by 15-25% for engaged users ([Drops Analysis Summary](docs/chat-summary-drops-analysis.md)).
 - **Assessment Drop Rates**: First levels show +24% higher drop rates due to onboarding friction ([Assessment Drop Analysis](reports/assessment-drop-analysis/assessment-drop-analysis-index.md)).
+- **New Analytics Events**: Comprehensive table of [40+ recommended events](docs/new-analytics-events-table.md) for better tracking and analysis.
 
 ## Tools & Setup
 
